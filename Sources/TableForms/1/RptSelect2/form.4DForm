@@ -1,0 +1,287 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 509,
+					"height": 344,
+					"fill": "#D4D4D4",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 43,
+					"left": 70,
+					"width": 349,
+					"height": 216
+				},
+				"Text1": {
+					"type": "text",
+					"top": 65,
+					"left": 93,
+					"width": 119,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Enter Report Dates:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 92,
+					"left": 111,
+					"width": 64,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Beginning:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 112,
+					"left": 111,
+					"width": 57,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Ending:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 143,
+					"left": 93,
+					"width": 69,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Select Site:"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 104,
+					"left": 179,
+					"width": 70,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 125,
+					"left": 179,
+					"width": 70
+				},
+				"Line3": {
+					"type": "line",
+					"top": 156,
+					"left": 164,
+					"width": 162
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 45,
+					"left": 72,
+					"width": 5,
+					"height": 12,
+					"dataSource": "vDummy",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "\"~\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 91,
+					"left": 179,
+					"width": 71,
+					"height": 13,
+					"dataSource": "vBegDate",
+					"dataSourceTypeHint": "date",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dateFormat": "short",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 112,
+					"left": 179,
+					"width": 71,
+					"height": 13,
+					"dataSource": "vEndDate",
+					"dataSourceTypeHint": "date",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dateFormat": "short",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 143,
+					"left": 164,
+					"width": 163,
+					"height": 13,
+					"dataSource": "vIntSite",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Intake Sites"
+					},
+					"requiredList": {
+						"$ref": "/SOURCES/lists.json#/Intake Sites"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 218,
+					"left": 151,
+					"width": 76,
+					"height": 22,
+					"dataSource": "rsdCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 218,
+					"left": 261,
+					"width": 76,
+					"height": 22,
+					"dataSource": "rsdOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

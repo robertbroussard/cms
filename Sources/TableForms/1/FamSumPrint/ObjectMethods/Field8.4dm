@@ -1,0 +1,1 @@
+vCaseNo:=[IntakeFile:1]CaseNo:1  //save nbr for use in Rpt Footer

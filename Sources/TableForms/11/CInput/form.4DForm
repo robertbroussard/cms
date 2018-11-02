@@ -1,0 +1,166 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 161,
+	"markerBreak": 161,
+	"markerFooter": 161,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 10,
+					"left": 10,
+					"width": 302,
+					"height": 131,
+					"strokeWidth": 2,
+					"borderRadius": 5
+				},
+				"Line1": {
+					"type": "line",
+					"top": 45,
+					"left": 11,
+					"width": 300,
+					"height": 2,
+					"strokeWidth": 2,
+					"startPoint": "bottomLeft"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 15,
+					"left": 86,
+					"width": 138,
+					"height": 23,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "  Constants"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 52,
+					"left": 80,
+					"width": 182,
+					"height": 15,
+					"fill": "transparent"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 56,
+					"left": 19,
+					"width": 60,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"text": "Sequence"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 79,
+					"left": 23,
+					"width": 44,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"text": "Number"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 77,
+					"left": 80,
+					"width": 186,
+					"height": 15,
+					"fill": "transparent"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 53,
+					"left": 81,
+					"width": 180,
+					"height": 13,
+					"dataSource": "[Constants:11]Sequence:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 78,
+					"left": 81,
+					"width": 184,
+					"height": 13,
+					"dataSource": "[Constants:11]Number:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

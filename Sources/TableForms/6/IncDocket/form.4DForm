@@ -1,0 +1,225 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 16,
+	"markerBody": 38,
+	"markerBreak": 38,
+	"markerFooter": 38,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": -1,
+					"left": 1,
+					"width": 486,
+					"height": 41,
+					"strokeWidth": 0.1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 1,
+					"left": 3,
+					"width": 80,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Site"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 0,
+					"left": 136,
+					"height": 40,
+					"strokeWidth": 0.1
+				},
+				"Text2": {
+					"type": "text",
+					"top": 1,
+					"left": 141,
+					"width": 46,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Date"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 210,
+					"height": 39,
+					"strokeWidth": 0.1
+				},
+				"Text3": {
+					"type": "text",
+					"top": 1,
+					"left": 215,
+					"width": 67,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Time Slot"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 296,
+					"height": 39,
+					"strokeWidth": 0.1
+				},
+				"Text4": {
+					"type": "text",
+					"top": 1,
+					"left": 300,
+					"width": 56,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Results"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 14,
+					"left": 3,
+					"width": 483,
+					"strokeWidth": 0.1
+				},
+				"Field12": {
+					"type": "input",
+					"top": 20,
+					"left": 299,
+					"width": 158,
+					"height": 16,
+					"dataSource": "[DocketFile:6]HResults:11",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Partial Results"
+					},
+					"requiredList": {
+						"$ref": "/SOURCES/lists.json#/Partial Results"
+					},
+					"method": "ObjectMethods/Field12.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field9": {
+					"type": "input",
+					"top": 20,
+					"left": 3,
+					"width": 126,
+					"height": 16,
+					"dataSource": "[DocketFile:6]DocketSite:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 18,
+					"left": 214,
+					"width": 78,
+					"height": 18,
+					"dataSource": "[DocketFile:6]TimeSlot:3",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 20,
+					"left": 138,
+					"width": 70,
+					"height": 16,
+					"dataSource": "[DocketFile:6]DocketDate:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

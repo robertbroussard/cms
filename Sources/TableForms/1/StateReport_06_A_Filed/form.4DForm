@@ -1,0 +1,379 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 2,
+	"markerBody": 544,
+	"markerBreak": 553,
+	"markerFooter": 562,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 92,
+					"left": 8,
+					"width": 121,
+					"height": 73,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 80,
+					"left": 8,
+					"width": 121,
+					"height": 13,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 164,
+					"left": 664,
+					"width": 90,
+					"height": 363,
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 17,
+					"left": 257,
+					"width": 254,
+					"height": 23,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Header",
+					"fontWeight": "bold",
+					"text": "State Report—Cases Filed"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 80,
+					"left": 131,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "1"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 80,
+					"left": 175,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "2"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 80,
+					"left": 219,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "3"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 80,
+					"left": 263,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "4"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 80,
+					"left": 307,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "5"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 80,
+					"left": 352,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "6"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 80,
+					"left": 397,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "7"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 80,
+					"left": 442,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "8"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 80,
+					"left": 487,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "9"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 80,
+					"left": 533,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "10"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 80,
+					"left": 578,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "11"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 80,
+					"left": 622,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "12"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 80,
+					"left": 667,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "13"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 80,
+					"left": 712,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "14"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 149,
+					"left": 11,
+					"width": 103,
+					"height": 11,
+					"textAlign": "left",
+					"styleSheet": "StateReport_Labels_LG",
+					"fontWeight": "bold",
+					"text": "Case Type\r"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 509,
+					"left": 11,
+					"width": 103,
+					"height": 11,
+					"textAlign": "left",
+					"styleSheet": "StateReport_Labels_LG",
+					"fontWeight": "bold",
+					"text": "Totals\r\r"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 102,
+					"left": 129,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 93,
+					"left": 173,
+					"width": 43,
+					"height": 61,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Filed & Pending in District Courts (End of Month)"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 102,
+					"left": 217,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 102,
+					"left": 261,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 102,
+					"left": 306,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text23": {
+					"type": "text",
+					"top": 102,
+					"left": 350,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text24": {
+					"type": "text",
+					"top": 102,
+					"left": 395,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text25": {
+					"type": "text",
+					"top": 102,
+					"left": 440,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 102,
+					"left": 485,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 102,
+					"left": 529,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 102,
+					"left": 575,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text29": {
+					"type": "text",
+					"top": 102,
+					"left": 620,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 102,
+					"left": 665,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				},
+				"Text31": {
+					"type": "text",
+					"top": 102,
+					"left": 710,
+					"width": 43,
+					"height": 50,
+					"styleSheet": "StateReport_Labels",
+					"text": "Cases Pending (End of Month)"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,449 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 731,
+	"markerBreak": 731,
+	"markerFooter": 731,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 500,
+					"left": 13,
+					"width": 370,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Signatures of parties and their attorneys entering into agreement:"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 551,
+					"left": 13,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 572,
+					"left": 13,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 593,
+					"left": 13,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 530,
+					"left": 13,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 551,
+					"left": 306,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line6": {
+					"type": "line",
+					"top": 572,
+					"left": 306,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 593,
+					"left": 306,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line8": {
+					"type": "line",
+					"top": 530,
+					"left": 306,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Text2": {
+					"type": "text",
+					"top": 75,
+					"left": 0,
+					"width": 551,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "MEMORANDUM OF AWARD"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 97,
+					"left": 181,
+					"width": 81,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Claim No."
+				},
+				"Text4": {
+					"type": "text",
+					"top": 153,
+					"left": 14,
+					"width": 27,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "vs"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 611,
+					"left": 13,
+					"width": 161,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Signature(s) of Arbitrator(s):"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 625,
+					"left": 190,
+					"width": 342,
+					"strokeWidth": 0.1
+				},
+				"Line10": {
+					"type": "line",
+					"top": 646,
+					"left": 171,
+					"width": 361,
+					"strokeWidth": 0.1
+				},
+				"Line11": {
+					"type": "line",
+					"top": 667,
+					"left": 171,
+					"width": 361,
+					"strokeWidth": 0.1
+				},
+				"Text6": {
+					"type": "text",
+					"top": 640,
+					"left": 13,
+					"width": 116,
+					"height": 52,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Copy to:\t\tEach Party\r             \t\tDRC"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 471,
+					"left": 13,
+					"width": 447,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "DATED this                                    day of                                                              20                "
+				},
+				"Line12": {
+					"type": "line",
+					"top": 485,
+					"left": 85,
+					"width": 94,
+					"strokeWidth": 0.1
+				},
+				"Line13": {
+					"type": "line",
+					"top": 485,
+					"left": 240,
+					"width": 153,
+					"strokeWidth": 0.1
+				},
+				"Line14": {
+					"type": "line",
+					"top": 485,
+					"left": 402,
+					"width": 63,
+					"strokeWidth": 0.1
+				},
+				"Line16": {
+					"type": "line",
+					"top": 245,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line17": {
+					"type": "line",
+					"top": 266,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line18": {
+					"type": "line",
+					"top": 287,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line19": {
+					"type": "line",
+					"top": 308,
+					"left": 16,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line20": {
+					"type": "line",
+					"top": 329,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line21": {
+					"type": "line",
+					"top": 350,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line22": {
+					"type": "line",
+					"top": 371,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line23": {
+					"type": "line",
+					"top": 392,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line24": {
+					"type": "line",
+					"top": 413,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line25": {
+					"type": "line",
+					"top": 434,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line26": {
+					"type": "line",
+					"top": 455,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Text8": {
+					"type": "text",
+					"top": 208,
+					"left": 14,
+					"width": 276,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "The following is the decision of the arbitrator(s):"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 97,
+					"left": 262,
+					"width": 106,
+					"height": 14,
+					"dataSource": "vCtCauseNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 123,
+					"left": 14,
+					"width": 249,
+					"height": 14,
+					"dataSource": "vCtPlaint",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 180,
+					"left": 14,
+					"width": 251,
+					"height": 14,
+					"dataSource": "vCtDefend",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

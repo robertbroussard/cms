@@ -1,0 +1,64 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 17,
+	"markerBreak": 17,
+	"markerFooter": 17,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Field1": {
+					"type": "input",
+					"top": 2,
+					"left": 2,
+					"width": 246,
+					"height": 15,
+					"dataSource": "[IntakeFile_Referrals:24]Referral:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;/;-\"",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Referrals"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,237 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 671,
+					"height": 479,
+					"fill": "#DDDDDD",
+					"stroke": "#DDDDDD"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 29,
+					"left": 112,
+					"width": 239,
+					"height": 197
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 98,
+					"left": 149,
+					"width": 168,
+					"height": 14,
+					"fill": "transparent"
+				},
+				"RoundRect1": {
+					"type": "rectangle",
+					"top": 47,
+					"left": 136,
+					"width": 195,
+					"height": 19,
+					"borderRadius": 5
+				},
+				"Text1": {
+					"type": "text",
+					"top": 48,
+					"left": 141,
+					"width": 184,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Pull Cases Search Screen"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 84,
+					"left": 149,
+					"width": 106,
+					"height": 15
+				},
+				"Text2": {
+					"type": "text",
+					"top": 85,
+					"left": 150,
+					"width": 104,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Enter Docket Site:"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 134,
+					"left": 149,
+					"width": 100,
+					"height": 15
+				},
+				"Text3": {
+					"type": "text",
+					"top": 135,
+					"left": 150,
+					"width": 98,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Enter Docket Date:"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 148,
+					"left": 149,
+					"width": 114,
+					"height": 14,
+					"fill": "transparent"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 99,
+					"left": 150,
+					"width": 166,
+					"height": 12,
+					"dataSource": "vSite",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "|",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Docket Sites"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 149,
+					"left": 150,
+					"width": 112,
+					"height": 12,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "button",
+					"top": 180,
+					"left": 141,
+					"width": 69,
+					"height": 20,
+					"dataSource": "bPCCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 180,
+					"left": 250,
+					"width": 69,
+					"height": 20,
+					"dataSource": "bPCDiaOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

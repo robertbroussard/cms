@@ -1,0 +1,520 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 399,
+	"markerBreak": 399,
+	"markerFooter": 399,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 79,
+					"left": 382,
+					"width": 63,
+					"height": 119,
+					"fill": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 79,
+					"left": 320,
+					"width": 63,
+					"height": 119,
+					"fill": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 511,
+					"height": 356,
+					"fill": "#FFBE7F",
+					"stroke": "#FFBE7F",
+					"strokeWidth": 0.1,
+					"strokeDashArray": "1 1"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 17,
+					"left": 17,
+					"width": 475,
+					"height": 311
+				},
+				"Text1": {
+					"type": "text",
+					"top": 50,
+					"left": 61,
+					"width": 90,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Attorney Name:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 50,
+					"left": 173,
+					"width": 54,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "CASE NO:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 24,
+					"left": 37,
+					"width": 439,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "<vShowHdr>"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 64,
+					"left": 34,
+					"width": 442,
+					"height": 225,
+					"fill": "transparent"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 64,
+					"left": 323,
+					"height": 224
+				},
+				"Line2": {
+					"type": "line",
+					"top": 65,
+					"left": 162,
+					"height": 224
+				},
+				"Line3": {
+					"type": "line",
+					"top": 64,
+					"left": 236,
+					"height": 224
+				},
+				"Line4": {
+					"type": "line",
+					"top": 65,
+					"left": 410,
+					"height": 224
+				},
+				"Text4": {
+					"type": "text",
+					"top": 47,
+					"left": 245,
+					"width": 48,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "C-Name:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 50,
+					"left": 332,
+					"width": 48,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "R-Name:"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 51,
+					"left": 418,
+					"width": 43,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Status:"
+				},
+				"Variable1": {
+					"type": "listbox",
+					"top": 65,
+					"left": 33,
+					"width": 128,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable1_Column1",
+							"dataSource": "aAName",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable2": {
+					"type": "listbox",
+					"top": 65,
+					"left": 164,
+					"width": 71,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable2_Column1",
+							"dataSource": "aACaseNo",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable3": {
+					"type": "listbox",
+					"top": 65,
+					"left": 238,
+					"width": 84,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable3_Column1",
+							"dataSource": "aACName",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable4": {
+					"type": "listbox",
+					"top": 65,
+					"left": 325,
+					"width": 84,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable4_Column1",
+							"dataSource": "aARName",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header4",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable5": {
+					"type": "listbox",
+					"top": 65,
+					"left": 412,
+					"width": 63,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable5_Column1",
+							"dataSource": "aAStatus",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header5",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 295,
+					"left": 55,
+					"width": 71,
+					"height": 24,
+					"dataSource": "bFind",
+					"shortcutKey": "[Esc]",
+					"text": "Find Atty",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable6.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 295,
+					"left": 162,
+					"width": 71,
+					"height": 24,
+					"dataSource": "bSort",
+					"action": "accept",
+					"shortcutKey": "[Esc]",
+					"text": "Sort",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "button",
+					"top": 295,
+					"left": 268,
+					"width": 71,
+					"height": 24,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 295,
+					"left": 374,
+					"width": 71,
+					"height": 24,
+					"dataSource": "bOk",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

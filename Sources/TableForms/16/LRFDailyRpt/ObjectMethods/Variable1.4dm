@@ -1,0 +1,1 @@
+vPrintDate:="Date Printed: "+String:C10(Current date:C33;1)+" Time: "+String:C10(Current time:C178;5)

@@ -1,0 +1,146 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 749,
+	"markerBody": 749,
+	"markerBreak": 749,
+	"markerFooter": 749,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 505,
+					"height": 376,
+					"fill": "#C5FFC0",
+					"stroke": "#C5FFC0"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 28,
+					"left": 29,
+					"width": 446,
+					"height": 321
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 47,
+					"left": 48,
+					"width": 409,
+					"height": 283,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.pict"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 54,
+					"left": 434,
+					"width": 16,
+					"height": 16,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.pict"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 54,
+					"left": 55,
+					"width": 394,
+					"height": 268,
+					"fill": "#000000",
+					"strokeWidth": 0.1
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 81,
+					"left": 90,
+					"width": 319,
+					"height": 129
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 83,
+					"left": 94,
+					"width": 312,
+					"height": 124
+				},
+				"Text1": {
+					"type": "text",
+					"top": 97,
+					"left": 107,
+					"width": 285,
+					"height": 95,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "Dispute Resolution Center\r\rCase\rManagement\rSystem"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 55,
+					"left": 56,
+					"width": 12,
+					"height": 12,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.pict"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 310,
+					"left": 437,
+					"width": 12,
+					"height": 12,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.pict"
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 55,
+					"left": 437,
+					"width": 12,
+					"height": 12,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture5.pict"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 310,
+					"left": 56,
+					"width": 12,
+					"height": 12,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.pict"
+				}
+			}
+		}
+	]
+}

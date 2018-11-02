@@ -1,0 +1,358 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 1,
+	"markerBody": 168,
+	"markerBreak": 193,
+	"markerFooter": 193,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 97,
+					"left": 6,
+					"width": 757,
+					"height": 91,
+					"fill": "transparent"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 110,
+					"left": 6,
+					"width": 134,
+					"height": 58,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 97,
+					"left": 6,
+					"width": 134,
+					"height": 14,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 24,
+					"left": 14,
+					"width": 749,
+					"height": 46,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Header",
+					"fontWeight": "bold",
+					"text": "State Report—Cases Not Filed"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 99,
+					"left": 157,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "1"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 99,
+					"left": 222,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "2"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 99,
+					"left": 295,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "3"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 99,
+					"left": 363,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "4"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 99,
+					"left": 431,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "5"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 99,
+					"left": 500,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "6"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 99,
+					"left": 569,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "7"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 99,
+					"left": 637,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "8"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 99,
+					"left": 709,
+					"width": 39,
+					"height": 10,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"fontWeight": "bold",
+					"text": "9"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 152,
+					"left": 12,
+					"width": 63,
+					"height": 11,
+					"textAlign": "left",
+					"styleSheet": "StateReport_Labels_LG",
+					"fontWeight": "bold",
+					"text": "Case Type\r"
+				},
+				"Text32": {
+					"type": "text",
+					"top": 224,
+					"left": 7,
+					"width": 133,
+					"height": 12,
+					"styleSheet": "Default",
+					"text": "BOM = \"Beginning of Month\""
+				},
+				"Text33": {
+					"type": "text",
+					"top": 235,
+					"left": 7,
+					"width": 133,
+					"height": 12,
+					"styleSheet": "Default",
+					"text": "EOM = \"End of Month\""
+				},
+				"Text24": {
+					"type": "text",
+					"top": 225,
+					"left": 174,
+					"width": 133,
+					"height": 12,
+					"styleSheet": "Default",
+					"text": "*  This Month"
+				},
+				"Text36": {
+					"type": "text",
+					"top": 237,
+					"left": 172,
+					"width": 167,
+					"height": 12,
+					"styleSheet": "Default",
+					"text": "ASR = \"Average Satisfaction Rate\" "
+				},
+				"vLocation": {
+					"type": "input",
+					"top": 83,
+					"left": 7,
+					"width": 246,
+					"height": 11,
+					"dataSource": "vLocation",
+					"textAlign": "left",
+					"styleSheet": "StateReport_Labels_LG",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"vReportDate": {
+					"type": "input",
+					"top": 83,
+					"left": 564,
+					"width": 197,
+					"height": 11,
+					"dataSource": "vReportDate",
+					"textAlign": "right",
+					"styleSheet": "StateReport_Labels_LG",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 116,
+					"left": 145,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": " Cases Pending (BOM)"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 116,
+					"left": 283,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": " Settled Via\rADR"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 116,
+					"left": 350,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": " Partially\rSettled\rADR"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 116,
+					"left": 420,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": "Not Settled\rADR"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 116,
+					"left": 489,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": "Closed\rBefore\rADR"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 116,
+					"left": 559,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": "Still\rPending\rEOM"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 116,
+					"left": 630,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": "Volunteer\rHours\rDRC*"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 116,
+					"left": 700,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": "ASR\rDRC*"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 116,
+					"left": 213,
+					"width": 58,
+					"height": 40,
+					"textAlign": "center",
+					"styleSheet": "StateReport_Labels",
+					"text": " Cases Received\r"
+				}
+			}
+		}
+	]
+}

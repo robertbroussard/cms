@@ -1,0 +1,95 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 741,
+	"markerBreak": 741,
+	"markerFooter": 741,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 151,
+					"left": 58,
+					"width": 464,
+					"height": 533,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 10,
+					"text": "By scheduling an ADR procedure for a particular date and time, the attorneys and parties agree:\r\r        1.        To appear for the process on the scheduled date and time, and that the scheduled \r                   date and time will not be changed except where:\r                           (a)\t     An emergency exists for which the scheduled date and time would \r                                     cause a significant hardship on a party or attorney in the case;  and\r                           (b)\t     All of the parties agree to reschedule the case for a specific date and \r                                     time;  and\r                           (c)\t     If the emergency in (a) relates to an attorney, that attorney  has made \r                                     every reasonable effort to have another attorney attend the mediation \r                                     with the client;  and\r                           (d)\t     In a case referred to ADR by the Court to be completed by a specific \r                                     date, the Court extends the time within which the ADR Procedure is to \r                                     take place;  and\r                           (e)\t     If the rescheduled date of the ADR procedure is beyond the trial date, \r                                     the Court continues the trial date.\r\r        2.        In the case of any proposed rescheduled date or time, it will be the responsibility of \r                   the attorney or party requesting the rescheduling to communicate with the Court to \r                   extend any applicable deadlines and to communicate with all parties in the case and \r                   the DRC to confirm their agreement to reschedule, and to confirm availability for \r                   the proposed rescheduled date and time.  The case will not be rescheduled until the \r                   party requesting the rescheduling confirms the foregoing in writing with all of the \r                   parties in the case and the DRC.  The DRC's only responsibility in the rescheduling \r                   process will be to confirm the availability of the third party neutral on the proposed \r                   date and time for rescheduling.\r\r        3.        If a party or party representative does not appear for a scheduled ADR procedure, \r                   the case will not be rescheduled by the DRC.  If a court referred the case to the \r                   DRC for ADR, the DRC will report to the court that the attorney and/or party failed \r                   to appear at the scheduled ADR proceeding.  The case will not thereafter be \r                   rescheduled unless requested by the court.\r\r        4.        In the case of mediation, the amounts in controversy in the case do not collectively \r                   exceed $100,000 or a value of $100,000, including interest and attorney's fees, \r                   and that if the amount in controversy exceeds $100,000 at any time prior to the \r                   completion of a mediation the parties will withdraw the case from mediation.  The \r                   DRC will determine the amount in controversy in the case by adding together all of \r                   the claims, or value of all claims where such claims are not monetary, given to the \r                   DRC by each claimant making such claims prior to the scheduling of a mediation.  It \r                   shall be the responsibility of each claimant to provide the amount or value of its \r                   claims to the DRC prior to the scheduling of a mediation.  If the total amount in \r                   controversy exceeds $100,000 the case will not qualify for a DRC mediation.\r\r\r"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 87,
+					"left": 2,
+					"width": 532,
+					"height": 51,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "DRC Rescheduling and Criteria Policy\rFor Voluntary & Court Referred Cases to ADR Procedures\rIn The Litigation Program"
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

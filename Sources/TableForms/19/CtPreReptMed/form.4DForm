@@ -1,0 +1,480 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 730,
+	"markerBreak": 730,
+	"markerFooter": 730,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 404,
+					"left": 16,
+					"width": 235,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Signatures of parties present and their attorneys:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 357,
+					"left": 13,
+					"width": 518,
+					"height": 33,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": " _______________________________________________________________________________________________________\r\r_______________________________________________________________________________________________________"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 357,
+					"left": 12,
+					"width": 75,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "COMMENTS:"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 457,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 479,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 501,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 545,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 567,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line6": {
+					"type": "line",
+					"top": 435,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 523,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Text4": {
+					"type": "text",
+					"top": 238,
+					"left": 16,
+					"width": 530,
+					"height": 36,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "1.  _____\tThis case was settled;  copy of SETTLEMENT AGREEMENT is attached.\r\r2.  _____\tAlthough no settlement was reached, it is agreed that the issues were narrowed as follows:\r\r\r\r\r"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 284,
+					"left": 16,
+					"width": 524,
+					"height": 33,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "_______________________________________________________________________________________________________\r\r_______________________________________________________________________________________________________"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 328,
+					"left": 16,
+					"width": 270,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "3.\t\t\t\t_____\t\t\t\t\t\tThis case was determined to be at an impasse."
+				},
+				"Text7": {
+					"type": "text",
+					"top": 87,
+					"left": 0,
+					"width": 551,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "CONFIDENTIAL MEDIATOR'S REPORT TO DRC"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 111,
+					"left": 194,
+					"width": 71,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Claim No."
+				},
+				"Text9": {
+					"type": "text",
+					"top": 163,
+					"left": 17,
+					"width": 20,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "and"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 219,
+					"left": 17,
+					"width": 241,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "As a result of participation in the ADR  Process:"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 580,
+					"left": 16,
+					"width": 125,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Signature of Mediator(s):"
+				},
+				"Line8": {
+					"type": "line",
+					"top": 612,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line9": {
+					"type": "line",
+					"top": 634,
+					"left": 16,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Text12": {
+					"type": "text",
+					"top": 646,
+					"left": 16,
+					"width": 37,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "DATE:"
+				},
+				"Line10": {
+					"type": "line",
+					"top": 658,
+					"left": 65,
+					"width": 174,
+					"strokeWidth": 0.1
+				},
+				"Text13": {
+					"type": "text",
+					"top": 646,
+					"left": 308,
+					"width": 60,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "TIME-Start:"
+				},
+				"Line11": {
+					"type": "line",
+					"top": 658,
+					"left": 374,
+					"width": 60,
+					"strokeWidth": 0.1
+				},
+				"Text14": {
+					"type": "text",
+					"top": 646,
+					"left": 445,
+					"width": 23,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "End:"
+				},
+				"Line12": {
+					"type": "line",
+					"top": 658,
+					"left": 475,
+					"width": 60,
+					"strokeWidth": 0.1
+				},
+				"Line13": {
+					"type": "line",
+					"top": 457,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line14": {
+					"type": "line",
+					"top": 479,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line15": {
+					"type": "line",
+					"top": 501,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line16": {
+					"type": "line",
+					"top": 545,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line17": {
+					"type": "line",
+					"top": 567,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line18": {
+					"type": "line",
+					"top": 435,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line19": {
+					"type": "line",
+					"top": 523,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line20": {
+					"type": "line",
+					"top": 612,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line21": {
+					"type": "line",
+					"top": 634,
+					"left": 308,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 111,
+					"left": 264,
+					"width": 106,
+					"height": 14,
+					"dataSource": "vCtCauseNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 133,
+					"left": 17,
+					"width": 249,
+					"height": 12,
+					"dataSource": "vCtPlaint",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 192,
+					"left": 17,
+					"width": 251,
+					"height": 12,
+					"dataSource": "vCtDefend",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

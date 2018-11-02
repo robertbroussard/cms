@@ -1,0 +1,389 @@
+﻿{
+	"bars": [
+		{
+			"id": 1,
+			"items": [
+				{
+					"link": 26031
+				},
+				{
+					"link": 33000
+				},
+				{
+					"link": 11657
+				},
+				{
+					"link": 19307
+				},
+				{
+					"link": 1315
+				},
+				{
+					"link": 23962
+				}
+			]
+		},
+		{
+			"id": 2,
+			"items": [
+				{
+					"link": 30606
+				},
+				{
+					"link": 33000
+				},
+				{
+					"link": 9848
+				},
+				{
+					"link": 26217
+				}
+			]
+		},
+		{
+			"id": 3,
+			"items": [
+				{
+					"link": 25484
+				},
+				{
+					"link": 33000
+				},
+				{
+					"link": 3840
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 26031,
+			"title": "File",
+			"items": [
+				{
+					"title": "Change Access",
+					"method": "Change_Access"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Edit Court File",
+					"method": "EditFiles"
+				},
+				{
+					"title": "Edit Access",
+					"method": "Edit_Access"
+				},
+				{
+					"title": "Change Printer",
+					"method": "Change_Printer"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Quit",
+					"shortcutAccel": true,
+					"shortcutKey": "Q"
+				}
+			]
+		},
+		{
+			"link": 11657,
+			"title": "Intake",
+			"items": [
+				{
+					"title": "New Intake ",
+					"method": "NewIntake",
+					"shortcutAccel": true,
+					"shortcutKey": "I"
+				},
+				{
+					"title": "Modify Intake",
+					"method": "ModIntake",
+					"shortcutAccel": true,
+					"shortcutKey": "M"
+				},
+				{
+					"title": "Short Intake",
+					"method": "ShortIntake",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Show All…",
+					"method": "ShowAllInt",
+					"shortcutAccel": true,
+					"shortcutKey": "A"
+				},
+				{
+					"title": "Show Holds…",
+					"method": "ShowHolds"
+				},
+				{
+					"title": "Show Hot Cases…",
+					"method": "GetHot",
+					"shortcutAccel": true,
+					"shortcutKey": "H"
+				},
+				{
+					"title": "Show Fam. Attys",
+					"method": "ShowAtty"
+				},
+				{
+					"isSeparator": true
+				},
+				{
+					"title": "Print Letters",
+					"method": "PrintDailyLtr"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Court Holds",
+					"method": "CtShowHold"
+				},
+				{
+					"title": "Court Hot Cases",
+					"method": "CtGetHot"
+				},
+				{
+					"enabled": false
+				}
+			]
+		},
+		{
+			"link": 19307,
+			"title": "Docket",
+			"items": [
+				{
+					"title": "Reschedule Case",
+					"method": "Reschedule",
+					"shortcutAccel": true,
+					"shortcutKey": "R"
+				},
+				{
+					"title": "Enter Docket Results",
+					"method": "EnterDocResults",
+					"shortcutAccel": true,
+					"shortcutKey": "E"
+				},
+				{
+					"title": "Print Docket",
+					"method": "PrintDocket",
+					"shortcutAccel": true,
+					"shortcutKey": "P"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Pull Cases…",
+					"method": "PullCases"
+				}
+			]
+		},
+		{
+			"link": 1315,
+			"title": "Mediators",
+			"items": [
+				{
+					"title": "Add Mediator",
+					"method": "AddMediator"
+				},
+				{
+					"title": "Edit Mediator",
+					"method": "EditMediators"
+				},
+				{
+					"title": "Add Activity",
+					"method": "ActInput"
+				}
+			]
+		},
+		{
+			"link": 23962,
+			"title": "Reports",
+			"items": [
+				{
+					"title": "HBA Report",
+					"method": "HBA_Rpt",
+					"shortcutAccel": true,
+					"shortcutKey": "1"
+				},
+				{
+					"title": "State Report",
+					"method": "StateReport",
+					"shortcutAccel": true,
+					"shortcutKey": "2"
+				},
+				{
+					"title": "State Report—2006...",
+					"method": "SR_StateReport_2006",
+					"shortcutAccel": true,
+					"shortcutKey": "3"
+				},
+				{
+					"isSeparator": true
+				},
+				{
+					"title": "Intake Site Report",
+					"method": "SiteReport",
+					"shortcutAccel": true,
+					"shortcutKey": "4"
+				},
+				{
+					"title": "Intake Specialist Report",
+					"method": "ISReport",
+					"shortcutAccel": true,
+					"shortcutKey": "5"
+				},
+				{
+					"title": "Mediation Site Report",
+					"method": "MedSiteRpt",
+					"shortcutAccel": true,
+					"shortcutKey": "6"
+				},
+				{
+					"title": "Program Report",
+					"method": "ProgRpt",
+					"shortcutAccel": true,
+					"shortcutKey": "7"
+				},
+				{
+					"isSeparator": true
+				},
+				{
+					"title": "Mediator Reports",
+					"method": "MedActRpt",
+					"shortcutAccel": true,
+					"shortcutKey": "8"
+				},
+				{
+					"title": "Mediator Envelopes-Labels",
+					"method": "MedMailout",
+					"shortcutAccel": true,
+					"shortcutKey": "9"
+				},
+				{
+					"isSeparator": true,
+					"enabled": false
+				},
+				{
+					"title": "Search Docket…",
+					"method": "SearchDocket"
+				},
+				{
+					"title": "Letter Report…",
+					"method": "DoCorrRpt"
+				},
+				{
+					"title": "Search Intakes…",
+					"method": "IntakeSearch"
+				}
+			]
+		},
+		{
+			"link": 30606,
+			"title": "Save/Chg",
+			"items": [
+				{
+					"title": "Save Intake",
+					"method": "SaveIntake",
+					"shortcutAccel": true,
+					"shortcutKey": "S"
+				},
+				{},
+				{
+					"title": "Change Printer",
+					"method": "Change_Printer"
+				}
+			]
+		},
+		{
+			"link": 9848,
+			"items": []
+		},
+		{
+			"link": 26217,
+			"items": []
+		},
+		{
+			"link": 25484,
+			"title": ":79,1",
+			"items": [
+				{
+					"title": "Quit",
+					"shortcutAccel": true,
+					"shortcutKey": "Q"
+				}
+			]
+		},
+		{
+			"link": 3840,
+			"items": []
+		},
+		{
+			"link": 33000,
+			"title": ":xliff:CommonMenuEdit",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemUndo",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemCut",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":xliff:CommonMenuItemCopy",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":xliff:CommonMenuItemPaste",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":xliff:CommonMenuItemClear",
+					"action": "clear"
+				},
+				{
+					"title": ":xliff:CommonMenuItemSelectAll",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemShowClipboard",
+					"action": "showClipboard"
+				}
+			]
+		}
+	]
+}

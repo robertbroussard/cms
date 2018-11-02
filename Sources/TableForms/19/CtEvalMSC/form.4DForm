@@ -1,0 +1,776 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 730,
+	"markerBreak": 730,
+	"markerFooter": 730,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": 471,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 489,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 507,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 525,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 543,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line6": {
+					"type": "line",
+					"top": 561,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 579,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line8": {
+					"type": "line",
+					"top": 597,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line9": {
+					"type": "line",
+					"top": 615,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Line10": {
+					"type": "line",
+					"top": 633,
+					"left": 25,
+					"width": 506,
+					"strokeWidth": 0.1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 75,
+					"left": 0,
+					"width": 551,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "MODERATED SETTLEMENT CONFERENCE EVALUATION"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 452,
+					"left": 24,
+					"width": 84,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "COMMENTS:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 95,
+					"left": 282,
+					"width": 54,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "MSC Date:"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 95,
+					"left": 351,
+					"width": 92,
+					"height": 12,
+					"dataSource": "vCtDktDate",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"textFormat": "Month Date, Year",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 118,
+					"left": 24,
+					"width": 46,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Court No."
+				},
+				"Text5": {
+					"type": "text",
+					"top": 120,
+					"left": 282,
+					"width": 65,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Type of Case:"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 120,
+					"left": 351,
+					"width": 167,
+					"height": 12,
+					"dataSource": "vCtTypeCase",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 139,
+					"left": 24,
+					"width": 32,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Style:"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 139,
+					"left": 73,
+					"width": 456,
+					"height": 12,
+					"dataSource": "vCtStyle",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 162,
+					"left": 24,
+					"width": 56,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Check One:"
+				},
+				"Line11": {
+					"type": "line",
+					"top": 174,
+					"left": 101,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line12": {
+					"type": "line",
+					"top": 189,
+					"left": 101,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line13": {
+					"type": "line",
+					"top": 207,
+					"left": 101,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line14": {
+					"type": "line",
+					"top": 225,
+					"left": 101,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Text8": {
+					"type": "text",
+					"top": 162,
+					"left": 150,
+					"width": 53,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Plaintiff"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 177,
+					"left": 150,
+					"width": 102,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Plaintiff's Attorney"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 195,
+					"left": 150,
+					"width": 64,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Defendant"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 213,
+					"left": 150,
+					"width": 105,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Defendant's Attorney"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 162,
+					"left": 350,
+					"width": 53,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Moderator"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 180,
+					"left": 350,
+					"width": 123,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Administrative Moderator\r"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 198,
+					"left": 350,
+					"width": 77,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Claims Adjuster"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 216,
+					"left": 350,
+					"width": 34,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Other"
+				},
+				"Line15": {
+					"type": "line",
+					"top": 174,
+					"left": 300,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line16": {
+					"type": "line",
+					"top": 192,
+					"left": 300,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line17": {
+					"type": "line",
+					"top": 210,
+					"left": 300,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line18": {
+					"type": "line",
+					"top": 228,
+					"left": 300,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 98,
+					"left": 73,
+					"width": 181,
+					"height": 12,
+					"dataSource": "vMFName",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 98,
+					"left": 24,
+					"width": 34,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Name:"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 239,
+					"left": 24,
+					"width": 358,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Were all clients present at the MSC?          Yes                       No        "
+				},
+				"Line19": {
+					"type": "line",
+					"top": 251,
+					"left": 241,
+					"width": 31,
+					"strokeWidth": 0.1
+				},
+				"Line20": {
+					"type": "line",
+					"top": 251,
+					"left": 308,
+					"width": 31,
+					"strokeWidth": 0.1
+				},
+				"Text18": {
+					"type": "text",
+					"top": 264,
+					"left": 24,
+					"width": 467,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "PLEASE RATE THE FOLLOWING ON A SCALE OF 1 TO 5 WITH 5 BEING THE BEST RATING:"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 360,
+					"left": 24,
+					"width": 467,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "IF SETTLEMENT RESULTED, ANSWER THE FOLLOWING USING THE SAME SCALE:"
+				},
+				"Line21": {
+					"type": "line",
+					"top": 386,
+					"left": 303,
+					"width": 38,
+					"strokeWidth": 0.1
+				},
+				"Line22": {
+					"type": "line",
+					"top": 404,
+					"left": 303,
+					"width": 38,
+					"strokeWidth": 0.1
+				},
+				"Line23": {
+					"type": "line",
+					"top": 422,
+					"left": 303,
+					"width": 38,
+					"strokeWidth": 0.1
+				},
+				"Line24": {
+					"type": "line",
+					"top": 440,
+					"left": 303,
+					"width": 38,
+					"strokeWidth": 0.1
+				},
+				"Text20": {
+					"type": "text",
+					"top": 374,
+					"left": 24,
+					"width": 258,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "5.  Was the plaintiff's presentation crucial to the settlement?"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 392,
+					"left": 24,
+					"width": 271,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "6.  Was the defendant's presentation crucial to the settlement?"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 410,
+					"left": 24,
+					"width": 276,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "7.  Was open discussion between parties crucial to the outcome?"
+				},
+				"Text23": {
+					"type": "text",
+					"top": 428,
+					"left": 24,
+					"width": 191,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "8.  Was panel input crucial to the outcome?"
+				},
+				"Line25": {
+					"type": "line",
+					"top": 291,
+					"left": 304,
+					"width": 31,
+					"strokeWidth": 0.1
+				},
+				"Line26": {
+					"type": "line",
+					"top": 307,
+					"left": 304,
+					"width": 31,
+					"strokeWidth": 0.1
+				},
+				"Line27": {
+					"type": "line",
+					"top": 323,
+					"left": 304,
+					"width": 31,
+					"strokeWidth": 0.1
+				},
+				"Line28": {
+					"type": "line",
+					"top": 340,
+					"left": 303,
+					"width": 31,
+					"strokeWidth": 0.1
+				},
+				"Text24": {
+					"type": "text",
+					"top": 281,
+					"left": 23,
+					"width": 156,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "1.  Was the MSC beneficial overall?"
+				},
+				"Text25": {
+					"type": "text",
+					"top": 297,
+					"left": 24,
+					"width": 197,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "2.  Did the panel adequately control the MSC?"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 313,
+					"left": 24,
+					"width": 105,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "3.  Was the panel fair?"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 330,
+					"left": 24,
+					"width": 133,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "4.  Were the procedures fair?"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 681,
+					"left": 22,
+					"width": 289,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "PLEASE RETURN FORM TO ABOVE ADDRESS IN HEADER"
+				},
+				"Text29": {
+					"type": "text",
+					"top": 646,
+					"left": 24,
+					"width": 523,
+					"height": 28,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "If you have a complaint about the way your moderated settlement conference was handled, please call the Dispute Resolution Center at (713) 755-8274."
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 118,
+					"left": 73,
+					"width": 169,
+					"height": 12,
+					"dataSource": "vCtCourtNam",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"gFooter2": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				}
+			}
+		}
+	]
+}

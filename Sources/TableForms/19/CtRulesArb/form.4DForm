@@ -1,0 +1,95 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 731,
+	"markerBreak": 731,
+	"markerFooter": 731,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 79,
+					"left": 0,
+					"width": 551,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "RULES FOR LITIGATION ARBITRATION"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 103,
+					"left": 15,
+					"width": 529,
+					"height": 598,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "1.  Definition of Arbitration: (a)  Nonbinding arbitration is a forum in which each party and counsel for the party presents the position of the party before an impartial third party who renders a specific award.  (b)  If the parties stipulate in advance, the award is binding and is enforceable in the same manner as any contract obligation.  If the parties do not stipulate in advance that the award is binding, the award is not binding and serves only as a basis for the parties' further settlement negotiations.\r\r 2.  Conditions Precedent to Serving as a Arbitrator: The arbitrator will only serve in cases in which the parties are represented by attorneys.  The arbitrator shall not serve as an arbitrator in any dispute in which he or she has any financial or personal interest in the result of the arbitration.  Prior to the hearing, the arbitrator shall disclose any circumstance likely to create a presumption of bias or prevent a prompt meeting with the parties.  In the event that the parties disagree as to whether the arbitrator shall serve, the arbitrator shall not serve.\r\r 3.  Authority of Arbitrator: The arbitrator meets with the parties, listens to presentations of both fact and law, and renders a confidential advisory award.\r\r 4.  Commitment to Participate: While no one is asked to commit to settle their case in advance of arbitration, all parties must commit to participate in the proceedings with the intention to settle if at all possible.\r\r 5.  Authority of Representatives: Party representatives must have authority to settle and all persons necessary to the decision to settle shall be present.  The names and addresses of such persons shall be communicated in writing to the DRC, all parties to the dispute, and to the arbitrator.\r\r 6.  Time and Place of Arbitration: The Harris County Administrators and the Dispute Resolution Center will coordinate the time and place of the session.\r\r 7.  Privacy: Arbitration sessions are private.  The parties and their representatives may attend the arbitration session.  Other persons may attend only with the permission of the parties and with the consent of the arbitrator.\r\r 8.  Confidentiality: Confidential information disclosed to an arbitrator by the parties or by witnesses in the course of the arbitration shall not be divulged by the arbitrator or any observers.  All records, reports or other documents received by a arbitrator while serving in that capacity shall be confidential.  The arbitrator shall not be compelled to divulge such records or to testify in  regard to the arbitration in any adversary proceeding or judicial forum.  Any party that violates this agreement shall pay all fees and expenses of the arbitrator and other parties, including reasonable attorneys' fees, incurred in opposing the efforts to compel testimony or records from the arbitrator.\r\rThe parties shall maintain the confidentiality of the arbitration and shall not rely on or introduce as evidence in any arbitral, judicial or other proceeding including:  a)  views expressed or suggestions made by a party with respect to a possible settlement of the dispute,  b)  admissions made by a party in the course of the arbitration proceedings,  c)  proposals made or views expressed by the arbitrator.\r\r 9.  No Service of Process at or Near the Site of the Arbitration Session: No subpoenas, summonses, complaints, citations, writs or other processes may be served upon any person at or near the site of the arbitration session or upon any person entering, attending or leaving the session.\r\r10. Exclusion of Liability: The arbitrator is not  a necessary or proper party in any judicial proceedings relating to the arbitration.\r\r11. Interpretation and Application of Rules: The arbitrator shall interpret and apply these rules pursuant to Tex. Civ. Prac. & Rem. Code Ann. Sec. 154.001-154.073 (Vernon Supp. 1992)."
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				}
+			}
+		}
+	]
+}

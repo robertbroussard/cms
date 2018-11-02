@@ -1,0 +1,243 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 774,
+	"markerBody": 774,
+	"markerBreak": 774,
+	"markerFooter": 774,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 511,
+					"height": 343,
+					"fill": "#777777",
+					"stroke": "#777777",
+					"strokeWidth": 0.1
+				},
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 19,
+					"left": 142,
+					"width": 186,
+					"height": 22,
+					"borderRadius": 5
+				},
+				"Text1": {
+					"type": "text",
+					"top": 22,
+					"left": 148,
+					"width": 174,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Mediator Search Screen"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 56,
+					"left": 77,
+					"width": 317,
+					"height": 218,
+					"fill": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 71,
+					"left": 84,
+					"width": 301,
+					"height": 15,
+					"fill": "transparent"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 72,
+					"left": 85,
+					"width": 299,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Enter the Mediators Last Name or Full Name."
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 101,
+					"left": 105,
+					"width": 260,
+					"height": 123
+				},
+				"Field1": {
+					"type": "input",
+					"top": 135,
+					"left": 122,
+					"width": 108,
+					"height": 12,
+					"dataSource": "[MediatorFile:9]MLName:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 135,
+					"left": 237,
+					"width": 108,
+					"height": 12,
+					"dataSource": "[MediatorFile:9]MFName:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 179,
+					"left": 142,
+					"width": 69,
+					"height": 20,
+					"dataSource": "bSCancel",
+					"action": "cancel",
+					"text": "Cancel",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 179,
+					"left": 248,
+					"width": 69,
+					"height": 20,
+					"dataSource": "bSearchOK",
+					"action": "accept",
+					"text": "OK",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 134,
+					"left": 236,
+					"width": 110,
+					"height": 14,
+					"fill": "transparent"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 121,
+					"left": 237,
+					"width": 71,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "First Name"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 134,
+					"left": 121,
+					"width": 110,
+					"height": 14,
+					"fill": "transparent"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 121,
+					"left": 122,
+					"width": 67,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Last Name"
+				}
+			}
+		}
+	]
+}

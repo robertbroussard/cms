@@ -1,0 +1,252 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 14,
+	"markerBody": 30,
+	"markerBreak": 30,
+	"markerFooter": 30,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": -1,
+					"left": 370,
+					"width": 104,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Fax No:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": -1,
+					"left": 261,
+					"width": 103,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Office No:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": -1,
+					"left": 149,
+					"width": 105,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "First Name:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": -1,
+					"left": 42,
+					"width": 101,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Last Name:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": -1,
+					"left": 3,
+					"width": 33,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Type:"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 13,
+					"left": 1,
+					"width": 478
+				},
+				"Field1": {
+					"type": "input",
+					"top": 14,
+					"left": 2,
+					"width": 35,
+					"height": 15,
+					"dataSource": "[IntakeFile_AddPartyFile:23]APType:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Party Type"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 14,
+					"left": 41,
+					"width": 102,
+					"height": 15,
+					"dataSource": "[IntakeFile_AddPartyFile:23]LastName:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 14,
+					"left": 149,
+					"width": 107,
+					"height": 15,
+					"dataSource": "[IntakeFile_AddPartyFile:23]FirstName:3",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 14,
+					"left": 260,
+					"width": 104,
+					"height": 15,
+					"dataSource": "[IntakeFile_AddPartyFile:23]WPhone:5",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "(###) ###-####",
+					"entryFilter": "!_&9(###) !0###-####",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 14,
+					"left": 369,
+					"width": 102,
+					"height": 15,
+					"dataSource": "[IntakeFile_AddPartyFile:23]FaxNumber:16",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "(###) ###-####",
+					"entryFilter": "!_&9(###) !0###-####",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line5": {
+					"type": "line",
+					"top": 1,
+					"left": 367,
+					"height": 30
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 258,
+					"height": 31
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 146,
+					"height": 30
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 39,
+					"height": 31
+				}
+			}
+		}
+	]
+}

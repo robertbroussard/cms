@@ -1,0 +1,283 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerBody": 750,
+	"markerBreak": 750,
+	"markerFooter": 750,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text2": {
+					"type": "text",
+					"top": 116,
+					"left": 27,
+					"width": 490,
+					"height": 28,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Your service as a moderator is appreciated!  The following guidelines are provided for your convenience in conducting the  MSC."
+				},
+				"Text3": {
+					"type": "text",
+					"top": 150,
+					"left": 27,
+					"width": 507,
+					"height": 28,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "PURPOSE OF MSC:  To facilitate settlement by providing the parties and their attorneys with a confidential and professional evaluations of the strengths and weaknesses of the case."
+				},
+				"Text4": {
+					"type": "text",
+					"top": 191,
+					"left": 125,
+					"width": 9,
+					"height": 17,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10
+				},
+				"Text5": {
+					"type": "text",
+					"top": 184,
+					"left": 27,
+					"width": 495,
+					"height": 28,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "ADMINISTRATIVE MODERATOR RESPONSIBILITIES:  The moderator designated as the Administrative Moderator on the MSC Work Sheet shall do the following:"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 215,
+					"left": 55,
+					"width": 449,
+					"height": 28,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Secure case summaries from the parties one week before the MSC and distribute to Moderators, if necessary."
+				},
+				"Text7": {
+					"type": "text",
+					"top": 249,
+					"left": 55,
+					"width": 456,
+					"height": 42,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Assemble the panel at the appointed time and place.  If a moderator is unavailable, proceed with    two moderators with the consent of the parties.  If the parties prefer, contact Georgia Dixon to reschedule the MSC."
+				},
+				"Text10": {
+					"type": "text",
+					"top": 212,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 246,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 295,
+					"left": 56,
+					"width": 454,
+					"height": 14,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Preside at the MSC.  The procedure is flexible;  the following timetable may be used as a guide:"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 328,
+					"left": 127,
+					"width": 162,
+					"height": 126,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Panel introductory statement\rPlaintiff's presentation\rDefendant's presentation\rPanel questions/answers\rPlaintiff's summation\rDefendant's summation\rPanel deliberation\rPanel issues an opinion\rPost-MSC discussion/negotiation"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 330,
+					"left": 317,
+					"width": 79,
+					"height": 126,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "5 minutes\r15-30 minutes\r15-30 minutes\r15-30 minutes\r5 minutes\r5 minutes\r15-30 minutes\r5-10 minutes"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 469,
+					"left": 53,
+					"width": 420,
+					"height": 28,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Give the Panel Introductory Statement.  This may include introduction of those present, a statement of purpose of the MSC, and a recitation of the suggested order of presentation."
+				},
+				"Text17": {
+					"type": "text",
+					"top": 293,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 466,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 502,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 505,
+					"left": 53,
+					"width": 466,
+					"height": 56,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Issue the panel's opinion.  This may be done as estimates of the probable outcome at  trial as well as an appropriate settlement figure or range.  While discussion is welcome between the participants and moderators, MSC is most effective when opinions are well reasoned and professional in both their formulation and delivery."
+				},
+				"Text28": {
+					"type": "text",
+					"top": 564,
+					"left": 53,
+					"width": 454,
+					"height": 70,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Post MSC discussion/negotiation.  The panel will decide which moderator will stay to facilitate post MSC discussion/ negotiation.  This moderator may be the one most comfortable or knowledgeable in the type of case being evaluated.  This moderator will also, after a reasonable period to allow for settlement, report to the MSC coordinator as to the settlement of the case."
+				},
+				"Text29": {
+					"type": "text",
+					"top": 562,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 637,
+					"left": 53,
+					"width": 426,
+					"height": 14,
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Complete the Moderated Settlement Conference Evaluation and return to Georgia Dixon."
+				},
+				"Text31": {
+					"type": "text",
+					"top": 636,
+					"left": 39,
+					"width": 4,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "·"
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

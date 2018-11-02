@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<preferences stamp="2">
+	<com.4d>
+		<database>
+			<cache flush_buffer_delay="15" size_maximum="100" size_reserved="128" size_fixed="32"/>
+			<misc period_and_commas_in_numerics="false" allow_nested_transactions="false" unicode_mode="false" store_unicode_tokens="false" accept_dot_syntax="false" allow_json_dates="false"/>
+			<cpu_priority for_mono="2049" for_server="2049" for_remote="2049"/>
+		</database>
+		<general startup_environnement="1">
+			<mover always_display_dialog="2"/>
+		</general>
+		<interface>
+			<user can_change_password="false" display_list="false" display_toolbar="true" formula_editor_with_full_lists="true"/>
+			<misc radio_buttons_grouped_by_name="true" fields_enterable_in_dialogs="false"/>
+			<shortcuts>
+				<add_subform key_code="47" shift="false"/>
+				<cancel_input_form key_code="46" command="true"/>
+				<accept_input_form key_code="3"/>
+			</shortcuts>
+		</interface>
+		<server>
+			<misc query_by_formula_on_server="false" query_by_formula_uses_joins="false"/>
+			<network>
+				<options publication_name="CMS_2011" use_legacy_network_layer="true"/>
+			</network>
+			<ip_config>
+				<allow_deny_table>
+					<allow_deny address="*" allow="true"/>
+				</allow_deny_table>
+			</ip_config>
+		</server>
+		<web>
+			<standalone_server>
+				<configuration publish_at_startup="true" listening_address="0.0.0.0" automatic_session_management="false">
+					<hosts>
+						<host id="0" name="Default" html_root="./WebFolder/" home_page=""/>
+					</hosts>
+				</configuration>
+				<misc remove_slash="true" use_new_context_ref_mode="false" use_contextual_mode="true" automatic_variables_management="true"/>
+				<options>
+					<web_processes timeout_for_inactives="5" max_concurrent="32000"/>
+					<text_conversion standard_set="ISO-8859-1"/>
+					<cache use_4d_web_cache="false" cache_max_size="5120"/>
+					<web_passwords with_4d_passwords="true" kind="1"/>
+					<filters allow_4dsync_urls="true"/>
+				</options>
+				<log>
+					<backup size="0" hourly="" daily="" weekly="" monthly=""/>
+				</log>
+				<webservices>
+					<server allow_requests="false"/>
+				</webservices>
+			</standalone_server>
+			<remote>
+				<misc remove_slash="true" automatic_variables_management="true"/>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<cache use_4d_web_cache="false"/>
+					<filters allow_4dsync_urls="true"/>
+				</options>
+				<configuration listening_address="0.0.0.0" automatic_session_management="false"/>
+			</remote>
+		</web>
+		<compiler>
+			<options symbol_file="true"/>
+			<typage default_for_numeric="1"/>
+		</compiler>
+		<deployment>
+			<options generate_applications_for_read_only_deployment="false"/>
+		</deployment>
+	</com.4d>
+</preferences>

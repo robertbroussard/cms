@@ -1,0 +1,73 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 11,
+	"markerBody": 40,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text32": {
+					"type": "text",
+					"top": 14,
+					"left": 7,
+					"width": 133,
+					"height": 11,
+					"fontSize": 8,
+					"text": "BOM = \"Beginning of Month\""
+				},
+				"Text33": {
+					"type": "text",
+					"top": 25,
+					"left": 7,
+					"width": 133,
+					"height": 11,
+					"fontSize": 8,
+					"text": "EOM = \"End of Month\""
+				},
+				"Text24": {
+					"type": "text",
+					"top": 15,
+					"left": 174,
+					"width": 133,
+					"height": 11,
+					"fontSize": 8,
+					"text": "*  This Month"
+				},
+				"Text36": {
+					"type": "text",
+					"top": 27,
+					"left": 172,
+					"width": 167,
+					"height": 11,
+					"fontSize": 8,
+					"text": "ASR = \"Average Satisfaction Rate\" "
+				}
+			}
+		}
+	]
+}

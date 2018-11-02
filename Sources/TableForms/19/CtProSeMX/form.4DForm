@@ -1,0 +1,186 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 727,
+	"markerBreak": 727,
+	"markerFooter": 727,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text11": {
+					"type": "text",
+					"top": 591,
+					"left": 20,
+					"width": 512,
+					"height": 17,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"text": "SIGNED  this                                day of\t\t                                                                           ,   20    "
+				},
+				"Line138": {
+					"type": "line",
+					"top": 606,
+					"left": 224,
+					"width": 218,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 606,
+					"left": 474,
+					"width": 37,
+					"strokeWidth": 0.1
+				},
+				"Line137": {
+					"type": "line",
+					"top": 606,
+					"left": 94,
+					"width": 82,
+					"strokeWidth": 0.1
+				},
+				"Text12": {
+					"type": "text",
+					"top": 653,
+					"left": 96,
+					"width": 55,
+					"height": 17,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"text": "(Signature)"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 650,
+					"left": 21,
+					"width": 225,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 650,
+					"left": 301,
+					"width": 216,
+					"strokeWidth": 0.1
+				},
+				"Text13": {
+					"type": "text",
+					"top": 653,
+					"left": 375,
+					"width": 74,
+					"height": 17,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"text": "(Printed Name)"
+				},
+				"Text148": {
+					"type": "text",
+					"top": 84,
+					"left": 0,
+					"width": 548,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "UNREPRESENTED PARTY AGREEMENT TO MEDIATE OR ARBITRATE"
+				},
+				"Text150": {
+					"type": "text",
+					"top": 105,
+					"left": 3,
+					"width": 547,
+					"height": 425,
+					"sizingY": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"text": "Having knowingly declined to seek the advice of independent counsel before accepting the terms of, and    signing, this agreement, I agree that:\r\r1. I have been advised by the Dispute Resolution Center (DRC) that it is in my best interest to be represented\r    by counsel;\r2.  I understand that the mediator or arbitrator is not my counsel and will not provide me any legal advice \r     regarding the merits of the matter to be mediated or arbitrated, or the reasonableness of any settlement offer\r     or settlement achieved;\r3.  That while it is the usual practice of DRC to assign an attorney as mediator or arbitrator, DRC reserves the\r     right to assign a mediator or arbitrator who is not an attorney;\r4.  The mediator or arbitrator will, at his or her sole discretion, select the mediation or arbitration model to be\r     used;\r5.  That if, in the mediator's or arbitrator's sole opinion, I do not demonstrate an adequate comprehension of    \r     the issues or the significance of the proceedings, the mediator or abitrator reserves the right to request that I\r     seek legal counsel before proceeding further, and should I refuse such a request, the mediator or arbitrator\r     may terminate the mediation or arbitration process at any time;\r6.  I will participate in good faith and in a spirit of open and full disclosure;\r7.  I will not call the mediator or arbitrator as a witness in any legal or administrative proceeding concerning\r     this matter;\r8.  I will not subpoena or call for the production of any records, notes, or work product resulting from this\r     mediation or arbitration and/or program evaluation;\r9.  I will not repeat information disclosed during the mediation or arbitration process to anyone not attending\r     the mediation or arbitration, unless that information would be deemed independently discoverable outside of\r     the mediation or arbitration proceeding;\r10. I have signed this agreement with free will and full understanding;"
+				},
+				"Text161": {
+					"type": "text",
+					"top": 803,
+					"left": 335,
+					"width": 102,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12
+				},
+				"Text165": {
+					"type": "text",
+					"top": 203,
+					"left": 14,
+					"width": 5,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				}
+			}
+		}
+	]
+}

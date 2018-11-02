@@ -1,0 +1,163 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 199,
+	"markerBreak": 199,
+	"markerFooter": 199,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 38,
+					"width": 292,
+					"height": 104,
+					"strokeWidth": 2,
+					"borderRadius": 5
+				},
+				"Text1": {
+					"type": "text",
+					"top": 44,
+					"left": 44,
+					"width": 242,
+					"height": 23,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "Intake Specialist ID File"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 81,
+					"left": 129,
+					"width": 27,
+					"height": 17
+				},
+				"Text2": {
+					"type": "text",
+					"top": 81,
+					"left": 58,
+					"width": 68,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": "ID Number"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 107,
+					"left": 129,
+					"width": 170,
+					"height": 17
+				},
+				"Text3": {
+					"type": "text",
+					"top": 106,
+					"left": 58,
+					"width": 54,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": "IS Name"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 71,
+					"left": 38,
+					"width": 290,
+					"height": 2,
+					"strokeWidth": 2
+				},
+				"Field1": {
+					"type": "input",
+					"top": 81,
+					"left": 130,
+					"width": 26,
+					"height": 16,
+					"dataSource": "[ISIDTable:3]IdNumber:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 107,
+					"left": 130,
+					"width": 169,
+					"height": 16,
+					"dataSource": "[ISIDTable:3]ISName:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

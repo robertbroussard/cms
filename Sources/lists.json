@@ -1,0 +1,7163 @@
+﻿{
+	"MedGroups": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "ARBITRATOR",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "BILINGUAL",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "COMMUNITY",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "CPS",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "DAY MED",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "DT NIGHT",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "FAMILY",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP BELL",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP CALLOWAY",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP DELGADO",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP LAWRENCE",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP PATRONELLA",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP POLUMBO",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP RIDGWAY",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP RISNER",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP VARA",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JUMP",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "LITIGATION",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Long-Term Care",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "MODERATOR",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "NON DRC MED",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Truant",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "VOM",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Psychiatric Ref": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Baylor Coll of Med",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Harris Co Psych Hosp",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Mental Health Warrant",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "MHA",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "UH Psych Clinic",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "UTMB",
+				"ref": 6,
+				"editable": true
+			}
+		]
+	},
+	"Harris Co Depts": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Child Support",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Commissioners Pct 1",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Commissioners Pct 2",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Commissioners Pct 3",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Commissioners Pct 4",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "County Attorney",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "County Clerk",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "CPS",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "District Clerk",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "DRO",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "HC Adult Probation",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "HC Animal Control",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "HC Health Dept",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "Juv Prob Dept-LSO",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "MHMRA",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "Social Serv-Jensen",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "Tax Assessor",
+				"ref": 17,
+				"editable": true
+			}
+		]
+	},
+	"Afternoon": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "12:00PM",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "12:30PM",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "1:00PM",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "1:30PM",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "2:00PM",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "2:30PM",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "3:00PM",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "3:30PM",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "4:00PM",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "4:30PM",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "5:00PM",
+				"ref": 11,
+				"editable": true
+			}
+		]
+	},
+	"District Juvenile": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "313 DC Juv",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "314 DC Juv",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "315 DC Juv",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Morning": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "8:00AM",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "8:30AM",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "9:00AM",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "9:30AM",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "10:00AM",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "10:30AM",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "11:00AM",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "11:30AM",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "",
+				"ref": 9,
+				"editable": true
+			}
+		]
+	},
+	"MaritalStatus": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Divorced",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Married",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Separated",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Shelters": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Roseate",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "S.E.A.R.C.H.",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Salv Army (Men)",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Salv Army (Women/Fam)",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Star of Hope (Men)",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Star of Hope (Women/Fam)",
+				"ref": 6,
+				"editable": true
+			}
+		]
+	},
+	"City of Houston": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "HAA",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Hou Animal Control",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Hou City Fair Housing",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Hou City Prosecutor",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Hou Community Dev",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Hou Forum Seniors",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Hou Housing Auth",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Hou Housing Code Div",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Hou Land Use Ofc",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Hou Mayor's Ofc",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "Hou Parks and Rec",
+				"ref": 11,
+				"editable": true
+			}
+		]
+	},
+	"Programs": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "All Programs",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Arbitration",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "CFK",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Community-Based",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "CPS",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Family",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "JUMP",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Litigation",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Long-Term Care",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "MSC",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Probation",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Special Ed",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Truant",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Victim-Offender",
+				"ref": 9,
+				"editable": true
+			}
+		]
+	},
+	"Intake Sites": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "All Sites",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "CFC",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "City Prosecutor",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "DA",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "DRC",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Galena Park",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "HCJPD",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Incarnation",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "JP Bell",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "JP Calloway",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "JP Gorczynski",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "JP Lawrence",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "JP Parrott",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "JP Patronella",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "JP Polumbo",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "JP Ridgway",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP Risner",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "JP Rodriguez",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "JP Vara",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "JP Yeoman",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "Katy Christ. M.",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Magnolia",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "Pasadena",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "PPD-Juv",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "Ripley",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "Tomball PD",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Truant",
+				"ref": 0,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Attucks Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Cullen Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Dowling Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hartman Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Jones High Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Madison High Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Ninth Grade Acad",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Ryan Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Sterling High Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Thomas Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Woodson Middle Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Worthing High Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Yates High Schl",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bastian Element Schl",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			}
+		]
+	},
+	"Relationship": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "201",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "202",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "203",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "204",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "205",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "206",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "207",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "208",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "209",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "210",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "211",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "212",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "213",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "214",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "215",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "216",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "217",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "218",
+				"ref": 18,
+				"editable": true
+			}
+		]
+	},
+	"Hotlines": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Fathers Equal Rights",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Gay/Lesbian Switchbrd",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Older Texans Legal",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Rape Crisis",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Suicide",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "United Way HELP",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "WIRES",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Women's Legal",
+				"ref": 8,
+				"editable": true
+			}
+		]
+	},
+	"Probate": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Prob 1",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Prob 2",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Prob 3",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Prob 4",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"DA's Ofc": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "DA Asslt Vict Memo",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "DA Bail Bond",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "DA Child Abuse",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "DA Consum Frd",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "DA Fam Crim Law",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "DA Intake",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "DA Juvenile",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "DA Major Narco",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "DA No Trspss Ltr",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "DA Organzd Crime",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "DA Pollution",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "DA Special Crimes",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "DA Welfr Frd",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "DA Witns Affdvt",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "DA Wrthls Chck",
+				"ref": 15,
+				"editable": true
+			}
+		]
+	},
+	"Months": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "January",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "February",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "March",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "April",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "May",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "June",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "July",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "August",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "September",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "October",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "November",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "December",
+				"ref": 12,
+				"editable": true
+			}
+		]
+	},
+	"Professional Malpractice": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Architects",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Bail Bond Brd",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Harris Co Pharmac Assoc",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Hou Dist Dental Soc",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Medical Brd",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "State Bar Griev (Lawyers)",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "State Brd Barber Exam",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "TX Brd of Regist (Engineers)",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "TX Cosmet Comm",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Vet Assoc",
+				"ref": 10,
+				"editable": true
+			}
+		]
+	},
+	"Justices of the Peace": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "JP Pct 1, Pos 1",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 1, Pos 2",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 2, Pos 1",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 2, Pos 2",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 3, Pos 1",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 3, Pos 2",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 4, Pos 1",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 4, Pos 2",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 5, Pos 1",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 5, Pos 2 ",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 6, Pos 1",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 6, Pos 2",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 7, Pos 1",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 7, Pos 2",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 8, Pos 1",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "JP Pct 8, Pos 2",
+				"ref": 16,
+				"editable": true
+			}
+		]
+	},
+	"Partial Results": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "CON",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "DCL",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Party Type": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "AAL",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "AG",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATC",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATD1",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATD2",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATD3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATINT",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATP1",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATP2",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATP3",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "ATR",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "ATR2",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "ATR3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "C2",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "C3",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "C4",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "CAD",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "CPD",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "GAL",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "HCA",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "INT",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "INTAT",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Other",
+				"ref": 15,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "C1D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C1M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C2D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C2M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C3D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C3M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C4D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "C4M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R1D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R1M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R2D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R2M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R3D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R3M",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R4D",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "R4M",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "R2",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "R3",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "R4",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "RKID",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"District Fam Ct-Other": {
+		"lineHeight": 18,
+		"editable": true,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "214 DC Fam Nueces",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "300 DC Fam Braz",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "328 DC Fam Ft Bend",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "CCL Wash Cty",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Status": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Hold",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Direct Assistance",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Referred",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Scheduled",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"TX DRCs": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "DRC - Amarillo",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "DRC - Austin",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "DRC - Beaumont",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "DRC - Conroe",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "DRC - Corpus Christi",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "DRC - Dallas",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "DRC - El Paso",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "DRC - Fort Worth",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "DRC - Houston",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "DRC - Lewisville",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "DRC - Lubbock",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "DRC - McKinney",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "DRC - Richmond",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "DRC - San Antonio",
+				"ref": 14,
+				"editable": true
+			}
+		]
+	},
+	"Old_RefTruant": {
+		"lineHeight": 18,
+		"editable": true,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Attucks Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Bastian Element Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Cullen Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Dowling Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Hartman Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Jones High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Madison High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Ninth Grade Acad",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Ryan Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Sterling High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Thomas Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Woodson Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Worthing Hign Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Yates High Schl",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Referrals": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "AA/AL-ANON",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "AAA",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "AAW",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Acad Fam Med",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "ACLU",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "AG",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "All Referrals",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Appellate Federal",
+				"ref": 8,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "5th Circuit",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Appellate State",
+				"ref": 9,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "First Crt Appls",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fourteenth Crt Appls",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Bankruptcy",
+				"ref": 10,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Bnkrpt-Brown",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bnkrpt-Clark",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bnkrpt-Greendyke",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bnkrpt-Leal",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bnkrpt-Wheeless",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "BBB",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "Channel 2",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "City of Houston",
+				"ref": 13,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "HAA",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Animal Control",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou City Fair Housing",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou City Prosecutor",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Community Dev",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Forum Seniors",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Housing Auth",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Housing Code Div",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Land Use Ofc",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Mayor's Ofc",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Parks And Rec",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Civil District",
+				"ref": 14,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "011 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "055 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "061 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "080 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "113 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "125 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "127 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "129 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "133 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "151 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "152 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "157 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "164 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "165 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "189 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "190 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "215 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "234 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "269 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "270 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "280 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "281 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "295 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "333 DC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "334 DC",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Consum Cred Couns",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "County Civil",
+				"ref": 16,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Co Civ 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Civ 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Civ 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Civ 4",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "County Criminal",
+				"ref": 17,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "01 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "02 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "03 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "04 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "05 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "06 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "07 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "08 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "09 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "10 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "11 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "13 Co Crim",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "14 Co Crim",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Criminal District",
+				"ref": 18,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "174 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "176 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "177 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "178 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "179 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "180 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "182 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "183 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "184 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "185 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "208 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "209 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "228 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "230 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "232 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "248 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "262 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "263 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "337 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "338 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "339 Crim Dist",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "351 Crim Dist",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "DA's Ofc",
+				"ref": 19,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "DA Asslt Vict Memo",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Bail Bond",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Child Abuse",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Consum Frd",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Fam Crim Law",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Intake",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Juvenile",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Major Narco",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA No Trspss Ltr",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Organzd Crime",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Pollution",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Special Crimes",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Welfr Frd",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Witns Affdvt",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DA Wrthls Chk",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Direct Assistance",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "District Fam Ct-Other",
+				"ref": 21,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "214 DC Fam Nueces",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "300 DC Fam Braz",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "328 DC Fam Ft Bend",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "CCL Wash Cty",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "District Family",
+				"ref": 22,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "245 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "245 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "245 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "245 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "245 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "246 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "246 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "246 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "246 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "246 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "247 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "247 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "247 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "247 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "247 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "257 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "257 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "257 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "257 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "257 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "308 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "308 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "308 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "308 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "308 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "309 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "309 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "309 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "309 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "309 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "310 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "310 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "310 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "310 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "310 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "311 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "311 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "311 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "311 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "311 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "312 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "312 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "312 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "312 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "312 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "313 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "313 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "313 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "313 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "313 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "314 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "314 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "314 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "314 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "314 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "315 DC Fam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "315 DC Fam IV-D Court 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "315 DC Fam IV-D Court 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "315 DC Fam IV-D Court 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "315 DC Fam IV-D Court 4",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "District Juvenile",
+				"ref": 23,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "313 DC Juv",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "314 DC Juv",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "315 DC Juv",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "DL",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "DL/DA",
+				"ref": 25,
+				"editable": true
+			},
+			{
+				"text": "DL/JP",
+				"ref": 26,
+				"editable": true
+			},
+			{
+				"text": "Domestic Violence",
+				"ref": 27,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "AVDA",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fam Crim Law",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HAWC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HPD-DVU",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "SOS",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "The Bridge-Pasad",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "DRC Web",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "EEOC",
+				"ref": 28,
+				"editable": true
+			},
+			{
+				"text": "Employ Griev",
+				"ref": 29,
+				"editable": true
+			},
+			{
+				"text": "Employer",
+				"ref": 30,
+				"editable": true
+			},
+			{
+				"text": "Family",
+				"ref": 31,
+				"editable": true
+			},
+			{
+				"text": "Federal",
+				"ref": 32,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Fed-Atlas",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Gilmore",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Harmon",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Hittner",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Hoyt",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Hughes",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Lake",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Milloy",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Rainey",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Rosenthal",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Stacy",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fed-Werlein",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Friend",
+				"ref": 33,
+				"editable": true
+			},
+			{
+				"text": "Galena Park",
+				"ref": 34,
+				"editable": true
+			},
+			{
+				"text": "GCLF",
+				"ref": 35,
+				"editable": true
+			},
+			{
+				"text": "Green Sheet",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Harris Co Correct./Supervis",
+				"ref": 36,
+				"editable": true
+			},
+			{
+				"text": "Harris Co Depts",
+				"ref": 37,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Child Support",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Commissioner Pct 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Commissioner Pct 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Commissioner Pct 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Commissioner Pct 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "County Attorney",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "County Clerk",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "CPS",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "District Clerk",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DRO",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HC Adult Probation",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HC Animal Control",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HC Health Dept",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Juv Prob Dept-LS0",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "MHMRA",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Social Serv-Jensen",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Tax Assessor",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "HBA",
+				"ref": 38,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "HBA Aids Comm",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HBA Elder Law",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HBA Front Desk",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HBA Grievance (Lawyers)",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HBA HVLP",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HBA Legal Line",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HBA LRS",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Hotlines",
+				"ref": 39,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Fathers Equal Rights",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Gay/Lesbian Switchboard",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Olser Texans Legal",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Rape Crisis",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Suicide",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "United Way HELP",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "WIRES",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Women's Legal",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Houston Chronicle",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Houston Press",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Information Only",
+				"ref": 40,
+				"editable": true
+			},
+			{
+				"text": "Justices of the Peace",
+				"ref": 41,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "JP Pct 1, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 1, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 2, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 2, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 3, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 3, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 4, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 4, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 5, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 5, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 6, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 6, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 7, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 7, Pos 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 8, Pos 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "JP Pct 8, Pos 2",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "La Subasta",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Landlord/Tenant Brochure",
+				"ref": 42,
+				"editable": true
+			},
+			{
+				"text": "Law Enforcement",
+				"ref": 43,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Airport PD Hobby",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Airport PD Inter",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Alief ISD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bearcreek PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bellaire PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Channelview PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Clear Lake (El Largo) PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 4",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 5",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 6",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 7",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Constables Pct 8",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Deer Park PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Galen Park PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Harris Co Sheriff's Office",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hedwig Village PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Houston PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Humble PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Jacinto City PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Jersey Village PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Katy ISD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Katy PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Lakeview PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "LaPorte PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "League City PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Missouri City PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Nassau Bay PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Pasadena ISD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Pearland PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Seabrook Pd",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Shoreacres PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "South Houston PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Southside PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Spring Branch ISD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Spring Valley PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Stafford PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Taylor Lake PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Tomball PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Univ of Houston PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Village PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Wallisville PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Webster PD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "West Univ PD",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Legal Clinics",
+				"ref": 44,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Equal Access Law",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "So TX Law",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TSU Law",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "UH Law",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Lic Prof Couns",
+				"ref": 45,
+				"editable": true
+			},
+			{
+				"text": "Media",
+				"ref": 46,
+				"editable": true
+			},
+			{
+				"text": "Muni, Baytown",
+				"ref": 47,
+				"editable": true
+			},
+			{
+				"text": "Muni, Deer Park",
+				"ref": 48,
+				"editable": true
+			},
+			{
+				"text": "Muni, Pasadena",
+				"ref": 49,
+				"editable": true
+			},
+			{
+				"text": "Muni, Piney Point",
+				"ref": 50,
+				"editable": true
+			},
+			{
+				"text": "Municipal, Houston",
+				"ref": 51,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Muni 01, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 02, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 03, Hou-Teen Crt",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 04, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 05, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 06, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 07, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 08, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 09, Hou",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Muni 12, Hou",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Neighborhood Ctrs",
+				"ref": 52,
+				"editable": true
+			},
+			{
+				"text": "Out of County Crts",
+				"ref": 53,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "198th DC-Gill",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Brazoria",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Colorado",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Ft Bend",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Galves",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Matagorda",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Montgom",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Walker",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Co Crt, Waller",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Western Div, Austin (Fed)",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Previous DRC User",
+				"ref": 54,
+				"editable": true
+			},
+			{
+				"text": "Private Attorney",
+				"ref": 55,
+				"editable": true
+			},
+			{
+				"text": "Private Business",
+				"ref": 56,
+				"editable": true
+			},
+			{
+				"text": "Probate",
+				"ref": 57,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Prob 1",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Prob 2",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Prob 3",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Prob 4",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Professional Malpractice",
+				"ref": 58,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Architects",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Bail Bond Brd",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Harris Co Pharmac Assoc",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Hou Dist Dental Soc",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Medical Brd",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "State Bar Griev (Lawyers)",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "State Brd Barber Exam",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Brd of Regist (Engineers)",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Cosmet Comm",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Vet Assoc",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Psychiatric Ref",
+				"ref": 59,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Baylor Coll of Med",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Harris Co Psych Hosp",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Mental Health Warrant",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "MHA",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "UH Psych Clinic",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "UTMB",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Public Utilities",
+				"ref": 60,
+				"editable": true
+			},
+			{
+				"text": "Public Utility Comm",
+				"ref": 61,
+				"editable": true
+			},
+			{
+				"text": "Realtor",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "School Campus",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Self",
+				"ref": 62,
+				"editable": true
+			},
+			{
+				"text": "Shelters",
+				"ref": 63,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Roseate",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "S.E.A.R.C.H.",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Salv Army (Men)",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Salv Army (Women/Fam)",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Star of Hope (Men)",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Star of Hope (Women/Fam)",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Social Serv Agen",
+				"ref": 64,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "AAMA",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "AARP",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Blood Bank",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Casa de Esperanza",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Catholic Charities",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "CFC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Children COPE",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Family Serv Ctr",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Fifth Ward MSC",
+							"ref": 0,
+							"editable": true,
+							"icon": "pictlib:0"
+						},
+						{
+							"text": "Harris Co Soc Serv",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Houston Area Agcy on Aging",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Houston Child Guidance",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Jewish Community Ctr",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Jewish Family Ctr",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "LULAC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Magnolia MSC",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "SPCA",
+				"ref": 65,
+				"editable": true
+			},
+			{
+				"text": "State Depts",
+				"ref": 66,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "APS",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DMV",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DPS",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Sate Controller",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TEA",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TEC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Brd of Ins",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Brd of Realtors",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX DRCs",
+							"ref": 0,
+							"editable": true,
+							"subTree": {
+								"lineHeight": 18,
+								"editable": false,
+								"customDataInteger": 0,
+								"items": [
+									{
+										"text": "DRC - Amarillo",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Austin",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Beaumont",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Conroe",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Corpus Christi",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Dallas",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - El Paso",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Fort Worth",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Houston",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Lewisville",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Lubbock",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - McKinney",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - Richmond",
+										"ref": 0,
+										"editable": true
+									},
+									{
+										"text": "DRC - San Antonio",
+										"ref": 0,
+										"editable": true
+									}
+								]
+							}
+						},
+						{
+							"text": "TX Funeral Svc Comm",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Housing Auth",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Natrl Resource Brd",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Real Estate Comm",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "TX Rehab Comm",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Tomball PD",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "TV",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Unknown",
+				"ref": 67,
+				"editable": true
+			},
+			{
+				"text": "US Depts",
+				"ref": 68,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "Dept of Justice",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Dept of Labor",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "FCC",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "HUD",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "INS",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Veterans Affairs",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "Worker's Comp",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "UT-AOA",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Yellow Pages",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Young Country",
+				"ref": 69,
+				"editable": true
+			}
+		]
+	},
+	"Apellate State": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "First Crt Appls",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Fourteenth Crt Appls",
+				"ref": 2,
+				"editable": true
+			}
+		]
+	},
+	"Race": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "A",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "B",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "C",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "H",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "O",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Intake Specialists": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "10",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "12",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "21",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "33",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "35",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "36",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "38",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "39",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "41",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "42",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "43",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "44",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "45",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "46",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "47",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "48",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "49",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "50",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "51",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "53",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "54",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "55",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "56",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "59",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "60",
+				"ref": 25,
+				"editable": true
+			},
+			{
+				"text": "63",
+				"ref": 26,
+				"editable": true
+			},
+			{
+				"text": "64",
+				"ref": 27,
+				"editable": true
+			},
+			{
+				"text": "65",
+				"ref": 28,
+				"editable": true
+			},
+			{
+				"text": "66",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "67",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "68",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "69",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "70",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "71",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "72",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "73",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "74",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "75",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "76",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "77",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "78",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "79",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "80",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "81",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "82",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "83",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "84",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "85",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "86",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "87",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "88",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "89",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "90",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Language Code": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "E ",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "O ",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "S ",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "V ",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Locations": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "01",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "02",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "03",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "04",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "05",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "06",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "07",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "08",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "09",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "10",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "11",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "12",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "13",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "14",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "15",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "16",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "17",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "18",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "19",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "20",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "21",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "22",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "23",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "24",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "25",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "26",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "27",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "28",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "29",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "30",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "31",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "32",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "33",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "34",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "35",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "36",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "37",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "38",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "39",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "40",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Docket Sites": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "313th DC",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "314th DC",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "315th DC",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Arbitration",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "DRC Day",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "DRC Night",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "DRC Night-Spanish",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Galena Park",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Katy Christ. M.",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "Litigation",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "Long-Term Care",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Moderated Setl Conf",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "Pasadena Muni. Ct.",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "School Campus",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Tomball Police",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 1, Pos 1",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 1, Pos 2",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 2, Pos 1",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 2, Pos 2",
+				"ref": 25,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 3, Pos 1",
+				"ref": 26,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 3, Pos 2",
+				"ref": 27,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 4, Pos 1",
+				"ref": 28,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 4, Pos 2",
+				"ref": 29,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 5, Pos 1",
+				"ref": 30,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 5, Pos 2",
+				"ref": 31,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 6, Pos 1",
+				"ref": 32,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 6, Pos 2",
+				"ref": 33,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 7, Pos 1",
+				"ref": 34,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 7, Pos 2",
+				"ref": 35,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 8, Pos 1",
+				"ref": 36,
+				"editable": true
+			},
+			{
+				"text": "JP, Pct 8, Pos 2",
+				"ref": 37,
+				"editable": true
+			}
+		]
+	},
+	"Time Periods": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Day(s)",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Week(s)",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Month(s)",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Year(s)",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"US Depts": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Dept of Justice",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Dept of Labor",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "FCC",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "HUD",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "INS",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Veterans Affairs",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Worker's Comp",
+				"ref": 7,
+				"editable": true
+			}
+		]
+	},
+	"Time Slots": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Morning",
+				"ref": 1,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "8:00AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "8:30AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "9:00AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "9:30AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "10:00AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "10:30AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "11:00AM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "11:30AM",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Afternoon",
+				"ref": 2,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "12:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "12:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "1:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "1:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "2:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "2:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "3:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "3:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "4:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "4:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "5:00PM",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "Evening",
+				"ref": 3,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "5:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "6:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "6:30PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "7:00PM",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "7:30PM",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			}
+		]
+	},
+	"Other PTypes": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "C1D",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "C1M",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "C2D",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "C2M",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "C3D",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "C3M",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "C4D",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "C4M",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "R1D",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "R1M",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "R2D",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "R2M",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "R3D",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "R3M",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "R4D",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "R4M",
+				"ref": 16,
+				"editable": true
+			}
+		]
+	},
+	"Appellate Federal": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "5th Circuit",
+				"ref": 1,
+				"editable": true
+			}
+		]
+	},
+	"Federal": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Fed-Atlas",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Fed-Gilmore",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Fed-Harmon",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Fed-Hittner",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Fed-Hoyt",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Fed-Hughes",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Fed-Lake",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Fed-Milloy",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Fed-Rainey",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Fed-Rosenthal",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "Fed-Stacy",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "Fed-Werlein",
+				"ref": 12,
+				"editable": true
+			}
+		]
+	},
+	"Bankruptcy": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Bnkrpt-Brown",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Bnkrpt-Clark",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Bnkrpt-Greendyke",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Bnkrpt-Leal",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Bnkrpt-Wheeless",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Legal Clinics": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Equal Access Law",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "So TX Law",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "TSU Law",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "UH Law",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"Criminal District": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "174 Crim Dist",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "176 Crim Dist",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "177 Crim Dist",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "178 Crim Dist",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "179 Crim Dist",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "180 Crim Dist",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "182 Crim Dist",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "183 Crim Dist",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "184 Crim Dist",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "185 Crim Dist",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "208 Crim Dist",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "209 Crim Dist",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "228 Crim Dist",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "230 Crim Dist",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "232 Crim Dist",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "248 Crim Dist",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "262 Crim Dist",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "263 Crim Dist",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "337 Crim Dist",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "338 Crim Dist",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "339 Crim Dist",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "351 Crim Dist",
+				"ref": 22,
+				"editable": true
+			}
+		]
+	},
+	"Old_TruantList": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Bastian Element Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Yates High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Worthing High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Woodson Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Thomas Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Sterling High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Ryan Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Ninth Grade Acad",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Madison High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Jones High Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Hartman Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Dowling Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Cullen Middle Schl",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Attucks Middle Schl",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Out of County Crts": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "198th DC-Gill",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Brazoria",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Colorado",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Ft Bend",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Galves",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Matagorda",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Montgom",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Co Crt, Walker",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Western Div, Austin (Fed)",
+				"ref": 9,
+				"editable": true
+			}
+		]
+	},
+	"Evening": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "5:30PM",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "6:00PM",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "6:30PM",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "7:00PM",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "7:30PM",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Civil District": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "011 DC",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "055 DC",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "061 DC",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "080 DC",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "113 DC",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "125 DC",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "127 DC",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "129 DC",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "133 DC",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "151 DC",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "152 DC",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "157 DC",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "164 DC",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "165 DC",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "189 DC",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "190 DC",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "215 DC",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "234 DC",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "269 DC",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "270 DC",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "280 DC",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "281 DC",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "295 DC",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "333 DC",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "334 DC",
+				"ref": 25,
+				"editable": true
+			}
+		]
+	},
+	"State Depts": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "APS",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "DMV",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "DPS",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "State Controller",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "TEA",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "TEC",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "TX Brd of Ins",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "TX Brd of Realtors",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "TX DRCs",
+				"ref": 9,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"customDataInteger": 0,
+					"items": [
+						{
+							"text": "DRC - Amarillo",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DRC - Austin",
+							"ref": 0,
+							"editable": true,
+							"icon": "pictlib:0"
+						},
+						{
+							"text": "DRC - Beaumont",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DRC - Conroe",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DRC - Corpus Christi",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DRC - Dallas",
+							"ref": 0,
+							"editable": true
+						},
+						{
+							"text": "DRC - El Paso",
+							"ref": 0,
+							"editable": true
+						}
+					]
+				}
+			},
+			{
+				"text": "TX Funeral Svc Comm",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "TX Housing Auth",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "TX Natrl Resource Brd",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "TX Real Estate Comm",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "TX Rehab Comm",
+				"ref": 14,
+				"editable": true
+			}
+		]
+	},
+	"HBA": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "HBA Aids Comm",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "HBA Elder Law",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "HBA Front Desk",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "HBA Grievance (Lawyers)",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "HBA HVLP",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "HBA Legal Line",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "HBA LRS",
+				"ref": 7,
+				"editable": true
+			}
+		]
+	},
+	"County Civil": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Co Civ 1",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Co Civ 2",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Co Civ 3",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Co Civ 4",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"Results": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "CON",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "CONT",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "DCL",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "IMP",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "NS",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "R/S",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "STL",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "VEN",
+				"ref": 8,
+				"editable": true
+			}
+		]
+	},
+	"Family  Child Supt": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Yes",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "No",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "N/A",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Family Results": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "impasse",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "narrowed issues",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "settlement",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Role_Activity": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Arbitrator",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Co-mediator",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Mediator",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Moderator",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Moderator-Admin",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Observer",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Ventilation",
+				"ref": 7,
+				"editable": true
+			}
+		]
+	},
+	"Other_Activity": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "C.E.",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "DRC Contact",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Med. came; no cases",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "Office Help",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Trainer",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"Law Enforcement": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Airport PD Hobby",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Airport PD Inter",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Alief ISD",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Bearcreek PD",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Bellaire PD",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Channelview PD",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Clear Lake (El Largo) PD",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 1",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 2",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 3",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 4",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 5",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 6",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 7",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "Constables Pct 8",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "Deer Park PD",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "Galena Park PD",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "Harris Co Sheriff's Office",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "Hedwig Village PD",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "Houston PD",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "Humble PD",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "Jacinto City PD",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "Jersey Village PD",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "Katy ISD",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "Katy PD",
+				"ref": 25,
+				"editable": true
+			},
+			{
+				"text": "Lakeview PD",
+				"ref": 26,
+				"editable": true
+			},
+			{
+				"text": "LaPorte PD",
+				"ref": 27,
+				"editable": true
+			},
+			{
+				"text": "League City PD",
+				"ref": 28,
+				"editable": true
+			},
+			{
+				"text": "Missouri City PD",
+				"ref": 29,
+				"editable": true
+			},
+			{
+				"text": "Nassau Bay PD",
+				"ref": 30,
+				"editable": true
+			},
+			{
+				"text": "Pasadena ISD",
+				"ref": 31,
+				"editable": true
+			},
+			{
+				"text": "Pasadena PD",
+				"ref": 32,
+				"editable": true
+			},
+			{
+				"text": "Pearland PD",
+				"ref": 33,
+				"editable": true
+			},
+			{
+				"text": "Seabrook PD",
+				"ref": 34,
+				"editable": true
+			},
+			{
+				"text": "Shoreacres PD",
+				"ref": 35,
+				"editable": true
+			},
+			{
+				"text": "South Houston PD",
+				"ref": 36,
+				"editable": true
+			},
+			{
+				"text": "Southside PD",
+				"ref": 37,
+				"editable": true
+			},
+			{
+				"text": "Spring Branch ISD",
+				"ref": 38,
+				"editable": true
+			},
+			{
+				"text": "Spring Valley PD",
+				"ref": 39,
+				"editable": true
+			},
+			{
+				"text": "Stafford PD",
+				"ref": 40,
+				"editable": true
+			},
+			{
+				"text": "Taylor Lake PD",
+				"ref": 41,
+				"editable": true
+			},
+			{
+				"text": "Tomball PD",
+				"ref": 42,
+				"editable": true
+			},
+			{
+				"text": "Univ of Houston PD",
+				"ref": 43,
+				"editable": true
+			},
+			{
+				"text": "Village PD",
+				"ref": 44,
+				"editable": true
+			},
+			{
+				"text": "Wallisville PD",
+				"ref": 45,
+				"editable": true
+			},
+			{
+				"text": "Webster PD",
+				"ref": 46,
+				"editable": true
+			},
+			{
+				"text": "West Univ PD",
+				"ref": 47,
+				"editable": true
+			}
+		]
+	},
+	"Municipal, Houston": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Muni 01, Hou",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Muni 02, Hou",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Muni 03, Hou-Teen Crt",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Muni 04, Hou",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Muni 05, Hou",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Muni 06, Hou",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Muni 07, Hou",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Muni 08, Hou",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Muni 09, Hou",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Muni 12, Hou",
+				"ref": 10,
+				"editable": true
+			}
+		]
+	},
+	"FamOrders": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Perm",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "None",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Temp",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"District Family": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "245 DC Fam",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "245 DC Fam IV-D Court 1",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "245 DC Fam IV-D Court 2",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "245 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "245 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "246 DC Fam",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "246 DC Fam IV-D Court 1",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "246 DC Fam IV-D Court 2",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "246 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "246 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "247 DC Fam",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "247 DC Fam IV-D Court 1",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "247 DC Fam IV-D Court 2",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "247 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "247 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "257 DC Fam",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "257 DC Fam IV-D Court 1",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "257 DC Fam IV-D Court 2",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "257 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "257 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "308 DC Fam",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "308 DC Fam IV-D Court 1",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "308 DC Fam IV-D Court 2",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "308 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "308 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "309 DC Fam",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "309 DC Fam IV-D Court 1",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "309 DC Fam IV-D Court 2",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "309 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "309 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "310 DC Fam",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "310 DC Fam IV-D Court 1",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "310 DC Fam IV-D Court 2",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "310 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "310 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "311 DC Fam",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "311 DC Fam IV-D Court 1",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "311 DC Fam IV-D Court 2",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "311 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "311 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "312 DC Fam",
+				"ref": 25,
+				"editable": true
+			},
+			{
+				"text": "312 DC Fam IV-D Court 1",
+				"ref": 26,
+				"editable": true
+			},
+			{
+				"text": "312 DC Fam IV-D Court 2",
+				"ref": 27,
+				"editable": true
+			},
+			{
+				"text": "312 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "312 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "313 DC Fam",
+				"ref": 28,
+				"editable": true
+			},
+			{
+				"text": "313 DC Fam IV-D Court 1",
+				"ref": 29,
+				"editable": true
+			},
+			{
+				"text": "313 DC Fam IV-D Court 2",
+				"ref": 30,
+				"editable": true
+			},
+			{
+				"text": "313 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "313 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "314 DC Fam",
+				"ref": 31,
+				"editable": true
+			},
+			{
+				"text": "314 DC Fam IV-D Court 1",
+				"ref": 32,
+				"editable": true
+			},
+			{
+				"text": "314 DC Fam IV-D Court 2",
+				"ref": 33,
+				"editable": true
+			},
+			{
+				"text": "314 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "314 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "315 DC Fam",
+				"ref": 34,
+				"editable": true
+			},
+			{
+				"text": "315 DC Fam IV-D Court 1",
+				"ref": 35,
+				"editable": true
+			},
+			{
+				"text": "315 DC Fam IV-D Court 2",
+				"ref": 36,
+				"editable": true
+			},
+			{
+				"text": "315 DC Fam IV-D Court 3",
+				"ref": 0,
+				"editable": true
+			},
+			{
+				"text": "315 DC Fam IV-D Court 4",
+				"ref": 0,
+				"editable": true
+			}
+		]
+	},
+	"Domestic Violence": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "AVDA",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Fam Crim Law",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "HAWC",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "HPD-DVU",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "SOS",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "The Bridge-Pasad",
+				"ref": 6,
+				"editable": true
+			}
+		]
+	},
+	"Family Dispo Dist Ct": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "245TH",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "246TH",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "247TH",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "257TH",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "308TH",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "309TH",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "310TH",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "311TH",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "312TH",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "313TH",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "314TH",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "315TH",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "JP Court, Precinct 4, Position",
+				"ref": 13,
+				"editable": true
+			}
+		]
+	},
+	"Social Serv Agen": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "AAMA",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "AARP",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Blood Bank",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Casa de Esperanza",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Catholic Charities",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "CFC",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Children COPE",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Family Serv Ctr",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Fifth Ward MSC",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "Harris Co Soc Serv",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "Houston Area Agcy on Aging",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "Houston Child Guidance",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "Jewish Community Ctr",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "Jewish Family Ctr",
+				"ref": 14,
+				"editable": true
+			},
+			{
+				"text": "LULAC",
+				"ref": 15,
+				"editable": true
+			},
+			{
+				"text": "Magnolia MSC",
+				"ref": 16,
+				"editable": true
+			},
+			{
+				"text": "NAACP",
+				"ref": 17,
+				"editable": true
+			},
+			{
+				"text": "Parents Anon",
+				"ref": 18,
+				"editable": true
+			},
+			{
+				"text": "Parents Without Partners",
+				"ref": 19,
+				"editable": true
+			},
+			{
+				"text": "Ripley House",
+				"ref": 20,
+				"editable": true
+			},
+			{
+				"text": "Senior Guidance Prog",
+				"ref": 21,
+				"editable": true
+			},
+			{
+				"text": "United Way",
+				"ref": 22,
+				"editable": true
+			},
+			{
+				"text": "VGS",
+				"ref": 23,
+				"editable": true
+			},
+			{
+				"text": "Victim Assist Ctr",
+				"ref": 24,
+				"editable": true
+			},
+			{
+				"text": "Wesley House",
+				"ref": 25,
+				"editable": true
+			},
+			{
+				"text": "WIC",
+				"ref": 26,
+				"editable": true
+			}
+		]
+	},
+	"County Criminal": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "01 Co Crim",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "02 Co Crim",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "03 Co Crim",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "04 Co Crim",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "05 Co Crim",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "06 Co Crim",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "07 Co Crim",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "08 Co Crim",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "09 Co Crim",
+				"ref": 9,
+				"editable": true
+			},
+			{
+				"text": "10 Co Crim",
+				"ref": 10,
+				"editable": true
+			},
+			{
+				"text": "11 Co Crim",
+				"ref": 11,
+				"editable": true
+			},
+			{
+				"text": "12 Co Crim",
+				"ref": 12,
+				"editable": true
+			},
+			{
+				"text": "13 Co Crim",
+				"ref": 13,
+				"editable": true
+			},
+			{
+				"text": "14 Co Crim",
+				"ref": 14,
+				"editable": true
+			}
+		]
+	},
+	"MrorMs": {
+		"lineHeight": 18,
+		"editable": false,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "Mr",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Mrs",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Ms",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	}
+}

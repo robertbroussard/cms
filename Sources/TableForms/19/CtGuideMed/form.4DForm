@@ -1,0 +1,101 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 730,
+	"markerBreak": 730,
+	"markerFooter": 730,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 112,
+					"left": 0,
+					"width": 551,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "GUIDELINES FOR ATTORNEYS / PARTY REPRESENTATIVES"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 462,
+					"left": 295,
+					"width": 226
+				},
+				"Text2": {
+					"type": "text",
+					"top": 173,
+					"left": 22,
+					"width": 508,
+					"height": 448,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": " 1.  Be  prompt.  Please arrive at the mediation on time.\r\r 2.  For those participating in Mediation:  prepare your client.  The client should understand the mediation process, be prepared to discuss the case and enter into the settlement negotiations.\r\r 3.  For those participating in Arbitration:  be prepared.  Your case summary should be prepared in advance with a sufficient number of copies for opposing counsel, the clients, and the third party neutral.\r\r 4.  Bring your client(s).  It is imperative to the success of these efforts that the client and/or individual with full settlement authority attend the proceeding.\r\r 5.  Please complete the DRC Information Sheet.  It is very important that the information sheet be completely  FILLED OUT, SIGNED, and MAILED to the mediator as soon as possible.  This information is essential to the mediator;  it will be the only information that the mediator will have in order to prepare for this mediation.\r\r 6.  Understand that each party and counsel will be bound by the Rules for Mediation printed with the DRC Information Sheet pursuant to Tex. Civ. Prac. & Rem. Code Ann. Sec. 154.001 et seq."
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				}
+			}
+		}
+	]
+}

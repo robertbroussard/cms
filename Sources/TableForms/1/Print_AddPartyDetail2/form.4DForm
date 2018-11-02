@@ -1,0 +1,28 @@
+﻿{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 360,
+	"markerBreak": 371,
+	"markerFooter": 379,
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Subform1": {
+					"type": "subform",
+					"top": 6,
+					"left": 0,
+					"width": 555,
+					"height": 311,
+					"dataSourceTypeHint": "text",
+					"table": 21,
+					"listForm": "Print_AddPartyDetail",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				}
+			}
+		}
+	]
+}

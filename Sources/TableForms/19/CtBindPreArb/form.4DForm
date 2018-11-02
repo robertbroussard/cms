@@ -1,0 +1,406 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 728,
+	"markerBreak": 728,
+	"markerFooter": 728,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": 359,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 336,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 382,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 405,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 428,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line6": {
+					"type": "line",
+					"top": 451,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 474,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line8": {
+					"type": "line",
+					"top": 497,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line9": {
+					"type": "line",
+					"top": 520,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line10": {
+					"type": "line",
+					"top": 543,
+					"left": 32,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 89,
+					"left": 0,
+					"width": 551,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "AGREEMENT TO BINDING ARBITRATION"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 111,
+					"left": 189,
+					"width": 61,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Claim No."
+				},
+				"Text3": {
+					"type": "text",
+					"top": 167,
+					"left": 30,
+					"width": 27,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "vs"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 230,
+					"left": 30,
+					"width": 444,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "DATED this                                    day of                                                                 20            "
+				},
+				"Line11": {
+					"type": "line",
+					"top": 244,
+					"left": 102,
+					"width": 94,
+					"strokeWidth": 0.1
+				},
+				"Line12": {
+					"type": "line",
+					"top": 244,
+					"left": 259,
+					"width": 153,
+					"strokeWidth": 0.1
+				},
+				"Line13": {
+					"type": "line",
+					"top": 244,
+					"left": 425,
+					"width": 65,
+					"strokeWidth": 0.1
+				},
+				"Text5": {
+					"type": "text",
+					"top": 267,
+					"left": 30,
+					"width": 461,
+					"height": 28,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "We agree that the terms of the decision of the arbitrator(s) in the above captioned case shall be binding on all parties."
+				},
+				"Text6": {
+					"type": "text",
+					"top": 320,
+					"left": 32,
+					"width": 51,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Signed:"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 320,
+					"left": 293,
+					"width": 134,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "Relationship to case:"
+				},
+				"Line14": {
+					"type": "line",
+					"top": 359,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line15": {
+					"type": "line",
+					"top": 336,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line16": {
+					"type": "line",
+					"top": 382,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line17": {
+					"type": "line",
+					"top": 405,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line18": {
+					"type": "line",
+					"top": 428,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line19": {
+					"type": "line",
+					"top": 451,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line20": {
+					"type": "line",
+					"top": 474,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line21": {
+					"type": "line",
+					"top": 497,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line22": {
+					"type": "line",
+					"top": 520,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line23": {
+					"type": "line",
+					"top": 543,
+					"left": 293,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 111,
+					"left": 258,
+					"width": 106,
+					"height": 14,
+					"dataSource": "vCtCauseNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 137,
+					"left": 30,
+					"width": 249,
+					"height": 14,
+					"dataSource": "vCtPlaint",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 194,
+					"left": 30,
+					"width": 251,
+					"height": 14,
+					"dataSource": "vCtDefend",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

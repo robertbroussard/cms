@@ -1,0 +1,280 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerBody": 356,
+	"markerBreak": 364,
+	"markerFooter": 370,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 521,
+					"height": 355,
+					"fill": "#D4D4D4",
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 19,
+					"left": 35,
+					"width": 437,
+					"height": 283
+				},
+				"Text4": {
+					"type": "text",
+					"top": 65,
+					"left": 61,
+					"width": 119,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Select Group(s):"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 84,
+					"left": 62,
+					"width": 106,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 52,
+					"left": 179,
+					"width": 115
+				},
+				"Text29": {
+					"type": "text",
+					"top": 35,
+					"left": 178,
+					"width": 126,
+					"height": 17,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": "Mediator Mail Out"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 215,
+					"left": 110,
+					"width": 316,
+					"height": 32,
+					"dataSource": "vText1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ON_vAllMediators": {
+					"type": "checkbox",
+					"top": 92,
+					"left": 269,
+					"width": 152,
+					"height": 17,
+					"dataSource": "vAllMediators",
+					"text": "Include Inactive Mediators",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/ON_vAllMediators.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "checkbox",
+					"top": 118,
+					"left": 269,
+					"width": 152,
+					"height": 17,
+					"dataSource": "vEnvelope",
+					"text": "Envelopes",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable4": {
+					"type": "checkbox",
+					"top": 147,
+					"left": 269,
+					"width": 152,
+					"height": 17,
+					"dataSource": "vLabel",
+					"text": "Labels    3-Up (Avery  # 5160)",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable140": {
+					"type": "checkbox",
+					"top": 175,
+					"left": 269,
+					"width": 152,
+					"height": 17,
+					"dataSource": "vModSw",
+					"text": "Modify Addresses",
+					"fontSize": 9,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable140.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable6": {
+					"type": "button",
+					"top": 269,
+					"left": 156,
+					"width": 76,
+					"height": 21,
+					"dataSource": "rsdCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "button",
+					"top": 269,
+					"left": 271,
+					"width": 76,
+					"height": 21,
+					"dataSource": "rsdOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "dropdown",
+					"top": 118,
+					"left": 61,
+					"width": 159,
+					"height": 17,
+					"dataSource": "aGroup1",
+					"fontSize": 9,
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "dropdown",
+					"top": 147,
+					"left": 61,
+					"width": 159,
+					"height": 17,
+					"dataSource": "aGroup2",
+					"fontSize": 9,
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "dropdown",
+					"top": 176,
+					"left": 61,
+					"width": 159,
+					"height": 16,
+					"dataSource": "aGroup3",
+					"fontSize": 9,
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

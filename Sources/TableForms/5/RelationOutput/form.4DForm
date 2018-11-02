@@ -1,0 +1,149 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 45,
+	"markerBody": 66,
+	"markerBreak": 66,
+	"markerFooter": 69,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 26,
+					"left": 18,
+					"width": 323,
+					"height": 43
+				},
+				"Text1": {
+					"type": "text",
+					"top": 29,
+					"left": 21,
+					"width": 33,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Code"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 44,
+					"left": 18,
+					"width": 320,
+					"height": 1,
+					"startPoint": "bottomLeft"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 26,
+					"left": 66,
+					"height": 42
+				},
+				"Text2": {
+					"type": "text",
+					"top": 28,
+					"left": 72,
+					"width": 131,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"text": "Type of Relationship"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 7,
+					"left": 19,
+					"width": 223,
+					"height": 19,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Relationship Code File"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 48,
+					"left": 23,
+					"width": 36,
+					"height": 16,
+					"dataSource": "[RelCodeFile:5]RelCode:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 48,
+					"left": 72,
+					"width": 260,
+					"height": 16,
+					"dataSource": "[RelCodeFile:5]RelName:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

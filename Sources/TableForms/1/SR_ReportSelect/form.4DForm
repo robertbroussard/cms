@@ -1,0 +1,164 @@
+﻿{
+	"windowTitle": "State Report",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"pTypePopup": {
+					"type": "dropdown",
+					"top": 15,
+					"left": 78,
+					"width": 159,
+					"height": 26,
+					"dataSource": "pTypePopup",
+					"choiceList": [
+						"Filed",
+						"UnFiled"
+					],
+					"styleSheet": "StateReport_Popup",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"pStartDate": {
+					"type": "dropdown",
+					"top": 49,
+					"left": 78,
+					"width": 159,
+					"height": 26,
+					"dataSource": "pStartDate",
+					"styleSheet": "StateReport_Popup",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"pEndDate": {
+					"type": "dropdown",
+					"top": 84,
+					"left": 78,
+					"width": 159,
+					"height": 26,
+					"dataSource": "pEndDate",
+					"styleSheet": "StateReport_Popup",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 149,
+					"left": 84,
+					"width": 67,
+					"height": 22,
+					"dataSource": "bCancel",
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"styleSheet": "StateReport_Popup",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"BOkay": {
+					"type": "button",
+					"top": 149,
+					"left": 167,
+					"width": 67,
+					"height": 22,
+					"dataSource": "bOkay",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "Okay",
+					"styleSheet": "StateReport_Popup",
+					"fontWeight": "bold",
+					"defaultButton": true,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 18,
+					"left": 13,
+					"width": 60,
+					"height": 16,
+					"textAlign": "right",
+					"styleSheet": "StateReport_Popup_Label",
+					"text": "Type:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 55,
+					"left": 2,
+					"width": 71,
+					"height": 16,
+					"textAlign": "right",
+					"styleSheet": "StateReport_Popup_Label",
+					"text": "Start Date:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 87,
+					"left": 15,
+					"width": 58,
+					"height": 16,
+					"textAlign": "right",
+					"styleSheet": "StateReport_Popup_Label",
+					"text": "End Date\t:"
+				}
+			}
+		}
+	]
+}

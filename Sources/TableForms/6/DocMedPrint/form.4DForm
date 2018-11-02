@@ -1,0 +1,177 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 18,
+	"markerBody": 39,
+	"markerBreak": 738,
+	"markerFooter": 738,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 14,
+					"width": 533,
+					"height": 22,
+					"fill": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Line1": {
+					"type": "line",
+					"top": 18,
+					"left": 52,
+					"height": 21,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 18,
+					"left": 118,
+					"width": 1,
+					"height": 21,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 18,
+					"left": 229,
+					"width": 1,
+					"height": 22,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 18,
+					"left": 341,
+					"width": 1,
+					"height": 21,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 18,
+					"left": 372,
+					"width": 1,
+					"height": 22,
+					"strokeWidth": 0.1
+				},
+				"Line6": {
+					"type": "line",
+					"top": 18,
+					"left": 410,
+					"height": 21,
+					"strokeWidth": 0.1
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 24,
+					"left": 417,
+					"width": 125,
+					"height": 11,
+					"dataSource": "vpdMed",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 42,
+					"left": 14,
+					"width": 533,
+					"height": 40,
+					"fill": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Line82": {
+					"type": "line",
+					"top": 43,
+					"left": 52,
+					"height": 39,
+					"strokeWidth": 0.1
+				},
+				"Line83": {
+					"type": "line",
+					"top": 43,
+					"left": 118,
+					"width": 1,
+					"height": 39,
+					"strokeWidth": 0.1
+				},
+				"Line84": {
+					"type": "line",
+					"top": 43,
+					"left": 229,
+					"width": 1,
+					"height": 38,
+					"strokeWidth": 0.1
+				},
+				"Line85": {
+					"type": "line",
+					"top": 43,
+					"left": 341,
+					"width": 1,
+					"height": 39,
+					"strokeWidth": 0.1
+				},
+				"Line86": {
+					"type": "line",
+					"top": 42,
+					"left": 372,
+					"width": 1,
+					"height": 39,
+					"strokeWidth": 0.1
+				},
+				"Line87": {
+					"type": "line",
+					"top": 42,
+					"left": 410,
+					"height": 39,
+					"strokeWidth": 0.1
+				}
+			}
+		}
+	]
+}

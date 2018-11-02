@@ -1,0 +1,352 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 755,
+	"markerBody": 755,
+	"markerBreak": 755,
+	"markerFooter": 755,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 523,
+					"height": 433,
+					"fill": "#C5FFC0"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 8,
+					"left": 86,
+					"width": 374,
+					"height": 33
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 86,
+					"width": 374,
+					"height": 66
+				},
+				"Text1": {
+					"type": "text",
+					"top": 16,
+					"left": 136,
+					"width": 274,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Docket Results: Mediator Activity"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 56,
+					"left": 93,
+					"width": 61,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Mediator:"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 55,
+					"left": 158,
+					"width": 238,
+					"height": 15
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 7,
+					"left": 11,
+					"width": 51,
+					"height": 324
+				},
+				"Text3": {
+					"type": "text",
+					"top": 312,
+					"left": 18,
+					"width": 34,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Delete"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 284,
+					"left": 22,
+					"width": 32,
+					"height": 28,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.pict"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 284,
+					"left": 21,
+					"width": 29,
+					"height": 29,
+					"fill": "transparent"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 41,
+					"left": 24,
+					"width": 25,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "OK"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 14,
+					"left": 23,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.pict"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 86,
+					"left": 19,
+					"width": 35,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Cancel"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 59,
+					"left": 23,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.pict"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 130,
+					"left": 23,
+					"width": 26,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "First"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 104,
+					"left": 23,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.pict"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 175,
+					"left": 23,
+					"width": 25,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Prev"
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 149,
+					"left": 22,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture5.pict"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 219,
+					"left": 24,
+					"width": 25,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Next"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 192,
+					"left": 23,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.pict"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 266,
+					"left": 24,
+					"width": 24,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Last"
+				},
+				"Picture7": {
+					"type": "picture",
+					"top": 240,
+					"left": 23,
+					"width": 27,
+					"height": 27,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture7.pict"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 78,
+					"left": 158,
+					"width": 113,
+					"height": 14,
+					"fill": "transparent"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 80,
+					"left": 93,
+					"width": 37,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Role:"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 56,
+					"left": 159,
+					"width": 236,
+					"height": 13,
+					"dataSource": "[MedActFile:10]mafKey:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 79,
+					"left": 159,
+					"width": 111,
+					"height": 12,
+					"dataSource": "[MedActFile:10]Role_Activity:4",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Role_Activity"
+					},
+					"requiredList": {
+						"$ref": "/SOURCES/lists.json#/Role_Activity"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

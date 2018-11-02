@@ -1,0 +1,85 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 15,
+	"markerBreak": 15,
+	"markerFooter": 15,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 109,
+					"left": 45,
+					"width": 111,
+					"height": 19,
+					"strokeWidth": 0.1,
+					"strokeDashArray": "1 1"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 1,
+					"left": 1,
+					"width": 109,
+					"height": 13,
+					"dataSource": "[Groups:13]Group:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/MedGroups"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 14,
+					"left": -4,
+					"width": 124,
+					"strokeDashArray": "1 1"
+				}
+			}
+		}
+	]
+}

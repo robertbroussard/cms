@@ -1,0 +1,1 @@
+  //vOtherDate:=vOtherDate+0

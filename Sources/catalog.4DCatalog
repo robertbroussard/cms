@@ -1,0 +1,1218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="CMS" uuid="3BA69AF82DD94D56B6BFAF8A1F076BC9" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="IntakeFile" uuid="4690C182D3AB4464907900140E8D0E5B" id="1">
+		<field name="CaseNo" uuid="81AB4655921D41729A3A8466CC300C92" type="10" limiting_length="9" unique="true" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="LocCode" uuid="4D234427787C4A4EAB8DE55CCD9547AC" type="10" limiting_length="2" never_null="true" id="2"/>
+		<field name="IdCode" uuid="9E589F8BDC374CAF9218587AAA2DFDAE" type="10" limiting_length="2" never_null="true" id="3"/>
+		<field name="IntakeDate" uuid="FC17489C1EE74D68AB878B5857E9C30D" type="8" never_null="true" id="4">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Ct_PdNo" uuid="716D1A5514824C8EA360C5F84861E17D" type="10" limiting_length="20" never_null="true" id="5"/>
+		<field name="CLName" uuid="6CD8832E1F54469EA7100EC06FD12152" type="10" limiting_length="40" never_null="true" id="6">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="CFName" uuid="58710355E2AA40088D46C294A43B3C92" type="10" limiting_length="40" never_null="true" id="7">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="CHPhone" uuid="C67502CA7D194A9E89C7460CB89F3495" type="10" limiting_length="10" never_null="true" id="8"/>
+		<field name="CWPhone" uuid="5679F84DE56E4F23AEBA0304C9532584" type="10" limiting_length="10" never_null="true" id="9"/>
+		<field name="CLang" uuid="06A7BC413D5E40E39043C660E8D22995" type="10" limiting_length="2" never_null="true" id="10">
+			<field_extra enumeration_id="15001"/>
+		</field>
+		<field name="RLName" uuid="AAD265C4185E4196AFCB3647FCD5647F" type="10" limiting_length="40" never_null="true" id="11"/>
+		<field name="RFName" uuid="EFD37BDA533D4804A3E7DC32DD9134FB" type="10" limiting_length="40" never_null="true" id="12"/>
+		<field name="RHPhone" uuid="A758A92F540F4BE8BF8388AFACDCEE23" type="10" limiting_length="10" never_null="true" id="13"/>
+		<field name="RWPhone" uuid="4C59B84481174739A8E7DDA0EA64F33F" type="10" limiting_length="10" never_null="true" id="14"/>
+		<field name="RLang" uuid="6B93D3AC8CBD40BD878097DC4B3A4F3C" type="10" limiting_length="20" never_null="true" id="15">
+			<field_extra enumeration_id="15001"/>
+		</field>
+		<field name="RefBy" uuid="7DA231ECB7D64530BBC2ED1C10F4D8D4" type="10" limiting_length="25" never_null="true" id="16">
+			<field_extra enumeration_id="13878"/>
+		</field>
+		<field name="ifRelCode" uuid="29E56E7947A64E5BAEF5882573FEC107" type="10" limiting_length="3" never_null="true" id="17"/>
+		<field name="HowLong" uuid="A4725FBEFD1F434B99FB29861E2921F3" type="10" limiting_length="2" never_null="true" id="18"/>
+		<field name="TPeriod" uuid="FA7FE4DA05B54A7291E170E45E7B3F27" type="10" limiting_length="8" never_null="true" id="19">
+			<field_extra enumeration_id="15005"/>
+		</field>
+		<field name="AddPartyFlag" uuid="26BFF0A4A8DF4A8D8E242E1039116541" type="1" never_null="true" id="20"/>
+		<field name="AddPartyFile" uuid="7900AE7698DD42CEB53B0282E0CA4F5A" type="15" never_null="true" id="21"/>
+		<field name="DisputeCode" uuid="C54DD0D745634100ADA24812BB1C5A13" type="10" limiting_length="3" never_null="true" id="22"/>
+		<field name="CaseStyle" uuid="D8625A5BE7014C43A946F3C036544E96" type="10" never_null="true" id="23"/>
+		<field name="DateClosed" uuid="E9173650DE524265B5B30941C3994683" type="8" never_null="true" id="24"/>
+		<field name="CaseStatus" uuid="27557F809B1C4911A354DF449F2DA07C" type="10" limiting_length="20" never_null="true" id="25">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Referrals" uuid="19B29D4D7F474ABBABB552C557EC395E" type="15" never_null="true" id="26"/>
+		<field name="DDiscription" uuid="02C81D935E044D6C918D173B38521D87" type="10" never_null="true" id="27"/>
+		<field name="ResDesired" uuid="6BF742E8891D405B8339A53DFB3DDA26" type="10" never_null="true" id="28"/>
+		<field name="Comments" uuid="EC97A42F480340719212740145E4263E" type="10" never_null="true" id="29"/>
+		<field name="InterimCon" uuid="570C61A372054FA894EE79B28C6FF0FC" type="10" never_null="true" id="30"/>
+		<field name="Hot" uuid="06CAA9922D9A41A7BBC9A6C3883C5502" type="1" never_null="true" id="31"/>
+		<field name="Program" uuid="5CB2F09D430C4072B0E1CDB4B5B4A8A6" type="10" limiting_length="2" never_null="true" id="32">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="CFirm" uuid="7474FD935BEE4FA196BB2671A757FDD3" type="10" limiting_length="30" never_null="true" id="33"/>
+		<field name="CStAddress" uuid="FC93B0D3AC274F00A3BF730BA901C594" type="10" limiting_length="50" never_null="true" id="34"/>
+		<field name="CCity" uuid="1E7B9EBB92244442970C63421358861F" type="10" limiting_length="20" never_null="true" id="35"/>
+		<field name="CState" uuid="B2B64D2EDD844BA18DF6DA856923832D" type="10" limiting_length="2" never_null="true" id="36"/>
+		<field name="CZip" uuid="6775E8BCC5AB4E0BBC7628BEF1DF3442" type="10" limiting_length="9" never_null="true" id="37"/>
+		<field name="RFirm" uuid="B935ECD4F5934236B43A52167BDD387D" type="10" limiting_length="30" never_null="true" id="38"/>
+		<field name="RStAddress" uuid="D88EFC14B0304A2BA3D26798D1B7C3B4" type="10" limiting_length="50" never_null="true" id="39"/>
+		<field name="RCity" uuid="EAA19F61ECAC42E78CA8679D4EA031A2" type="10" limiting_length="20" never_null="true" id="40"/>
+		<field name="RState" uuid="4C1AB0FBC0FC4C52B034C44D7E4AB378" type="10" limiting_length="2" never_null="true" id="41"/>
+		<field name="RZip" uuid="87D080309C4F4595BDA0F9F9C368CBF1" type="10" limiting_length="9" never_null="true" id="42"/>
+		<field name="CSex" uuid="E6E54288041146FC87325F99E4A6E6B9" type="1" never_null="true" id="43"/>
+		<field name="CRace" uuid="1FEBD8313C1F4AE28803764E66FF7BE2" type="10" limiting_length="2" never_null="true" id="44"/>
+		<field name="CAge" uuid="E778BCE1EAF1448FBD83FBD5F54EA38D" type="3" never_null="true" id="45"/>
+		<field name="RSex" uuid="02C6338BE6E047AE982E057AD25D8BB8" type="1" never_null="true" id="46"/>
+		<field name="RRace" uuid="3A16C257111441D18552F97986D1F5BC" type="10" limiting_length="2" never_null="true" id="47"/>
+		<field name="RAge" uuid="2FBF02A770224627BBD5F850B2FB0FC3" type="3" never_null="true" id="48"/>
+		<field name="MedLocFrm" uuid="5CD726DA0DB64E8384B8EA6CE8DB1869" type="10" limiting_length="80" never_null="true" id="49"/>
+		<field name="MedLocAdr" uuid="7A44E0316F0C4213BA47BB6DF4952CDD" type="10" limiting_length="80" never_null="true" id="50"/>
+		<field name="DateMail" uuid="F51F68E3E38045B1A00158F413073236" type="8" never_null="true" id="51"/>
+		<field name="CFaxNumber" uuid="073543F8E89E407DB14DFF27727C423A" type="10" limiting_length="10" never_null="true" id="52"/>
+		<field name="RFaxNumber" uuid="76163AF72BFA4F65A35A8742D4221004" type="10" limiting_length="10" never_null="true" id="53"/>
+		<field name="DateTrial" uuid="7761785B83A748239281012B04D5540F" type="8" never_null="true" id="54"/>
+		<field name="Disabled" uuid="CAF8662A10684B19824D027D06DA9F3A" type="1" never_null="true" id="55"/>
+		<field name="FamIncome" uuid="855EC784CA9B40B39A46AF144C0448C2" type="6" never_null="true" id="56"/>
+		<field name="FamSize" uuid="2C9EA9BF926945C2BCC0C8C3A4D72920" type="6" never_null="true" id="57"/>
+		<field name="Unused" uuid="3E2EAAFA6EA94B259BC22FCFA4ECC7B0" type="1" never_null="true" id="58"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="60">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="225" top="27" width="108" height="1319"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="LocationFile" uuid="EB66F981206047F9BBDBCEA83324D84E" id="2">
+		<field name="LTLocID" uuid="8F1979B4EAAD427DA16D62DD19CE857F" type="10" limiting_length="2" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="LTLocName" uuid="B2E8B58F2EFD42F498EE987398A386C9" type="10" limiting_length="25" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="507" top="4" width="111" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ISIDTable" uuid="BC461C3815CD4C77B811EAE415DCEAE5" id="3">
+		<field name="IdNumber" uuid="C4E84EEC8D5D496F82653C34BA81D455" type="10" limiting_length="2" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="ISName" uuid="17FC6650B9874800B4553CE84A27D908" type="10" limiting_length="30" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="444" top="103" width="102" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="DisputeFile" uuid="FA1A264D60F74974B832762B7A9835AA" id="4">
+		<field name="DisCode" uuid="2C1DFBDC39BB4C4689E3D146A74E9E92" type="10" limiting_length="3" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="DisName" uuid="FAE6E05043BB428B801DE5876CC38E2F" type="10" limiting_length="40" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="SDisName" uuid="0AAC560F7CFD498CB4F9966966BD8213" type="10" never_null="true" id="3"/>
+		<field name="StateCode" uuid="5C57ED01D9D64C569F6A82B8D93D035D" type="3" never_null="true" id="4"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="2">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="449" top="441" width="109" height="86"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="RelCodeFile" uuid="B5469D0587B04C74A7F1A67B7C36ED43" id="5">
+		<field name="RelCode" uuid="AB1EFAD90BC04F81A0ECC5588DEAF672" type="10" limiting_length="3" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="RelName" uuid="E0F7C1939874492DA062EEE74FC3FEB7" type="10" limiting_length="30" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="77" top="792" width="94" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="DocketFile" uuid="DB81ABF504B24D598E6380530F336455" id="6">
+		<field name="DocketSite" uuid="67C9B0C77F304A87AA389013EBA1EC71" type="10" limiting_length="20" never_null="true" id="1">
+			<field_extra mandatory="true" enumeration_id="15004"/>
+		</field>
+		<field name="DocketDate" uuid="E4FFC6F846224D79A3C8345D2780EFC7" type="8" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="TimeSlot" uuid="462182DA0C6B41AD880DEC32C389158F" type="10" limiting_length="10" never_null="true" id="3"/>
+		<field name="DFCaseNo" uuid="FBA7F0F35C5E426DA44668BDD49C2AD4" type="10" limiting_length="9" never_null="true" id="4"/>
+		<field name="Unusedsub" uuid="B6EAB4DF3CB74AF18BD1A2D3261081BA" type="15" never_null="true" id="5"/>
+		<field name="DocKey" uuid="C10E7DB302464BDEA7613F6BBFC9E8E6" type="10" limiting_length="39" never_null="true" id="6">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="dfUnused3" uuid="4388843561ED4922A609D82965373F9F" type="1" never_null="true" id="7"/>
+		<field name="dfUnused4" uuid="3EDD18A53B56412FADB91ABD83D4EEB5" type="1" never_null="true" id="8"/>
+		<field name="dfUnused5" uuid="E4EF0DEB7AA04C7A85EB919C6B1B164B" type="1" never_null="true" id="9"/>
+		<field name="dfUnused6" uuid="B73DCAFDA2F541CBB7B98A43FC569EDC" type="1" never_null="true" id="10"/>
+		<field name="HResults" uuid="F966A4C2E90141B185C09A87BB7F6BA2" type="10" limiting_length="5" never_null="true" id="11"/>
+		<field name="HLenght" uuid="E1666B0B56304CA59F8E8D3AADCFEC4B" type="6" never_null="true" id="12"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="4">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="695" top="13" width="118" height="140"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="SiteConstraints" uuid="AC91C5C19F9A4758B7E0B055742E0998" id="7">
+		<field name="Site" uuid="6D28869E0EE548FE80A077D5A6DC8E21" type="10" limiting_length="20" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="MaxCases" uuid="DCB838F010174CC080B2FC2834428DB1" type="3" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="CBMP" uuid="138F67DF49814C6BBB2D362D81721384" type="1" never_null="true" id="3">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="FMP" uuid="A824B4F43B774CF9A0FFD403A960CCE1" type="1" never_null="true" id="4">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="JUMP" uuid="E4BD746FE5B84568A2E7B1413FD75496" type="1" never_null="true" id="5">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="LMP" uuid="AE06B0D991864C59A633E79D5F83B688" type="1" never_null="true" id="6">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="SEMP" uuid="0FAE875F07E344CA812E95C79C3BFCF3" type="1" never_null="true" id="7">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Monday" uuid="A339FAE51F4E4F159F71E76B17922DD7" type="1" never_null="true" id="8">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Tuesday" uuid="C8E3DCC654154DE5AA4D48A5BFB98055" type="1" never_null="true" id="9">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Wednesday" uuid="C740B1717B1846EC9E1AA214DE0B02F9" type="1" never_null="true" id="10">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Thursday" uuid="D8447C1A50ED4BBBA8A75D60F0CD0DD8" type="1" never_null="true" id="11">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Friday" uuid="6250D50122D24DC29E181EE1A7819C96" type="1" never_null="true" id="12">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="AllowSpanish" uuid="CE07DDE0DB6043C1B1B3A21ED4C455E4" type="1" never_null="true" id="13">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="SpanishOnly" uuid="CFF101DCFE004D6DBE5C7E5B6135C06F" type="1" never_null="true" id="14">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="DocAddress" uuid="E4AD5725FDA1489A82C0EE5E4AB0A065" type="10" never_null="true" id="15"/>
+		<field name="SDocAddress" uuid="AFC2BF02D9B94E389FBEDAE24B7B9933" type="10" never_null="true" id="16"/>
+		<field name="VOMP" uuid="1E34857894A441A6AF58E54DF0B174BF" type="1" never_null="true" id="17">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="MSC" uuid="D5791BCB66754C86AA4715AE80089A65" type="1" never_null="true" id="18">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Arbitration" uuid="C48F6225AEE6450DB2A86ED59BDD098F" type="1" never_null="true" id="19">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="CommDev" uuid="57A76C9CE9764C239A2559F7DFACF952" type="1" never_null="true" id="20"/>
+		<field name="Prob" uuid="F5B2380FC6B546B9AE45237440C09098" type="1" never_null="true" id="21"/>
+		<field name="CPS" uuid="2FD6AE6EFCDE4AD68AB8FBDA0C5C0CD6" type="1" never_null="true" id="22"/>
+		<field name="CFK" uuid="E824CFE133F546AAB037BFAAA838638D" type="1" never_null="true" id="23"/>
+		<field name="Truant" uuid="50466BBA43D24F97ADA751A377313020" type="1" never_null="true" id="24"/>
+		<field name="LTC" uuid="9F3196461C6A4FC6A103BF91EDB3E477" type="1" never_null="true" id="25"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="26">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="1072" top="10" width="128" height="602"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="InvalidDateFile" uuid="6F352B6344124DFDBE4849E719F4F417" id="8">
+		<field name="idfCode" uuid="6D59D451C56641289EF1ACFE3C843AE7" type="10" limiting_length="5" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="InvalidDate" uuid="10819A34C24D4C228E84044C26A4C445" type="8" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="886" top="426" width="102" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="MediatorFile" uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" id="9">
+		<field name="MLName" uuid="1C503667B45E45C48BA4CC04A149A9D8" type="10" limiting_length="30" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="MFName" uuid="700EF02593D54DB28359CFE558BE777B" type="10" limiting_length="30" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="MTitle" uuid="367B0B6D1BDD45C595F0C30F50D75033" type="10" limiting_length="5" never_null="true" id="3"/>
+		<field name="Firm" uuid="1EACFD4B07B74743AB5ACADA62BF6758" type="10" limiting_length="60" never_null="true" id="4"/>
+		<field name="Add1" uuid="73AB7E0FB9C34C2AA02075890995FE79" type="10" limiting_length="60" never_null="true" id="5">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Add2" uuid="4ED767C217D24C6FA40C859A31DC76A8" type="10" limiting_length="25" never_null="true" id="6"/>
+		<field name="City" uuid="D6EF942CDB9042288B969D0F1DD7A011" type="10" limiting_length="15" never_null="true" id="7">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="State" uuid="49C84CAB04804DB6B0407FB1ADFF4DEE" type="10" limiting_length="2" never_null="true" id="8">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="MedZip" uuid="7895C0E5476647AEB6060DC3DD9EE6BB" type="10" limiting_length="9" never_null="true" id="9">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="JrOrSuffix" uuid="00ACDFF312DB44E9B11C476D6B7DF9EC" type="10" limiting_length="20" never_null="true" id="10"/>
+		<field name="DateEntered" uuid="6DC85FD6C19D42A9A9B752C572CDD050" type="8" never_null="true" id="11"/>
+		<field name="HmPhone" uuid="02FF5549B8AA40209587EA14C12D486C" type="10" limiting_length="20" never_null="true" id="12"/>
+		<field name="WkPhone" uuid="1B24C20F2FDB44B5BCB73492942F2B1B" type="10" limiting_length="20" never_null="true" id="13"/>
+		<field name="MKey" uuid="89A9B88AC8074478AF02667B3853E4CD" type="10" limiting_length="30" never_null="true" id="14"/>
+		<field name="MFInact" uuid="5E5978C335A84E7F823A4BA4E213C4FE" type="1" never_null="true" id="15"/>
+		<field name="FaxNumber" uuid="55012DE8B9C247E5B371DB3C00843F4A" type="10" limiting_length="10" never_null="true" id="16"/>
+		<field name="CertFlag" uuid="7DF7716B2C47484E81170C34B0A19AB1" type="1" never_null="true" id="17"/>
+		<field name="MFNotes" uuid="0CF26F09A9064E91A8151F77659C0F76" type="10" never_null="true" id="18"/>
+		<field name="MFEmail" uuid="692B68F21F5C4042B4333A399945E55F" type="10" never_null="true" id="19"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="14">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="648" top="296" width="127" height="350"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="MedActFile" uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" id="10">
+		<field name="mafKey" uuid="F254F6DC4AF24DD88E32B8124981DA4E" type="10" limiting_length="30" never_null="true" id="1"/>
+		<field name="mafDocKey" uuid="D190EEDD328345FB8FFC23B5DB4100B6" type="10" limiting_length="39" never_null="true" id="2"/>
+		<field name="mafCaseNo" uuid="8A9E3697E99843A5BCE6506700FDCCCE" type="10" limiting_length="9" never_null="true" id="3"/>
+		<field name="Role_Activity" uuid="1E6624524E674E808D5E3A21725CA6AE" type="10" limiting_length="20" never_null="true" id="4">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="ActDate" uuid="2BD364A0A7F847F297B61C156AF143D5" type="8" never_null="true" id="5">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="AmtOfTime" uuid="905ABDF21B8F4F788933BFE2A9BAE3F7" type="6" never_null="true" id="6"/>
+		<field name="Notes" uuid="DF18EC12F5814D4D89D8B3693BA859DB" type="10" never_null="true" id="7"/>
+		<field name="ActResults" uuid="C8366AC78870426D82C14A818536C6D7" type="10" limiting_length="5" never_null="true" id="8"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="2">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="599" top="172" width="120" height="98"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Constants" uuid="F236A9DF54C04F5B86A27539F5AABC64" id="11">
+		<field name="Sequence" uuid="9AE68B11B32B4D9A8D1709F76DE73FAE" type="3" never_null="true" id="1"/>
+		<field name="Number" uuid="1D4DC318F6C14636AEA8C0BE522D637A" type="4" never_null="true" id="2"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="885" top="346" width="93" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="TimeSlots" uuid="BB7E8F0E9E3E49F29B9232CD6D425D53" id="12">
+		<field name="tsSite" uuid="03EACAE07AF94E8DB81284382A7509EE" type="10" limiting_length="20" never_null="true" id="1">
+			<field_extra mandatory="true" enumeration_id="15004"/>
+		</field>
+		<field name="tsTime" uuid="94C53CEE3525445F96A7850949133AD1" type="10" limiting_length="20" never_null="true" id="2">
+			<field_extra enumeration_id="16659"/>
+		</field>
+		<field name="MaxPerSlot" uuid="DF472425DE344126965CC61B7952578C" type="3" never_null="true" id="3"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="2">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="857" top="208" width="105" height="86"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Groups" uuid="17DED9BB8E1B48C58B765217B90E9798" id="13">
+		<field name="GMKEY" uuid="7351C2A6D53C4A84A62DCEA304B2849C" type="10" limiting_length="30" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Group" uuid="5F57BB6288E34589A5F221A4BD030488" type="10" limiting_length="20" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="697" top="677" width="92" height="77"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="DailyLtrFile" uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" id="14">
+		<field name="DLFCaseNo" uuid="8EA2967C27AF4CE69133B39FF0EF0D66" type="10" limiting_length="9" never_null="true" id="1"/>
+		<field name="LtrType" uuid="912CEE6084B944F79DC3B81F60820BE3" type="10" limiting_length="30" never_null="true" id="2"/>
+		<field name="LName" uuid="F6CF4C58722D4797B4041DFB77C0EACD" type="10" limiting_length="50" never_null="true" id="3"/>
+		<field name="FName" uuid="5D6F563900334C5ABE7B8177FB6F9C6F" type="10" limiting_length="50" never_null="true" id="4"/>
+		<field name="PartyType" uuid="3112D2AE3E8F47128E66086DFECEB14F" type="10" limiting_length="10" never_null="true" id="5"/>
+		<field name="Initials" uuid="3B019294CCDD4B29A070EC44F95589B5" type="10" limiting_length="30" never_null="true" id="6"/>
+		<field name="Dispute" uuid="F20C2453555D4A1FAC4C823D1A5262E4" type="10" limiting_length="40" never_null="true" id="7"/>
+		<field name="Scheduled" uuid="8EB7081BD9014641BC4A2A198D2BE9BB" type="10" limiting_length="15" never_null="true" id="8"/>
+		<field name="SiteAddress" uuid="5774D65555C2439483C9DD323BADC806" type="10" never_null="true" id="9"/>
+		<field name="DocDate" uuid="B00CA3B574E64D47B8662EE2F4E667B7" type="8" never_null="true" id="10"/>
+		<field name="OPName" uuid="E5DA18775B614C6DBA5DECA48D6FE18F" type="10" limiting_length="30" never_null="true" id="11"/>
+		<field name="Style" uuid="4841C523973C472F8317A581D7DF1C72" type="10" never_null="true" id="12"/>
+		<field name="PFirm" uuid="CF5336394EBC493EBC51D08CF9A0D7C6" type="10" limiting_length="25" never_null="true" id="13"/>
+		<field name="PStAddress" uuid="B29EBB8DD33747509B866CBDE1047B39" type="10" limiting_length="50" never_null="true" id="14"/>
+		<field name="PCity" uuid="BE058444E5B04A49970EB3079679CACD" type="10" limiting_length="20" never_null="true" id="15"/>
+		<field name="PState" uuid="1BA08FD2B20D4FFF94F934859AC36B3A" type="10" limiting_length="2" never_null="true" id="16"/>
+		<field name="PZip" uuid="0E9EC9E504514697B0AC37FA8C1D1465" type="10" limiting_length="9" never_null="true" id="17"/>
+		<field name="DLFText" uuid="740C3007C0494137ADDD3BBF3D5DFD91" type="10" never_null="true" id="18"/>
+		<field name="TimeSlot" uuid="153ABA2359EE43E7A605050A653F5569" type="10" limiting_length="10" never_null="true" id="19"/>
+		<field name="PartyLang" uuid="A80FE38B9E2C47DDB5CA9F8EE373917F" type="10" limiting_length="2" never_null="true" id="20"/>
+		<field name="PrintEnv" uuid="811BE81CAFB3403280764466EA235473" type="1" never_null="true" id="21"/>
+		<field name="SDate" uuid="A3F7C5328CF64C2B8F9F4A883DC9E73B" type="10" never_null="true" id="22"/>
+		<field name="PrintDate" uuid="16C8279CC1994A7DAC92580856A1A3CB" type="8" never_null="true" id="23"/>
+		<field name="Spanish" uuid="2E6C9A90F613494381B7DB29192A8A62" type="1" never_null="true" id="24"/>
+		<field name="Copy" uuid="BC751BAA4BA24324A641361107AC2C1A" type="1" never_null="true" id="25"/>
+		<field name="OPName2" uuid="1C64E19B625D44FFAE22E972938E4890" type="10" limiting_length="30" never_null="true" id="26"/>
+		<field name="RefSource" uuid="7E0DA24A9F174CB692F362DD26E99EE3" type="10" limiting_length="20" never_null="true" id="27"/>
+		<field name="DLFCt_PdNo" uuid="2481401E1BB74CF5A41B7BD51787D386" type="10" limiting_length="20" never_null="true" id="28"/>
+		<field name="PAge" uuid="D7FCCED62B1F4DD1A44EBCABC9858625" type="3" never_null="true" id="29"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="24">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="22" top="15" width="125" height="560"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="LetterFile" uuid="2B2935F4A4DF45608650877C96DA35C2" id="15">
+		<field name="LFLtrName" uuid="9282BC55CF574DE798BBCC56BD3C6842" type="10" limiting_length="30" never_null="true" id="1"/>
+		<field name="Letter Text" uuid="C650B8ED5C9A4C09B04C2FF896725486" type="10" never_null="true" id="2"/>
+		<field name="LF_Unused" uuid="F320760FACDA41118249B0650A1DF537" type="1" never_null="true" id="3"/>
+		<field name="LF_Spanish" uuid="549F18F28E7044BD9642181EE21AFF21" type="1" never_null="true" id="4"/>
+		<field name="LF_Unused2" uuid="9CDC629FA91947CBAB971386F307741A" type="1" never_null="true" id="5"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="23" top="610" width="109" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="LtrRptFile" uuid="E5D9120F9A494FCBA528A0CFCAC3372A" id="16">
+		<field name="LtrCaseNo" uuid="AB282217C5F640268C3FF51D5035C802" type="10" limiting_length="9" never_null="true" id="1"/>
+		<field name="PartyType" uuid="A9D874D5622A43FD8885096D2DA4A8F0" type="10" limiting_length="10" never_null="true" id="2"/>
+		<field name="PartyName" uuid="EDC35186AD254A558A5A1A08377A43D9" type="10" limiting_length="30" never_null="true" id="3"/>
+		<field name="ReqInitials" uuid="FFB4C8FAA1B04EC79DA6A6292D347602" type="10" limiting_length="2" never_null="true" id="4"/>
+		<field name="LtrName" uuid="1002813CE8174B5B93942B8FF2ED509B" type="10" limiting_length="30" never_null="true" id="5"/>
+		<field name="PrintStatus" uuid="962873402BFF45AAB9643221D03FAA43" type="1" never_null="true" id="6"/>
+		<field name="Reason" uuid="45F955ABBD66479E8F0A9F007AB825FF" type="10" limiting_length="20" never_null="true" id="7"/>
+		<field name="DatePrinted" uuid="254620AE8FA245F4B5411475763F9456" type="8" never_null="true" id="8"/>
+		<field name="TimePrinted" uuid="BF0229C9499B41ED9E4848F803512761" type="9" never_null="true" id="9"/>
+		<field name="Batch_Or_Other" uuid="64828C442D284B0C9C398DA05F27500B" type="1" never_null="true" id="10"/>
+		<field name="PrintInitials" uuid="2B4171B456FF4D9E8322F4F21FCBEABA" type="10" limiting_length="2" never_null="true" id="11"/>
+		<field name="Envelope" uuid="717A9915EA004ED09F1E7F986E262EC1" type="1" never_null="true" id="12"/>
+		<table_extra visible="false">
+			<editor_table_info displayable_fields_count="8">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="1072" top="637" width="125" height="230"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="GroupLookup" uuid="DC7C538A9DBD4317B89D8717E33237A7" id="17">
+		<field name="GL_Group" uuid="9DD32B6FDBA9413AB783F03D74F554E7" type="10" limiting_length="20" never_null="true" id="1"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="885" top="510" width="125" height="54"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Details" uuid="30FF9EFA328C402AABDF56B9B22356C7" id="18">
+		<field name="CSR_CaseNo" uuid="A2C6B5C2BD4E49998A089BE768256252" type="10" limiting_length="9" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="MoneyCase" uuid="045E6DD1223A433D85F440F9588B4480" type="1" never_null="true" id="2"/>
+		<field name="AmtStl" uuid="581A7453276440AABE35E46E8BF1B10D" type="6" never_null="true" id="3"/>
+		<field name="CSR" uuid="E92A2B476CD047CB94B5C36BC0F3E0EC" type="1" never_null="true" id="4"/>
+		<field name="CSR_Hours" uuid="6A9E067DC35349CA894C8337FCC7E9B8" type="6" never_null="true" id="5"/>
+		<field name="Apologies" uuid="6B7ED88A1510433C8BB42F26055F11AB" type="1" never_null="true" id="6"/>
+		<field name="Restitution" uuid="4280BE07CC044559A173E631E819A059" type="1" never_null="true" id="7"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="2">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="33" top="692" width="144" height="92"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="CrtAddrFile" uuid="487C0BDA0BC046559997623A69D7EF11" id="19">
+		<field name="CCRefBy" uuid="3CB46C3F28754623AAD5AFC92ADB44B9" type="10" limiting_length="25" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="CCName" uuid="E500A2748687433A9D1CE082E72722CD" type="10" limiting_length="30" never_null="true" id="2"/>
+		<field name="CCCoord" uuid="2F73113A9B49453F8B76D5E97367306F" type="1" never_null="true" id="3"/>
+		<field name="CCCtName" uuid="10737892968E4DD4A012CB2A828E7B5F" type="10" limiting_length="30" never_null="true" id="4"/>
+		<field name="CCAddr1" uuid="7BB98AF1A59040E6929B17616E905D11" type="10" limiting_length="30" never_null="true" id="5"/>
+		<field name="CCAddr2" uuid="E6080D6C6FA24AAD9E6427B8742EED49" type="10" limiting_length="30" never_null="true" id="6"/>
+		<field name="CCPhone" uuid="87C7548FBE4A4D8181F5F161429596E7" type="10" limiting_length="10" never_null="true" id="7"/>
+		<field name="CCTitle1" uuid="8E1D3E7D2C0F4B2E9DF95E94C917BAC3" type="10" limiting_length="30" never_null="true" id="8"/>
+		<field name="CCTitle2" uuid="8F15C169D46F45B5AD36F6BB560AC8E8" type="10" limiting_length="30" never_null="true" id="9"/>
+		<field name="CCTitle3" uuid="69AE62C7397D43D885C9A9AB637A7212" type="10" limiting_length="30" never_null="true" id="10"/>
+		<field name="CCTitle4" uuid="850E29B3616746F2A6D29828AE59F4E4" type="10" limiting_length="30" never_null="true" id="11"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="8">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="445" top="182" width="121" height="224"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="FamilyFile" uuid="4BC1CDF899644B31BB26DD84C45F9B2B" id="20" leave_tag_on_delete="true">
+		<field name="FCaseNo" uuid="AB34C1FF4D0745C38A8505502588EEEE" type="10" limiting_length="9" unique="true" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="FMedBy" uuid="BF0624C8101347A0A798AEE49932798D" type="10" limiting_length="15" never_null="true" id="2"/>
+		<field name="FMarLen" uuid="54EF969E11D54D3EAF3CCB21357B1C10" type="10" limiting_length="6" never_null="true" id="3"/>
+		<field name="FMarStat" uuid="644FB850110E4E009AAAD9B04D070FCD" type="10" limiting_length="9" never_null="true" id="4">
+			<field_extra enumeration_id="3840"/>
+		</field>
+		<field name="FMarStatLen" uuid="344D05885BBB464DA66D5E669B093F6E" type="10" limiting_length="6" never_null="true" id="5"/>
+		<field name="FChildNo" uuid="67B0F8FBA0EF42CB9E471F6B7C8BDC3F" type="3" never_null="true" id="6"/>
+		<field name="FChildName" uuid="CD7DAC4BBA5141D1A54B9E883C93855A" type="10" never_null="true" id="7"/>
+		<field name="FOrdTemp" uuid="C081AE2A8242411FA7D43447372EB612" type="10" limiting_length="8" never_null="true" id="8"/>
+		<field name="FJointC" uuid="9EE1B1A168CD466888A784770E21AE72" type="1" never_null="true" id="9"/>
+		<field name="FManageC" uuid="F5CEA4ED9E5946B68204F15BF6798273" type="1" never_null="true" id="10"/>
+		<field name="FPossessC" uuid="313B48B85C4D422E842DE94C904FEC1C" type="1" never_null="true" id="11"/>
+		<field name="FPossOrd" uuid="F903CF2C09434C30AF021288A813FD28" type="1" never_null="true" id="12"/>
+		<field name="FPossText" uuid="04FB1EB38A614DF99BF05D7306A33B03" type="10" never_null="true" id="13"/>
+		<field name="FChildSuptC" uuid="10ADFFFA78FC42D386C6218B9172C67C" type="10" limiting_length="3" never_null="true" id="14"/>
+		<field name="FCSuptAmt" uuid="DE94588989F24E1E882ADAD2C6916570" type="3" never_null="true" id="15"/>
+		<field name="FMedCustC" uuid="3E216DADE45E4DD0BD8FB36B3601A627" type="1" never_null="true" id="16"/>
+		<field name="FMedVisitC" uuid="6E9CE29B4C764330A93CA13E3FE6B624" type="1" never_null="true" id="17"/>
+		<field name="FMedSuptC" uuid="6921B174331442128DE8CA6DB75B2064" type="1" never_null="true" id="18"/>
+		<field name="FMedPropC" uuid="2EFFC9A8CF40411BB0247A86DAEA72A8" type="1" never_null="true" id="19"/>
+		<field name="FMedOtherC" uuid="63188E6844A141C5B3CB38B296E1463A" type="1" never_null="true" id="20"/>
+		<field name="FDomViolC" uuid="D5AEF443DD6742D58C4269BE4B577553" type="1" never_null="true" id="21"/>
+		<field name="FDVDateC" uuid="66F0F7F0DD0F47349A771F321FB82EA4" type="10" never_null="true" id="22"/>
+		<field name="FDVFreqC" uuid="BDAD63F55EBD4247959FCEB98A263200" type="10" limiting_length="12" never_null="true" id="23"/>
+		<field name="FDVTotC" uuid="7EC52B3E17D843FCB5DC3D80EF363237" type="3" never_null="true" id="24"/>
+		<field name="FDVMedicalC" uuid="A7E1308C34FF45C0AA63E86B82406C51" type="1" never_null="true" id="25"/>
+		<field name="FDVPoliceC" uuid="8CA27130652F43BFB8192958D8B97551" type="1" never_null="true" id="26"/>
+		<field name="FDVChargeC" uuid="246FBC0EA0CA46C0BFF60A020BAD3873" type="1" never_null="true" id="27"/>
+		<field name="FDVProtectC" uuid="3B0898A4D585404288268AE18FFBA5AE" type="1" never_null="true" id="28"/>
+		<field name="FDVWeaponC" uuid="6068A69C2AEE449E9D36E644837A8E71" type="1" never_null="true" id="29"/>
+		<field name="FDVCounselC" uuid="522F6BFF644A456EADCC8FB17BAF4AB0" type="1" never_null="true" id="30"/>
+		<field name="FDVFutViolC" uuid="648877852808424ABE2271EF5D60C0B1" type="1" never_null="true" id="31"/>
+		<field name="FDVCommentC" uuid="6F6B0109CE1E4BE6A328D6C118B6222A" type="10" never_null="true" id="32"/>
+		<field name="FDVDrugsC" uuid="9DDA4CFF7DDA44A3BECE47633CC360FA" type="1" never_null="true" id="33"/>
+		<field name="FDVNoteC" uuid="5C4EB6A3BD95412AA3330AE2A65C242F" type="10" never_null="true" id="34"/>
+		<field name="FMedCustR" uuid="3A3FAAFF38EF41BBA9C730A57665193C" type="1" never_null="true" id="35"/>
+		<field name="FMedVisitR" uuid="07777E51B0FE44FC9B96E7D400466C49" type="1" never_null="true" id="36"/>
+		<field name="FMedSuptR" uuid="06F213585EF242CCA94FBA22245FFED2" type="1" never_null="true" id="37"/>
+		<field name="FMedPropR" uuid="3C410E68FC5D4D36B80E6F3C96ABBF8B" type="1" never_null="true" id="38"/>
+		<field name="FMedOtherR" uuid="AF5322FF96854CF08667753E47ACD364" type="1" never_null="true" id="39"/>
+		<field name="FDomViolR" uuid="C0A9BACD63B948B7823B2B16A2B432F5" type="1" never_null="true" id="40"/>
+		<field name="FDVDateR" uuid="AD1FB2A269F24E8793D98606B00184DD" type="10" never_null="true" id="41"/>
+		<field name="FDVFreqR" uuid="DCB17AEB43084048AD6E9768AABC2D7B" type="10" limiting_length="12" never_null="true" id="42"/>
+		<field name="FDVTotR" uuid="FCC3B2A5339142C1B14100FC7ACFB2A0" type="3" never_null="true" id="43"/>
+		<field name="FDVMedicalR" uuid="4903776F721C4357BCF02CDA505B51B7" type="1" never_null="true" id="44"/>
+		<field name="FDVPoliceR" uuid="0B555960744646A7B1534F9AF3969A6E" type="1" never_null="true" id="45"/>
+		<field name="FDVChargeR" uuid="D9E6531B916547B99E2C34EE7E76AFC3" type="1" never_null="true" id="46"/>
+		<field name="FDVProtectR" uuid="9A285A27883B449B9B6BE1854CB17EDC" type="1" never_null="true" id="47"/>
+		<field name="FDVWeaponR" uuid="1CCCBFFC3FCB41E1B2EF10A5C6DF2B6F" type="1" never_null="true" id="48"/>
+		<field name="FDVCounselR" uuid="4F97C46C055E4675A160337A02142DC7" type="1" never_null="true" id="49"/>
+		<field name="FDVFutViolR" uuid="B8A43B7AE4304348AD2BDD84C2365CA6" type="1" never_null="true" id="50"/>
+		<field name="FDVCommentR" uuid="1F3256ACE9C645E8B158BC693B4ADE86" type="10" never_null="true" id="51"/>
+		<field name="FDVDrugsR" uuid="A11346D58B4941F5BF9E3C0B7DECF703" type="1" never_null="true" id="52"/>
+		<field name="FDVNoteR" uuid="1F6557A10EB14521B1C474138DEC0A40" type="10" never_null="true" id="53"/>
+		<field name="FIncomeC" uuid="5C4BAEF4D75443B786802F20760AC44C" type="4" never_null="true" id="54"/>
+		<field name="FIncomeR" uuid="C623B1FA6AB2438BAE5B97DF51D7F99D" type="4" never_null="true" id="55"/>
+		<field name="FSavingC" uuid="407BB22A7CF34A7E99EE674488FB34BC" type="4" never_null="true" id="56"/>
+		<field name="FSavingR" uuid="F7598544A9E844DA8A2F46BB6F88D37F" type="4" never_null="true" id="57"/>
+		<field name="FHomeEqC" uuid="EB6C872FBE6142CFB16DBCC3B650C88D" type="4" never_null="true" id="58"/>
+		<field name="FOtherEqC" uuid="2F5A189FEE6E42F6AE8AFC036514F43B" type="4" never_null="true" id="59"/>
+		<field name="FInvestC" uuid="8C1A7DE73A8C4C5D87D6C2F6887FFCD9" type="4" never_null="true" id="60"/>
+		<field name="FInvestR" uuid="789569811A7E423DA0A86C9E60893EBA" type="4" never_null="true" id="61"/>
+		<field name="FRetireC" uuid="24DD239F81654B9DB123416B91461A03" type="1" never_null="true" id="62"/>
+		<field name="FRetireR" uuid="0EC5B1B3A2134C6595E0E9BFBA999499" type="1" never_null="true" id="63"/>
+		<field name="FAttyPdC" uuid="1153645BD2654B85A9E369369AFC3432" type="3" never_null="true" id="64"/>
+		<field name="FAttyPdR" uuid="55466BB076AF4746B523FA985D46C972" type="3" never_null="true" id="65"/>
+		<field name="FOtherKidC" uuid="2E31FC1FD1CE4380A77D9F636CABADB6" type="3" never_null="true" id="66"/>
+		<field name="FOtherKidR" uuid="980D1553BED64951B881E9EEEFB16337" type="3" never_null="true" id="67"/>
+		<field name="FOthSuptC" uuid="BF33C6F341594FAA8C357E9D7FA596A2" type="3" never_null="true" id="68"/>
+		<field name="FOthSuptR" uuid="531429BD714048199FE0CD73FD2F4069" type="3" never_null="true" id="69"/>
+		<field name="FSpecNote" uuid="F2056B1D7D94439C9ED2142ED1F69EB9" type="10" never_null="true" id="70"/>
+		<field name="FAvailDayC" uuid="F8CEE473FCA444F0B53D78CDA4541CE2" type="10" limiting_length="60" never_null="true" id="71"/>
+		<field name="FAvailEveC" uuid="6FD4CC8AB375474DB971B6DF6337D76D" type="10" limiting_length="60" never_null="true" id="72"/>
+		<field name="FAvailDayR" uuid="96A4F875070F4046A461180AA750C474" type="10" limiting_length="60" never_null="true" id="73"/>
+		<field name="FAvailEveR" uuid="71AFDA4CF3FC414388660B4F0835DE78" type="10" limiting_length="60" never_null="true" id="74"/>
+		<field name="FAvailDayATC" uuid="61F13035E668491D9145CCD2825E0E9C" type="10" limiting_length="60" never_null="true" id="75"/>
+		<field name="FAvailEveATC" uuid="3BC717A4C8D442CA880CCDBDE78D34B3" type="10" limiting_length="60" never_null="true" id="76"/>
+		<field name="FAvailDayATR" uuid="A9DAF7DE89424658BE71AEA2DE00322B" type="10" limiting_length="60" never_null="true" id="77"/>
+		<field name="FAvailEveATR" uuid="7257D0285DB74EBDB9364D7533305079" type="10" limiting_length="60" never_null="true" id="78"/>
+		<field name="FJointR" uuid="BC917CF9DAAA45819C64019FFAED2AB4" type="1" never_null="true" id="79"/>
+		<field name="FManageR" uuid="67A179BEF0F3406497101C95B20D0FFF" type="1" never_null="true" id="80"/>
+		<field name="FPossessR" uuid="7D248ABAA16649CB9E0BF16B7E5979E1" type="1" never_null="true" id="81"/>
+		<field name="FChildSuptR" uuid="C3AD30BBDC764244A9E0D65E20D6B7FF" type="10" limiting_length="3" never_null="true" id="82"/>
+		<field name="FATAttendC" uuid="6C10E3A238964765BD43D0759E49F017" type="1" never_null="true" id="83"/>
+		<field name="FATAvailC" uuid="B381ABBE361D4A22A43DD25577691A7B" type="1" never_null="true" id="84"/>
+		<field name="FATAttendR" uuid="15D7910730394387B7706E68506E208C" type="1" never_null="true" id="85"/>
+		<field name="FATAvailR" uuid="43FF7E27AFEC49A7999B56F37886BAA7" type="1" never_null="true" id="86"/>
+		<field name="FNewSpousC" uuid="FD60006D115A4567A1B7B2BBD4399605" type="6" never_null="true" id="87"/>
+		<field name="FNewSpousR" uuid="A50B8C341A3B4B268CF305ED80EF0C42" type="6" never_null="true" id="88"/>
+		<field name="FALAttend" uuid="1921F05F8FE94CFD8F09432F74C2D852" type="1" never_null="true" id="89"/>
+		<field name="FALAvail" uuid="CE6AA3D7FC634883A3913C0BC1F2A347" type="1" never_null="true" id="90"/>
+		<field name="FAvailDayAL" uuid="658563EB448D49ACA16B4AE5EA67AD24" type="10" limiting_length="60" never_null="true" id="91"/>
+		<field name="FAvailEveAL" uuid="E574CF2FF0F54CDA9D271F9E6E9C9A48" type="10" limiting_length="60" never_null="true" id="92"/>
+		<field name="FHomeEqR" uuid="79C1FFA1BBE548AF9F795A557D9BCE35" type="4" never_null="true" id="93"/>
+		<field name="FHomeEqShr" uuid="0B96D8FB9BEC4D65BDFCFD8F8617EBDC" type="4" never_null="true" id="94"/>
+		<field name="FMarLenUnit" uuid="084B387CAA5848DC9F163D6C47B487F6" type="10" limiting_length="5" never_null="true" id="95">
+			<field_extra enumeration_id="15851"/>
+		</field>
+		<field name="FMarStatUnit" uuid="EB05068A1A1940A58DD7327D545751CC" type="10" limiting_length="10" never_null="true" id="96"/>
+		<field name="FOtherEqR" uuid="5E44179F1FB246B38B1BA0C5BE16E2A1" type="4" never_null="true" id="97"/>
+		<field name="FOtherEqShr" uuid="5B912122D62B458AB4FE21BC4AC160FC" type="4" never_null="true" id="98"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="83">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="1285" top="9" width="117" height="1796"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="DBUpdate" uuid="57E24D0A501E4F179A2A61E4A0C75105" id="21">
+		<field name="Date_Run" uuid="2AAB612881B5499DA97E02AAF4CDD91B" type="8" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Time_Run" uuid="3BA86AC01B7743B8AD1342D94774D2A5" type="9" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="ProcName" uuid="2DCC318171354CE891A59EB7D4F7786C" type="10" limiting_length="50" never_null="true" id="3">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Status" uuid="3659C8AD567F43F6B33FFF5F82D934B4" type="10" limiting_length="20" never_null="true" id="4">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="LockDetail" uuid="39CAAD1AD42C43E0A34A279E6C1581F1" type="10" never_null="true" id="5"/>
+		<field name="Unused" uuid="36C5B7DEF8C9472985ABE2B35DF1F670" type="1" never_null="true" id="6"/>
+		<field name="Unused" uuid="D6D374F76F6146AA98532892518C0D20" type="1" never_null="true" id="7"/>
+		<field name="Unused" uuid="04E9B3562C734B3084844A7BDD17A473" type="1" never_null="true" id="8"/>
+		<field name="Unused" uuid="37F356F836744EAD8F873D481193EC55" type="1" never_null="true" id="9"/>
+		<field name="Unused" uuid="150D0D91A9D14F6AADB329D1C2DDA210" type="1" never_null="true" id="10"/>
+		<field name="Unused" uuid="9E5F406BB46246A485E45CAB0E373E4C" type="1" never_null="true" id="11"/>
+		<field name="Unused" uuid="EAA5234F0D484FB09CD726B7B6FD5B86" type="1" never_null="true" id="12"/>
+		<field name="Unused" uuid="FD8CDE8EAEF64038AE2CF4AB2BFE54B6" type="1" never_null="true" id="13"/>
+		<field name="Unused" uuid="EA817AEFF1FF4092B25972379871D8F6" type="1" never_null="true" id="14"/>
+		<field name="Unused" uuid="4636DB48CB9442E1BCD4BA4EFD039176" type="1" never_null="true" id="15"/>
+		<field name="Unused" uuid="153FC9FF06D84577BFCBAD04B7E273BD" type="1" never_null="true" id="16"/>
+		<field name="Unused" uuid="D17B02A7BEC045AB8F0D4FD6B0C60B1C" type="1" never_null="true" id="17"/>
+		<field name="Unused" uuid="4DA5912594AB4B059BC8C39BD8F566AE" type="1" never_null="true" id="18"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="14">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="1092" top="672" width="105" height="356"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="SR_BOM" uuid="70974A4B25F745FDB7C3606600900389" id="22">
+		<field name="ID" uuid="8901B42B69F14B99B578B174EA237F4F" type="4" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="YearMonth" uuid="21395979DDF54201BC5AC614F119B49D" type="10" limiting_length="6" never_null="true" id="2"/>
+		<field name="Filed" uuid="4278D7E97DC341D1957E8F28CDDFFA1E" type="18" never_null="true" id="3"/>
+		<field name="NotFiled" uuid="EE6BFCBB8AFA45D4AC2C9A8314D7D595" type="18" never_null="true" id="4"/>
+		<field name="CurrDate" uuid="C4EBDBE31C3146F79649A967E2D5F34E" type="8" never_null="true" id="5">
+			<field_extra modifiable="false" mandatory="true"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="5">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="850" top="601" width="100" height="158"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="IntakeFile_AddPartyFile" uuid="E5B9C7F63BD34E448EFC8F764D82E586" id="23">
+		<field name="APType" uuid="6A68CC3B305A4E9AAB825784A86F8505" type="10" limiting_length="10" never_null="true" id="1">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="LastName" uuid="266DCE0BBB844C95873DF7264D58DC58" type="10" limiting_length="30" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="FirstName" uuid="DC516C3324D64FDB81FF3B6BD6600647" type="10" limiting_length="30" never_null="true" id="3"/>
+		<field name="HPhone" uuid="C176218DB41D4C639C3D725274AD03CA" type="10" limiting_length="10" never_null="true" id="4"/>
+		<field name="WPhone" uuid="B2F0A43E09C141319AADDBD07548B3CC" type="10" limiting_length="10" never_null="true" id="5"/>
+		<field name="Lang" uuid="060B7871117544B09CEC67D9D79732FE" type="10" limiting_length="2" never_null="true" id="6">
+			<field_extra enumeration_id="15001"/>
+		</field>
+		<field name="APProSe" uuid="B4C9B657A4EA4FCE86423F24E8E50793" type="1" never_null="true" id="7"/>
+		<field name="APFirm" uuid="E1D9AAC6CAF54F11A449BF05EA4302E9" type="10" limiting_length="60" never_null="true" id="8"/>
+		<field name="APStAddress" uuid="09A7353A3BCF411AA09F509D33405AFD" type="10" limiting_length="60" never_null="true" id="9"/>
+		<field name="APCity" uuid="30C5A423B7664C6E8D4BE346ABEEA560" type="10" limiting_length="20" never_null="true" id="10"/>
+		<field name="ApState" uuid="9864EB9D6899410D86CC751A8AE2DCED" type="10" limiting_length="2" never_null="true" id="11"/>
+		<field name="APZip" uuid="6B20BB3E8A494C9B8A1AF6534D434761" type="10" limiting_length="9" never_null="true" id="12"/>
+		<field name="APSex" uuid="01BF59FE22554CE884ECD6426F1E2CAA" type="1" never_null="true" id="13"/>
+		<field name="APRace" uuid="F3E871821806460C841E91AD9FF53007" type="10" limiting_length="20" never_null="true" id="14"/>
+		<field name="APAge" uuid="8953779EB3BE4A1BBB73F7EB222AA2B8" type="3" never_null="true" id="15"/>
+		<field name="FaxNumber" uuid="6199A4FF0F86465892E4759E01208296" type="10" limiting_length="10" never_null="true" id="16"/>
+		<field name="APAttend" uuid="AF6DB077034C49EC87A753A5962EBADE" type="1" never_null="true" id="17"/>
+		<field name="APAvailFon" uuid="C805191BF05D42C2BFD2C0714793045C" type="1" never_null="true" id="18"/>
+		<field name="id_added_by_converter" uuid="A5D200DFFC604B55B920F1E127CE9D71" type="16" id="19">
+			<field_extra visible="false" enterable="false" modifiable="false"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="14">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="465" top="539" width="112" height="356"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="IntakeFile_Referrals" uuid="514BBC335470433BBA996EEF464E4606" id="24">
+		<field name="Referral" uuid="6B1169B778FD493DBEC23190F43E1D7F" type="10" limiting_length="25" never_null="true" id="1"/>
+		<field name="id_added_by_converter" uuid="F797F5600A4B41FCA31017A382EAACF6" type="16" id="2">
+			<field_extra visible="false" enterable="false" modifiable="false"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="446" top="926" width="98" height="68"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="DocketFile_Unusedsub" uuid="2CAA4E2848BE42609C9D8DD6CD40E279" id="25">
+		<field name="Unused" uuid="32F8C4E18023409B91BFBF216C7761E8" type="1" never_null="true" id="1"/>
+		<field name="id_added_by_converter" uuid="AD28AC6107C44BC48EAAC642D0C80D58" type="16" id="2">
+			<field_extra visible="false" enterable="false" modifiable="false"/>
+		</field>
+		<table_extra>
+			<editor_table_info displayable_fields_count="1">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="688" top="768" width="96" height="56"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="A7190546D43E43BBA09B92418CDECE3C" name_Nto1="LocCode_1_LTLocID" name_1toN="LTLocID_1_LocCode" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4D234427787C4A4EAB8DE55CCD9547AC" name="LocCode">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="8F1979B4EAAD427DA16D62DD19CE857F" name="LTLocID">
+				<table_ref uuid="EB66F981206047F9BBDBCEA83324D84E" name="LocationFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="true" choice_field="2" entry_autofill="true"/>
+	</relation>
+	<relation uuid="2BA290BAF98F4D31A118E9872742C8EF" name_Nto1="IdCode_2_IdNumber" name_1toN="IdNumber_2_IdCode" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="9E589F8BDC374CAF9218587AAA2DFDAE" name="IdCode">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="C4E84EEC8D5D496F82653C34BA81D455" name="IdNumber">
+				<table_ref uuid="BC461C3815CD4C77B811EAE415DCEAE5" name="ISIDTable"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="2" entry_autofill="true"/>
+	</relation>
+	<relation uuid="57BD2390832D4B88B20B73FD6A8016D4" name_Nto1="RefBy_3_CCRefBy" name_1toN="CCRefBy_3_RefBy" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="7DA231ECB7D64530BBC2ED1C10F4D8D4" name="RefBy">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="3CB46C3F28754623AAD5AFC92ADB44B9" name="CCRefBy">
+				<table_ref uuid="487C0BDA0BC046559997623A69D7EF11" name="CrtAddrFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="3BF4BEA5A70947D780470DA3895B7FBA" name_Nto1="ifRelCode_4_RelCode" name_1toN="RelCode_4_ifRelCode" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="29E56E7947A64E5BAEF5882573FEC107" name="ifRelCode">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AB1EFAD90BC04F81A0ECC5588DEAF672" name="RelCode">
+				<table_ref uuid="B5469D0587B04C74A7F1A67B7C36ED43" name="RelCodeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="2" entry_autofill="true"/>
+	</relation>
+	<relation uuid="EC6E4326B8B94ED3BE08CC9B2D75DED8" name_Nto1="DisputeCode_5_DisCode" name_1toN="DisCode_5_DisputeCode" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="C54DD0D745634100ADA24812BB1C5A13" name="DisputeCode">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="2C1DFBDC39BB4C4689E3D146A74E9E92" name="DisCode">
+				<table_ref uuid="FA1A264D60F74974B832762B7A9835AA" name="DisputeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="2" entry_autofill="true"/>
+	</relation>
+	<relation uuid="08F9DA4240B645EA8CB005E0B707A17E" name_Nto1="Referral_6_CCRefBy" name_1toN="CCRefBy_6_Referral" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="6B1169B778FD493DBEC23190F43E1D7F" name="Referral">
+				<table_ref uuid="514BBC335470433BBA996EEF464E4606" name="IntakeFile_Referrals"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="3CB46C3F28754623AAD5AFC92ADB44B9" name="CCRefBy">
+				<table_ref uuid="487C0BDA0BC046559997623A69D7EF11" name="CrtAddrFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="4" entry_autofill="true"/>
+	</relation>
+	<relation uuid="515467E0C727458DB37CF2A6D12AEE23" name_Nto1="DocketSite_7_Site" name_1toN="Site_7_DocketSite" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="67C9B0C77F304A87AA389013EBA1EC71" name="DocketSite">
+				<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="6D28869E0EE548FE80A077D5A6DC8E21" name="Site">
+				<table_ref uuid="AC91C5C19F9A4758B7E0B055742E0998" name="SiteConstraints"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="F49947FF08F945D28900BA2E49006D02" name_Nto1="DFCaseNo_8_CaseNo" name_1toN="CaseNo_8_DFCaseNo" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="FBA7F0F35C5E426DA44668BDD49C2AD4" name="DFCaseNo">
+				<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="81AB4655921D41729A3A8466CC300C92" name="CaseNo">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="EA746FC1606D433F9C95038425C3E0E2" name_Nto1="mafKey_9_MKey" name_1toN="MKey_9_mafKey" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="F254F6DC4AF24DD88E32B8124981DA4E" name="mafKey">
+				<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="89A9B88AC8074478AF02667B3853E4CD" name="MKey">
+				<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="true" entry_create="true" choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="FE23E0FEA5824DDABC5E44D7A4C3CF7C" name_Nto1="mafDocKey_10_DocKey" name_1toN="DocKey_10_mafDocKey" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="D190EEDD328345FB8FFC23B5DB4100B6" name="mafDocKey">
+				<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="C10E7DB302464BDEA7613F6BBFC9E8E6" name="DocKey">
+				<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="4" entry_autofill="true"/>
+	</relation>
+	<relation uuid="751CF71D2196412BB806D722543C53F4" name_Nto1="tsSite_11_Site" name_1toN="Site_11_tsSite" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="03EACAE07AF94E8DB81284382A7509EE" name="tsSite">
+				<table_ref uuid="BB7E8F0E9E3E49F29B9232CD6D425D53" name="TimeSlots"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="6D28869E0EE548FE80A077D5A6DC8E21" name="Site">
+				<table_ref uuid="AC91C5C19F9A4758B7E0B055742E0998" name="SiteConstraints"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="D104634743CA4135B7A0B78A2CE01B93" name_Nto1="GMKEY_12_MKey" name_1toN="MKey_12_GMKEY" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="7351C2A6D53C4A84A62DCEA304B2849C" name="GMKEY">
+				<table_ref uuid="17DED9BB8E1B48C58B765217B90E9798" name="Groups"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="89A9B88AC8074478AF02667B3853E4CD" name="MKey">
+				<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="5E4B85141FD24A81A22434DC9A7D6B26" name_Nto1="DLFCaseNo_13_CaseNo" name_1toN="CaseNo_13_DLFCaseNo" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="8EA2967C27AF4CE69133B39FF0EF0D66" name="DLFCaseNo">
+				<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="81AB4655921D41729A3A8466CC300C92" name="CaseNo">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="D9FF480552DB45F7988D572B576EB016" name_Nto1="LtrType_14_LFLtrName" name_1toN="LFLtrName_14_LtrType" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="912CEE6084B944F79DC3B81F60820BE3" name="LtrType">
+				<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="9282BC55CF574DE798BBCC56BD3C6842" name="LFLtrName">
+				<table_ref uuid="2B2935F4A4DF45608650877C96DA35C2" name="LetterFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra choice_field="2" entry_autofill="true"/>
+	</relation>
+	<relation uuid="DD5C72EAC7164BEEA73B71DFBD45DB9D" name_Nto1="CSR_CaseNo_15_CaseNo" name_1toN="CaseNo_15_CSR_CaseNo" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="A2C6B5C2BD4E49998A089BE768256252" name="CSR_CaseNo">
+				<table_ref uuid="30FF9EFA328C402AABDF56B9B22356C7" name="Details"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="81AB4655921D41729A3A8466CC300C92" name="CaseNo">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_create="true" choice_field="1" entry_autofill="true"/>
+	</relation>
+	<relation uuid="335E6DDA4FF34F15BE62187DF49FEEF1" name_Nto1="AddPartyFile_subtable_1_id_added_by_converter" name_1toN="id_added_by_converter_subtable_1_AddPartyFile" auto_load_Nto1="false" auto_load_1toN="true" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="A5D200DFFC604B55B920F1E127CE9D71" name="id_added_by_converter">
+				<table_ref uuid="E5B9C7F63BD34E448EFC8F764D82E586" name="IntakeFile_AddPartyFile"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="7900AE7698DD42CEB53B0282E0CA4F5A" name="AddPartyFile">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra>
+			<editor_relation_info>
+				<color red="110" green="124" blue="136" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="0B762579CF454CA3B2A24B2BE6AF4A65" name_Nto1="Referrals_subtable_2_id_added_by_converter" name_1toN="id_added_by_converter_subtable_2_Referrals" auto_load_Nto1="false" auto_load_1toN="true" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="F797F5600A4B41FCA31017A382EAACF6" name="id_added_by_converter">
+				<table_ref uuid="514BBC335470433BBA996EEF464E4606" name="IntakeFile_Referrals"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="19B29D4D7F474ABBABB552C557EC395E" name="Referrals">
+				<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra>
+			<editor_relation_info>
+				<color red="110" green="124" blue="136" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="73F6C46F2E414D1F81B63DA0FBEEA911" name_Nto1="Unusedsub_subtable_3_id_added_by_converter" name_1toN="id_added_by_converter_subtable_3_Unusedsub" auto_load_Nto1="false" auto_load_1toN="true" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="AD28AC6107C44BC48EAAC642D0C80D58" name="id_added_by_converter">
+				<table_ref uuid="2CAA4E2848BE42609C9D8DD6CD40E279" name="DocketFile_Unusedsub"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="B6EAB4DF3CB74AF18BD1A2D3261081BA" name="Unusedsub">
+				<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+			</field_ref>
+		</related_field>
+		<relation_extra>
+			<editor_relation_info>
+				<color red="110" green="124" blue="136" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" uuid="0111F26E6A7145F6B907D91BD0F54337" type="7">
+		<field_ref uuid="716D1A5514824C8EA360C5F84861E17D" name="Ct_PdNo">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="028DDE3D72E94C43A83B7F7EE400DD1D" type="7">
+		<field_ref uuid="2BD364A0A7F847F297B61C156AF143D5" name="ActDate">
+			<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="05FD23C4FF33468281E6036FED7450B8" type="7">
+		<field_ref uuid="06CAA9922D9A41A7BBC9A6C3883C5502" name="Hot">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0F01B2D178844DD88AC1292A6042D0D2" type="7">
+		<field_ref uuid="9E589F8BDC374CAF9218587AAA2DFDAE" name="IdCode">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0FD718C512C448E49B70CA56F6551A5F" type="7">
+		<field_ref uuid="CFF101DCFE004D6DBE5C7E5B6135C06F" name="SpanishOnly">
+			<table_ref uuid="AC91C5C19F9A4758B7E0B055742E0998" name="SiteConstraints"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="11B0BE44DF1F4185A73D6129AD059825" type="7">
+		<field_ref uuid="89A9B88AC8074478AF02667B3853E4CD" name="MKey">
+			<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="240701A4E1CB4AF1B69E73E0703E6976" type="7">
+		<field_ref uuid="67C9B0C77F304A87AA389013EBA1EC71" name="DocketSite">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="292351B3DCB448CD8D15506577E8FA58" type="7">
+		<field_ref uuid="6CD8832E1F54469EA7100EC06FD12152" name="CLName">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="338BDC6F5D1249228996A4A81020C04D" type="7">
+		<field_ref uuid="81AB4655921D41729A3A8466CC300C92" name="CaseNo">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="34D1D090BBBE4B3FB48465E97F0164E0" type="7">
+		<field_ref uuid="700EF02593D54DB28359CFE558BE777B" name="MFName">
+			<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3545CC00AE274A608AAE7FC9D6A5098E" type="7">
+		<field_ref uuid="C10E7DB302464BDEA7613F6BBFC9E8E6" name="DocKey">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="44E23AE802804E31B0EA2BF7E0740B46" type="7">
+		<field_ref uuid="AB282217C5F640268C3FF51D5035C802" name="LtrCaseNo">
+			<table_ref uuid="E5D9120F9A494FCBA528A0CFCAC3372A" name="LtrRptFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="577580862D51465686ED01695568B8EA" type="3">
+		<field_ref uuid="A5D200DFFC604B55B920F1E127CE9D71" name="id_added_by_converter">
+			<table_ref uuid="E5B9C7F63BD34E448EFC8F764D82E586" name="IntakeFile_AddPartyFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="58490E65610B4399B436BF618FC14AB4" type="7">
+		<field_ref uuid="9DD32B6FDBA9413AB783F03D74F554E7" name="GL_Group">
+			<table_ref uuid="DC7C538A9DBD4317B89D8717E33237A7" name="GroupLookup"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="62534D8A21984C2894B9DC9279805D3B" type="7">
+		<field_ref uuid="C4E84EEC8D5D496F82653C34BA81D455" name="IdNumber">
+			<table_ref uuid="BC461C3815CD4C77B811EAE415DCEAE5" name="ISIDTable"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="649A166E674B4C23B856210765C7E436" type="7">
+		<field_ref uuid="AAD265C4185E4196AFCB3647FCD5647F" name="RLName">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6ECACA3B09FD40A7B7C36BA9DAC52B10" type="7">
+		<field_ref uuid="F254F6DC4AF24DD88E32B8124981DA4E" name="mafKey">
+			<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7628B0D8949C4593A244E4F10D65AAC4" type="7">
+		<field_ref uuid="FBA7F0F35C5E426DA44668BDD49C2AD4" name="DFCaseNo">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7A934352E9A546A0A64AA4CFEE25CAEE" type="7">
+		<field_ref uuid="2DCC318171354CE891A59EB7D4F7786C" name="ProcName">
+			<table_ref uuid="57E24D0A501E4F179A2A61E4A0C75105" name="DBUpdate"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="800660E7C1EF4804961D2A546EF2CB26" type="3">
+		<field_ref uuid="AD28AC6107C44BC48EAAC642D0C80D58" name="id_added_by_converter">
+			<table_ref uuid="2CAA4E2848BE42609C9D8DD6CD40E279" name="DocketFile_Unusedsub"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8295A291C7104EB6820ADB63B6328EE6" type="7">
+		<field_ref uuid="7351C2A6D53C4A84A62DCEA304B2849C" name="GMKEY">
+			<table_ref uuid="17DED9BB8E1B48C58B765217B90E9798" name="Groups"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="83A3CA0B00D64E6EABBE5DBB510AA986" type="7">
+		<field_ref uuid="8F1979B4EAAD427DA16D62DD19CE857F" name="LTLocID">
+			<table_ref uuid="EB66F981206047F9BBDBCEA83324D84E" name="LocationFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="86E35DB6D1E7401298731C96DF755992" type="7">
+		<field_ref uuid="B2E8B58F2EFD42F498EE987398A386C9" name="LTLocName">
+			<table_ref uuid="EB66F981206047F9BBDBCEA83324D84E" name="LocationFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="86E5A6E1FB4149DB85740F83D561D403" type="7">
+		<field_ref uuid="7900AE7698DD42CEB53B0282E0CA4F5A" name="AddPartyFile">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8E27F9C0E61F4D60929B57DA6D6B5EC2" type="7">
+		<field_ref uuid="6B1169B778FD493DBEC23190F43E1D7F" name="Referral">
+			<table_ref uuid="514BBC335470433BBA996EEF464E4606" name="IntakeFile_Referrals"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8F336D0C5BA64517B114E17E2BA9CEB0" type="7">
+		<field_ref uuid="58710355E2AA40088D46C294A43B3C92" name="CFName">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="90511BFE3C294737A6A375B97CC87AD3" type="7">
+		<field_ref uuid="27557F809B1C4911A354DF449F2DA07C" name="CaseStatus">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="908C8DC3849C4E2CBC1DF6CEB6ED401B" type="7">
+		<field_ref uuid="6B93D3AC8CBD40BD878097DC4B3A4F3C" name="RLang">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9A9B8DF0F9644B4F9D326700BA9341D4" type="7">
+		<field_ref uuid="29E56E7947A64E5BAEF5882573FEC107" name="ifRelCode">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9E9E56717DD449EEA7FDADC424F083C0" type="7">
+		<field_ref uuid="1C503667B45E45C48BA4CC04A149A9D8" name="MLName">
+			<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A152F5B00B534A1D83CFBECBDBC8DFA2" type="7">
+		<field_ref uuid="A2C6B5C2BD4E49998A089BE768256252" name="CSR_CaseNo">
+			<table_ref uuid="30FF9EFA328C402AABDF56B9B22356C7" name="Details"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A2FF0E0A625A42E894E2CC4E0FED42E3" type="7">
+		<field_ref uuid="03EACAE07AF94E8DB81284382A7509EE" name="tsSite">
+			<table_ref uuid="BB7E8F0E9E3E49F29B9232CD6D425D53" name="TimeSlots"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A40884CB97E44B34BE1BE91674A84DB9" type="7">
+		<field_ref uuid="E4FFC6F846224D79A3C8345D2780EFC7" name="DocketDate">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A56E7512203F4D37B0FD75A9B5DBB6E1" type="7">
+		<field_ref uuid="5F57BB6288E34589A5F221A4BD030488" name="Group">
+			<table_ref uuid="17DED9BB8E1B48C58B765217B90E9798" name="Groups"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A6CDE02D547948BBAB8CAA2EE0404E67" type="7">
+		<field_ref uuid="4D234427787C4A4EAB8DE55CCD9547AC" name="LocCode">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A80F2354CAFD490EB4FE0DDCDE6BA61E" type="7">
+		<field_ref uuid="9282BC55CF574DE798BBCC56BD3C6842" name="LFLtrName">
+			<table_ref uuid="2B2935F4A4DF45608650877C96DA35C2" name="LetterFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="AFAB80716F894BDCACAEC03757A3A449" type="7">
+		<field_ref uuid="AB1EFAD90BC04F81A0ECC5588DEAF672" name="RelCode">
+			<table_ref uuid="B5469D0587B04C74A7F1A67B7C36ED43" name="RelCodeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B044F67818004A42B397B5726C29D37A" type="7">
+		<field_ref uuid="6D28869E0EE548FE80A077D5A6DC8E21" name="Site">
+			<table_ref uuid="AC91C5C19F9A4758B7E0B055742E0998" name="SiteConstraints"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="BB69F2835AFF4B51969CADEFB82BBC64" type="7">
+		<field_ref uuid="F966A4C2E90141B185C09A87BB7F6BA2" name="HResults">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C51809B699E34AAF8307F9FB72E6D21D" type="7">
+		<field_ref uuid="EFD37BDA533D4804A3E7DC32DD9134FB" name="RFName">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C85F124930C7448CB01DA1EB319627B0" type="7">
+		<field_ref uuid="AB34C1FF4D0745C38A8505502588EEEE" name="FCaseNo">
+			<table_ref uuid="4BC1CDF899644B31BB26DD84C45F9B2B" name="FamilyFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CAE9C6C835CB425DAF7D15A7567800F5" type="7">
+		<field_ref uuid="2C1DFBDC39BB4C4689E3D146A74E9E92" name="DisCode">
+			<table_ref uuid="FA1A264D60F74974B832762B7A9835AA" name="DisputeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CC323201B4414DDA8A68C62FD532D52B" type="7">
+		<field_ref uuid="C54DD0D745634100ADA24812BB1C5A13" name="DisputeCode">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CE94685649C14F6E8EAC13EDB49E9828" type="7">
+		<field_ref uuid="06A7BC413D5E40E39043C660E8D22995" name="CLang">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CE9E326692A54E2E91345CD183155CEC" type="7">
+		<field_ref uuid="8EA2967C27AF4CE69133B39FF0EF0D66" name="DLFCaseNo">
+			<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="D85D62CDE7C54884A5D7850B48069DA7" type="7">
+		<field_ref uuid="3CB46C3F28754623AAD5AFC92ADB44B9" name="CCRefBy">
+			<table_ref uuid="487C0BDA0BC046559997623A69D7EF11" name="CrtAddrFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DAEE475E59CA41FE94365B5C216D0469" type="7">
+		<field_ref uuid="D190EEDD328345FB8FFC23B5DB4100B6" name="mafDocKey">
+			<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DC456EAFF63541258F9A047689923B09" type="7">
+		<field_ref uuid="7DA231ECB7D64530BBC2ED1C10F4D8D4" name="RefBy">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DCB3E2BACA764EA68209A8E43DB820B4" type="7">
+		<field_ref uuid="19B29D4D7F474ABBABB552C557EC395E" name="Referrals">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E3C822334B4A4124BFD35087141916C9" type="7">
+		<field_ref uuid="5CB2F09D430C4072B0E1CDB4B5B4A8A6" name="Program">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E58B42150503486593D6A19A27027052" type="7">
+		<field_ref uuid="912CEE6084B944F79DC3B81F60820BE3" name="LtrType">
+			<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F201FEB1B59E43EB96275311A815AFC8" type="7">
+		<field_ref uuid="FC17489C1EE74D68AB878B5857E9C30D" name="IntakeDate">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F74EBBE2D20F42D9ACC45326545A5357" type="7">
+		<field_ref uuid="8A9E3697E99843A5BCE6506700FDCCCE" name="mafCaseNo">
+			<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F7CBEE7A4B1A4D8094118651C8CDEDE0" type="3">
+		<field_ref uuid="F797F5600A4B41FCA31017A382EAACF6" name="id_added_by_converter">
+			<table_ref uuid="514BBC335470433BBA996EEF464E4606" name="IntakeFile_Referrals"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F8533E2DFD564D30B1869F99A4A8C651" type="7">
+		<field_ref uuid="B6EAB4DF3CB74AF18BD1A2D3261081BA" name="Unusedsub">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path="C:\Users\robert\Desktop\DRC_2018_W\CMS_Data\CMS.4DD" ppc_code_stamp="163" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0">
+		<temp_folder folder_selector="data"/>
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

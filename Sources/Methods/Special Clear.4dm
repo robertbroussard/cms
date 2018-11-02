@@ -1,0 +1,8 @@
+//%attributes = {"publishedWeb":true}
+CLEAR VARIABLE:C89(aSelTime)
+CLEAR VARIABLE:C89(aTimeSlot)
+CLEAR VARIABLE:C89(aCaseNo)
+CLEAR VARIABLE:C89(aCName)
+CLEAR VARIABLE:C89(aRName)
+CLEAR VARIABLE:C89(aSlotCount)
+CLEAR VARIABLE:C89(aSlotName)

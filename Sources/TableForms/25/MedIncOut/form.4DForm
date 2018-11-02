@@ -1,0 +1,239 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 29,
+	"markerBreak": 31,
+	"markerFooter": 31,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": -11,
+					"width": 398,
+					"height": 30
+				},
+				"Line1": {
+					"type": "line",
+					"top": 14,
+					"left": -11,
+					"width": 382,
+					"height": 1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 2,
+					"left": 2,
+					"width": 70,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Mediator (s)"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 2,
+					"left": 160,
+					"width": 25,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Role"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 0,
+					"left": 156,
+					"width": 1,
+					"height": 30
+				},
+				"Line3": {
+					"type": "line",
+					"top": 0,
+					"left": 254,
+					"width": 1,
+					"height": 30
+				},
+				"Line4": {
+					"type": "line",
+					"top": 0,
+					"left": 331,
+					"height": 30
+				},
+				"Text3": {
+					"type": "text",
+					"top": 2,
+					"left": 256,
+					"width": 28,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Date"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 2,
+					"left": 333,
+					"width": 51,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "H. Length"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 16,
+					"left": 2,
+					"width": 152,
+					"height": 12,
+					"dataSource": "[DocketFile_Unusedsub:25]Unused:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 16,
+					"left": 159,
+					"width": 93,
+					"height": 12,
+					"dataSource": "[MedActFile:10]Role_Activity:4",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Role_Activity"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 16,
+					"left": 257,
+					"width": 72,
+					"height": 12,
+					"dataSource": "[MedActFile:10]ActDate:5",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "!0&9##/##/##",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field4": {
+					"type": "input",
+					"top": 16,
+					"left": 334,
+					"width": 34,
+					"height": 12,
+					"dataSource": "[MedActFile:10]AmtOfTime:6",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "#0.0",
+					"entryFilter": "&\"0-9;.\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

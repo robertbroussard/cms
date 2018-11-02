@@ -1,0 +1,343 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 128,
+	"markerBreak": 172,
+	"markerFooter": 180,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 111,
+					"left": 14,
+					"width": 533,
+					"height": 19,
+					"fill": "transparent",
+					"strokeWidth": 0.1
+				},
+				"Text1": {
+					"type": "text",
+					"top": 115,
+					"left": 16,
+					"width": 29,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Time"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 115,
+					"left": 54,
+					"width": 43,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Case No."
+				},
+				"Text3": {
+					"type": "text",
+					"top": 115,
+					"left": 232,
+					"width": 64,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Respondent"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 115,
+					"left": 343,
+					"width": 24,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Rel."
+				},
+				"Text5": {
+					"type": "text",
+					"top": 115,
+					"left": 120,
+					"width": 64,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Complainant"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 112,
+					"left": 52,
+					"height": 19,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 112,
+					"left": 229,
+					"width": 1,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 112,
+					"left": 341,
+					"width": 1,
+					"height": 19,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 111,
+					"left": 372,
+					"width": 1,
+					"height": 19,
+					"strokeWidth": 0.1
+				},
+				"Text6": {
+					"type": "text",
+					"top": 115,
+					"left": 374,
+					"width": 37,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Results"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 115,
+					"left": 413,
+					"width": 59,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Mediator(s)"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 111,
+					"left": 410,
+					"height": 19,
+					"strokeWidth": 0.1
+				},
+				"Line7": {
+					"type": "line",
+					"top": 111,
+					"left": 52,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Line8": {
+					"type": "line",
+					"top": 112,
+					"left": 118,
+					"width": 1,
+					"height": 18,
+					"strokeWidth": 0.1
+				},
+				"Line9": {
+					"type": "line",
+					"top": 109,
+					"left": 14,
+					"width": 533,
+					"strokeWidth": 0.1
+				},
+				"Text8": {
+					"type": "text",
+					"top": 92,
+					"left": 16,
+					"width": 67,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Docket Date:"
+				},
+				"Line10": {
+					"type": "line",
+					"top": 193,
+					"left": 24,
+					"width": 344
+				},
+				"Line11": {
+					"type": "line",
+					"top": 153,
+					"left": 37,
+					"height": 53
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 71,
+					"left": 140,
+					"width": 276,
+					"height": 12,
+					"dataSource": "vSite",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 90,
+					"left": 447,
+					"width": 97,
+					"height": 12,
+					"dataSource": "vDPgNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 92,
+					"left": 83,
+					"width": 157,
+					"height": 11,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"gFooter1": {
+					"type": "input",
+					"top": 705,
+					"left": 6,
+					"width": 576,
+					"height": 20,
+					"dataSource": "<>gFooter",
+					"fill": "transparent",
+					"textAlign": "center",
+					"fontFamily": "Times New Roman",
+					"fontSize": 8,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"DRC_Logo_2009": {
+					"type": "picture",
+					"top": 28,
+					"left": 161,
+					"width": 271,
+					"height": 32,
+					"pictureFormat": "scaled"
+				}
+			}
+		}
+	]
+}

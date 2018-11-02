@@ -1,0 +1,200 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 36,
+	"markerBody": 93,
+	"markerBreak": 96,
+	"markerFooter": 106,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 39,
+					"left": 105,
+					"width": 159,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "English Docket Address"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 67,
+					"left": 105,
+					"width": 159,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Spanish Docket Address"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 22,
+					"left": 13,
+					"width": 70,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Docket Site"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 36,
+					"left": 13,
+					"width": 528,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 99,
+					"left": 13,
+					"width": 528,
+					"strokeWidth": 0.1
+				},
+				"Line3": {
+					"type": "line",
+					"top": 36,
+					"left": 101,
+					"height": 64,
+					"strokeWidth": 0.1
+				},
+				"Line4": {
+					"type": "line",
+					"top": 65,
+					"left": 106,
+					"width": 435,
+					"strokeWidth": 0.1
+				},
+				"Line5": {
+					"type": "line",
+					"top": 93,
+					"left": 106,
+					"width": 435,
+					"strokeWidth": 0.1
+				},
+				"Field1": {
+					"type": "input",
+					"top": 39,
+					"left": 13,
+					"width": 86,
+					"height": 12,
+					"dataSource": "[SiteConstraints:7]Site:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 52,
+					"left": 105,
+					"width": 431,
+					"height": 12,
+					"dataSource": "[SiteConstraints:7]DocAddress:15",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"printFrame": "variable",
+					"contextMenu": "none",
+					"entryFilter": "|",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 80,
+					"left": 105,
+					"width": 431,
+					"height": 12,
+					"dataSource": "[SiteConstraints:7]SDocAddress:16",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"printFrame": "variable",
+					"contextMenu": "none",
+					"entryFilter": "|",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

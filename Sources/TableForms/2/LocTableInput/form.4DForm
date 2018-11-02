@@ -1,0 +1,161 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 164,
+	"markerBreak": 164,
+	"markerFooter": 164,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 38,
+					"left": 72,
+					"width": 240,
+					"height": 92,
+					"strokeWidth": 2,
+					"borderRadius": 5
+				},
+				"Line1": {
+					"type": "line",
+					"top": 63,
+					"left": 72,
+					"width": 224,
+					"strokeWidth": 2
+				},
+				"Text1": {
+					"type": "text",
+					"top": 42,
+					"left": 83,
+					"width": 181,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "  Location Table Input  "
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 73,
+					"left": 156,
+					"width": 20,
+					"height": 14
+				},
+				"Text2": {
+					"type": "text",
+					"top": 74,
+					"left": 90,
+					"width": 61,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"text": "Location ID"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 105,
+					"left": 156,
+					"width": 142,
+					"height": 9
+				},
+				"Text3": {
+					"type": "text",
+					"top": 102,
+					"left": 77,
+					"width": 76,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"text": "Location Name"
+				},
+				"Field1": {
+					"type": "input",
+					"top": 73,
+					"left": 157,
+					"width": 19,
+					"height": 13,
+					"dataSource": "[LocationFile:2]LTLocID:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 100,
+					"left": 157,
+					"width": 142,
+					"height": 13,
+					"dataSource": "[LocationFile:2]LTLocName:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

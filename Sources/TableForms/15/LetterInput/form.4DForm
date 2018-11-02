@@ -1,0 +1,483 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerBody": 318,
+	"markerBreak": 318,
+	"markerFooter": 328,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 8,
+					"width": 463,
+					"height": 247
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 25,
+					"left": 93,
+					"width": 181,
+					"height": 14
+				},
+				"Field1": {
+					"type": "input",
+					"top": 25,
+					"left": 94,
+					"width": 180,
+					"height": 13,
+					"dataSource": "[LetterFile:15]LFLtrName:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field3": {
+					"type": "input",
+					"top": 26,
+					"left": 335,
+					"width": 98,
+					"height": 12,
+					"dataSource": "[LetterFile:15]LF_Spanish:4",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 61,
+					"left": 17,
+					"width": 428,
+					"height": 184,
+					"dataSource": "[LetterFile:15]Letter Text:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "solid",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 257,
+					"left": 10,
+					"width": 461,
+					"height": 52,
+					"fill": "#000000"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 255,
+					"left": 8,
+					"width": 461,
+					"height": 52
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 257,
+					"left": 23,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.pict"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 257,
+					"left": 71,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.pict"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 257,
+					"left": 119,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.pict"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 257,
+					"left": 167,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.pict"
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 257,
+					"left": 215,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture5.pict"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 257,
+					"left": 263,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.pict"
+				},
+				"Picture7": {
+					"type": "picture",
+					"top": 257,
+					"left": 311,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture7.pict"
+				},
+				"Picture8": {
+					"type": "picture",
+					"top": 257,
+					"left": 359,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture8.pict"
+				},
+				"Picture9": {
+					"type": "picture",
+					"top": 257,
+					"left": 407,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture9.pict"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 8,
+					"left": 14,
+					"width": 146,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Letter Input Screen"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 26,
+					"left": 14,
+					"width": 77,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Letter Name:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 45,
+					"left": 14,
+					"width": 77,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Letter Text:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 26,
+					"left": 282,
+					"width": 51,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"text": "Spanish:"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 8,
+					"width": 463,
+					"height": 247
+				},
+				"Text5": {
+					"type": "text",
+					"top": 138,
+					"left": 11,
+					"width": 95,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Footer"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 42,
+					"left": 12,
+					"width": 95,
+					"height": 13,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "Header"
+				},
+				"Field4": {
+					"type": "input",
+					"top": 154,
+					"left": 11,
+					"width": 543,
+					"height": 28,
+					"dataSource": "[LetterFile:15]LF_Unused2:5",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field5": {
+					"type": "input",
+					"top": 59,
+					"left": 11,
+					"width": 549,
+					"height": 71,
+					"dataSource": "[LetterFile:15]LF_Unused:3",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 257,
+					"left": 10,
+					"width": 461,
+					"height": 52,
+					"fill": "#000000"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 255,
+					"left": 8,
+					"width": 461,
+					"height": 52
+				},
+				"Picture10": {
+					"type": "picture",
+					"top": 257,
+					"left": 23,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture10.pict"
+				},
+				"Picture11": {
+					"type": "picture",
+					"top": 257,
+					"left": 71,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture11.pict"
+				},
+				"Picture12": {
+					"type": "picture",
+					"top": 257,
+					"left": 119,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture12.pict"
+				},
+				"Picture13": {
+					"type": "picture",
+					"top": 257,
+					"left": 167,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture13.pict"
+				},
+				"Picture14": {
+					"type": "picture",
+					"top": 257,
+					"left": 215,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture14.pict"
+				},
+				"Picture15": {
+					"type": "picture",
+					"top": 257,
+					"left": 263,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture15.pict"
+				},
+				"Picture16": {
+					"type": "picture",
+					"top": 257,
+					"left": 311,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture16.pict"
+				},
+				"Picture17": {
+					"type": "picture",
+					"top": 257,
+					"left": 359,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture17.pict"
+				},
+				"Picture18": {
+					"type": "picture",
+					"top": 257,
+					"left": 407,
+					"width": 48,
+					"height": 48,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture18.pict"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 7,
+					"left": 322,
+					"width": 143,
+					"height": 32,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Letter Input Screen\rPage 2"
+				}
+			}
+		}
+	]
+}
