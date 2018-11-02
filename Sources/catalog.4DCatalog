@@ -81,6 +81,7 @@
 		<field name="FamIncome" uuid="855EC784CA9B40B39A46AF144C0448C2" type="6" never_null="true" id="56"/>
 		<field name="FamSize" uuid="2C9EA9BF926945C2BCC0C8C3A4D72920" type="6" never_null="true" id="57"/>
 		<field name="Unused" uuid="3E2EAAFA6EA94B259BC22FCFA4ECC7B0" type="1" never_null="true" id="58"/>
+		<primary_key field_name="CaseNo" field_uuid="81AB4655921D41729A3A8466CC300C92"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="60">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -89,12 +90,13 @@
 		</table_extra>
 	</table>
 	<table name="LocationFile" uuid="EB66F981206047F9BBDBCEA83324D84E" id="2">
-		<field name="LTLocID" uuid="8F1979B4EAAD427DA16D62DD19CE857F" type="10" limiting_length="2" never_null="true" id="1">
+		<field name="LTLocID" uuid="8F1979B4EAAD427DA16D62DD19CE857F" type="10" limiting_length="2" unique="true" never_null="true" id="1">
 			<field_extra mandatory="true"/>
 		</field>
 		<field name="LTLocName" uuid="B2E8B58F2EFD42F498EE987398A386C9" type="10" limiting_length="25" never_null="true" id="2">
 			<field_extra mandatory="true"/>
 		</field>
+		<primary_key field_name="LTLocID" field_uuid="8F1979B4EAAD427DA16D62DD19CE857F"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -103,12 +105,13 @@
 		</table_extra>
 	</table>
 	<table name="ISIDTable" uuid="BC461C3815CD4C77B811EAE415DCEAE5" id="3">
-		<field name="IdNumber" uuid="C4E84EEC8D5D496F82653C34BA81D455" type="10" limiting_length="2" never_null="true" id="1">
+		<field name="IdNumber" uuid="C4E84EEC8D5D496F82653C34BA81D455" type="10" limiting_length="2" unique="true" never_null="true" id="1">
 			<field_extra mandatory="true"/>
 		</field>
 		<field name="ISName" uuid="17FC6650B9874800B4553CE84A27D908" type="10" limiting_length="30" never_null="true" id="2">
 			<field_extra mandatory="true"/>
 		</field>
+		<primary_key field_name="IdNumber" field_uuid="C4E84EEC8D5D496F82653C34BA81D455"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -117,7 +120,7 @@
 		</table_extra>
 	</table>
 	<table name="DisputeFile" uuid="FA1A264D60F74974B832762B7A9835AA" id="4">
-		<field name="DisCode" uuid="2C1DFBDC39BB4C4689E3D146A74E9E92" type="10" limiting_length="3" never_null="true" id="1">
+		<field name="DisCode" uuid="2C1DFBDC39BB4C4689E3D146A74E9E92" type="10" limiting_length="3" unique="true" never_null="true" id="1">
 			<field_extra mandatory="true"/>
 		</field>
 		<field name="DisName" uuid="FAE6E05043BB428B801DE5876CC38E2F" type="10" limiting_length="40" never_null="true" id="2">
@@ -125,6 +128,7 @@
 		</field>
 		<field name="SDisName" uuid="0AAC560F7CFD498CB4F9966966BD8213" type="10" never_null="true" id="3"/>
 		<field name="StateCode" uuid="5C57ED01D9D64C569F6A82B8D93D035D" type="3" never_null="true" id="4"/>
+		<primary_key field_name="DisCode" field_uuid="2C1DFBDC39BB4C4689E3D146A74E9E92"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="2">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -133,12 +137,13 @@
 		</table_extra>
 	</table>
 	<table name="RelCodeFile" uuid="B5469D0587B04C74A7F1A67B7C36ED43" id="5">
-		<field name="RelCode" uuid="AB1EFAD90BC04F81A0ECC5588DEAF672" type="10" limiting_length="3" never_null="true" id="1">
+		<field name="RelCode" uuid="AB1EFAD90BC04F81A0ECC5588DEAF672" type="10" limiting_length="3" unique="true" never_null="true" id="1">
 			<field_extra mandatory="true"/>
 		</field>
 		<field name="RelName" uuid="E0F7C1939874492DA062EEE74FC3FEB7" type="10" limiting_length="30" never_null="true" id="2">
 			<field_extra mandatory="true"/>
 		</field>
+		<primary_key field_name="RelCode" field_uuid="AB1EFAD90BC04F81A0ECC5588DEAF672"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -165,6 +170,8 @@
 		<field name="dfUnused6" uuid="B73DCAFDA2F541CBB7B98A43FC569EDC" type="1" never_null="true" id="10"/>
 		<field name="HResults" uuid="F966A4C2E90141B185C09A87BB7F6BA2" type="10" limiting_length="5" never_null="true" id="11"/>
 		<field name="HLenght" uuid="E1666B0B56304CA59F8E8D3AADCFEC4B" type="6" never_null="true" id="12"/>
+		<field name="PK_ID" uuid="A8BD45F9C4EF6B44BD999E4D1CDDB2CF" type="4" unique="true" autosequence="true" id="13"/>
+		<primary_key field_name="PK_ID" field_uuid="A8BD45F9C4EF6B44BD999E4D1CDDB2CF"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="4">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -232,6 +239,8 @@
 		<field name="CFK" uuid="E824CFE133F546AAB037BFAAA838638D" type="1" never_null="true" id="23"/>
 		<field name="Truant" uuid="50466BBA43D24F97ADA751A377313020" type="1" never_null="true" id="24"/>
 		<field name="LTC" uuid="9F3196461C6A4FC6A103BF91EDB3E477" type="1" never_null="true" id="25"/>
+		<field name="PK_ID" uuid="211AC37506C0664FB4D1E35754DFB604" type="4" unique="true" autosequence="true" id="26"/>
+		<primary_key field_name="PK_ID" field_uuid="211AC37506C0664FB4D1E35754DFB604"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="26">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -246,6 +255,8 @@
 		<field name="InvalidDate" uuid="10819A34C24D4C228E84044C26A4C445" type="8" never_null="true" id="2">
 			<field_extra mandatory="true"/>
 		</field>
+		<field name="PK_ID" uuid="91C8E1A54CBD854DBD1FC26D6ED2FB7C" type="4" unique="true" autosequence="true" id="3"/>
+		<primary_key field_name="PK_ID" field_uuid="91C8E1A54CBD854DBD1FC26D6ED2FB7C"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -285,6 +296,8 @@
 		<field name="CertFlag" uuid="7DF7716B2C47484E81170C34B0A19AB1" type="1" never_null="true" id="17"/>
 		<field name="MFNotes" uuid="0CF26F09A9064E91A8151F77659C0F76" type="10" never_null="true" id="18"/>
 		<field name="MFEmail" uuid="692B68F21F5C4042B4333A399945E55F" type="10" never_null="true" id="19"/>
+		<field name="PK_ID" uuid="5F706279A5B24546B2704072F3CD4550" type="4" unique="true" autosequence="true" id="20"/>
+		<primary_key field_name="PK_ID" field_uuid="5F706279A5B24546B2704072F3CD4550"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="14">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -305,6 +318,8 @@
 		<field name="AmtOfTime" uuid="905ABDF21B8F4F788933BFE2A9BAE3F7" type="6" never_null="true" id="6"/>
 		<field name="Notes" uuid="DF18EC12F5814D4D89D8B3693BA859DB" type="10" never_null="true" id="7"/>
 		<field name="ActResults" uuid="C8366AC78870426D82C14A818536C6D7" type="10" limiting_length="5" never_null="true" id="8"/>
+		<field name="PK_ID" uuid="8801EA8CCC8B4C4E807A6921C374F83F" type="4" unique="true" autosequence="true" id="9"/>
+		<primary_key field_name="PK_ID" field_uuid="8801EA8CCC8B4C4E807A6921C374F83F"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="2">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -315,6 +330,8 @@
 	<table name="Constants" uuid="F236A9DF54C04F5B86A27539F5AABC64" id="11">
 		<field name="Sequence" uuid="9AE68B11B32B4D9A8D1709F76DE73FAE" type="3" never_null="true" id="1"/>
 		<field name="Number" uuid="1D4DC318F6C14636AEA8C0BE522D637A" type="4" never_null="true" id="2"/>
+		<field name="PK_ID" uuid="CD45753C44F6FB42BFF1631540EB7A31" type="4" unique="true" autosequence="true" id="3"/>
+		<primary_key field_name="PK_ID" field_uuid="CD45753C44F6FB42BFF1631540EB7A31"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -330,6 +347,8 @@
 			<field_extra enumeration_id="16659"/>
 		</field>
 		<field name="MaxPerSlot" uuid="DF472425DE344126965CC61B7952578C" type="3" never_null="true" id="3"/>
+		<field name="PK_ID" uuid="3A48105AC895F448AD978E22BE13BA98" type="4" unique="true" autosequence="true" id="4"/>
+		<primary_key field_name="PK_ID" field_uuid="3A48105AC895F448AD978E22BE13BA98"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="2">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -344,6 +363,8 @@
 		<field name="Group" uuid="5F57BB6288E34589A5F221A4BD030488" type="10" limiting_length="20" never_null="true" id="2">
 			<field_extra mandatory="true"/>
 		</field>
+		<field name="PK_ID" uuid="CB34838E616CB440A0304FB60DE4A3B3" type="4" unique="true" autosequence="true" id="3"/>
+		<primary_key field_name="PK_ID" field_uuid="CB34838E616CB440A0304FB60DE4A3B3"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -381,6 +402,8 @@
 		<field name="RefSource" uuid="7E0DA24A9F174CB692F362DD26E99EE3" type="10" limiting_length="20" never_null="true" id="27"/>
 		<field name="DLFCt_PdNo" uuid="2481401E1BB74CF5A41B7BD51787D386" type="10" limiting_length="20" never_null="true" id="28"/>
 		<field name="PAge" uuid="D7FCCED62B1F4DD1A44EBCABC9858625" type="3" never_null="true" id="29"/>
+		<field name="PK_ID" uuid="4EC8B6CFF5602343962AEDF06EF9955B" type="4" unique="true" autosequence="true" id="30"/>
+		<primary_key field_name="PK_ID" field_uuid="4EC8B6CFF5602343962AEDF06EF9955B"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="24">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -394,6 +417,8 @@
 		<field name="LF_Unused" uuid="F320760FACDA41118249B0650A1DF537" type="1" never_null="true" id="3"/>
 		<field name="LF_Spanish" uuid="549F18F28E7044BD9642181EE21AFF21" type="1" never_null="true" id="4"/>
 		<field name="LF_Unused2" uuid="9CDC629FA91947CBAB971386F307741A" type="1" never_null="true" id="5"/>
+		<field name="PK_ID" uuid="075286516BB3AE4CB94AAB611DF66BD2" type="4" unique="true" autosequence="true" id="6"/>
+		<primary_key field_name="PK_ID" field_uuid="075286516BB3AE4CB94AAB611DF66BD2"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -414,6 +439,8 @@
 		<field name="Batch_Or_Other" uuid="64828C442D284B0C9C398DA05F27500B" type="1" never_null="true" id="10"/>
 		<field name="PrintInitials" uuid="2B4171B456FF4D9E8322F4F21FCBEABA" type="10" limiting_length="2" never_null="true" id="11"/>
 		<field name="Envelope" uuid="717A9915EA004ED09F1E7F986E262EC1" type="1" never_null="true" id="12"/>
+		<field name="PK_ID" uuid="EBD870B5AB38FE4A8B7F779F0B88BEB9" type="4" unique="true" autosequence="true" id="13"/>
+		<primary_key field_name="PK_ID" field_uuid="EBD870B5AB38FE4A8B7F779F0B88BEB9"/>
 		<table_extra visible="false">
 			<editor_table_info displayable_fields_count="8">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -423,6 +450,8 @@
 	</table>
 	<table name="GroupLookup" uuid="DC7C538A9DBD4317B89D8717E33237A7" id="17">
 		<field name="GL_Group" uuid="9DD32B6FDBA9413AB783F03D74F554E7" type="10" limiting_length="20" never_null="true" id="1"/>
+		<field name="PK_ID" uuid="82EB340ABE44CA41B12344BDB6751B19" type="4" unique="true" autosequence="true" id="2"/>
+		<primary_key field_name="PK_ID" field_uuid="82EB340ABE44CA41B12344BDB6751B19"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -440,6 +469,8 @@
 		<field name="CSR_Hours" uuid="6A9E067DC35349CA894C8337FCC7E9B8" type="6" never_null="true" id="5"/>
 		<field name="Apologies" uuid="6B7ED88A1510433C8BB42F26055F11AB" type="1" never_null="true" id="6"/>
 		<field name="Restitution" uuid="4280BE07CC044559A173E631E819A059" type="1" never_null="true" id="7"/>
+		<field name="PK_ID" uuid="9D9068C6B05D7E4A910662F746332AF2" type="4" unique="true" autosequence="true" id="8"/>
+		<primary_key field_name="PK_ID" field_uuid="9D9068C6B05D7E4A910662F746332AF2"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="2">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -461,6 +492,8 @@
 		<field name="CCTitle2" uuid="8F15C169D46F45B5AD36F6BB560AC8E8" type="10" limiting_length="30" never_null="true" id="9"/>
 		<field name="CCTitle3" uuid="69AE62C7397D43D885C9A9AB637A7212" type="10" limiting_length="30" never_null="true" id="10"/>
 		<field name="CCTitle4" uuid="850E29B3616746F2A6D29828AE59F4E4" type="10" limiting_length="30" never_null="true" id="11"/>
+		<field name="PK_ID" uuid="B1A2C61D07A4E24D8EB6A967C801F5F1" type="4" unique="true" autosequence="true" id="12"/>
+		<primary_key field_name="PK_ID" field_uuid="B1A2C61D07A4E24D8EB6A967C801F5F1"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="8">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -573,6 +606,7 @@
 		<field name="FMarStatUnit" uuid="EB05068A1A1940A58DD7327D545751CC" type="10" limiting_length="10" never_null="true" id="96"/>
 		<field name="FOtherEqR" uuid="5E44179F1FB246B38B1BA0C5BE16E2A1" type="4" never_null="true" id="97"/>
 		<field name="FOtherEqShr" uuid="5B912122D62B458AB4FE21BC4AC160FC" type="4" never_null="true" id="98"/>
+		<primary_key field_name="FCaseNo" field_uuid="AB34C1FF4D0745C38A8505502588EEEE"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="83">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -607,6 +641,8 @@
 		<field name="Unused" uuid="153FC9FF06D84577BFCBAD04B7E273BD" type="1" never_null="true" id="16"/>
 		<field name="Unused" uuid="D17B02A7BEC045AB8F0D4FD6B0C60B1C" type="1" never_null="true" id="17"/>
 		<field name="Unused" uuid="4DA5912594AB4B059BC8C39BD8F566AE" type="1" never_null="true" id="18"/>
+		<field name="PK_ID" uuid="D0C4C18F781BF54B871E8CFEE29081DA" type="4" unique="true" autosequence="true" id="19"/>
+		<primary_key field_name="PK_ID" field_uuid="D0C4C18F781BF54B871E8CFEE29081DA"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="14">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -615,7 +651,7 @@
 		</table_extra>
 	</table>
 	<table name="SR_BOM" uuid="70974A4B25F745FDB7C3606600900389" id="22">
-		<field name="ID" uuid="8901B42B69F14B99B578B174EA237F4F" type="4" never_null="true" id="1">
+		<field name="ID" uuid="8901B42B69F14B99B578B174EA237F4F" type="4" unique="true" never_null="true" id="1">
 			<field_extra mandatory="true"/>
 		</field>
 		<field name="YearMonth" uuid="21395979DDF54201BC5AC614F119B49D" type="10" limiting_length="6" never_null="true" id="2"/>
@@ -624,6 +660,7 @@
 		<field name="CurrDate" uuid="C4EBDBE31C3146F79649A967E2D5F34E" type="8" never_null="true" id="5">
 			<field_extra modifiable="false" mandatory="true"/>
 		</field>
+		<primary_key field_name="ID" field_uuid="8901B42B69F14B99B578B174EA237F4F"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="5">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -659,6 +696,8 @@
 		<field name="id_added_by_converter" uuid="A5D200DFFC604B55B920F1E127CE9D71" type="16" id="19">
 			<field_extra visible="false" enterable="false" modifiable="false"/>
 		</field>
+		<field name="PK_ID" uuid="50E37E2B24F86F48AC8322F3744A90A9" type="4" unique="true" autosequence="true" id="20"/>
+		<primary_key field_name="PK_ID" field_uuid="50E37E2B24F86F48AC8322F3744A90A9"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="14">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -671,6 +710,8 @@
 		<field name="id_added_by_converter" uuid="F797F5600A4B41FCA31017A382EAACF6" type="16" id="2">
 			<field_extra visible="false" enterable="false" modifiable="false"/>
 		</field>
+		<field name="PK_ID" uuid="C58C82980C0F3E45AE5F03C79F7A3D22" type="4" unique="true" autosequence="true" id="3"/>
+		<primary_key field_name="PK_ID" field_uuid="C58C82980C0F3E45AE5F03C79F7A3D22"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -683,6 +724,8 @@
 		<field name="id_added_by_converter" uuid="AD28AC6107C44BC48EAAC642D0C80D58" type="16" id="2">
 			<field_extra visible="false" enterable="false" modifiable="false"/>
 		</field>
+		<field name="ID" uuid="AF7EBAED7DE1AC4E87B99838A1A5D684" type="4" unique="true" autosequence="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="AF7EBAED7DE1AC4E87B99838A1A5D684"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
@@ -966,9 +1009,29 @@
 			<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_1" uuid="1263751038588B4296BA6551B0D294C0" type="7">
+		<field_ref uuid="AF7EBAED7DE1AC4E87B99838A1A5D684" name="ID">
+			<table_ref uuid="2CAA4E2848BE42609C9D8DD6CD40E279" name="DocketFile_Unusedsub"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_11" uuid="1B2125253C750C4E8D4CDC8028BF647E" type="7">
+		<field_ref uuid="8801EA8CCC8B4C4E807A6921C374F83F" name="PK_ID">
+			<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_7" uuid="1FC2B7DACF9FED4FB4586928C69821A3" type="7">
+		<field_ref uuid="A8BD45F9C4EF6B44BD999E4D1CDDB2CF" name="PK_ID">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="240701A4E1CB4AF1B69E73E0703E6976" type="7">
 		<field_ref uuid="67C9B0C77F304A87AA389013EBA1EC71" name="DocketSite">
 			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_17" uuid="28439521268068438E1342588E985D5B" type="7">
+		<field_ref uuid="EBD870B5AB38FE4A8B7F779F0B88BEB9" name="PK_ID">
+			<table_ref uuid="E5D9120F9A494FCBA528A0CFCAC3372A" name="LtrRptFile"/>
 		</field_ref>
 	</index>
 	<index kind="regular" uuid="292351B3DCB448CD8D15506577E8FA58" type="7">
@@ -991,6 +1054,11 @@
 			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_8" uuid="4389E913FF6B8A4DA95BD4E0E44C7FA9" type="7">
+		<field_ref uuid="211AC37506C0664FB4D1E35754DFB604" name="PK_ID">
+			<table_ref uuid="AC91C5C19F9A4758B7E0B055742E0998" name="SiteConstraints"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="44E23AE802804E31B0EA2BF7E0740B46" type="7">
 		<field_ref uuid="AB282217C5F640268C3FF51D5035C802" name="LtrCaseNo">
 			<table_ref uuid="E5D9120F9A494FCBA528A0CFCAC3372A" name="LtrRptFile"/>
@@ -1006,7 +1074,7 @@
 			<table_ref uuid="DC7C538A9DBD4317B89D8717E33237A7" name="GroupLookup"/>
 		</field_ref>
 	</index>
-	<index kind="regular" uuid="62534D8A21984C2894B9DC9279805D3B" type="7">
+	<index kind="regular" unique_keys="true" uuid="62534D8A21984C2894B9DC9279805D3B" type="7">
 		<field_ref uuid="C4E84EEC8D5D496F82653C34BA81D455" name="IdNumber">
 			<table_ref uuid="BC461C3815CD4C77B811EAE415DCEAE5" name="ISIDTable"/>
 		</field_ref>
@@ -1019,6 +1087,11 @@
 	<index kind="regular" uuid="6ECACA3B09FD40A7B7C36BA9DAC52B10" type="7">
 		<field_ref uuid="F254F6DC4AF24DD88E32B8124981DA4E" name="mafKey">
 			<table_ref uuid="2A3ACEBF525F4E31AEE34D7EF0BB604D" name="MedActFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_9" uuid="71A2DB732AAFB64193787D3F542A38A2" type="7">
+		<field_ref uuid="91C8E1A54CBD854DBD1FC26D6ED2FB7C" name="PK_ID">
+			<table_ref uuid="6F352B6344124DFDBE4849E719F4F417" name="InvalidDateFile"/>
 		</field_ref>
 	</index>
 	<index kind="regular" uuid="7628B0D8949C4593A244E4F10D65AAC4" type="7">
@@ -1041,7 +1114,7 @@
 			<table_ref uuid="17DED9BB8E1B48C58B765217B90E9798" name="Groups"/>
 		</field_ref>
 	</index>
-	<index kind="regular" uuid="83A3CA0B00D64E6EABBE5DBB510AA986" type="7">
+	<index kind="regular" unique_keys="true" uuid="83A3CA0B00D64E6EABBE5DBB510AA986" type="7">
 		<field_ref uuid="8F1979B4EAAD427DA16D62DD19CE857F" name="LTLocID">
 			<table_ref uuid="EB66F981206047F9BBDBCEA83324D84E" name="LocationFile"/>
 		</field_ref>
@@ -1054,6 +1127,16 @@
 	<index kind="regular" uuid="86E5A6E1FB4149DB85740F83D561D403" type="7">
 		<field_ref uuid="7900AE7698DD42CEB53B0282E0CA4F5A" name="AddPartyFile">
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_19" uuid="897E6CAC3CFFE04B8463D9F0A8083E8B" type="7">
+		<field_ref uuid="9D9068C6B05D7E4A910662F746332AF2" name="PK_ID">
+			<table_ref uuid="30FF9EFA328C402AABDF56B9B22356C7" name="Details"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_10" uuid="8CA77D3EA9EDC0419C75E8F8CD6689CA" type="7">
+		<field_ref uuid="5F706279A5B24546B2704072F3CD4550" name="PK_ID">
+			<table_ref uuid="5C5317FBCF9A4DDFACA09AC52BC3FCB9" name="MediatorFile"/>
 		</field_ref>
 	</index>
 	<index kind="regular" uuid="8E27F9C0E61F4D60929B57DA6D6B5EC2" type="7">
@@ -1074,6 +1157,11 @@
 	<index kind="regular" uuid="908C8DC3849C4E2CBC1DF6CEB6ED401B" type="7">
 		<field_ref uuid="6B93D3AC8CBD40BD878097DC4B3A4F3C" name="RLang">
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_12" uuid="97C0E9AB1A3E1C4D8F9E55B859B1753A" type="7">
+		<field_ref uuid="CD45753C44F6FB42BFF1631540EB7A31" name="PK_ID">
+			<table_ref uuid="F236A9DF54C04F5B86A27539F5AABC64" name="Constants"/>
 		</field_ref>
 	</index>
 	<index kind="regular" uuid="9A9B8DF0F9644B4F9D326700BA9341D4" type="7">
@@ -1116,7 +1204,7 @@
 			<table_ref uuid="2B2935F4A4DF45608650877C96DA35C2" name="LetterFile"/>
 		</field_ref>
 	</index>
-	<index kind="regular" uuid="AFAB80716F894BDCACAEC03757A3A449" type="7">
+	<index kind="regular" unique_keys="true" uuid="AFAB80716F894BDCACAEC03757A3A449" type="7">
 		<field_ref uuid="AB1EFAD90BC04F81A0ECC5588DEAF672" name="RelCode">
 			<table_ref uuid="B5469D0587B04C74A7F1A67B7C36ED43" name="RelCodeFile"/>
 		</field_ref>
@@ -1126,9 +1214,29 @@
 			<table_ref uuid="AC91C5C19F9A4758B7E0B055742E0998" name="SiteConstraints"/>
 		</field_ref>
 	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_16" uuid="B2618B01C732D64FB41C3FAC951E6705" type="7">
+		<field_ref uuid="075286516BB3AE4CB94AAB611DF66BD2" name="PK_ID">
+			<table_ref uuid="2B2935F4A4DF45608650877C96DA35C2" name="LetterFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_13" uuid="B45322BF8DCBE747842A86E0C3CE1E6E" type="7">
+		<field_ref uuid="3A48105AC895F448AD978E22BE13BA98" name="PK_ID">
+			<table_ref uuid="BB7E8F0E9E3E49F29B9232CD6D425D53" name="TimeSlots"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_25" uuid="B87B5B2F31090C478D3ED141D83E8EDB" type="7">
+		<field_ref uuid="C58C82980C0F3E45AE5F03C79F7A3D22" name="PK_ID">
+			<table_ref uuid="514BBC335470433BBA996EEF464E4606" name="IntakeFile_Referrals"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="BB69F2835AFF4B51969CADEFB82BBC64" type="7">
 		<field_ref uuid="F966A4C2E90141B185C09A87BB7F6BA2" name="HResults">
 			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_20" uuid="BC4A246FCA0A3D4F966A7B0CD5A65B9A" type="7">
+		<field_ref uuid="B1A2C61D07A4E24D8EB6A967C801F5F1" name="PK_ID">
+			<table_ref uuid="487C0BDA0BC046559997623A69D7EF11" name="CrtAddrFile"/>
 		</field_ref>
 	</index>
 	<index kind="regular" uuid="C51809B699E34AAF8307F9FB72E6D21D" type="7">
@@ -1141,7 +1249,7 @@
 			<table_ref uuid="4BC1CDF899644B31BB26DD84C45F9B2B" name="FamilyFile"/>
 		</field_ref>
 	</index>
-	<index kind="regular" uuid="CAE9C6C835CB425DAF7D15A7567800F5" type="7">
+	<index kind="regular" unique_keys="true" uuid="CAE9C6C835CB425DAF7D15A7567800F5" type="7">
 		<field_ref uuid="2C1DFBDC39BB4C4689E3D146A74E9E92" name="DisCode">
 			<table_ref uuid="FA1A264D60F74974B832762B7A9835AA" name="DisputeFile"/>
 		</field_ref>
@@ -1161,6 +1269,11 @@
 			<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_14" uuid="D20E633636119B419A580927BDEC7558" type="7">
+		<field_ref uuid="CB34838E616CB440A0304FB60DE4A3B3" name="PK_ID">
+			<table_ref uuid="17DED9BB8E1B48C58B765217B90E9798" name="Groups"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="D85D62CDE7C54884A5D7850B48069DA7" type="7">
 		<field_ref uuid="3CB46C3F28754623AAD5AFC92ADB44B9" name="CCRefBy">
 			<table_ref uuid="487C0BDA0BC046559997623A69D7EF11" name="CrtAddrFile"/>
@@ -1176,6 +1289,11 @@
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_22" uuid="DC6EA2E2953FA646B8F3F97F596A4FAB" type="7">
+		<field_ref uuid="D0C4C18F781BF54B871E8CFEE29081DA" name="PK_ID">
+			<table_ref uuid="57E24D0A501E4F179A2A61E4A0C75105" name="DBUpdate"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="DCB3E2BACA764EA68209A8E43DB820B4" type="7">
 		<field_ref uuid="19B29D4D7F474ABBABB552C557EC395E" name="Referrals">
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
@@ -1189,6 +1307,26 @@
 	<index kind="regular" uuid="E58B42150503486593D6A19A27027052" type="7">
 		<field_ref uuid="912CEE6084B944F79DC3B81F60820BE3" name="LtrType">
 			<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_18" uuid="E9151DF835AE10438727626271064860" type="7">
+		<field_ref uuid="82EB340ABE44CA41B12344BDB6751B19" name="PK_ID">
+			<table_ref uuid="DC7C538A9DBD4317B89D8717E33237A7" name="GroupLookup"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_15" uuid="E935FBF38AE6784FAF7067C2074A6A42" type="7">
+		<field_ref uuid="4EC8B6CFF5602343962AEDF06EF9955B" name="PK_ID">
+			<table_ref uuid="13B0D27E5ADC42D786D6EAAE2D7F5FE6" name="DailyLtrFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_24" uuid="E9D3248177EB6D4EA458676B8181C6CD" type="7">
+		<field_ref uuid="50E37E2B24F86F48AC8322F3744A90A9" name="PK_ID">
+			<table_ref uuid="E5B9C7F63BD34E448EFC8F764D82E586" name="IntakeFile_AddPartyFile"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_23" uuid="EC8E8F08DE52694E8434B7AB447E5DAB" type="7">
+		<field_ref uuid="8901B42B69F14B99B578B174EA237F4F" name="ID">
+			<table_ref uuid="70974A4B25F745FDB7C3606600900389" name="SR_BOM"/>
 		</field_ref>
 	</index>
 	<index kind="regular" uuid="F201FEB1B59E43EB96275311A815AFC8" type="7">
