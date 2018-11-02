@@ -1,0 +1,2922 @@
+﻿{
+	"messages": [
+		{
+			"menu": "",
+			"message": "Can't locate picture ?8954.",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable13",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable16",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable17",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable22",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable23",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable24",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable34",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable37",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable26",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable27",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable28",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable29",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable30",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable31",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable32",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput",
+			"object": "Variable33",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "IntakeSelection",
+			"object": "Variable14",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "ShowAttyDialog",
+			"object": "Variable1",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "ShowAttyDialog",
+			"object": "Variable2",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "ShowAttyDialog",
+			"object": "Variable3",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "ShowAttyDialog",
+			"object": "Variable4",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "ShowAttyDialog",
+			"object": "Variable5",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable11",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable20",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable22",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable23",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable24",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable27",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable28",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable29",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable30",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable31",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable34",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable36",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable37",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable38",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable39",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable49",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable50",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable57",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable58",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable71",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake",
+			"object": "Variable72",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "Print_IntakeDetail",
+			"object": "Variable11",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_A_Filed",
+			"object": "Matrix1",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_A_Filed",
+			"object": "Matrix2",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_A_Filed",
+			"object": "Matrix3",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_A_Filed",
+			"object": "Matrix4",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_Hdr",
+			"object": "Matrix3",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_Hdr",
+			"object": "Matrix4",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_Detail",
+			"object": "Matrix1",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_06_Detail",
+			"object": "Matrix3",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_B_06_Hdr",
+			"object": "Matrix3",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_B_06_Hdr",
+			"object": "Matrix4",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_B_06_Detail",
+			"object": "Matrix1",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_B_06_Detail",
+			"object": "Matrix3",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "StateReport_B_06_Detail",
+			"object": "Matrix4",
+			"message": "Matrix objects are unsupported. Please convert them to shapes.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable11",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "TestIntake OLD",
+			"object": "Variable20",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable13",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable16",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 1,
+			"tableName": "IntakeFile",
+			"form": "CourtBasedInput_Old",
+			"object": "Variable17",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DFInput",
+			"object": "Variable13",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DocketDisplay",
+			"object": "Variable1",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DocketDisplay",
+			"object": "Variable2",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DocketDisplay",
+			"object": "Variable3",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "DocketDisplay",
+			"object": "Variable4",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "EditDocket",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 6,
+			"tableName": "DocketFile",
+			"form": "SelTimeDialog",
+			"object": "Variable1",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "SiteConstraints",
+			"form": "SiteOutput",
+			"object": "Field21",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "SiteConstraints",
+			"form": "SiteOutput",
+			"object": "Line21",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 7,
+			"tableName": "SiteConstraints",
+			"form": "SiteOutput",
+			"object": "Text23",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 8,
+			"tableName": "InvalidDateFile",
+			"form": "IDFInput",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEdit",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInputO",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedMailForm",
+			"object": "Variable5",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedMailForm",
+			"object": "Variable8",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedEnvelope",
+			"object": "Variable5",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MedLabel",
+			"object": "Variable5",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 9,
+			"tableName": "MediatorFile",
+			"form": "MFInput",
+			"object": "Variable16",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "Input_Act",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFDocInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 10,
+			"tableName": "MedActFile",
+			"form": "MAFSpecial_In",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 13,
+			"tableName": "Groups",
+			"form": "GInput",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable5",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable6",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable7",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable8",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable9",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable10",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable11",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable12",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable13",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable14",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable15",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable16",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable17",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable18",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable19",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable20",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable21",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable22",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable23",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable24",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable25",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable26",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable27",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable28",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable29",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable30",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable31",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable32",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable33",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable34",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable35",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable36",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable37",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable38",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable39",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable40",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable41",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable42",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable43",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable44",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable45",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable46",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable47",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable48",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable49",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable50",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable51",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable52",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable53",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable54",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable55",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable56",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable57",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable58",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable59",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable60",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable61",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable62",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable63",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable64",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable65",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable66",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable67",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable68",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable69",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable70",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable71",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable72",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable73",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable74",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable75",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable76",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable77",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable78",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable79",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable80",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable81",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable82",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable83",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable84",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable85",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable86",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable87",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 14,
+			"tableName": "DailyLtrFile",
+			"form": "EnvelopeXerox",
+			"object": "Variable88",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable11",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable12",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable13",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable14",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable15",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable16",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable17",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "LetterInput",
+			"object": "Variable18",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "PartiesDialog",
+			"object": "Variable1",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "PartiesDialog",
+			"object": "Variable2",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 15,
+			"tableName": "LetterFile",
+			"form": "PartiesDialog",
+			"object": "Variable3",
+			"message": "Listbox property 'Scrollable area compatibility mode' not supported",
+			"severity": "warning"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 16,
+			"tableName": "LtrRptFile",
+			"form": "LR_Input",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 17,
+			"tableName": "GroupLookup",
+			"form": "Input",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtWorkSheetArb",
+			"object": "Variable90",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtWorkSheetArb",
+			"object": "Variable91",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtWorkSheetArb",
+			"object": "Variable92",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtWorkSheetArb",
+			"object": "Variable93",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtWorkSheetArb",
+			"object": "Variable94",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtWorkSheetArb",
+			"object": "Variable95",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 19,
+			"tableName": "CrtAddrFile",
+			"form": "CtGuideMSC",
+			"object": "Text1",
+			"message": "Renamed duplicate form object name '&S' to '&S'",
+			"severity": "warning"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable4",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable5",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable6",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable8",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable9",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable10",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable11",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable12",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable13",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable14",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable15",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable16",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable17",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 20,
+			"tableName": "FamilyFile",
+			"form": "Input",
+			"object": "Variable18",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 23,
+			"tableName": "IntakeFile_AddPartyFile",
+			"form": "APInputLit",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 23,
+			"tableName": "IntakeFile_AddPartyFile",
+			"form": "APInputLit",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 23,
+			"tableName": "IntakeFile_AddPartyFile",
+			"form": "APInputLit",
+			"object": "Variable7",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 23,
+			"tableName": "IntakeFile_AddPartyFile",
+			"form": "CInputAP1",
+			"object": "Variable1",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 23,
+			"tableName": "IntakeFile_AddPartyFile",
+			"form": "CInputAP1",
+			"object": "Variable2",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		},
+		{
+			"table": 23,
+			"tableName": "IntakeFile_AddPartyFile",
+			"form": "CInputAP1",
+			"object": "Variable3",
+			"message": "Highlight buttons are unsupported. Please convert them to 3D buttons.",
+			"severity": "error"
+		}
+	],
+	"success": false
+}
