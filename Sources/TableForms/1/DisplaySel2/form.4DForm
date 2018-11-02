@@ -6,7 +6,7 @@
 	"markerHeader": 117,
 	"markerBody": 132,
 	"markerBreak": 132,
-	"markerFooter": 215,
+	"markerFooter": 197,
 	"events": [
 		"onLoad",
 		"onValidate",
@@ -170,6 +170,29 @@
 					"fontWeight": "bold",
 					"text": "Intake Display Screen"
 				},
+				"Variable6": {
+					"type": "button",
+					"top": 67,
+					"left": 399,
+					"width": 73,
+					"height": 20,
+					"dataSource": "bCancelDis",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "Done",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
 				"Variable1": {
 					"type": "input",
 					"top": 75,
@@ -323,6 +346,21 @@
 						"onPrintingDetail"
 					]
 				},
+				"bcancel": {
+					"type": "button",
+					"top": 138,
+					"left": 396,
+					"width": 76,
+					"height": 22,
+					"dataSource": "bcancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
 				"Variable2": {
 					"type": "button",
 					"top": 165,
@@ -391,10 +429,10 @@
 						"onClick"
 					]
 				},
-				"Variable6": {
+				"Variable7": {
 					"type": "button",
 					"top": 165,
-					"left": 403,
+					"left": 401,
 					"width": 73,
 					"height": 20,
 					"dataSource": "bCancelDis",
