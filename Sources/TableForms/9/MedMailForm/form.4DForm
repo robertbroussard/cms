@@ -246,7 +246,7 @@
 					"height": 17,
 					"dataSource": "aGroup2",
 					"fontSize": 9,
-					"method": "ObjectMethods/Variable1.4dm",
+					"method": "ObjectMethods/Variable5.4dm",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -264,7 +264,7 @@
 					"height": 16,
 					"dataSource": "aGroup3",
 					"fontSize": 9,
-					"method": "ObjectMethods/Variable2.4dm",
+					"method": "ObjectMethods/Variable8.4dm",
 					"events": [
 						"onClick",
 						"onHeader",

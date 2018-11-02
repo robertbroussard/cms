@@ -159,22 +159,23 @@
 				},
 				"Line5": {
 					"type": "line",
-					"top": 60,
-					"left": 338,
-					"height": 31,
+					"top": 74,
+					"left": -1,
+					"width": 554,
 					"strokeWidth": 0.1
 				},
 				"Text7": {
 					"type": "text",
-					"top": 62,
-					"left": 339,
-					"width": 19,
+					"top": 46,
+					"left": 4,
+					"width": 70,
 					"height": 12,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
+					"fontFamily": "Arial",
 					"fontSize": 9,
-					"text": "TRU"
+					"fontWeight": "bold",
+					"text": "Docket Site"
 				},
 				"Line6": {
 					"type": "line",
@@ -456,22 +457,22 @@
 				},
 				"Field1": {
 					"type": "input",
-					"top": 77,
-					"left": 343,
-					"width": 11,
+					"top": 76,
+					"left": 446,
+					"width": 34,
 					"height": 12,
-					"dataSource": "[SiteConstraints:7]Truant:24",
+					"dataSource": "[SiteConstraints:7]Arbitration:19",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
+					"fontFamily": "Arial",
+					"fontSize": 9,
 					"borderStyle": "none",
+					"enterable": false,
 					"contextMenu": "none",
+					"textFormat": "O K",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
-						"onLoad",
-						"onValidate",
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -522,8 +523,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -821,6 +820,33 @@
 						"onPrintingDetail"
 					]
 				},
+				"Field21": {
+					"type": "input",
+					"top": 77,
+					"left": 343,
+					"width": 11,
+					"height": 12,
+					"dataSource": "[SiteConstraints:7]Truant:24",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Field14": {
 					"type": "input",
 					"top": 77,
@@ -965,8 +991,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -1019,6 +1043,25 @@
 					"fontFamily": "Arial",
 					"fontSize": 9,
 					"text": "CPS"
+				},
+				"Line21": {
+					"type": "line",
+					"top": 60,
+					"left": 338,
+					"height": 31,
+					"strokeWidth": 0.1
+				},
+				"Text23": {
+					"type": "text",
+					"top": 62,
+					"left": 339,
+					"width": 19,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"text": "TRU"
 				}
 			}
 		}

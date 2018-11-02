@@ -50,8 +50,6 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"method": "ObjectMethods/Variable1.4dm",
 					"events": [
 						"onLoad",
@@ -80,8 +78,6 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -107,8 +103,6 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -120,6 +114,31 @@
 					]
 				},
 				"Variable4": {
+					"type": "input",
+					"top": 196,
+					"left": 228,
+					"width": 488,
+					"height": 14,
+					"dataSource": "vText4",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
 					"type": "input",
 					"top": 211,
 					"left": 228,
@@ -133,8 +152,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",

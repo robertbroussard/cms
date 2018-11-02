@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <BuildCompiled>False</BuildCompiled>
+    <IncludeAssociatedFolders>True</IncludeAssociatedFolders>
+    <BuildComponent>False</BuildComponent>
+    <BuildApplicationSerialized>False</BuildApplicationSerialized>
+    <BuildApplicationLight>False</BuildApplicationLight>
+    <SourcesFiles>
+      <RuntimeVL>
+        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>
+      </RuntimeVL>
+      <CS>
+        <ServerIncludeIt>True</ServerIncludeIt>
+        <ClientWinIncludeIt>True</ClientWinIncludeIt>
+        <ClientMacIncludeIt>False</ClientMacIncludeIt>
+        <ServerWinFolder>C:\Program Files\4D\4D v17 R3\4D Server\</ServerWinFolder>
+        <ClientWinFolderToWin>C:\Program Files\4D\4D v17 R3\4D Volume Desktop\</ClientWinFolderToWin>
+      </CS>
+    </SourcesFiles>
+    <CS>
+      <BuildServerApplication>True</BuildServerApplication>
+      <BuildCSUpgradeable>True</BuildCSUpgradeable>
+      <BuildV13ClientUpgrades>True</BuildV13ClientUpgrades>
+      <CurrentVers>1</CurrentVers>
+      <HardLink></HardLink>
+    </CS>
+    <BuildApplicationName>CMS_v17</BuildApplicationName>
+    <BuildWinDestFolder>..\CMS_Build\</BuildWinDestFolder>
+    <ArrayExcludedPluginName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginName>
+    <ArrayExcludedPluginID>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginID>
+    <ArrayExcludedComponentName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedComponentName>
+    <Licenses>
+      <ArrayLicenseWin>
+        <ItemsCount>1</ItemsCount>
+        <Item1>C:\ProgramData\4D\Licenses\R-4UUD170UUS001FQM0M0C439.license4D</Item1>
+      </ArrayLicenseWin>
+    </Licenses>
+    <SignApplication>
+      <MacSignature>False</MacSignature>
+      <MacCertificate></MacCertificate>
+    </SignApplication>
+  </BuildApp>
+
+</Preferences4D>

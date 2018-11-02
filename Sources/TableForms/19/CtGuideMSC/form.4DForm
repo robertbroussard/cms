@@ -31,6 +31,18 @@
 			"objects": {
 				"Text2": {
 					"type": "text",
+					"top": 81,
+					"left": 74,
+					"width": 412,
+					"height": 17,
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "MODERATED SETTLEMENT CONFERENCE (MSC) GUIDELINES"
+				},
+				"Text1": {
+					"type": "text",
 					"top": 116,
 					"left": 27,
 					"width": 490,
@@ -270,8 +282,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onDataChange"

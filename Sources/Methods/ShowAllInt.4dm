@@ -9,4 +9,4 @@ FORM SET OUTPUT:C54([IntakeFile:1];"DisplaySel2")
 ALL RECORDS:C47([IntakeFile:1])
 MODIFY SELECTION:C204([IntakeFile:1];*)
   //UNLOAD RECORD([IntakeFile])
-FIRST RECORD:C50([IntakeFile:1])
+  //FIRST RECORD([IntakeFile]) disabled RJB 11/2/18

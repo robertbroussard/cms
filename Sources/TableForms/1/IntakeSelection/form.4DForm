@@ -257,7 +257,7 @@
 					"fontSize": 10,
 					"fontWeight": "bold",
 					"stroke": "#000000",
-					"method": "ObjectMethods/Variable8.4dm",
+					"method": "ObjectMethods/Variable14.4dm",
 					"events": [
 						"onClick"
 					]
