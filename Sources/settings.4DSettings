@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="4">
+<preferences stamp="6">
 	<com.4d>
 		<database>
 			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>
@@ -10,7 +10,7 @@
 			<mover always_display_dialog="2"/>
 		</general>
 		<interface>
-			<user can_change_password="false" display_list="false" display_toolbar="true" formula_editor_with_full_lists="true"/>
+			<user can_change_password="false" display_list="false" display_toolbar="true" formula_editor_with_full_lists="true" splash_screen="false"/>
 			<misc fields_enterable_in_dialogs="false" prevent_drop_not_coming_from_4d="false" radio_buttons_grouped_by_name="true"/>
 			<shortcuts>
 				<add_subform key_code="47" shift="false"/>
@@ -21,7 +21,7 @@
 		<server>
 			<misc order_by_formula_on_server="true" query_by_formula_on_server="false" query_by_formula_uses_joins="false"/>
 			<network>
-				<options publication_name="CMS_2011" use_legacy_network_layer="false"/>
+				<options publication_name="CMS_2018_TEST" use_legacy_network_layer="false"/>
 			</network>
 			<ip_config>
 				<allow_deny_table>
@@ -31,7 +31,7 @@
 		</server>
 		<web>
 			<standalone_server>
-				<configuration automatic_session_management="false" listening_address="0.0.0.0" publish_at_startup="true">
+				<configuration allowHttp="false" allow_ssl="true" automatic_session_management="false" listening_address="0.0.0.0" port_number="80" publish_at_startup="false">
 					<hosts>
 						<host home_page="" html_root="./WebFolder/" id="0" name="Default"/>
 					</hosts>
@@ -68,5 +68,9 @@
 		<deployment>
 			<options generate_applications_for_read_only_deployment="false"/>
 		</deployment>
+		<sql>
+			<publication port_number="19812"/>
+		</sql>
+		<php ip_address="127.0.0.1"/>
 	</com.4d>
 </preferences>
