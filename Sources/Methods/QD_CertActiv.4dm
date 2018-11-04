@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   // Total Mediator activity to check eligibility for certificates
   //
-_O_C_INTEGER:C282(vCObs;vJObs;vCCom;vJCom;vFCom;$datectr)
+C_LONGINT:C283(vCObs;vJObs;vCCom;vJCom;vFCom;$datectr)
 C_REAL:C285(vCCE)
 PRINT SETTINGS:C106
 vprintdate:=String:C10(Current date:C33)

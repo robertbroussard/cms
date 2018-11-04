@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: SR_Totals
   //
-_O_C_INTEGER:C282($i;$j;$TempNum)
+C_LONGINT:C283($i;$j;$TempNum)
   //Get the totals for element 6 for all 38 lines.
 For ($i;1;38)
 	For ($j;1;5)

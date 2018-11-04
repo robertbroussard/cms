@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: BatchProgram;
-_O_C_INTEGER:C282($i)
-_O_C_STRING:C293(1;$String)
+C_LONGINT:C283($i)
+C_TEXT:C284($String)
 ALL RECORDS:C47([IntakeFile:1])
 For ($i;1;Records in selection:C76([IntakeFile:1]))
 	$String:=Substring:C12([IntakeFile:1]CaseNo:1;9;1)

@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: SpanishDates;
-_O_C_INTEGER:C282($Day;$Mon)
-_O_C_STRING:C293(20;$DayString;$MonString)
-_O_C_STRING:C293(40;$0)
+C_LONGINT:C283($Day;$Mon)
+C_TEXT:C284($DayString;$MonString)
+C_TEXT:C284($0)
 $Day:=Day number:C114($1)
 $Mon:=Month of:C24($1)
 Case of 

@@ -1,18 +1,18 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: GetParties;
   //
-_O_C_STRING:C293(3;$CheckNum;$Pgm)
-_O_C_INTEGER:C282($i;$Insert)
+C_TEXT:C284($CheckNum;$Pgm)
+C_LONGINT:C283($i;$Insert)
 $CheckNum:=""
-_O_ARRAY STRING:C218(50;aPLName;2)
-_O_ARRAY STRING:C218(50;aPFName;2)
-_O_ARRAY STRING:C218(10;aPartyType;2)
-_O_ARRAY STRING:C218(25;aFirm;2)
-_O_ARRAY STRING:C218(60;aStAdd;2)
-_O_ARRAY STRING:C218(20;aCity;2)
-_O_ARRAY STRING:C218(2;agpState;2)
-_O_ARRAY STRING:C218(9;aZip;2)
-_O_ARRAY STRING:C218(2;aPartyLang;2)
+ARRAY TEXT:C222(aPLName;2)
+ARRAY TEXT:C222(aPFName;2)
+ARRAY TEXT:C222(aPartyType;2)
+ARRAY TEXT:C222(aFirm;2)
+ARRAY TEXT:C222(aStAdd;2)
+ARRAY TEXT:C222(aCity;2)
+ARRAY TEXT:C222(agpState;2)
+ARRAY TEXT:C222(aZip;2)
+ARRAY TEXT:C222(aPartyLang;2)
 ARRAY INTEGER:C220(aAge;2)  //             add:   pass age forward
   //C1 Information
 aPartyType{1}:="C1"

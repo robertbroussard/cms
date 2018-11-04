@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: NewRec_DLF;
-_O_C_INTEGER:C282($OK;$1)
-_O_C_STRING:C293(32;$OPName;$OPName2)
-_O_C_STRING:C293(30;$2)
+C_LONGINT:C283($OK;$1)
+C_TEXT:C284($OPName;$OPName2)
+C_TEXT:C284($2)
 $OK:=1
 Case of 
 	: ((aPartyType{$1}="C@") & ($3#True:C214))

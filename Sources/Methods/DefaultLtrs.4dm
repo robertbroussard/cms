@@ -2,9 +2,9 @@
   //G-Procedure: Default;
   //
 C_TEXT:C284($TempvText2)
-_O_C_INTEGER:C282(b1;b2;b3;b4;b5;b6;b7;b8)
-_O_C_INTEGER:C282($Open)
-_O_C_STRING:C293(255;vTitle)  //     ON BOTTOM OF CPS NOTICE
+C_LONGINT:C283(b1;b2;b3;b4;b5;b6;b7;b8)
+C_LONGINT:C283($Open)
+C_TEXT:C284(vTitle)  //     ON BOTTOM OF CPS NOTICE
 $TempvText2:=vText2
 DIALOG:C40([LetterFile:15];"LtrBasicDialog")
 $Check:=True:C214

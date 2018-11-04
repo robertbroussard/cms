@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //Procedure: PrintDocket;
-_O_C_INTEGER:C282($LineCount;$MedCount;$i;$j;$h;$PgNo;$TheRest;$Page)
+C_LONGINT:C283($LineCount;$MedCount;$i;$j;$h;$PgNo;$TheRest;$Page)
 vSite:=""
 vDate:=!00-00-00!
 vPrintDate:=""

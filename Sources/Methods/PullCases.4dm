@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: PullCases;
-_O_C_INTEGER:C282($i)
+C_LONGINT:C283($i)
 vNewIntake:=False:C215
 vNewIntake2:=False:C215
 vSite:=""

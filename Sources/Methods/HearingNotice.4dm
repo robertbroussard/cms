@@ -3,8 +3,8 @@
   // Standard hearing notices plus special routines for
   // CPS and Child Protection services
   //
-_O_C_INTEGER:C282($i;$Dialog)
-_O_C_STRING:C293(30;$TempLtr)
+C_LONGINT:C283($i;$Dialog)
+C_TEXT:C284($TempLtr)
 If (vBlank=1)  // Set in DefaultLtrs - 1 if OK PRINT LETTERS - NO RESULTS OR "STL" w/ BA ltr req
 	$Dialog:=1
 	While ($Dialog=1)

@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc:GetRefByLine;
-_O_C_INTEGER:C282($0)
+C_LONGINT:C283($0)
 Case of 
 	: (([IntakeFile:1]RefBy:16="ADA@") | ([IntakeFile:1]RefBy:16="DA@"))
 		$0:=2

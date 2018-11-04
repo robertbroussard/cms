@@ -1,10 +1,10 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: DoReschedule
   //
-_O_C_INTEGER:C282($Blank;$Cont;$RS;$i)
-_O_C_STRING:C293(50;$Display1)
-_O_C_STRING:C293(24;$Display2)
-_O_C_STRING:C293(9;$1)
+C_LONGINT:C283($Blank;$Cont;$RS;$i)
+C_TEXT:C284($Display1)
+C_TEXT:C284($Display2)
+C_TEXT:C284($1)
 $RS1:=False:C215
 $RS2:=False:C215
 $Error:=False:C215

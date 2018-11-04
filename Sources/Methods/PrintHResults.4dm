@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc:PrintHResults    
   //
-_O_C_INTEGER:C282($i)
+C_LONGINT:C283($i)
 vSubDetail:=""
 Print form:C5([IntakeFile:1];"SubHead1")
 vText1:="Hearing Results for: "+vSite

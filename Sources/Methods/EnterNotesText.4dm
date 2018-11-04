@@ -1,12 +1,12 @@
 //%attributes = {"publishedWeb":true}
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
-_O_C_INTEGER:C282($i;$Find;$Insert;$Size)
-_O_C_STRING:C293(1;$1)
+C_LONGINT:C283($i;$Find;$Insert;$Size)
+C_TEXT:C284($1)
   //C_STRING(2;$2)
 C_TEXT:C284($TempInterim;$TempText)
 $TempInterim:=""
 $TempText:=""
-_O_ARRAY STRING:C218(30;aLtrType;0)
+ARRAY TEXT:C222(aLtrType;0)
 FIRST RECORD:C50([DailyLtrFile:14])
 For ($i;1;Records in selection:C76([DailyLtrFile:14]))
 	If (Size of array:C274(aLtrType)>0)

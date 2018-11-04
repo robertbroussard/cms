@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: DoError;
-_O_C_INTEGER:C282($1)
-_O_C_STRING:C293(255;$2;$3)
+C_LONGINT:C283($1)
+C_TEXT:C284($2;$3)
 CREATE RECORD:C68([LtrRptFile:16])
 [LtrRptFile:16]ReqInitials:4:=$2
 [LtrRptFile:16]PrintInitials:11:=$3

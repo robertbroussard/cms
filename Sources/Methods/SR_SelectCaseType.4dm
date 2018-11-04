@@ -11,19 +11,19 @@ $StdAction:=True:C214
 $CaseType:=$1
 $Filed:=$2
 
-_O_ARRAY STRING:C218(3;$aDisputeCode;0)
+ARRAY TEXT:C222($aDisputeCode;0)
 
 If (Length:C16($CaseType)#0)
 	
 	Case of 
 		: ($CaseType="A")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;3)
+			ARRAY TEXT:C222($aDisputeCode;3)
 			$aDisputeCode{1}:="130"
 			$aDisputeCode{2}:="155"
 			$aDisputeCode{3}:="156"
 			
 		: ($CaseType="B")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;5)
+			ARRAY TEXT:C222($aDisputeCode;5)
 			$aDisputeCode{1}:="101"
 			$aDisputeCode{2}:="129"
 			$aDisputeCode{3}:="137"
@@ -31,11 +31,11 @@ If (Length:C16($CaseType)#0)
 			$aDisputeCode{5}:="148"
 			
 		: ($CaseType="C")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;1)
+			ARRAY TEXT:C222($aDisputeCode;1)
 			$aDisputeCode{1}:="157"
 			
 		: ($CaseType="D")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;1)
+			ARRAY TEXT:C222($aDisputeCode;1)
 			$aDisputeCode{1}:="144"
 			
 		: ($CaseType="E")  //Forced to Zero -- no such cases.
@@ -43,7 +43,7 @@ If (Length:C16($CaseType)#0)
 			REDUCE SELECTION:C351([IntakeFile:1];0)
 			
 		: ($CaseType="F")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;11)
+			ARRAY TEXT:C222($aDisputeCode;11)
 			$aDisputeCode{1}:="103"
 			$aDisputeCode{2}:="105"
 			$aDisputeCode{3}:="107"
@@ -66,13 +66,13 @@ If (Length:C16($CaseType)#0)
 			DIFFERENCE:C122("AllRecs";"RefBy";"RecipCases")
 			USE SET:C118("RecipCases")
 		: ($CaseType="H")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;3)
+			ARRAY TEXT:C222($aDisputeCode;3)
 			$aDisputeCode{1}:="108"
 			$aDisputeCode{2}:="149"
 			$aDisputeCode{3}:="150"
 			
 		: ($CaseType="I")
-			_O_ARRAY STRING:C218(3;$aDisputeCode;2)
+			ARRAY TEXT:C222($aDisputeCode;2)
 			$aDisputeCode{1}:="151"
 			$aDisputeCode{2}:="154"
 			  //PLUS Case Numbers that end in "K" the 9th Character.

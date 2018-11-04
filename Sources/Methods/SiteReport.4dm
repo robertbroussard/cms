@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: SiteReport
-_O_C_INTEGER:C282($RptLoop1;$Dialog)
-_O_C_STRING:C293(15;$Site)
+C_LONGINT:C283($RptLoop1;$Dialog)
+C_TEXT:C284($Site)
 SET WINDOW TITLE:C213("DRC: Intake Site Report")
 vRptName:=""
 vBegDate:=!00-00-00!

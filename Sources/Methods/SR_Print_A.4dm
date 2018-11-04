@@ -36,7 +36,7 @@ vPrintDate:="Date Printed: "+String:C10(Current date:C33;7)
 Print form:C5([IntakeFile:1];"RptHeader")
 vSubDetail:=""
 Print form:C5([IntakeFile:1];"SubHead1")
-_O_ARRAY STRING:C218(40;aLineName;0)
+ARRAY TEXT:C222(aLineName;0)
 INSERT IN ARRAY:C227(aLineName;1;15)  // LOAD TABLE WITH LINE LABELS
 aLineName{1}:="I.  Cases Pending - Beginning"
 aLineName{2}:="II. A.  Cases Rec. County"

@@ -3,8 +3,8 @@
   //OK it will reschedule the case. Reschedule is called from the menu item 
   //Reschedule Case. It in turn calls DoReschedule.
   //
-_O_C_INTEGER:C282($MainLoop)
-_O_C_STRING:C293(9;$TempCaseNo)
+C_LONGINT:C283($MainLoop)
+C_TEXT:C284($TempCaseNo)
 SET WINDOW TITLE:C213("DRC Case Management System")
 $MainLoop:=1
 While ($MainLoop=1)

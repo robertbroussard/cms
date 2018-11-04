@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BuildPrograms
-_O_C_STRING:C293(2;$TempProg)
-_O_C_INTEGER:C282($i;$Find;$Insert;$RIS)
-_O_ARRAY STRING:C218(2;aProgram;0)
+C_TEXT:C284($TempProg)
+C_LONGINT:C283($i;$Find;$Insert;$RIS)
+ARRAY TEXT:C222(aProgram;0)
 ARRAY REAL:C219(aPTotals;0;2)
 $RIS:=Records in selection:C76([IntakeFile:1])
 FIRST RECORD:C50([IntakeFile:1])

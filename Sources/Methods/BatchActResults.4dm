@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BatchActResults
-_O_C_INTEGER:C282($i;$j)
+C_LONGINT:C283($i;$j)
 ALL RECORDS:C47([DocketFile:6])
 FIRST RECORD:C50([DocketFile:6])
 For ($i;1;Records in selection:C76([DocketFile:6]))

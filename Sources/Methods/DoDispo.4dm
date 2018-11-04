@@ -1,9 +1,9 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: Do_Dispo;
-_O_C_INTEGER:C282($i;$Insert)
-_O_C_STRING:C293(15;vDCtPD;vDHCJPD_No;vDCt_No;vDPD_No)
-_O_C_STRING:C293(9;vCaseNo)
-_O_C_STRING:C293(6;vDRTC_Date)
+C_LONGINT:C283($i;$Insert)
+C_TEXT:C284(vDCtPD;vDHCJPD_No;vDCt_No;vDPD_No)
+C_TEXT:C284(vCaseNo)
+C_TEXT:C284(vDRTC_Date)
 If ([IntakeFile:1]Program:32="J")
 	vCaseNo:=[IntakeFile:1]CaseNo:1
 	vPrintDate:=String:C10(Current date:C33;3)
@@ -19,8 +19,8 @@ If ([IntakeFile:1]Program:32="J")
 	vDMedD_n_T:=""
 	vDAmtRes:=""
 	GetAllParties 
-	_O_ARRAY STRING:C218(41;aDFullName;0)
-	_O_ARRAY STRING:C218(10;aDType;0)
+	ARRAY TEXT:C222(aDFullName;0)
+	ARRAY TEXT:C222(aDType;0)
 	For ($i;1;Size of array:C274(aPLName))
 		$Insert:=Size of array:C274(aDFullName)+1
 		INSERT IN ARRAY:C227(aDFullName;$Insert)

@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: PrintPrograms
-_O_C_INTEGER:C282($i)
-_O_C_STRING:C293(20;$Program)
+C_LONGINT:C283($i)
+C_TEXT:C284($Program)
 vSubDetail:=""
 Print form:C5([IntakeFile:1];"SubHead1")
 vText1:="Programs"

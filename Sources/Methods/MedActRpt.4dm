@@ -1,15 +1,15 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: MedActRpt
-_O_C_INTEGER:C282($i;$Dialog;$RptLoop1)
-_O_C_STRING:C293(65;$Temp;vPrintRate)
+C_LONGINT:C283($i;$Dialog;$RptLoop1)
+C_TEXT:C284($Temp;vPrintRate)
 SET WINDOW TITLE:C213("DRC: Mediator Activity Reports")
-_O_ARRAY STRING:C218(30;aMaster;0)
-_O_ARRAY STRING:C218(30;aMKey;0)
+ARRAY TEXT:C222(aMaster;0)
+ARRAY TEXT:C222(aMKey;0)
 ARRAY DATE:C224(aMDate;0)
-_O_ARRAY STRING:C218(20;aMType;0)
+ARRAY TEXT:C222(aMType;0)
 ARRAY REAL:C219(aMTime;0)
-_O_ARRAY STRING:C218(5;aMResult;0)
-_O_ARRAY STRING:C218(20;aMProg;0)
+ARRAY TEXT:C222(aMResult;0)
+ARRAY TEXT:C222(aMProg;0)
 vTotalHours:=0
 vMed:=0
 vmafStl:=0

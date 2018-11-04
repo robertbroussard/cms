@@ -3,8 +3,8 @@
   //buttons on TestIntake. The procedure sets CaseStatus  based on the check box
   //that was clicked and which variable was set in that button's script.
   //
-_O_C_STRING:C293(50;$Dis1)
-_O_C_STRING:C293(26;$Dis2)
+C_TEXT:C284($Dis1)
+C_TEXT:C284($Dis2)
 Case of 
 	: ([IntakeFile:1]CaseStatus:25="") & (vSetHold=1)
 		[IntakeFile:1]CaseStatus:25:="Hold"

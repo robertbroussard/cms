@@ -1,9 +1,9 @@
   // Object Method:  in [MediatorFile];"MedLabel" - make addresses
   // upper case and omit blank lines in address.
   //
-_O_C_STRING:C293(10;$Zip)
+C_TEXT:C284($Zip)
 C_LONGINT:C283($ctr)
-_O_ARRAY STRING:C218(75;aADDR;5)
+ARRAY TEXT:C222(aADDR;5)
 aADDR{1}:=""
 aADDR{2}:=""
 aADDR{3}:=""

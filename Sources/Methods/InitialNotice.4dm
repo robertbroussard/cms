@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: InitialNotice;
   //
-_O_C_STRING:C293(30;$TempLtr)
-_O_C_INTEGER:C282($i)
+C_TEXT:C284($TempLtr)
+C_LONGINT:C283($i)
 If ([IntakeFile:1]Program:32="J")
 	If ([IntakeFile:1]CaseStatus:25="Hold")
 		GetParties 

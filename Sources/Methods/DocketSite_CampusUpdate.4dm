@@ -22,7 +22,7 @@
 
 
 
-_O_ARRAY STRING:C218(20;aOldTruantList;0)
+ARRAY TEXT:C222(aOldTruantList;0)
 C_LONGINT:C283($DocketFileLocked;$SiteConstraintsLocked;$TimeSlotsLocked)
 
 $DocketFileLocked:=0
@@ -96,7 +96,7 @@ If ($size>0)
 	UNLOAD RECORD:C212([DocketFile:6])
 	
 	If ($SiteConstraintsLocked#0) | ($TimeSlotsLocked#0) | ($DocketFileLocked#0)  //something was locked
-
+		
 		BEEP:C151
 		BEEP:C151
 		BEEP:C151

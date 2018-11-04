@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: PrintEnvelope;
   //
-_O_C_STRING:C293(10;$Zip;$Xerox)
+C_TEXT:C284($Zip;$Xerox)
 $Xerox:="NO"
 CONFIRM:C162("Are you printing with the Xerox Printer?";"Yes";"No")
 If (OK=1)

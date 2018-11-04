@@ -3,9 +3,9 @@
   //
   //     $1 = $CtrAtty,  $2 = $CtrProSe, $3 = $CtrMed
   //
-_O_C_INTEGER:C282($i;$1;$2;$3;$4;$5;$Ctr)
-_O_C_INTEGER:C282(ptrLine)
-_O_C_STRING:C293(80;vTemp1;vTemp2)
+C_LONGINT:C283($i;$1;$2;$3;$4;$5;$Ctr)
+C_LONGINT:C283(ptrLine)
+C_TEXT:C284(vTemp1;vTemp2)
 C_TEXT:C284(vLine;vCtInfoMsg)
 FORM SET INPUT:C55([CrtAddrFile:19];"CtWorksheetMed")
 MODIFY RECORD:C57([CrtAddrFile:19])  //DISPLAY WORKSHEET FORM

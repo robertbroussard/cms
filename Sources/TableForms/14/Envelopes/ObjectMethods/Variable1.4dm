@@ -3,7 +3,7 @@
   //  If Program is "J" & age is <18, insert "to Parent/Guardian of" in greeting
   //  Put envelope data into form
   //
-_O_C_STRING:C293(10;$Zip)
+C_TEXT:C284($Zip)
 $Checkoff:=0
 $Zip:=[DailyLtrFile:14]PZip:17
 If ((Substring:C12($Zip;6;1)=" ") | (Substring:C12($Zip;6;1)="_"))

@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: PrintNow
-_O_C_INTEGER:C282($i;$Print;$Temp;$OK1;$OK2;v2ndLtr;vFamFlag)
-_O_C_STRING:C293(35;$Dis1;$Dis2)
-_O_C_STRING:C293(1;$CR)
+C_LONGINT:C283($i;$Print;$Temp;$OK1;$OK2;v2ndLtr;vFamFlag)
+C_TEXT:C284($Dis1;$Dis2)
+C_TEXT:C284($CR)
 C_TEXT:C284(vFamStyle)
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
 vPInitials:=$1

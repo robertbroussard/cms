@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: ISReport
-_O_C_INTEGER:C282($Dialog;$RptLoop1)
-_O_C_STRING:C293(10;$TIntakes)
+C_LONGINT:C283($Dialog;$RptLoop1)
+C_TEXT:C284($TIntakes)
 SET WINDOW TITLE:C213("DRC: Intake Specialist Report")
 vRptName:=""
 vBegDate:=!00-00-00!

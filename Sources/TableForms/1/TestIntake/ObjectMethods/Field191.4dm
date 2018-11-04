@@ -1,7 +1,7 @@
   //Script: Field of [IntakeFile]InterimCon located on page 2 of "TestIntake".
-_O_C_INTEGER:C282($OK;$Insert)
-_O_C_STRING:C293(10;$Date;$Time)
-_O_C_STRING:C293(2;$Initials)
+C_LONGINT:C283($OK;$Insert)
+C_TEXT:C284($Date;$Time)
+C_TEXT:C284($Initials)
 If (Modified:C32([IntakeFile:1]InterimCon:30))
 	$OK:=1
 	While ($OK=1)

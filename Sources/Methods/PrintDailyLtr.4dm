@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: PrintDailyLtr
-_O_C_INTEGER:C282($i;$Temp;$Print;$PrintLoop;$OK1;$OK2)
-_O_C_STRING:C293(35;$Dis1;$Dis2)
-_O_C_STRING:C293(1;$CR)
+C_LONGINT:C283($i;$Temp;$Print;$PrintLoop;$OK1;$OK2)
+C_TEXT:C284($Dis1;$Dis2)
+C_TEXT:C284($CR)
 $OK1:=1
 $OK2:=1
 $PrintLoop:=0

@@ -5,13 +5,13 @@ If (Before:C29)
 	SetButtons 
 	SET WINDOW TITLE:C213("CMS: Intake Input")
 	If ([IntakeFile:1]Program:32)="F"
-		_O_ENABLE BUTTON:C192(bFamily)
-		_O_ENABLE BUTTON:C192(bFamily2)
-		_O_ENABLE BUTTON:C192(bFamily3)
+		OBJECT SET ENABLED:C1123(bFamily;True:C214)
+		OBJECT SET ENABLED:C1123(bFamily2;True:C214)
+		OBJECT SET ENABLED:C1123(bFamily3;True:C214)
 	Else 
-		_O_DISABLE BUTTON:C193(bFamily)
-		_O_DISABLE BUTTON:C193(bFamily2)
-		_O_DISABLE BUTTON:C193(bFamily3)
+		OBJECT SET ENABLED:C1123(bFamily;False:C215)
+		OBJECT SET ENABLED:C1123(bFamily2;False:C215)
+		OBJECT SET ENABLED:C1123(bFamily3;False:C215)
 	End if 
 	
 	If (Current user:C182="Administrator") | (Current user:C182="Designer")

@@ -1,9 +1,9 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BuildRelations
   //
-_O_C_STRING:C293(30;$Relation)
-_O_C_INTEGER:C282($i;$Find;$Insert;$RIS)
-_O_ARRAY STRING:C218(30;aRelation;0)
+C_TEXT:C284($Relation)
+C_LONGINT:C283($i;$Find;$Insert;$RIS)
+ARRAY TEXT:C222(aRelation;0)
 ARRAY REAL:C219(aRTotals;0;2)
 $RIS:=Records in selection:C76([IntakeFile:1])
 FIRST RECORD:C50([IntakeFile:1])

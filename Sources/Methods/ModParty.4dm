@@ -3,7 +3,7 @@
   //in the IntInput layout. The procedure informs the user that they need to
   //click on the subrecord that they want to modify and then they can proceed. 
   //
-_O_C_STRING:C293(60;$String1;$String2)
+C_TEXT:C284($String1;$String2)
 If (_O_Records in subselection:C7([IntakeFile:1]AddPartyFile:21)#0)
 	If ([IntakeFile]AddPartyFile'FirstName+" "+[IntakeFile]AddPartyFile'LastName#" ")
 		If ([IntakeFile:1]Program:32="L") | ([IntakeFile:1]Program:32="M") | ([IntakeFile:1]Program:32="A")

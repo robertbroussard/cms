@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BuildHResults
-_O_C_INTEGER:C282($Con;$Stl;$Cont;$Held;$j)
+C_LONGINT:C283($Con;$Stl;$Cont;$Held;$j)
 ARRAY INTEGER:C220(aHRTotals;9;2)
-_O_C_STRING:C293(5;vSch)
+C_TEXT:C284(vSch)
 FIRST RECORD:C50([DocketFile:6])
 For ($j;1;Records in selection:C76([DocketFile:6]))
 	RELATE ONE:C42([DocketFile:6]DFCaseNo:4)

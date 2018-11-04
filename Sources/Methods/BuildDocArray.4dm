@@ -1,18 +1,18 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure:BuildDocArray
   //
-_O_C_INTEGER:C282($Elements;$Count;$SlotCount;$NumCases;vcasesMon;vcasesTue;vcasesWed)
+C_LONGINT:C283($Elements;$Count;$SlotCount;$NumCases;vcasesMon;vcasesTue;vcasesWed)
 C_BOOLEAN:C305(vskipMon)
 vskipMon:=False:C215
 QUERY:C277([DocketFile:6];[DocketFile:6]DocketSite:1=vSite;*)
 QUERY:C277([DocketFile:6]; & ;[DocketFile:6]DocketDate:2=vDate)
 $Elements:=Records in selection:C76([DocketFile:6])
-_O_ARRAY STRING:C218(10;aTimeSlot;$Elements)
-_O_ARRAY STRING:C218(9;aCaseNo;$Elements)
-_O_ARRAY STRING:C218(80;aCName;$Elements)
-_O_ARRAY STRING:C218(80;aRName;$Elements)
+ARRAY TEXT:C222(aTimeSlot;$Elements)
+ARRAY TEXT:C222(aCaseNo;$Elements)
+ARRAY TEXT:C222(aCName;$Elements)
+ARRAY TEXT:C222(aRName;$Elements)
 ARRAY INTEGER:C220(aSlotCount;1)
-_O_ARRAY STRING:C218(10;aSlotName;1)
+ARRAY TEXT:C222(aSlotName;1)
 If (vNextAvail=1)
 	If ((vDayOK) & (Day number:C114(vDate)=2) & (vSite="Downtown Night"))
 		CREATE SET:C116([DocketFile:6];"Docketset")

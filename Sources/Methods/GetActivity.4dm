@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: GetActivity
   //
-_O_C_INTEGER:C282($i;$j;$Find;$Start;$Insert)
+C_LONGINT:C283($i;$j;$Find;$Start;$Insert)
 SELECTION TO ARRAY:C260([MediatorFile:9]MKey:14;aMaster)
 FIRST RECORD:C50([MediatorFile:9])
 For ($i;1;Records in selection:C76([MediatorFile:9]))

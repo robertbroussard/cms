@@ -1,16 +1,16 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: GetAllParties; This proc gets all the parties without reguard to 
   //the party type.
-_O_C_INTEGER:C282($i;$Insert)
-_O_ARRAY STRING:C218(50;aPLName;2)
-_O_ARRAY STRING:C218(50;aPFName;2)
-_O_ARRAY STRING:C218(10;aPartyType;2)
-_O_ARRAY STRING:C218(25;aFirm;2)
-_O_ARRAY STRING:C218(60;aStAdd;2)
-_O_ARRAY STRING:C218(20;aCity;2)
-_O_ARRAY STRING:C218(2;agpState;2)
-_O_ARRAY STRING:C218(9;aZip;2)
-_O_ARRAY STRING:C218(2;aPartyLang;2)
+C_LONGINT:C283($i;$Insert)
+ARRAY TEXT:C222(aPLName;2)
+ARRAY TEXT:C222(aPFName;2)
+ARRAY TEXT:C222(aPartyType;2)
+ARRAY TEXT:C222(aFirm;2)
+ARRAY TEXT:C222(aStAdd;2)
+ARRAY TEXT:C222(aCity;2)
+ARRAY TEXT:C222(agpState;2)
+ARRAY TEXT:C222(aZip;2)
+ARRAY TEXT:C222(aPartyLang;2)
   //C1 Information
 aPartyType{1}:="C1"
 aPLName{1}:=[IntakeFile:1]CLName:6

@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: DCR_Totals
   //
-_O_C_INTEGER:C282($i)
+C_LONGINT:C283($i)
 ALL RECORDS:C47([LtrRptFile:16])
 FIRST RECORD:C50([LtrRptFile:16])
 vTLtrBatch:=0

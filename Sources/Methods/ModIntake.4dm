@@ -5,7 +5,7 @@
   //
 SET WINDOW TITLE:C213("DRC Case Management System")
 DEFAULT TABLE:C46([IntakeFile:1])
-_O_C_STRING:C293(1;$CR)
+C_TEXT:C284($CR)
 vSwitch:=0
 vShortIntak:=0
 $Display:=""

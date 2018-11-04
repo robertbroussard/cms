@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: CheckSpanish;
   //
-_O_C_INTEGER:C282($Count)
+C_LONGINT:C283($Count)
 $Temp:=False:C215
 _O_ALL SUBRECORDS:C109([IntakeFile:1]AddPartyFile:21)
 Case of 

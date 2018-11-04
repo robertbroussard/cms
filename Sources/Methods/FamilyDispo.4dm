@@ -2,7 +2,7 @@
   // (P) FamilyDispo - Called by DefaultLtrs to print Family Disposition
   //Modified 1/22/14 to accomodate ALL Dispositions
 
-_O_C_STRING:C293(255;vFamHdr3;vResult;vJudDist;vMed1;vMed2;vIVDCourt)
+C_TEXT:C284(vFamHdr3;vResult;vJudDist;vMed1;vMed2;vIVDCourt)
 C_BOOLEAN:C305(vDRO_SW;vMedSw;vIsGalveston)
 C_TEXT:C284(vStyle)
 vDRO_SW:=False:C215

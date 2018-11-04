@@ -1,6 +1,6 @@
   //Script vControl1; on DLFNoticeC
 C_TEXT:C284(vFamStyle)
-_O_C_STRING:C293(1;vControl1)
+C_TEXT:C284(vControl1)
 vInitials:=[DailyLtrFile:14]Initials:6
 If ([DailyLtrFile:14]Spanish:24=True:C214)
 	vText4:="Numero De Archivo: "+[DailyLtrFile:14]DLFCaseNo:1

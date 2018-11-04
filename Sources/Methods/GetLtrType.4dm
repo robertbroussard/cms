@@ -6,10 +6,10 @@
   // $4=the number of the procedure that was called from DefaultLtrs 
   //       which  in turn called this procedure.
   //
-_O_C_STRING:C293(10;$1)
-_O_C_STRING:C293(2;$2)
-_O_C_STRING:C293(1;$3)
-_O_C_INTEGER:C282($4)
+C_TEXT:C284($1)
+C_TEXT:C284($2)
+C_TEXT:C284($3)
+C_LONGINT:C283($4)
 Case of 
 	: ($4=1)  // HEARING NOTICE
 		Case of 

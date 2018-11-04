@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: GetIntORSig;
   //
-_O_C_INTEGER:C282($1)
+C_LONGINT:C283($1)
 vInitials:=""
 $0:=True:C214
 If ($1=1)

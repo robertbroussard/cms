@@ -5,7 +5,7 @@
 
   //
 
-_O_C_INTEGER:C282($0;$1;$2)
+C_LONGINT:C283($0;$1;$2)
 READ WRITE:C146([Constants:11])
 QUERY:C277([Constants:11];[Constants:11]Sequence:1=$1)
 If ([Constants:11]Sequence:1#$1)
@@ -13,7 +13,7 @@ If ([Constants:11]Sequence:1#$1)
 	[Constants:11]Sequence:1:=$1
 	If (Count parameters:C259=1)
 		[Constants:11]Number:2:=268  //Chosen via Nick!  1.25.05
-
+		
 	Else 
 		[Constants:11]Number:2:=$2
 	End if 

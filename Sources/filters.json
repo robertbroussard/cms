@@ -1,12 +1,11 @@
 ﻿{
-	"": "",
+	"Zip_Display_Extended": "#####-####",
 	"Text_Entry": "&\" -~;\r\"",
 	"Alpha_Entry": "&\"a-z;A-Z;0-9; ;,;.;-;/;&;'\"",
 	"State_Entry": "~a##",
-	"Zip_Entry": "&\"0-9\"",
+	"Zip_Entry": "&9",
 	"Email_Entry": "&\"a-z;A-Z;0-9;.;-;_;@\"",
 	"Real_Entry": "&\"0-9;.;-\"",
 	"Special_Entry": "&\"a-z;A-Z;0-9; ;,;.;-;/;#;&;@;(;)\"",
-	"|": "",
-	"||": ""
+	"Zip_Display_Standard": "#####"
 }

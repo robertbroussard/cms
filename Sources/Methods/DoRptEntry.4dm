@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: DoRptEntry
   //
-_O_C_STRING:C293(1;$1)
-_O_C_STRING:C293(255;$2)  //rt error 5/21/08... rjb.
+C_TEXT:C284($1)
+C_TEXT:C284($2)  //rt error 5/21/08... rjb.
 CREATE RECORD:C68([LtrRptFile:16])
 [LtrRptFile:16]LtrCaseNo:1:=[DailyLtrFile:14]DLFCaseNo:1
 [LtrRptFile:16]ReqInitials:4:=[DailyLtrFile:14]Initials:6

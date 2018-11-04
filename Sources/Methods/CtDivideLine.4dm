@@ -3,7 +3,7 @@
   //to fit in a short print field
   //$1=ptr to data field, $2=ptr toTemp1, $3=ptr to Temp2, $4=max break off length
   //
-_O_C_INTEGER:C282($TotLen)
+C_LONGINT:C283($TotLen)
 C_TEXT:C284($TextField)
   //
 $TotLen:=Length:C16($1->)  //LENGTH OF TEXT FIELD

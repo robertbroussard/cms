@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: SR_Scheduled;
-_O_C_INTEGER:C282($j;$1;$NumOutside)
+C_LONGINT:C283($j;$1;$NumOutside)
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
 FIRST RECORD:C50([DocketFile:6])
 $NumOutside:=0

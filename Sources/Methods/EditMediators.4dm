@@ -10,9 +10,9 @@
   // 
 
 SET WINDOW TITLE:C213("Mediator Input Screen")
-_O_C_STRING:C293(5;$Dis1)
-_O_C_INTEGER:C282($Loop)
-_O_C_STRING:C293(1;$CR)
+C_TEXT:C284($Dis1)
+C_LONGINT:C283($Loop)
+C_TEXT:C284($CR)
 vNewMed:=False:C215
 $Loop:=1
 vCheckKey:=False:C215
@@ -48,7 +48,7 @@ While ($Loop=1)
 				$Loop:=0
 			End if 
 		Else   //Else of case-to kill loop
-
+			
 			$Loop:=0
 	End case 
 End while 

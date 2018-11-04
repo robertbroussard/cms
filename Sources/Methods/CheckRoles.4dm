@@ -2,8 +2,8 @@
   //G-Proc: CheckRoles; CheckRoles is called from the OK button on the DFInput 
   //layout. It Checks that all of the Mediator Roles were entered properly.
   //
-_O_C_STRING:C293(80;$Dis1;$Dis2)
-_O_C_STRING:C293(20;$Role1;$Role2;$Role3)
+C_TEXT:C284($Dis1;$Dis2)
+C_TEXT:C284($Role1;$Role2;$Role3)
 $RoleOK:=False:C215
 RELATE MANY:C262([DocketFile:6]DocKey:6)
 If (Records in selection:C76([MedActFile:10])>1)  // PUT ADMIN. MODERATOR ON TOP

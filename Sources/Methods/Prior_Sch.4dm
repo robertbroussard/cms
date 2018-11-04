@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure:Prior_Sch
   //
-_O_C_INTEGER:C282($i;$Insert)
-_O_C_STRING:C293(1;$1)
+C_LONGINT:C283($i;$Insert)
+C_TEXT:C284($1)
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
 FIRST RECORD:C50([DocketFile:6])
 $CaseClosed:=False:C215

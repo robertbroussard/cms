@@ -11,9 +11,9 @@
   //Modified: 9/3/02
 
 
-_O_C_STRING:C293(30;$Key)  //Mod RJB 9/3/02
+C_TEXT:C284($Key)  //Mod RJB 9/3/02
 
-_O_C_INTEGER:C282($While)
+C_LONGINT:C283($While)
 C_DATE:C307($CutOffDate)
 $Key:=""
 CREATE EMPTY SET:C140([MediatorFile:9];"sMedSet")
@@ -29,7 +29,7 @@ While ($While=1)
 			$While:=0
 	End case 
 	If (OK=0)  //  IF CANCEL PRESSED, THEN GET OUT OF LOOP
-
+		
 		$While:=0
 	End if 
 End while 
@@ -46,17 +46,17 @@ For ($i;1;Records in selection:C76([MediatorFile:9]))
 			ADD TO SET:C119([MediatorFile:9];"sMedSet")
 		End if 
 		  //Else 
-
+		
 		  // ORDER BY([MedActFile]ActDate)
-
+		
 		  //LAST RECORD([MedActFile])
-
+		
 		  //If ([MedActFile]ActDate<=$CutOffDate)
-
+		
 		  // ADD TO SET([MediatorFile];"sMedSet")
-
+		
 		  //End if 
-
+		
 	End if 
 	NEXT RECORD:C51([MediatorFile:9])
 	If ($i=1297)

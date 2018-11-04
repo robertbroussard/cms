@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: StatusCheck
-_O_C_INTEGER:C282($i)
+C_LONGINT:C283($i)
 ALL RECORDS:C47([IntakeFile:1])
 For ($i;1;Records in selection:C76([IntakeFile:1]))
 	Case of 

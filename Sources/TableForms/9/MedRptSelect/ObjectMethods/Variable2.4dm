@@ -1,5 +1,5 @@
   //Script: Option1;
-_O_C_STRING:C293(5;$Request)
+C_TEXT:C284($Request)
 vOption1:=1
 vOption2:=0
 vOption3:=0

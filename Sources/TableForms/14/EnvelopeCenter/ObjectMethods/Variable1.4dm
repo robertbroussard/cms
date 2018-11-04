@@ -2,7 +2,7 @@
   //  Form Method is "vText1"
   //  If Program is "J" & age is <18, insert "to Parent/Guardian of" in greeting
   //
-_O_C_STRING:C293(10;$Zip)
+C_TEXT:C284($Zip)
 $Zip:=[DailyLtrFile:14]PZip:17
 If ((Substring:C12($Zip;6;1)=" ") | (Substring:C12($Zip;6;1)="_"))
 	$Zip:=Substring:C12([DailyLtrFile:14]PZip:17;1;5)

@@ -2,20 +2,20 @@
   //G-Procedure: HBA_Rpt; This proc is called from the main menu.
 SET WINDOW TITLE:C213("CMS HBA Monthly Report")
 Init_HBA_Rpt 
-_O_C_INTEGER:C282($Insert;$Dialog;$RptLoop1;$RptLoop2;$MainCount)
-_O_C_STRING:C293(70;$Message)
-_O_C_STRING:C293(1;$Suffix)
+C_LONGINT:C283($Insert;$Dialog;$RptLoop1;$RptLoop2;$MainCount)
+C_TEXT:C284($Message)
+C_TEXT:C284($Suffix)
 vBegDate:=!00-00-00!
 vEndDate:=!00-00-00!
 $RptLoop1:=0
 $RptLoop2:=0
 vHBA:=True:C214
-_O_ARRAY STRING:C218(20;aBadResults;0)
-_O_ARRAY STRING:C218(20;aBadStatus;0)
-_O_ARRAY STRING:C218(20;aBIMResults;0)
-_O_ARRAY STRING:C218(20;aBadDate;0)
-_O_ARRAY STRING:C218(20;aBadSuffix;0)
-_O_ARRAY STRING:C218(20;aUnKnowProb;0)
+ARRAY TEXT:C222(aBadResults;0)
+ARRAY TEXT:C222(aBadStatus;0)
+ARRAY TEXT:C222(aBIMResults;0)
+ARRAY TEXT:C222(aBadDate;0)
+ARRAY TEXT:C222(aBadSuffix;0)
+ARRAY TEXT:C222(aUnKnowProb;0)
 $Dialog:=1
 While ($Dialog=1)
 	DIALOG:C40([IntakeFile:1];"RptSelections")

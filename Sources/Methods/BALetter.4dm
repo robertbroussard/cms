@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BALetter;
-_O_C_INTEGER:C282($Find)
-_O_C_STRING:C293(2;$TFind)
+C_LONGINT:C283($Find)
+C_TEXT:C284($TFind)
 If (vTempResult="STL")
 	vElement:=0
 	OK:=1

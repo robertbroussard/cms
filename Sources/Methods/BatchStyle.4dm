@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: BatchStyle;
-_O_C_INTEGER:C282($i)
+C_LONGINT:C283($i)
 FORM SET INPUT:C55([IntakeFile:1];"IntSearch")
 ALL RECORDS:C47([IntakeFile:1])
 If (Records in selection:C76([IntakeFile:1])>=1)

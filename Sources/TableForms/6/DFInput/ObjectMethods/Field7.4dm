@@ -1,8 +1,8 @@
   //Script: [DF]HResults; This script will go to DFReschedule if the
   // results = CONT or R/S       Form:  [DF] DFInput
   //
-_O_C_INTEGER:C282($i)
-_O_C_STRING:C293(9;$DFCaseNo)
+C_LONGINT:C283($i)
+C_TEXT:C284($DFCaseNo)
 vSchOK:=0
 $DFCaseNo:=[DocketFile:6]DFCaseNo:4
 Case of 

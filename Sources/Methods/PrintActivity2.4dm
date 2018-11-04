@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: PrintMedAct;
 
-_O_C_INTEGER:C282($i;$Find;$Start;$Times)
-_O_C_STRING:C293(20;$Type;$ActTitle)
+C_LONGINT:C283($i;$Find;$Start;$Times)
+C_TEXT:C284($Type;$ActTitle)
 vRatio:=0
 vRatioTimes:=0
 SORT ARRAY:C229(aMaster;>)
@@ -60,7 +60,7 @@ For ($i;1;Size of array:C274(aMaster))
 				$Start:=$Find
 				If ((aMType{$find}="Arbitrator") | (aMType{$find}="Moderator-Admin") | (aMType{$find}="Moderator"))
 					aMType{$find}:="Mediator"  // ARB & MOD NOT PRINTED ON STATUS RPT - TREATED AS MEDIATOR
-
+					
 				End if 
 				If (aMType{$Find}=$Type)
 					If (aMResult{$Find}="STL") & (aMType{$Find}#"Observer")

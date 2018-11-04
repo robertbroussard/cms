@@ -1,5 +1,7 @@
   // Delete the default underscore so it will not be saved in the file and printed
   //
-If (_O_During:C30)
-	[MediatorFile:9]MedZip:9:=Replace string:C233([MediatorFile:9]MedZip:9;"_";"")
-End if 
+
+  //[MediatorFile]MedZip:=Replace string([MediatorFile]MedZip;"_";"")
+BEEP:C151
+
+Set_ZipCode_Display (Self:C308)

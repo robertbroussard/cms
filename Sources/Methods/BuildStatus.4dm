@@ -1,9 +1,9 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BuildStatus; Called from ISReport.
-_O_C_INTEGER:C282($RIS;$Insert;$i;$Find)
-_O_C_STRING:C293(20;$TempStatus)
+C_LONGINT:C283($RIS;$Insert;$i;$Find)
+C_TEXT:C284($TempStatus)
 $RIS:=Records in selection:C76([IntakeFile:1])
-_O_ARRAY STRING:C218(20;aStatus;0)
+ARRAY TEXT:C222(aStatus;0)
 ARRAY REAL:C219(aBSTotals;0;2)
 FIRST RECORD:C50([IntakeFile:1])
 For ($i;1;Records in selection:C76([IntakeFile:1]))

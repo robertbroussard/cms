@@ -6,9 +6,9 @@
   //UserSoft Technology <www.usersoft.com>
   //Modified: 9/3/02 & 11/18/04
 
-_O_C_INTEGER:C282($i;vEnvelope;vLabel;vModSw;$while;vDialog;vSavSwEnv;vSavSwLbl;vAllMediators;$InactiveMediators;vSavSwMed)
-_O_C_STRING:C293(75;$PrevName)  //Mod RJB 9/3/02
-_O_C_STRING:C293(20;vGroup1;vGroup2;vGroup3)  //Mod RJB 9/3/02
+C_LONGINT:C283($i;vEnvelope;vLabel;vModSw;$while;vDialog;vSavSwEnv;vSavSwLbl;vAllMediators;$InactiveMediators;vSavSwMed)
+C_TEXT:C284($PrevName)  //Mod RJB 9/3/02
+C_TEXT:C284(vGroup1;vGroup2;vGroup3)  //Mod RJB 9/3/02
 C_TEXT:C284($InactiveMediatorText)
 SET WINDOW TITLE:C213("DRC: Mediator Mail Out")
 vText1:=""

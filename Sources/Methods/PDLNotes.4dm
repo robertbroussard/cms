@@ -1,9 +1,9 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: PDLNotes;
-_O_C_INTEGER:C282($i;$Find;$Insert)
-_O_C_STRING:C293(9;$TempNo)
-_O_C_STRING:C293(2;$1)
-_O_ARRAY STRING:C218(9;aCaseNo;0)
+C_LONGINT:C283($i;$Find;$Insert)
+C_TEXT:C284($TempNo)
+C_TEXT:C284($1)
+ARRAY TEXT:C222(aCaseNo;0)
 ALL RECORDS:C47([DailyLtrFile:14])
 FIRST RECORD:C50([DailyLtrFile:14])
 For ($i;1;Records in selection:C76([DailyLtrFile:14]))

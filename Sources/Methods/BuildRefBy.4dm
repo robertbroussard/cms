@@ -3,9 +3,9 @@
 
   //
 
-_O_C_STRING:C293(25;$TempRef)
-_O_C_INTEGER:C282($i;$Find;$Insert;$RIS)
-_O_ARRAY STRING:C218(25;aRefBy;0)
+C_TEXT:C284($TempRef)
+C_LONGINT:C283($i;$Find;$Insert;$RIS)
+ARRAY TEXT:C222(aRefBy;0)
 ARRAY INTEGER:C220(aRefByNum;0)
 FIRST RECORD:C50([IntakeFile:1])
 $RIS:=Records in selection:C76([IntakeFile:1])

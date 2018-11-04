@@ -4,7 +4,7 @@
   //the proper input screen.  It tests for the Short Intake abbreviated screen and 
   // fills in data and dummy info where needed.
 
-_O_C_INTEGER:C282($CurrentYear)
+C_LONGINT:C283($CurrentYear)
   // 
 SET WINDOW TITLE:C213("DRC Case Management System")
 DEFAULT TABLE:C46([IntakeFile:1])

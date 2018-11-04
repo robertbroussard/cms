@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BuildDisputes
-_O_C_INTEGER:C282($i;$Find;$Insert;$RIS)
-_O_C_STRING:C293(40;$Dispute)
-_O_ARRAY STRING:C218(40;aDispute;0)
+C_LONGINT:C283($i;$Find;$Insert;$RIS)
+C_TEXT:C284($Dispute)
+ARRAY TEXT:C222(aDispute;0)
 ARRAY REAL:C219(aDTotals;0;2)
 $RIS:=Records in selection:C76([IntakeFile:1])
 FIRST RECORD:C50([IntakeFile:1])

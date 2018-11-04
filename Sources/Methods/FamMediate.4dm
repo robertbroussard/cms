@@ -2,9 +2,9 @@
   //(P) FamMediate - called by FamilyDispo to look up mediator activity
   // and mediator names for the Family Disposition Form - Letter button 2.
   //
-_O_C_INTEGER:C282($i;$aSize;ActSize;$Insert;$i)
+C_LONGINT:C283($i;$aSize;ActSize;$Insert;$i)
 C_DATE:C307($ActDate)
-_O_C_STRING:C293(255;vOtherDate)
+C_TEXT:C284(vOtherDate)
 C_BOOLEAN:C305(vMedSw)
   //
 vOtherDate:=""

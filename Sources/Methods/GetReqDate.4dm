@@ -1,11 +1,11 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: GetReqDate;
   //
-_O_C_STRING:C293(50;$Display1)
-_O_C_STRING:C293(50;$Display2)
-_O_C_STRING:C293(9;$1)
-_O_C_STRING:C293(20;$2)
-_O_C_INTEGER:C282($MainLoop)
+C_TEXT:C284($Display1)
+C_TEXT:C284($Display2)
+C_TEXT:C284($1)
+C_TEXT:C284($2)
+C_LONGINT:C283($MainLoop)
 $Display2:=""
 $LangOK:=False:C215
 $SiteOK:=False:C215

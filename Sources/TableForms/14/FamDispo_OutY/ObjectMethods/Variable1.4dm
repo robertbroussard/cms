@@ -2,13 +2,13 @@
   // Enable all checkboxes so grayed out Disabled Buttons won't show as 
   // blotted out areas on the letter.
   //
-_O_ENABLE BUTTON:C192(cRsn1)
-_O_ENABLE BUTTON:C192(cRsn2)
-_O_ENABLE BUTTON:C192(cRsn3)
-_O_ENABLE BUTTON:C192(cRsn4)
-_O_ENABLE BUTTON:C192(cRsn5)
-_O_ENABLE BUTTON:C192(cRsn6)
-_O_ENABLE BUTTON:C192(cRsn7)
+OBJECT SET ENABLED:C1123(cRsn1;True:C214)
+OBJECT SET ENABLED:C1123(cRsn2;True:C214)
+OBJECT SET ENABLED:C1123(cRsn3;True:C214)
+OBJECT SET ENABLED:C1123(cRsn4;True:C214)
+OBJECT SET ENABLED:C1123(cRsn5;True:C214)
+OBJECT SET ENABLED:C1123(cRsn6;True:C214)
+OBJECT SET ENABLED:C1123(cRsn7;True:C214)
   //
 If (vResult="Settl@")
 	mRsn1:=1

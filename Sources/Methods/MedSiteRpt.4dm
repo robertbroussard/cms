@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: MedSiteRpt;
   //
-_O_C_INTEGER:C282($TIntakes;$Dialog;$RptLoop1)
+C_LONGINT:C283($TIntakes;$Dialog;$RptLoop1)
 SET WINDOW TITLE:C213("DRC: Mediation Site Report")
 CREATE EMPTY SET:C140([IntakeFile:1];"OKSet")
 vRptName:=""

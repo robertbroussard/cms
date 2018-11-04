@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: GetSite;  called by SiteReport on Menu bar
-_O_C_STRING:C293(15;$1)
-_O_C_STRING:C293(2;$0)
+C_TEXT:C284($1)
+C_TEXT:C284($0)
 Case of 
 	: ($1="DRC")
 		$0:="01"

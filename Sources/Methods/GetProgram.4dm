@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Prog: GetProgram;
-_O_C_STRING:C293(1;$Temp)
-_O_C_STRING:C293(9;$1)
-_O_C_STRING:C293(20;$0)
+C_TEXT:C284($Temp)
+C_TEXT:C284($1)
+C_TEXT:C284($0)
 $Temp:=Substring:C12($1;9;1)
 Case of 
 	: ($Temp="C")

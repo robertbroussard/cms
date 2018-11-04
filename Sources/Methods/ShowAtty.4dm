@@ -3,16 +3,16 @@
   // Additional Party Attorneys for Family Cases, not Referred,
   // within the last year and a half.
   //
-_O_C_INTEGER:C282($i;j;$Insert;vNbrRec;$NbrDays)
-_O_C_STRING:C293(80;vShowHdr)
-_O_C_STRING:C293(9;vCaseNo)
+C_LONGINT:C283($i;j;$Insert;vNbrRec;$NbrDays)
+C_TEXT:C284(vShowHdr)
+C_TEXT:C284(vCaseNo)
 C_DATE:C307($Date)
   //
-_O_ARRAY STRING:C218(30;aAName;0)
-_O_ARRAY STRING:C218(9;aACaseNo;0)
-_O_ARRAY STRING:C218(15;aACName;0)
-_O_ARRAY STRING:C218(15;aARName;0)
-_O_ARRAY STRING:C218(10;aAStatus;0)
+ARRAY TEXT:C222(aAName;0)
+ARRAY TEXT:C222(aACaseNo;0)
+ARRAY TEXT:C222(aACName;0)
+ARRAY TEXT:C222(aARName;0)
+ARRAY TEXT:C222(aAStatus;0)
   //
 $While:=1
 While ($While=1)

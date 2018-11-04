@@ -2,9 +2,9 @@
   //G-Proc: BuildSearch;   Called by Program Report under page 1 Menu "Reports"
   //   Programs come from a list on the List Editor
   //
-_O_C_STRING:C293(1;$Program)
-_O_C_STRING:C293(20;$1;$2)
-_O_C_INTEGER:C282($Check1;$Check2)
+C_TEXT:C284($Program)
+C_TEXT:C284($1;$2)
+C_LONGINT:C283($Check1;$Check2)
 C_BOOLEAN:C305($0)  //12/9/94 - was string
 $Check1:=1
 $Check2:=1

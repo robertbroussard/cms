@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //Proc: CheckMKey;  called by bMFKey, OK Button, in Form [MediatorFile]MFInput
   //
-_O_C_STRING:C293(30;$OldKey;$NewKey)
+C_TEXT:C284($OldKey;$NewKey)
 $OldKey:=[MediatorFile:9]MKey:14
 $NewKey:=[MediatorFile:9]MLName:1+", "+[MediatorFile:9]MFName:2
 $0:=True:C214

@@ -31,6 +31,7 @@
 		"onResize",
 		"onSelectionChange"
 	],
+	"method": "method.4dm",
 	"pages": [
 		null,
 		{
@@ -936,19 +937,19 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"textFormat": "#####-####",
-					"entryFilter": "&9#####-####",
+					"multiline": "no",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Zip_Display"
+					},
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Zip_Entry"
+					},
 					"dragging": "none",
 					"dropping": "none",
 					"method": "ObjectMethods/Field12.4dm",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
+						"onLoad",
+						"onDataChange"
 					]
 				},
 				"Field13": {
@@ -967,7 +968,6 @@
 					"entryFilter": "&9(###) &9###-####",
 					"dragging": "none",
 					"dropping": "none",
-					"method": "ObjectMethods/Field13.4dm",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -994,7 +994,6 @@
 					"entryFilter": "&9(###) &9###-####",
 					"dragging": "none",
 					"dropping": "none",
-					"method": "ObjectMethods/Field14.4dm",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -1033,7 +1032,6 @@
 					"entryFilter": "&9(###) &9###-####",
 					"dragging": "none",
 					"dropping": "none",
-					"method": "ObjectMethods/Field15.4dm",
 					"events": [
 						"onClick",
 						"onHeader",

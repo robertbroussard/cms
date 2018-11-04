@@ -7,7 +7,7 @@
 
   //
 
-_O_C_STRING:C293(40;$Display1;$Display2)
+C_TEXT:C284($Display1;$Display2)
 vSCLoop1:=1
 vSCLoop2:=0
 vDate:=!00-00-00!
@@ -37,28 +37,28 @@ While (vSCLoop1=1)
 						vSCLoop2:=1
 					End if 
 				Else   //User didn't click a scheduling option.
-
+					
 					$Display1:=("You must click a scheduling option!")
 					$Display2:=(" Click OK to continue or Cancel to quit.")
 					CONFIRM:C162($Display1+$Display2)
 					If (OK=1)
 						vSCLoop1:=1
 					End if   //Drops out if user clicks cancel.
-
+					
 				End if 
 			End if 
 		Else   // User didn't enter a Site.
-
+			
 			$Display1:=("You must enter a Docket Site.")
 			$Display2:=(" Click OK to continue or Cancel to quit.")
 			CONFIRM:C162($Display1+$Display2)
 			If (OK=1)
 				vSCLoop1:=1
 			End if   //Loop drops out if the user hits cancel.
-
+			
 		End if 
 	End if   //Loop drops out if the user hits cancel.
-
+	
 End while 
 While (vSCLoop2=1)
 	vSCLoop2:=0

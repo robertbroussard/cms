@@ -11,11 +11,11 @@
   //Modified: 9/3/02
 
 
-_O_C_INTEGER:C282($i;$Temp)  //Mod RJB 9/3/02
+C_LONGINT:C283($i;$Temp)  //Mod RJB 9/3/02
 
-_O_C_STRING:C293(35;$Msg1;$Msg2;$Msg3)  //Mod RJB 9/3/02
+C_TEXT:C284($Msg1;$Msg2;$Msg3)  //Mod RJB 9/3/02
 
-_O_C_STRING:C293(85;$Style1;$Style2;$Style3)
+C_TEXT:C284($Style1;$Style2;$Style3)
 C_TEXT:C284(vCPSStyle;vDLFText)
   //
 
@@ -51,11 +51,11 @@ For ($i;1;Records in selection:C76([DailyLtrFile:14]))
 		Case of 
 			: ([DailyLtrFile:14]PartyType:5="C1")
 				ADD TO SET:C119([DailyLtrFile:14];"PrintSet1")  // SAVE LETTER RECDS
-
+				
 				ADD TO SET:C119([DailyLtrFile:14];"PrintSet2")  // FOR EXTRA 2 COPIES
-
+				
 				ADD TO SET:C119([DailyLtrFile:14];"AttorneySet1")  // AND 2 ATTORNEY COPIES
-
+				
 				ADD TO SET:C119([DailyLtrFile:14];"AttorneySet2")
 			: (([DailyLtrFile:14]PartyType:5>"C1") & ([DailyLtrFile:14]PartyType:5<"C9"))
 				ADD TO SET:C119([DailyLtrFile:14];"PrintSet1")
@@ -65,11 +65,11 @@ For ($i;1;Records in selection:C76([DailyLtrFile:14]))
 				ADD TO SET:C119([DailyLtrFile:14];"AttorneySet1")
 		End case 
 		  //    
-
+		
 		If ([DailyLtrFile:14]PrintEnv:21=True:C214)
 			If ([DailyLtrFile:14]PartyType:5[[2]]#"K")
 				ADD TO SET:C119([DailyLtrFile:14];"EnvelopeSet")  // SAVE ENVELOPE RECORDS
-
+				
 			End if 
 		End if 
 	Else 
@@ -94,13 +94,13 @@ vP5:=""
 
 If ([IntakeFile:1]RefBy:16="First Crt Appls")
 	$Style3:=" in the First District Court of Appeals"  //     FORCE CRT NAME   1/01  
-
+	
 	vCPSStyle:=$Style1+$Style2+$Style3
 Else 
 	vCourtNbr:=Substring:C12([IntakeFile:1]RefBy:16;1;3)  // GET REFERRING COURT
-
+	
 	If ((vCourtNbr>"244") & (vCourtNbr<"316"))  // CHECK REFERRING COURT
-
+		
 	Else 
 		CONFIRM:C162("Invalid Court Number:  "+vCourtNbr+",  Continue?")
 	End if 
@@ -110,21 +110,21 @@ If (OK=1)
 	vCPSStyle:=Replace string:C233(vCPSStyle;"314";vCourtNbr)
 	vDLFText:=Replace string:C233(vDLFText;"314";vCourtNbr)
 	  //
-
+	
 	PAGE SETUP:C299([DailyLtrFile:14];"DFLTestLtr")
 	$Temp:=0
 	ACCUMULATE:C303($Temp)
 	BREAK LEVEL:C302(1;0)
 	PRINT SELECTION:C60([DailyLtrFile:14];*)
 	  //
-
+	
 	USE SET:C118("PrintSet2")
 	PRINT SELECTION:C60([DailyLtrFile:14];*)  //  PRINT 2ND COPY FOR TYPE 'C1'
-
+	
 	PRINT SELECTION:C60([DailyLtrFile:14];*)  //  PRINT 3RD COPY FOR TYPE 'C1'
-
+	
 	  //
-
+	
 	vP5:="ATTORNEY COPY"
 	USE SET:C118("AttorneySet1")
 	PAGE SETUP:C299([DailyLtrFile:14];"DFLTestLtr")
@@ -133,18 +133,18 @@ If (OK=1)
 	BREAK LEVEL:C302(1;0)
 	PRINT SELECTION:C60([DailyLtrFile:14];*)
 	  //
-
+	
 	USE SET:C118("AttorneySet2")
 	PRINT SELECTION:C60([DailyLtrFile:14];*)  //  PRINT 2ND  ATTY COPY FOR TYPE 'C1'
-
+	
 	  //
-
+	
 	USE SET:C118("EnvelopeSet")
 	PAGE SETUP:C299([DailyLtrFile:14];"Envelopes")
 	FORM SET OUTPUT:C54([DailyLtrFile:14];"Envelopes")
 	PRINT SELECTION:C60([DailyLtrFile:14];*)
 	  //
-
+	
 End if   // FROM WRONG-COURT TEST
 
   //

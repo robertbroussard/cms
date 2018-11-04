@@ -5,9 +5,9 @@
 
   // 
 
-_O_C_STRING:C293(15;vDCtPD;vDHCJPD_No;vDCt_No;vDPD_No)
-_O_C_STRING:C293(9;vCaseNo)
-_O_C_STRING:C293(6;vDRTC_Date)
+C_TEXT:C284(vDCtPD;vDHCJPD_No;vDCt_No;vDPD_No)
+C_TEXT:C284(vCaseNo)
+C_TEXT:C284(vDRTC_Date)
 If (([IntakeFile:1]Program:32#"J") & ([IntakeFile:1]Program:32#"F"))
 	vCaseNo:=[IntakeFile:1]CaseNo:1
 	vPrintDate:=String:C10(Current date:C33;3)

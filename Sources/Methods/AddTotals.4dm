@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: AddTotals; Called from BuildPResults
   //
-_O_C_INTEGER:C282($1;$i)
+C_LONGINT:C283($1;$i)
 aTotals{$1}{1}:=aTotals{$1}{1}+1  // 1 is Intakes 
 Case of 
 	: ([IntakeFile:1]CaseStatus:25="Hold")

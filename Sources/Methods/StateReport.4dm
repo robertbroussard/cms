@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: StateReport; This proc is called from the main menu.
-_O_C_INTEGER:C282($i;$Code;$RptLoop1;$RptLoop2;$Dialog;$RB)
+C_LONGINT:C283($i;$Code;$RptLoop1;$RptLoop2;$Dialog;$RB)
 SET WINDOW TITLE:C213("CMS State Report")
 vBegDate:=!00-00-00!
 vEndDate:=!00-00-00!

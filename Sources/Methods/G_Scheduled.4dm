@@ -3,8 +3,8 @@
 
   //
 
-_O_C_INTEGER:C282($j;$NumOutside;$Insert)
-_O_C_STRING:C293(1;$1)
+C_LONGINT:C283($j;$NumOutside;$Insert)
+C_TEXT:C284($1)
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
 FIRST RECORD:C50([DocketFile:6])
 $NumOutside:=0
@@ -54,7 +54,7 @@ For ($j;1;Records in selection:C76([DocketFile:6]))
 				: ($1="A")
 					ARB_SchUpdate 
 				: (($1="C") | ($1="V"))  // COMBINE VOM W/COMMUNITY
-
+					
 					CBMP_SchUpdate 
 				: ($1="F")
 					FMP_SchUpdate 
@@ -64,20 +64,20 @@ For ($j;1;Records in selection:C76([DocketFile:6]))
 					LMP_SchUpdate 
 				: ($1="T")
 					Truant_SchUpdate   //           TRUANT  12/2003
-
+					
 				: ($1="N")  //LTC
-
+					
 					MED_SchUpdate 
 				: ($1="P")
 					PROB_SchUpdate 
 				: (($1="W") | ($1="K"))  //   1/01 - CFK COMBINED W/ CPS
-
+					
 					CPS_SchUpdate   // 8/99 - ADD CHILD PROTECTIVE SVC.
-
+					
 					  // : ($1="S")
-
+					
 					  //  SEMP_SchUpdate     ` 3/97 - ZERO SPECIAL ED
-
+					
 				Else 
 					XMP_SchUpdate 
 			End case 

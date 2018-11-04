@@ -1,8 +1,8 @@
   //Script: vDetails (OtherDetails button) in DFIinput Layout in EnterDocResults
   // Form:  [DF] DFInput
   //
-_O_C_INTEGER:C282($i)
-_O_C_STRING:C293(9;$DFCaseNo)
+C_LONGINT:C283($i)
+C_TEXT:C284($DFCaseNo)
 If (vSaveDocRec=True:C214)
 	SAVE RECORD:C53([DocketFile:6])
 	vSaveDocRec:=False:C215

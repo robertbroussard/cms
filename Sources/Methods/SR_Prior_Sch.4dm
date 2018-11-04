@@ -1,6 +1,6 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: SR_Prior_Sch
-_O_C_INTEGER:C282($i;$1)
+C_LONGINT:C283($i;$1)
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
 FIRST RECORD:C50([DocketFile:6])
 $CaseClosed:=False:C215

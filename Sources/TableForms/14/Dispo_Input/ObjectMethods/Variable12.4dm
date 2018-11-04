@@ -1,7 +1,7 @@
   //Script: aDFullName;
-_O_C_INTEGER:C282($Pos)
-_O_C_STRING:C293(1;$CheckNum)
-_O_C_STRING:C293(40;$TempStr)
+C_LONGINT:C283($Pos)
+C_TEXT:C284($CheckNum)
+C_TEXT:C284($TempStr)
 vDFullName:=aDFullName{aDFullName}
 vDType:=aDType{aDFullName}
 $CheckNum:=""

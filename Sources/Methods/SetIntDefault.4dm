@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: SetIntDefault;
-_O_C_STRING:C293(9;$1)
-_O_C_STRING:C293(1;$2)
+C_TEXT:C284($1)
+C_TEXT:C284($2)
 [IntakeFile:1]CaseNo:1:=$1
 [IntakeFile:1]Program:32:=$2
 [IntakeFile:1]IntakeDate:4:=Current date:C33

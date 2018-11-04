@@ -1,6 +1,6 @@
   //Script: bSummaries; This procedure prints the case summary for
   //each case in the selection and the button is located on "PCDisplay".
-_O_C_INTEGER:C282($i;$j)
+C_LONGINT:C283($i;$j)
 $J:=Records in selection:C76([IntakeFile:1])
 vPrintDate:=String:C10(Current date:C33)
 FIRST RECORD:C50([IntakeFile:1])

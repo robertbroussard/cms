@@ -30,36 +30,36 @@ C_LONGINT:C283(vRDcl;vReqDate;vRFTA;vRNoCon;vSchOK;vSCLoop1;vSCLoop2;vSelectMade
 C_LONGINT:C283(vSlotOK;vSpecialEd;vTEnvBatch;vTEnvOnline;vTEnvRpt;vTLtrBatch;vTLtrOnline;vTLtrRpt)
 C_LONGINT:C283(vVO;X;ZZ1;ZZ2;ZZ3;ZZ4;ZZ5;ZZ6;ZZ7;ZZ8;ZZ9;vSwitch;vShort;vShortIntak;vProbation;vCPS;vCFK)
 C_LONGINT:C283(vTruant)
-_O_ARRAY STRING:C218(40;aDisplay;0)
-_O_ARRAY STRING:C218(40;aSMed;0)
-_O_ARRAY STRING:C218(40;aSGroup;0)
-_O_ARRAY STRING:C218(2;aIDNumber;0)
-_O_ARRAY STRING:C218(30;aISName;0)
-_O_ARRAY STRING:C218(30;aLtrType;0)
-_O_ARRAY STRING:C218(20;aSDisplay;0)
-_O_C_STRING:C293(1;vDummy;vSquiggly)
-_O_C_STRING:C293(2;vIDNum;vPreFix;vSuffix)
+ARRAY TEXT:C222(aDisplay;0)
+ARRAY TEXT:C222(aSMed;0)
+ARRAY TEXT:C222(aSGroup;0)
+ARRAY TEXT:C222(aIDNumber;0)
+ARRAY TEXT:C222(aISName;0)
+ARRAY TEXT:C222(aLtrType;0)
+ARRAY TEXT:C222(aSDisplay;0)
+C_TEXT:C284(vDummy;vSquiggly)
+C_TEXT:C284(vIDNum;vPreFix;vSuffix)
 
-_O_C_STRING:C293(5;vAPFlag;vBStatus;vPStatus;vEnvelopeText;vTempResult;vCZip)  //Mod RJB 9/3/02
-_O_C_INTEGER:C282(vEnvelope)  //Add RJB 9/3/02
+C_TEXT:C284(vAPFlag;vBStatus;vPStatus;vEnvelopeText;vTempResult;vCZip)  //Mod RJB 9/3/02
+C_LONGINT:C283(vEnvelope)  //Add RJB 9/3/02
   //Note some elements of vEnvelope were used as a String while
   //some uses required vEnvelope to be an integer...
   //All uses of vEnvelope that required a string usage were
   //updated to use the new vEnvelopeText variable
   //One item updated was the "Daily Correspondance Report".
 
-_O_C_STRING:C293(8;vC1Code;vR1Code;vCode;vStlRate)
-_O_C_STRING:C293(10;vDAmtCSR;vDAmtRes;vDPgNo;vDType;vHeld;vLFPage;vLRFPage;vSchTime)
-_O_C_STRING:C293(10;vTimeSlot)
-_O_C_STRING:C293(13;vP6)
-_O_C_STRING:C293(11;vType)
-_O_C_STRING:C293(15;vIntSite)
-_O_C_STRING:C293(20;vDContD_n_T;vDetails2;vDMedD_n_T;vDRefBy;vTempStatus)
-_O_C_STRING:C293(255;vTitle)
-_O_C_STRING:C293(32;CPrintName;RPrintName;vInstruct;vISName;vMediator;vpdMed;vTimeFrame)
-_O_C_STRING:C293(35;vP4;vP5)
-_O_C_STRING:C293(40;vDFullName;vDispute;vPrintDate;vSelection;vSite;v1)
-_O_C_STRING:C293(75;vText1;vText2;vText3;vText4;vText5)  //Mod RJB 9/3/02
+C_TEXT:C284(vC1Code;vR1Code;vCode;vStlRate)
+C_TEXT:C284(vDAmtCSR;vDAmtRes;vDPgNo;vDType;vHeld;vLFPage;vLRFPage;vSchTime)
+C_TEXT:C284(vTimeSlot)
+C_TEXT:C284(vP6)
+C_TEXT:C284(vType)
+C_TEXT:C284(vIntSite)
+C_TEXT:C284(vDContD_n_T;vDetails2;vDMedD_n_T;vDRefBy;vTempStatus)
+C_TEXT:C284(vTitle)
+C_TEXT:C284(CPrintName;RPrintName;vInstruct;vISName;vMediator;vpdMed;vTimeFrame)
+C_TEXT:C284(vP4;vP5)
+C_TEXT:C284(vDFullName;vDispute;vPrintDate;vSelection;vSite;v1)
+C_TEXT:C284(vText1;vText2;vText3;vText4;vText5)  //Mod RJB 9/3/02
   //Note: See method "MedMailOut"
-_O_C_STRING:C293(80;vP1;vSubDetail)
-_O_C_STRING:C293(255;vProbLine;vP2;vP3;vCOParty;vROParty;vInitials;vPInitials;vITName)  //Mod RJB 9/3/02
+C_TEXT:C284(vP1;vSubDetail)
+C_TEXT:C284(vProbLine;vP2;vP3;vCOParty;vROParty;vInitials;vPInitials;vITName)  //Mod RJB 9/3/02

@@ -1,5 +1,5 @@
   //Script: vSchCase
-_O_C_INTEGER:C282($Loop)
+C_LONGINT:C283($Loop)
 $Loop:=0
 If (CheckInput =True:C214)
 	SAVE RECORD:C53([IntakeFile:1])

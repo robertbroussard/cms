@@ -3,8 +3,8 @@
   //the contents of several text fields that were updated during the report
   //procedure.
   //
-_O_C_INTEGER:C282($i;$j;$Insert)
-_O_C_STRING:C293(70;$1)
+C_LONGINT:C283($i;$j;$Insert)
+C_TEXT:C284($1)
 If (Size of array:C274(ArrPtr->)>0)
 	If (vPrintHead=True:C214)
 		Print form:C5([IntakeFile:1];"hba_header")
@@ -17,7 +17,7 @@ If (Size of array:C274(ArrPtr->)>0)
 	vNumLines:=vNumLines+1
 	$NumTimes:=(Size of array:C274(ArrPtr->)\3)
 	$NumLeft:=(Size of array:C274(ArrPtr->)%3)
-	_O_ARRAY STRING:C218(80;aProbLine;0)
+	ARRAY TEXT:C222(aProbLine;0)
 	For ($i;1;$NumTimes)
 		INSERT IN ARRAY:C227(aProbLine;$i;1)
 		For ($j;1;3)

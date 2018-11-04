@@ -1,8 +1,8 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: ContNotice;
   //
-_O_C_INTEGER:C282($i)
-_O_C_STRING:C293(30;$LetterType;$TempLtr)
+C_LONGINT:C283($i)
+C_TEXT:C284($LetterType;$TempLtr)
 If ([IntakeFile:1]Program:32="F")
 	If (vBlank=1)
 		$LetterType:="Family Cont Notice"

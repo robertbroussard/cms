@@ -26,7 +26,7 @@
   // ----------------------------------------------------
 
 
-_O_C_STRING:C293(50;$ProcName;$1)
+C_TEXT:C284($ProcName;$1)
 C_TEXT:C284(vDBUpdateLockDetail)
 
 $ProcName:=$1
@@ -42,10 +42,10 @@ $sel:=Records in selection:C76([DBUpdate:21])
 Case of 
 	: ($sel=1)
 		  //Do nothing already run (updated)...
-
+		
 	: ($sel=0)
 		  //run the proc.
-
+		
 		CREATE RECORD:C68([DBUpdate:21])
 		[DBUpdate:21]Date_Run:1:=Current date:C33
 		[DBUpdate:21]Time_Run:2:=Current time:C178

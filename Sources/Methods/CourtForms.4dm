@@ -2,10 +2,10 @@
   //
   //  G-Proc: CourtForms - from DefaultLtrs - for Litigation Dept
   //
-_O_C_INTEGER:C282($i;$CtrProSe;$CtrMed;vWScol;vWSLine;$Pcol;$Dcol)
-_O_C_STRING:C293(80;vwork)
-_O_C_STRING:C293(3;vWSType)
-_O_C_STRING:C293(12;vZip)
+C_LONGINT:C283($i;$CtrProSe;$CtrMed;vWScol;vWSLine;$Pcol;$Dcol)
+C_TEXT:C284(vwork)
+C_TEXT:C284(vWSType)
+C_TEXT:C284(vZip)
 C_TEXT:C284(vCtStyle)
 C_DATE:C307(vCtDktDate)
   //If (vBlank=1)
@@ -129,7 +129,7 @@ Else
 	vn2:=0
 	$CtrProSe:=0
 	CLEAR VARIABLE:C89(aEnvelope)
-	_O_ARRAY STRING:C218(60;aEnvelope;5;9)  //CREATE ARRAY FOR STORING ENVELOPE DATA
+	ARRAY TEXT:C222(aEnvelope;5;9)  //CREATE ARRAY FOR STORING ENVELOPE DATA
 	For ($i;1;_O_Records in subselection:C7([IntakeFile:1]AddPartyFile:21))
 		If (Length:C16([IntakeFile]AddPartyFile'APType)>2)
 			vWSType:=Substring:C12([IntakeFile]AddPartyFile'APType;3;1)

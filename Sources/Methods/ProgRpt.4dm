@@ -1,9 +1,9 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: ProgRpt
 SET WINDOW TITLE:C213("DRC: Program Report")
-_O_C_STRING:C293(20;vProgram;vReferral)
-_O_C_STRING:C293(20;$Program)
-_O_C_INTEGER:C282($TIntakes;$Held;$i;$j;$Cont;$Con;$Dialog;$RptLoop1;$Imp;$Stl)
+C_TEXT:C284(vProgram;vReferral)
+C_TEXT:C284($Program)
+C_LONGINT:C283($TIntakes;$Held;$i;$j;$Cont;$Con;$Dialog;$RptLoop1;$Imp;$Stl)
 C_BOOLEAN:C305($SearchOK)  //12/9/94 - was undefined
 vRptName:=""
 vBegDate:=!00-00-00!

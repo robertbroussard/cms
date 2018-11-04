@@ -3,10 +3,10 @@
 
   //
 
-_O_C_INTEGER:C282($MainLoop)
-_O_C_STRING:C293(47;$Display1;$Display2)
-_O_C_STRING:C293(9;$1)
-_O_C_STRING:C293(20;$2)
+C_LONGINT:C283($MainLoop)
+C_TEXT:C284($Display1;$Display2)
+C_TEXT:C284($1)
+C_TEXT:C284($2)
 $LangOK:=False:C215
 $SiteOK:=False:C215
 vDayOK:=False:C215
@@ -18,7 +18,7 @@ $MainLoop:=1
 While ($MainLoop=1)
 	$MainLoop:=0
 	$SiteOK:=CheckSite ($1;$2)  //$1=[IntakeFile]CaseNo & $2=vSite from SchCase.
-
+	
 	If ($SiteOK=True:C214)
 		$LangOK:=CheckSpanish 
 		If ($LangOK=True:C214)
@@ -33,7 +33,7 @@ While ($MainLoop=1)
 			CONFIRM:C162($Display1+$Display2)
 			If (OK=1)
 				vSCLoop1:=1  //Turn on the first loop in SchCase.
-
+				
 			End if 
 			$0:=!00-00-00!
 		End if 
@@ -43,7 +43,7 @@ While ($MainLoop=1)
 		CONFIRM:C162($Display1+$Display2)
 		If (OK=1)
 			vSCLoop1:=1  //Turn on the first loop in SchCase.
-
+			
 			$0:=!00-00-00!
 		End if 
 	End if 

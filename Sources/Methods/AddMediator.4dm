@@ -2,7 +2,7 @@
   //G-Procedure: AddMediator
 
 SET WINDOW TITLE:C213("Mediator Input Screen")
-_O_C_INTEGER:C282($Loop)
+C_LONGINT:C283($Loop)
 vNewMed:=True:C214
 $Loop:=1
 vCheckKey:=False:C215

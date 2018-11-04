@@ -9,8 +9,8 @@
 
   //
 
-_O_C_STRING:C293(30;$Key;$Program)
-_O_C_INTEGER:C282($While)
+C_TEXT:C284($Key;$Program)
+C_LONGINT:C283($While)
 C_DATE:C307($StartDate;$EndDate)
 $Key:=""
   //
@@ -39,10 +39,10 @@ If (OK=1)
 		End if 
 	End while 
 	  //  
-
+	
 	If (OK=1)
 		  //    
-
+		
 		QUERY:C277([MedActFile:10];[MedActFile:10]ActDate:5>=$StartDate;*)
 		QUERY:C277([MedActFile:10]; & ;[MedActFile:10]ActDate:5<=$EndDate)
 		If ($Program="L")
@@ -53,10 +53,10 @@ If (OK=1)
 			QUERY SELECTION:C341([MedActFile:10];[MedActFile:10]mafCaseNo:3="@F")
 		End if 
 		  //
-
+		
 		ORDER BY:C49([MedActFile:10];[MedActFile:10]mafKey:1;>;[MedActFile:10]ActDate:5;<)
 		  //
-
+		
 		For ($i;1;Records in selection:C76([MedActFile:10]))
 			If ([MedActFile:10]mafKey:1#$Key)
 				ADD TO SET:C119([MedActFile:10];"sMafSet")

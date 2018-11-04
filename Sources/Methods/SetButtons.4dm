@@ -15,24 +15,24 @@ Case of
 		vSetHold:=0
 		vDirAssist:=0
 		vSchCase:=0
-		_O_DISABLE BUTTON:C193(vSetHold)
-		_O_DISABLE BUTTON:C193(vDirAssist)
-		_O_DISABLE BUTTON:C193(vSchCase)
+		OBJECT SET ENABLED:C1123(vSetHold;False:C215)
+		OBJECT SET ENABLED:C1123(vDirAssist;False:C215)
+		OBJECT SET ENABLED:C1123(vSchCase;False:C215)
 	: ([IntakeFile:1]CaseStatus:25="Direct Assistance")
 		vDirAssist:=1
 		vSetHold:=0
 		vSetRefer:=0
 		vSchCase:=0
-		_O_DISABLE BUTTON:C193(vSetHold)
-		_O_DISABLE BUTTON:C193(vSetRefer)
-		_O_DISABLE BUTTON:C193(vSchCase)
+		OBJECT SET ENABLED:C1123(vSetHold;False:C215)
+		OBJECT SET ENABLED:C1123(vSetRefer;False:C215)
+		OBJECT SET ENABLED:C1123(vSchCase;False:C215)
 	: ([IntakeFile:1]CaseStatus:25="Scheduled")
 		vSchCase:=1
 		vSetHold:=0
 		vSetRefer:=0
 		vDirAssist:=0
-		_O_DISABLE BUTTON:C193(vSetHold)
-		_O_DISABLE BUTTON:C193(vSetRefer)
-		_O_DISABLE BUTTON:C193(vDirAssist)
+		OBJECT SET ENABLED:C1123(vSetHold;False:C215)
+		OBJECT SET ENABLED:C1123(vSetRefer;False:C215)
+		OBJECT SET ENABLED:C1123(vDirAssist;False:C215)
 		OBJECT SET TITLE:C194(vSchCase;"Hearing Scheduled")
 End case 

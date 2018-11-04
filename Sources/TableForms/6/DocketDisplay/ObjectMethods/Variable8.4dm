@@ -2,16 +2,16 @@
 
   //
 
-_O_C_INTEGER:C282($tsElements;$SelTCount;$Count;$Find;$Insert)
+C_LONGINT:C283($tsElements;$SelTCount;$Count;$Find;$Insert)
 C_BOOLEAN:C305($HasTimeSlots)
 CLEAR VARIABLE:C89(aSelTime)
-_O_DISABLE BUTTON:C193(bChooseTime)
+OBJECT SET ENABLED:C1123(bChooseTime;False:C215)
 $HasTimeSlots:=True:C214
 QUERY:C277([TimeSlots:12];[TimeSlots:12]tsSite:1=vSite)
 If (Records in selection:C76([TimeSlots:12])>1) & (aTimeSlot{1}#"")
 	$tsElements:=Records in selection:C76([TimeSlots:12])
 	$SelTCount:=0
-	_O_ARRAY STRING:C218(10;aSelTime;1)
+	ARRAY TEXT:C222(aSelTime;1)
 	For ($Count;1;$tsElements)
 		$Find:=Find in array:C230(aSlotName;[TimeSlots:12]tsTime:2)
 		Case of 
@@ -41,7 +41,7 @@ If (Records in selection:C76([TimeSlots:12])>1) & (aTimeSlot{1}#"")
 Else 
 	If (Records in selection:C76([TimeSlots:12])>1)
 		$tsElements:=Records in selection:C76([TimeSlots:12])
-		_O_ARRAY STRING:C218(10;aSelTime;$tsElements)
+		ARRAY TEXT:C222(aSelTime;$tsElements)
 		For ($Count;1;$tsElements)
 			aSelTime{$Count}:=[TimeSlots:12]tsTime:2
 			NEXT RECORD:C51([TimeSlots:12])
@@ -68,7 +68,7 @@ If (OK=1) & ($HasTimeSlots)
 	[DocketFile:6]TimeSlot:3:=vSchTime
 	[DocketFile:6]DFCaseNo:4:=vCaseNo
 	[DocketFile:6]DocKey:6:=vSite+String:C10(vDate;7)+vCaseNo  // DATE FORMAT IS MM/DD/YYYY FORCED
-
+	
 	If (aTimeSlot{1}="")
 		$Insert:=1
 	Else 
@@ -82,7 +82,7 @@ If (OK=1) & ($HasTimeSlots)
 	SAVE RECORD:C53([DocketFile:6])
 	PUSH RECORD:C176([DocketFile:6])
 	  // UNLOAD RECORD([DocketFile])
-
+	
 	QUERY:C277([IntakeFile:1];[IntakeFile:1]CaseNo:1=vCaseNo)
 	If (Records in selection:C76([IntakeFile:1])=1)
 		vTempStatus:=[IntakeFile:1]CaseStatus:25
@@ -93,7 +93,7 @@ If (OK=1) & ($HasTimeSlots)
 		aRName{$Insert}:=[IntakeFile:1]RLName:11+", "+[IntakeFile:1]RFName:12
 		SORT ARRAY:C229(aTimeSlot;aCaseNo;aCName;aRName;>)
 		  // UNLOAD RECORD([IntakeFile])
-
+		
 	Else 
 		ALERT:C41("There has been an error in Script'bChooseTime'.")
 	End if 

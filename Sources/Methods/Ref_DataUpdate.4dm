@@ -20,7 +20,7 @@
   // ----------------------------------------------------
 
 
-_O_ARRAY STRING:C218(20;aOldTruantList;0)
+ARRAY TEXT:C222(aOldTruantList;0)
 C_LONGINT:C283($IntakeFileLocked;$CrtAddrLocked)
 
 $IntakeFileLocked:=0
@@ -71,7 +71,7 @@ If ($size>0)
 	UNLOAD RECORD:C212([CrtAddrFile:19])
 	
 	If ($IntakeFileLocked#0) | ($CrtAddrLocked#0)  //something was locked
-
+		
 		BEEP:C151
 		BEEP:C151
 		BEEP:C151

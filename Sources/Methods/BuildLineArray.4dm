@@ -1,7 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Proc: BuildLineArrays;
-_O_C_INTEGER:C282($i)
-_O_ARRAY STRING:C218(40;aLineName;0)  //this probably should be built when needed?
+C_LONGINT:C283($i)
+ARRAY TEXT:C222(aLineName;0)  //this probably should be built when needed?
 INSERT IN ARRAY:C227(aLineName;1;38)
 For ($i;1;38)
 	Case of 

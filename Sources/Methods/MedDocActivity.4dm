@@ -2,7 +2,7 @@
   //G-Procedure: MedDocAvtivity; This procedure will add mediators to the 
   //case they mediated.
   //
-_O_C_STRING:C293(35;$mafTempKey)
+C_TEXT:C284($mafTempKey)
 $mafTempKey:=""
 $pgm:=[DocketFile:6]DFCaseNo:4[[9]]  // PROGRAM LETTER IS IN POS. 9 OF CASE NO.
 If (($pgm="A") | ($pgm="L") | ($pgm="M"))
