@@ -72,217 +72,6 @@
 					"width": 507,
 					"sizingX": "grow"
 				},
-				"bFirst": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 21,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bFirst",
-					"tooltip": "First Record",
-					"action": "firstRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bFirstlabel": {
-					"type": "text",
-					"top": 64,
-					"left": 9,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "First"
-				},
-				"bPrevious": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 93,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bPrevious",
-					"tooltip": "Previous Record",
-					"action": "previousRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bPreviouslabel": {
-					"type": "text",
-					"top": 64,
-					"left": 81,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Previous"
-				},
-				"bNext": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 165,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bNext",
-					"tooltip": "Next Record",
-					"action": "nextRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bNextlabel": {
-					"type": "text",
-					"top": 64,
-					"left": 153,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Next"
-				},
-				"bLast": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 237,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bLast",
-					"tooltip": "Last Record",
-					"action": "lastRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bLastlabel": {
-					"type": "text",
-					"top": 64,
-					"left": 225,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Last"
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 3,
-					"left": 304,
-					"width": 2,
-					"height": 86,
-					"pictureFormat": "tiled"
-				},
-				"bDelete": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 326,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bDelete",
-					"tooltip": "Delete Record",
-					"action": "deleteRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bDeletelabel": {
-					"type": "text",
-					"top": 64,
-					"left": 314,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Delete"
-				},
-				"bCancel": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 398,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bCancel",
-					"tooltip": "Cancel",
-					"action": "cancel",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bCancellabel": {
-					"type": "text",
-					"top": 64,
-					"left": 386,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Cancel"
-				},
-				"bValidate": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 470,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bValidate",
-					"tooltip": "OK",
-					"action": "accept",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bValidatelabel": {
-					"type": "text",
-					"top": 64,
-					"left": 458,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Validate"
-				},
 				"Text7": {
 					"type": "text",
 					"top": 139,
@@ -359,6 +148,132 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
+					]
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 17,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 80,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 143,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 206,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 269,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 332,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 395,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
 					]
 				}
 			}

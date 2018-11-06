@@ -35,17 +35,10 @@
 		null,
 		{
 			"objects": {
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 7,
-					"left": 6,
-					"width": 51,
-					"height": 327
-				},
 				"Rectangle2": {
 					"type": "rectangle",
 					"top": 30,
-					"left": 64,
+					"left": 84,
 					"width": 430,
 					"height": 304,
 					"fill": "#C5FFC0"
@@ -53,28 +46,28 @@
 				"Rectangle3": {
 					"type": "rectangle",
 					"top": 7,
-					"left": 64,
+					"left": 84,
 					"width": 430,
 					"height": 24
 				},
 				"Rectangle4": {
 					"type": "rectangle",
 					"top": 166,
-					"left": 77,
+					"left": 97,
 					"width": 402,
 					"height": 155
 				},
 				"Rectangle5": {
 					"type": "rectangle",
 					"top": 114,
-					"left": 76,
+					"left": 96,
 					"width": 403,
 					"height": 41
 				},
 				"Rectangle6": {
 					"type": "rectangle",
 					"top": 114,
-					"left": 76,
+					"left": 96,
 					"width": 120,
 					"height": 17,
 					"stroke": "#111111"
@@ -82,14 +75,14 @@
 				"Rectangle7": {
 					"type": "rectangle",
 					"top": 42,
-					"left": 76,
+					"left": 96,
 					"width": 403,
 					"height": 62
 				},
 				"Rectangle8": {
 					"type": "rectangle",
 					"top": 42,
-					"left": 76,
+					"left": 96,
 					"width": 120,
 					"height": 17,
 					"stroke": "#111111"
@@ -97,7 +90,7 @@
 				"Text1": {
 					"type": "text",
 					"top": 116,
-					"left": 80,
+					"left": 100,
 					"width": 103,
 					"height": 13,
 					"fill": "#FFFFFF",
@@ -110,7 +103,7 @@
 				"Text2": {
 					"type": "text",
 					"top": 11,
-					"left": 168,
+					"left": 188,
 					"width": 222,
 					"height": 16,
 					"fill": "#FFFFFF",
@@ -124,7 +117,7 @@
 				"Text3": {
 					"type": "text",
 					"top": 64,
-					"left": 80,
+					"left": 100,
 					"width": 68,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -137,7 +130,7 @@
 				"Rectangle9": {
 					"type": "rectangle",
 					"top": 63,
-					"left": 149,
+					"left": 169,
 					"width": 93,
 					"height": 14,
 					"fill": "transparent"
@@ -145,7 +138,7 @@
 				"Text4": {
 					"type": "text",
 					"top": 64,
-					"left": 249,
+					"left": 269,
 					"width": 71,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -158,7 +151,7 @@
 				"Rectangle10": {
 					"type": "rectangle",
 					"top": 63,
-					"left": 320,
+					"left": 340,
 					"width": 152,
 					"height": 14,
 					"fill": "transparent"
@@ -166,7 +159,7 @@
 				"Text5": {
 					"type": "text",
 					"top": 136,
-					"left": 80,
+					"left": 100,
 					"width": 47,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -179,7 +172,7 @@
 				"Rectangle11": {
 					"type": "rectangle",
 					"top": 137,
-					"left": 128,
+					"left": 148,
 					"width": 65,
 					"height": 14,
 					"fill": "transparent"
@@ -187,7 +180,7 @@
 				"Rectangle12": {
 					"type": "rectangle",
 					"top": 213,
-					"left": 187,
+					"left": 207,
 					"width": 31,
 					"height": 14,
 					"fill": "transparent"
@@ -195,7 +188,7 @@
 				"Rectangle13": {
 					"type": "rectangle",
 					"top": 213,
-					"left": 339,
+					"left": 359,
 					"width": 30,
 					"height": 14,
 					"fill": "transparent"
@@ -203,7 +196,7 @@
 				"Text6": {
 					"type": "text",
 					"top": 214,
-					"left": 94,
+					"left": 114,
 					"width": 91,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -213,179 +206,10 @@
 					"fontWeight": "bold",
 					"text": "Hearing Results:"
 				},
-				"Text7": {
-					"type": "text",
-					"top": 312,
-					"left": 13,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Delete"
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 284,
-					"left": 17,
-					"width": 32,
-					"height": 28,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
-				},
-				"Rectangle14": {
-					"type": "rectangle",
-					"top": 284,
-					"left": 16,
-					"width": 29,
-					"height": 29,
-					"fill": "transparent"
-				},
-				"Text8": {
-					"type": "text",
-					"top": 41,
-					"left": 19,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "OK"
-				},
-				"Picture2": {
-					"type": "picture",
-					"top": 14,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture2.pict"
-				},
-				"Text9": {
-					"type": "text",
-					"top": 86,
-					"left": 14,
-					"width": 35,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Cancel"
-				},
-				"Picture3": {
-					"type": "picture",
-					"top": 59,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.pict"
-				},
-				"Text10": {
-					"type": "text",
-					"top": 130,
-					"left": 18,
-					"width": 26,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "First"
-				},
-				"Picture4": {
-					"type": "picture",
-					"top": 104,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture4.pict"
-				},
-				"Text11": {
-					"type": "text",
-					"top": 175,
-					"left": 18,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Prev"
-				},
-				"Picture5": {
-					"type": "picture",
-					"top": 149,
-					"left": 17,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture5.pict"
-				},
-				"Text12": {
-					"type": "text",
-					"top": 219,
-					"left": 19,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Next"
-				},
-				"Picture6": {
-					"type": "picture",
-					"top": 192,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.pict"
-				},
-				"Text13": {
-					"type": "text",
-					"top": 266,
-					"left": 19,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Last"
-				},
-				"Picture7": {
-					"type": "picture",
-					"top": 240,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture7.pict"
-				},
 				"Rectangle15": {
 					"type": "rectangle",
 					"top": 135,
-					"left": 280,
+					"left": 300,
 					"width": 192,
 					"height": 14,
 					"fill": "transparent"
@@ -393,7 +217,7 @@
 				"Text14": {
 					"type": "text",
 					"top": 136,
-					"left": 215,
+					"left": 235,
 					"width": 64,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -406,7 +230,7 @@
 				"Text15": {
 					"type": "text",
 					"top": 214,
-					"left": 246,
+					"left": 266,
 					"width": 91,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -419,7 +243,7 @@
 				"Text16": {
 					"type": "text",
 					"top": 44,
-					"left": 78,
+					"left": 98,
 					"width": 113,
 					"height": 13,
 					"fill": "#FFFFFF",
@@ -432,7 +256,7 @@
 				"Rectangle16": {
 					"type": "rectangle",
 					"top": 82,
-					"left": 187,
+					"left": 207,
 					"width": 55,
 					"height": 14,
 					"fill": "transparent"
@@ -440,7 +264,7 @@
 				"Text17": {
 					"type": "text",
 					"top": 83,
-					"left": 81,
+					"left": 101,
 					"width": 103,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -453,7 +277,7 @@
 				"Rectangle17": {
 					"type": "rectangle",
 					"top": 241,
-					"left": 94,
+					"left": 114,
 					"width": 223,
 					"height": 68,
 					"fill": "transparent"
@@ -461,7 +285,7 @@
 				"Text18": {
 					"type": "text",
 					"top": 170,
-					"left": 94,
+					"left": 114,
 					"width": 321,
 					"height": 32,
 					"fill": "#FFFFFF",
@@ -473,7 +297,7 @@
 				"Subform1": {
 					"type": "subform",
 					"top": 242,
-					"left": 95,
+					"left": 115,
 					"width": 222,
 					"height": 66,
 					"dataSourceTypeHint": "text",
@@ -489,7 +313,7 @@
 				"Variable8": {
 					"type": "button",
 					"top": 245,
-					"left": 342,
+					"left": 362,
 					"width": 55,
 					"height": 16,
 					"dataSource": "bAddMed",
@@ -510,7 +334,7 @@
 				"Variable9": {
 					"type": "button",
 					"top": 266,
-					"left": 342,
+					"left": 362,
 					"width": 55,
 					"height": 16,
 					"dataSource": "bEditMed",
@@ -531,7 +355,7 @@
 				"Variable11": {
 					"type": "button",
 					"top": 286,
-					"left": 342,
+					"left": 362,
 					"width": 55,
 					"height": 16,
 					"dataSource": "bDelMed",
@@ -551,8 +375,8 @@
 				},
 				"Variable12": {
 					"type": "input",
-					"top": 2,
-					"left": 0,
+					"top": 77,
+					"left": 630,
 					"width": 3,
 					"height": 12,
 					"dataSource": "vDummy",
@@ -578,7 +402,7 @@
 				"Field1": {
 					"type": "input",
 					"top": 45,
-					"left": 252,
+					"left": 272,
 					"width": 224,
 					"height": 12,
 					"dataSource": "[DocketFile:6]DocKey:6",
@@ -606,7 +430,7 @@
 				"Field2": {
 					"type": "input",
 					"top": 64,
-					"left": 150,
+					"left": 170,
 					"width": 91,
 					"height": 12,
 					"dataSource": "[DocketFile:6]DocketSite:1",
@@ -634,7 +458,7 @@
 				"Field3": {
 					"type": "input",
 					"top": 64,
-					"left": 321,
+					"left": 341,
 					"width": 150,
 					"height": 12,
 					"dataSource": "[DocketFile:6]DocketDate:2",
@@ -662,7 +486,7 @@
 				"Field4": {
 					"type": "input",
 					"top": 83,
-					"left": 188,
+					"left": 208,
 					"width": 53,
 					"height": 12,
 					"dataSource": "[DocketFile:6]TimeSlot:3",
@@ -689,7 +513,7 @@
 				"Field5": {
 					"type": "input",
 					"top": 138,
-					"left": 129,
+					"left": 149,
 					"width": 63,
 					"height": 12,
 					"dataSource": "[DocketFile:6]DFCaseNo:4",
@@ -718,7 +542,7 @@
 				"Field6": {
 					"type": "input",
 					"top": 136,
-					"left": 281,
+					"left": 301,
 					"width": 190,
 					"height": 12,
 					"dataSource": "[IntakeFile:1]CaseStyle:23",
@@ -748,7 +572,7 @@
 				"Field7": {
 					"type": "input",
 					"top": 214,
-					"left": 188,
+					"left": 208,
 					"width": 29,
 					"height": 12,
 					"dataSource": "[DocketFile:6]HResults:11",
@@ -773,7 +597,7 @@
 				"Field8": {
 					"type": "input",
 					"top": 214,
-					"left": 340,
+					"left": 360,
 					"width": 27,
 					"height": 12,
 					"dataSource": "[DocketFile:6]HLenght:12",
@@ -800,6 +624,209 @@
 						"onDataChange",
 						"onPrintingDetail"
 					]
+				},
+				"Line7": {
+					"type": "line",
+					"top": 0,
+					"left": 70,
+					"height": 461,
+					"sizingY": "grow"
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 8,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidatelabel": {
+					"type": "text",
+					"top": 52,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Validate"
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 69,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancellabel": {
+					"type": "text",
+					"top": 113,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Cancel"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 130,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bFirstlabel": {
+					"type": "text",
+					"top": 174,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "First"
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 191,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPreviouslabel": {
+					"type": "text",
+					"top": 235,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Previous"
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 252,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNextlabel": {
+					"type": "text",
+					"top": 296,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Next"
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 313,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLastlabel": {
+					"type": "text",
+					"top": 357,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Last"
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 374,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDeletelabel": {
+					"type": "text",
+					"top": 418,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Delete"
 				}
 			}
 		}

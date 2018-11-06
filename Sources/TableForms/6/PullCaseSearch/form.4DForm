@@ -140,12 +140,9 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"entryFilter": "|",
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Docket Sites"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -173,8 +170,6 @@
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",

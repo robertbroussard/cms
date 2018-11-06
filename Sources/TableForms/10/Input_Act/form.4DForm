@@ -39,9 +39,9 @@
 				"Rectangle1": {
 					"type": "rectangle",
 					"top": 0,
-					"left": 0,
+					"left": 1,
 					"width": 554,
-					"height": 400,
+					"height": 449,
 					"fill": "#C5FFC0",
 					"stroke": "#C5FFC0",
 					"strokeWidth": 0.1
@@ -49,21 +49,21 @@
 				"Rectangle2": {
 					"type": "rectangle",
 					"top": 11,
-					"left": 74,
+					"left": 85,
 					"width": 410,
 					"height": 34
 				},
 				"Rectangle3": {
 					"type": "rectangle",
 					"top": 43,
-					"left": 74,
+					"left": 85,
 					"width": 410,
 					"height": 207
 				},
 				"Text1": {
 					"type": "text",
 					"top": 20,
-					"left": 141,
+					"left": 152,
 					"width": 296,
 					"height": 16,
 					"fill": "#FFFFFF",
@@ -76,7 +76,7 @@
 				"Text2": {
 					"type": "text",
 					"top": 61,
-					"left": 90,
+					"left": 101,
 					"width": 56,
 					"height": 13,
 					"fill": "#FFFFFF",
@@ -88,183 +88,14 @@
 				"Rectangle4": {
 					"type": "rectangle",
 					"top": 59,
-					"left": 151,
+					"left": 162,
 					"width": 207,
 					"height": 17
-				},
-				"Rectangle5": {
-					"type": "rectangle",
-					"top": 11,
-					"left": 9,
-					"width": 51,
-					"height": 325
-				},
-				"Text3": {
-					"type": "text",
-					"top": 316,
-					"left": 16,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Delete"
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 288,
-					"left": 20,
-					"width": 32,
-					"height": 28,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
-				},
-				"Rectangle6": {
-					"type": "rectangle",
-					"top": 288,
-					"left": 19,
-					"width": 29,
-					"height": 29,
-					"fill": "transparent"
-				},
-				"Text4": {
-					"type": "text",
-					"top": 45,
-					"left": 22,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "OK"
-				},
-				"Picture2": {
-					"type": "picture",
-					"top": 18,
-					"left": 21,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture2.pict"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 90,
-					"left": 17,
-					"width": 35,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Cancel"
-				},
-				"Picture3": {
-					"type": "picture",
-					"top": 63,
-					"left": 21,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.pict"
-				},
-				"Text6": {
-					"type": "text",
-					"top": 134,
-					"left": 21,
-					"width": 26,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "First"
-				},
-				"Picture4": {
-					"type": "picture",
-					"top": 108,
-					"left": 21,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture4.pict"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 179,
-					"left": 21,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Prev"
-				},
-				"Picture5": {
-					"type": "picture",
-					"top": 153,
-					"left": 20,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture5.pict"
-				},
-				"Text8": {
-					"type": "text",
-					"top": 223,
-					"left": 22,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Next"
-				},
-				"Picture6": {
-					"type": "picture",
-					"top": 196,
-					"left": 21,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.pict"
-				},
-				"Text9": {
-					"type": "text",
-					"top": 270,
-					"left": 22,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Last"
-				},
-				"Picture7": {
-					"type": "picture",
-					"top": 244,
-					"left": 21,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture7.pict"
 				},
 				"Rectangle7": {
 					"type": "rectangle",
 					"top": 81,
-					"left": 151,
+					"left": 162,
 					"width": 115,
 					"height": 16,
 					"fill": "transparent"
@@ -272,7 +103,7 @@
 				"Text10": {
 					"type": "text",
 					"top": 83,
-					"left": 92,
+					"left": 103,
 					"width": 54,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -285,7 +116,7 @@
 				"Rectangle8": {
 					"type": "rectangle",
 					"top": 101,
-					"left": 151,
+					"left": 162,
 					"width": 94,
 					"height": 16,
 					"fill": "transparent"
@@ -293,7 +124,7 @@
 				"Rectangle9": {
 					"type": "rectangle",
 					"top": 101,
-					"left": 309,
+					"left": 320,
 					"width": 32,
 					"height": 16,
 					"fill": "transparent"
@@ -301,7 +132,7 @@
 				"Text11": {
 					"type": "text",
 					"top": 103,
-					"left": 89,
+					"left": 100,
 					"width": 57,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -314,7 +145,7 @@
 				"Text12": {
 					"type": "text",
 					"top": 103,
-					"left": 267,
+					"left": 278,
 					"width": 38,
 					"height": 13,
 					"fill": "#FFFFFF",
@@ -327,7 +158,7 @@
 				"Rectangle10": {
 					"type": "rectangle",
 					"top": 146,
-					"left": 90,
+					"left": 101,
 					"width": 373,
 					"height": 86,
 					"fill": "transparent"
@@ -335,7 +166,7 @@
 				"Text13": {
 					"type": "text",
 					"top": 131,
-					"left": 93,
+					"left": 104,
 					"width": 116,
 					"height": 13,
 					"fill": "#FFFFFF",
@@ -348,7 +179,7 @@
 				"Field1": {
 					"type": "input",
 					"top": 61,
-					"left": 154,
+					"left": 165,
 					"width": 203,
 					"height": 13,
 					"dataSource": "[MedActFile:10]mafKey:1",
@@ -376,7 +207,7 @@
 				"Field2": {
 					"type": "input",
 					"top": 83,
-					"left": 154,
+					"left": 165,
 					"width": 111,
 					"height": 12,
 					"dataSource": "[MedActFile:10]Role_Activity:4",
@@ -404,10 +235,41 @@
 						"onPrintingDetail"
 					]
 				},
+				"Field6": {
+					"type": "input",
+					"top": 89,
+					"left": 392,
+					"width": 75,
+					"height": 12,
+					"dataSource": "[MedActFile:10]mafCaseNo:3",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "####-####-#",
+					"entryFilter": "####-####-#",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Field3": {
 					"type": "input",
 					"top": 103,
-					"left": 154,
+					"left": 165,
 					"width": 90,
 					"height": 12,
 					"dataSource": "[MedActFile:10]ActDate:5",
@@ -436,7 +298,7 @@
 				"Field4": {
 					"type": "input",
 					"top": 103,
-					"left": 312,
+					"left": 323,
 					"width": 28,
 					"height": 12,
 					"dataSource": "[MedActFile:10]AmtOfTime:6",
@@ -466,7 +328,7 @@
 				"Field5": {
 					"type": "input",
 					"top": 147,
-					"left": 92,
+					"left": 103,
 					"width": 370,
 					"height": 84,
 					"dataSource": "[MedActFile:10]Notes:7",
@@ -496,14 +358,14 @@
 				"Rectangle11": {
 					"type": "rectangle",
 					"top": 59,
-					"left": 373,
+					"left": 384,
 					"width": 90,
 					"height": 46
 				},
 				"Text14": {
 					"type": "text",
 					"top": 62,
-					"left": 378,
+					"left": 389,
 					"width": 80,
 					"height": 24,
 					"fill": "#FFFFFF",
@@ -513,36 +375,208 @@
 					"fontWeight": "bold",
 					"text": "Type of Case \r(If Applicable)"
 				},
-				"Field6": {
-					"type": "input",
-					"top": 89,
-					"left": 381,
-					"width": 75,
-					"height": 12,
-					"dataSource": "[MedActFile:10]mafCaseNo:3",
-					"fill": "#FFFFFF",
+				"Line7": {
+					"type": "line",
+					"top": 0,
+					"left": 70,
+					"height": 461,
+					"sizingY": "grow"
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 8,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidatelabel": {
+					"type": "text",
+					"top": 52,
+					"left": 12,
+					"width": 48,
+					"height": 15,
 					"stroke": "#000000",
 					"textAlign": "center",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"textFormat": "####-####-#",
-					"entryFilter": "####-####-#",
-					"dragging": "none",
-					"dropping": "none",
+					"text": "Validate"
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 69,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
 					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
+						"onClick"
 					]
+				},
+				"bCancellabel": {
+					"type": "text",
+					"top": 113,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Cancel"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 130,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bFirstlabel": {
+					"type": "text",
+					"top": 174,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "First"
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 191,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPreviouslabel": {
+					"type": "text",
+					"top": 235,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Previous"
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 252,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNextlabel": {
+					"type": "text",
+					"top": 296,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Next"
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 313,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLastlabel": {
+					"type": "text",
+					"top": 357,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Last"
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 374,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDeletelabel": {
+					"type": "text",
+					"top": 418,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Delete"
 				}
 			}
 		}

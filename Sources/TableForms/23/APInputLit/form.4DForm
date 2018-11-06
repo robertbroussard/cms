@@ -35,58 +35,10 @@
 		null,
 		{
 			"objects": {
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 0,
-					"left": 0,
-					"width": 545,
-					"height": 341,
-					"fill": "#999999",
-					"stroke": "#999999",
-					"strokeWidth": 0.1
-				},
-				"Rectangle2": {
-					"type": "rectangle",
-					"top": 6,
-					"left": 7,
-					"width": 51,
-					"height": 324
-				},
-				"Text1": {
-					"type": "text",
-					"top": 311,
-					"left": 14,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Delete"
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 283,
-					"left": 18,
-					"width": 32,
-					"height": 28,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
-				},
-				"Rectangle3": {
-					"type": "rectangle",
-					"top": 283,
-					"left": 17,
-					"width": 29,
-					"height": 29,
-					"fill": "transparent"
-				},
 				"Rectangle4": {
 					"type": "rectangle",
 					"top": 34,
-					"left": 68,
+					"left": 84,
 					"width": 427,
 					"height": 184,
 					"fill": "#5F78FF"
@@ -94,31 +46,22 @@
 				"Rectangle5": {
 					"type": "rectangle",
 					"top": 38,
-					"left": 72,
+					"left": 88,
 					"width": 419,
 					"height": 176,
 					"fill": "#DDDDDD"
 				},
-				"Picture2": {
-					"type": "picture",
-					"top": 13,
-					"left": 19,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture2.pict"
-				},
 				"Rectangle6": {
 					"type": "rectangle",
 					"top": 45,
-					"left": 77,
+					"left": 93,
 					"width": 407,
 					"height": 27
 				},
 				"Text2": {
 					"type": "text",
 					"top": 51,
-					"left": 81,
+					"left": 97,
 					"width": 48,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -128,116 +71,10 @@
 					"fontWeight": "bold",
 					"text": "Case No:"
 				},
-				"Picture3": {
-					"type": "picture",
-					"top": 148,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.pict"
-				},
-				"Text3": {
-					"type": "text",
-					"top": 40,
-					"left": 20,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "OK"
-				},
-				"Text4": {
-					"type": "text",
-					"top": 85,
-					"left": 15,
-					"width": 35,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Cancel"
-				},
-				"Picture4": {
-					"type": "picture",
-					"top": 58,
-					"left": 19,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture4.pict"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 174,
-					"left": 19,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Prev"
-				},
-				"Text6": {
-					"type": "text",
-					"top": 218,
-					"left": 20,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Next"
-				},
-				"Picture5": {
-					"type": "picture",
-					"top": 191,
-					"left": 19,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture5.pict"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 129,
-					"left": 19,
-					"width": 26,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "First"
-				},
-				"Picture6": {
-					"type": "picture",
-					"top": 103,
-					"left": 19,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.pict"
-				},
 				"Text8": {
 					"type": "text",
 					"top": 51,
-					"left": 222,
+					"left": 238,
 					"width": 35,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -247,40 +84,17 @@
 					"fontWeight": "bold",
 					"text": "Style:"
 				},
-				"Text9": {
-					"type": "text",
-					"top": 263,
-					"left": 19,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Last"
-				},
-				"Picture7": {
-					"type": "picture",
-					"top": 237,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture7.pict"
-				},
 				"Rectangle7": {
 					"type": "rectangle",
 					"top": 82,
-					"left": 78,
+					"left": 94,
 					"width": 406,
 					"height": 125
 				},
 				"Text10": {
 					"type": "text",
 					"top": 131,
-					"left": 261,
+					"left": 277,
 					"width": 28,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -293,7 +107,7 @@
 				"Text11": {
 					"type": "text",
 					"top": 177,
-					"left": 290,
+					"left": 306,
 					"width": 35,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -306,7 +120,7 @@
 				"Text12": {
 					"type": "text",
 					"top": 88,
-					"left": 81,
+					"left": 97,
 					"width": 183,
 					"height": 13,
 					"fill": "#FFFFFF",
@@ -320,7 +134,7 @@
 				"Text13": {
 					"type": "text",
 					"top": 156,
-					"left": 205,
+					"left": 221,
 					"width": 23,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -333,7 +147,7 @@
 				"Text14": {
 					"type": "text",
 					"top": 156,
-					"left": 88,
+					"left": 104,
 					"width": 26,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -346,19 +160,19 @@
 				"Line1": {
 					"type": "line",
 					"top": 168,
-					"left": 112,
+					"left": 128,
 					"width": 88
 				},
 				"Line2": {
 					"type": "line",
 					"top": 168,
-					"left": 235,
+					"left": 251,
 					"width": 88
 				},
 				"Text15": {
 					"type": "text",
 					"top": 108,
-					"left": 88,
+					"left": 104,
 					"width": 30,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -371,7 +185,7 @@
 				"Text16": {
 					"type": "text",
 					"top": 177,
-					"left": 202,
+					"left": 218,
 					"width": 58,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -384,7 +198,7 @@
 				"Text17": {
 					"type": "text",
 					"top": 108,
-					"left": 195,
+					"left": 211,
 					"width": 35,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -397,14 +211,14 @@
 				"Line3": {
 					"type": "line",
 					"top": 120,
-					"left": 119,
+					"left": 135,
 					"width": 75,
 					"strokeWidth": 0.1
 				},
 				"Text18": {
 					"type": "text",
 					"top": 108,
-					"left": 306,
+					"left": 322,
 					"width": 30,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -417,7 +231,7 @@
 				"Text19": {
 					"type": "text",
 					"top": 131,
-					"left": 88,
+					"left": 104,
 					"width": 43,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -430,20 +244,20 @@
 				"Line4": {
 					"type": "line",
 					"top": 143,
-					"left": 134,
+					"left": 150,
 					"width": 125,
 					"strokeWidth": 0.1
 				},
 				"Line5": {
 					"type": "line",
 					"top": 143,
-					"left": 291,
+					"left": 307,
 					"width": 65
 				},
 				"Text20": {
 					"type": "text",
 					"top": 131,
-					"left": 357,
+					"left": 373,
 					"width": 17,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -456,13 +270,13 @@
 				"Line6": {
 					"type": "line",
 					"top": 143,
-					"left": 375,
+					"left": 391,
 					"width": 15
 				},
 				"Text21": {
 					"type": "text",
 					"top": 131,
-					"left": 392,
+					"left": 408,
 					"width": 21,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -475,39 +289,39 @@
 				"Line7": {
 					"type": "line",
 					"top": 143,
-					"left": 415,
+					"left": 431,
 					"width": 63
 				},
 				"Line8": {
 					"type": "line",
 					"top": 120,
-					"left": 230,
+					"left": 246,
 					"width": 75,
 					"strokeWidth": 0.1
 				},
 				"Line9": {
 					"type": "line",
 					"top": 120,
-					"left": 339,
+					"left": 355,
 					"width": 139,
 					"strokeWidth": 0.1
 				},
 				"Line10": {
 					"type": "line",
 					"top": 189,
-					"left": 328,
+					"left": 344,
 					"width": 28
 				},
 				"Line11": {
 					"type": "line",
 					"top": 189,
-					"left": 262,
+					"left": 278,
 					"width": 21
 				},
 				"Text22": {
 					"type": "text",
 					"top": 177,
-					"left": 88,
+					"left": 104,
 					"width": 37,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -520,7 +334,7 @@
 				"Text23": {
 					"type": "text",
 					"top": 177,
-					"left": 145,
+					"left": 161,
 					"width": 31,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -533,25 +347,25 @@
 				"Line12": {
 					"type": "line",
 					"top": 189,
-					"left": 122,
+					"left": 138,
 					"width": 13
 				},
 				"Line13": {
 					"type": "line",
 					"top": 189,
-					"left": 173,
+					"left": 189,
 					"width": 20
 				},
 				"Line14": {
 					"type": "line",
 					"top": 100,
-					"left": 339,
+					"left": 355,
 					"width": 133
 				},
 				"Text24": {
 					"type": "text",
 					"top": 89,
-					"left": 272,
+					"left": 288,
 					"width": 55,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -564,7 +378,7 @@
 				"Text25": {
 					"type": "text",
 					"top": 177,
-					"left": 364,
+					"left": 380,
 					"width": 43,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -577,14 +391,14 @@
 				"Line15": {
 					"type": "line",
 					"top": 190,
-					"left": 416,
+					"left": 432,
 					"width": 11,
 					"height": 1
 				},
 				"Field1": {
 					"type": "input",
 					"top": 51,
-					"left": 125,
+					"left": 141,
 					"width": 88,
 					"height": 13,
 					"dataSource": "[IntakeFile:1]CaseNo:1",
@@ -614,7 +428,7 @@
 				"Field2": {
 					"type": "input",
 					"top": 51,
-					"left": 259,
+					"left": 275,
 					"width": 213,
 					"height": 13,
 					"dataSource": "[IntakeFile:1]CaseStyle:23",
@@ -640,92 +454,10 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable3": {
-					"type": "button",
-					"top": 103,
-					"left": 19,
-					"width": 27,
-					"height": 27,
-					"dataSource": "bFirstSub",
-					"shortcutKey": "[left arrow]",
-					"shortcutAccel": true,
-					"shortcutAlt": true,
-					"display": false,
-					"method": "ObjectMethods/Variable3.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable4": {
-					"type": "button",
-					"top": 148,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"dataSource": "bPrevSub",
-					"shortcutKey": "[left arrow]",
-					"shortcutAccel": true,
-					"display": false,
-					"method": "ObjectMethods/Variable4.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable5": {
-					"type": "button",
-					"top": 191,
-					"left": 19,
-					"width": 26,
-					"height": 27,
-					"dataSource": "bNextsub",
-					"shortcutKey": "[right arrow]",
-					"shortcutAccel": true,
-					"display": false,
-					"method": "ObjectMethods/Variable5.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable6": {
-					"type": "button",
-					"top": 237,
-					"left": 18,
-					"width": 27,
-					"height": 27,
-					"dataSource": "bLastSub",
-					"shortcutKey": "[right arrow]",
-					"shortcutAccel": true,
-					"shortcutAlt": true,
-					"display": false,
-					"method": "ObjectMethods/Variable6.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
 				"Field3": {
 					"type": "input",
 					"top": 88,
-					"left": 339,
+					"left": 355,
 					"width": 134,
 					"height": 12,
 					"dataSource": "[IntakeFile:1]Ct_PdNo:5",
@@ -753,7 +485,7 @@
 				"Field4": {
 					"type": "input",
 					"top": 108,
-					"left": 119,
+					"left": 135,
 					"width": 75,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]LastName:2",
@@ -781,7 +513,7 @@
 				"Field5": {
 					"type": "input",
 					"top": 108,
-					"left": 230,
+					"left": 246,
 					"width": 75,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]FirstName:3",
@@ -809,7 +541,7 @@
 				"Field6": {
 					"type": "input",
 					"top": 108,
-					"left": 339,
+					"left": 355,
 					"width": 139,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APFirm:8",
@@ -819,7 +551,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"entryFilter": "|",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -837,7 +568,7 @@
 				"Field7": {
 					"type": "input",
 					"top": 131,
-					"left": 134,
+					"left": 150,
 					"width": 126,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APStAddress:9",
@@ -865,7 +596,7 @@
 				"Field8": {
 					"type": "input",
 					"top": 131,
-					"left": 291,
+					"left": 307,
 					"width": 65,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APCity:10",
@@ -895,7 +626,7 @@
 				"Field9": {
 					"type": "input",
 					"top": 131,
-					"left": 375,
+					"left": 391,
 					"width": 15,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]ApState:11",
@@ -926,7 +657,7 @@
 				"Field10": {
 					"type": "input",
 					"top": 131,
-					"left": 415,
+					"left": 431,
 					"width": 63,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APZip:12",
@@ -954,7 +685,7 @@
 				"Field11": {
 					"type": "input",
 					"top": 156,
-					"left": 112,
+					"left": 128,
 					"width": 89,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]WPhone:5",
@@ -983,7 +714,7 @@
 				"Field12": {
 					"type": "input",
 					"top": 156,
-					"left": 234,
+					"left": 250,
 					"width": 89,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]FaxNumber:16",
@@ -1012,7 +743,7 @@
 				"Field13": {
 					"type": "input",
 					"top": 177,
-					"left": 122,
+					"left": 138,
 					"width": 14,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APRace:14",
@@ -1042,7 +773,7 @@
 				"Field14": {
 					"type": "input",
 					"top": 177,
-					"left": 173,
+					"left": 189,
 					"width": 21,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APAge:15",
@@ -1070,7 +801,7 @@
 				"Field15": {
 					"type": "input",
 					"top": 177,
-					"left": 262,
+					"left": 278,
 					"width": 21,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]Lang:6",
@@ -1097,7 +828,7 @@
 				"Field16": {
 					"type": "input",
 					"top": 177,
-					"left": 328,
+					"left": 344,
 					"width": 29,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APType:1",
@@ -1127,7 +858,7 @@
 				"Field17": {
 					"type": "input",
 					"top": 178,
-					"left": 411,
+					"left": 427,
 					"width": 21,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APProSe:7",
@@ -1151,6 +882,214 @@
 						"onDataChange",
 						"onPrintingDetail"
 					]
+				},
+				"Line16": {
+					"type": "line",
+					"top": 0,
+					"left": 70,
+					"height": 461,
+					"sizingY": "grow"
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 8,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidatelabel": {
+					"type": "text",
+					"top": 52,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Validate"
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 69,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancellabel": {
+					"type": "text",
+					"top": 113,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Cancel"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 130,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bFirst.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bFirstlabel": {
+					"type": "text",
+					"top": 174,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "First"
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 191,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bPrevious.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bPreviouslabel": {
+					"type": "text",
+					"top": 235,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Previous"
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 252,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bNext.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bNextlabel": {
+					"type": "text",
+					"top": 296,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Next"
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 313,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bLast.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bLastlabel": {
+					"type": "text",
+					"top": 357,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Last"
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 374,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/Glass/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bDelete.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bDeletelabel": {
+					"type": "text",
+					"top": 418,
+					"left": 12,
+					"width": 48,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "Delete"
 				}
 			}
 		}

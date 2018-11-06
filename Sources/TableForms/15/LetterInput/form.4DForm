@@ -128,102 +128,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Rectangle2": {
-					"type": "rectangle",
-					"top": 257,
-					"left": 10,
-					"width": 461,
-					"height": 52,
-					"fill": "#000000"
-				},
-				"Rectangle3": {
-					"type": "rectangle",
-					"top": 255,
-					"left": 8,
-					"width": 461,
-					"height": 52
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 257,
-					"left": 23,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
-				},
-				"Picture2": {
-					"type": "picture",
-					"top": 257,
-					"left": 71,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture2.pict"
-				},
-				"Picture3": {
-					"type": "picture",
-					"top": 257,
-					"left": 119,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.pict"
-				},
-				"Picture4": {
-					"type": "picture",
-					"top": 257,
-					"left": 167,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture4.pict"
-				},
-				"Picture5": {
-					"type": "picture",
-					"top": 257,
-					"left": 215,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture5.pict"
-				},
-				"Picture6": {
-					"type": "picture",
-					"top": 257,
-					"left": 263,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.pict"
-				},
-				"Picture7": {
-					"type": "picture",
-					"top": 257,
-					"left": 311,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture7.pict"
-				},
-				"Picture8": {
-					"type": "picture",
-					"top": 257,
-					"left": 359,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture8.pict"
-				},
-				"Picture9": {
-					"type": "picture",
-					"top": 257,
-					"left": 407,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture9.pict"
-				},
 				"Text1": {
 					"type": "text",
 					"top": 8,
@@ -275,6 +179,132 @@
 					"fontSize": 10,
 					"fontWeight": "bold",
 					"text": "Spanish:"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 19,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 82,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 145,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 208,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 271,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 334,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 397,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
 				}
 			}
 		},
@@ -311,34 +341,6 @@
 					"fontSize": 10,
 					"text": "Header"
 				},
-				"Field4": {
-					"type": "input",
-					"top": 154,
-					"left": 11,
-					"width": 543,
-					"height": 28,
-					"dataSource": "[LetterFile:15]LF_Unused2:5",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Field5": {
 					"type": "input",
 					"top": 59,
@@ -367,101 +369,33 @@
 						"onPrintingDetail"
 					]
 				},
-				"Rectangle7": {
-					"type": "rectangle",
-					"top": 257,
-					"left": 10,
-					"width": 461,
-					"height": 52,
-					"fill": "#000000"
-				},
-				"Rectangle8": {
-					"type": "rectangle",
-					"top": 255,
-					"left": 8,
-					"width": 461,
-					"height": 52
-				},
-				"Picture10": {
-					"type": "picture",
-					"top": 257,
-					"left": 23,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture10.pict"
-				},
-				"Picture11": {
-					"type": "picture",
-					"top": 257,
-					"left": 71,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture11.pict"
-				},
-				"Picture12": {
-					"type": "picture",
-					"top": 257,
-					"left": 119,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture12.pict"
-				},
-				"Picture13": {
-					"type": "picture",
-					"top": 257,
-					"left": 167,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture13.pict"
-				},
-				"Picture14": {
-					"type": "picture",
-					"top": 257,
-					"left": 215,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture14.pict"
-				},
-				"Picture15": {
-					"type": "picture",
-					"top": 257,
-					"left": 263,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture15.pict"
-				},
-				"Picture16": {
-					"type": "picture",
-					"top": 257,
-					"left": 311,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture16.pict"
-				},
-				"Picture17": {
-					"type": "picture",
-					"top": 257,
-					"left": 359,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture17.pict"
-				},
-				"Picture18": {
-					"type": "picture",
-					"top": 257,
-					"left": 407,
-					"width": 48,
-					"height": 48,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture18.pict"
+				"Field4": {
+					"type": "input",
+					"top": 154,
+					"left": 11,
+					"width": 543,
+					"height": 28,
+					"dataSource": "[LetterFile:15]LF_Unused2:5",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
 				},
 				"Text7": {
 					"type": "text",
@@ -476,6 +410,132 @@
 					"fontSize": 12,
 					"fontWeight": "bold",
 					"text": "Letter Input Screen\rPage 2"
+				},
+				"bFirst1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 19,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 82,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 145,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 208,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 271,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 334,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate1": {
+					"type": "pictureButton",
+					"top": 259,
+					"left": 397,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
 				}
 			}
 		}

@@ -182,8 +182,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"~\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -209,8 +207,6 @@
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Docket Sites"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -292,8 +288,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"0-9\"##",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -318,9 +312,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"entryFilter": "|",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -345,9 +336,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"entryFilter": "|",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",

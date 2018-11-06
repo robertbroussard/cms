@@ -118,6 +118,60 @@
 					"fontSize": 12,
 					"text": "Results:"
 				},
+				"Variable7": {
+					"type": "input",
+					"top": 103,
+					"left": 115,
+					"width": 116,
+					"height": 14,
+					"dataSource": "vCaseNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"textFormat": "####-####-#",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 103,
+					"left": 334,
+					"width": 215,
+					"height": 14,
+					"dataSource": "vPrintDate",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable9": {
 					"type": "input",
 					"top": 132,
@@ -130,6 +184,31 @@
 					"fontFamily": "Arial",
 					"fontSize": 12,
 					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 154,
+					"left": 115,
+					"width": 162,
+					"height": 14,
+					"dataSource": "vDRefBy",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
 					"events": [
@@ -260,6 +339,31 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable16": {
+					"type": "input",
+					"top": 242,
+					"left": 115,
+					"width": 240,
+					"height": 14,
+					"dataSource": "vDMedD_n_T",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable17": {
 					"type": "checkbox",
 					"top": 263,
@@ -302,6 +406,31 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable19": {
+					"type": "input",
+					"top": 263,
+					"left": 404,
+					"width": 35,
+					"height": 14,
+					"dataSource": "vDAmtCSR",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable20": {
 					"type": "checkbox",
 					"top": 282,
@@ -320,6 +449,31 @@
 						"onPrintingBreak",
 						"onPrintingFooter",
 						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 282,
+					"left": 299,
+					"width": 65,
+					"height": 14,
+					"dataSource": "vDAmtRes",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
 						"onPrintingDetail"
 					]
 				},
@@ -362,6 +516,31 @@
 						"onPrintingBreak",
 						"onPrintingFooter",
 						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable24": {
+					"type": "input",
+					"top": 320,
+					"left": 222,
+					"width": 240,
+					"height": 14,
+					"dataSource": "vDContD_n_T",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
 						"onPrintingDetail"
 					]
 				},
@@ -760,185 +939,6 @@
 					"fontSize": 12,
 					"text": "Did not Appear - No current address &/or phone calls not returned"
 				},
-				"Variable7": {
-					"type": "input",
-					"top": 103,
-					"left": 115,
-					"width": 116,
-					"height": 14,
-					"dataSource": "vCaseNo",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"textFormat": "####-####-#",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable8": {
-					"type": "input",
-					"top": 103,
-					"left": 334,
-					"width": 215,
-					"height": 14,
-					"dataSource": "vPrintDate",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable10": {
-					"type": "input",
-					"top": 154,
-					"left": 115,
-					"width": 162,
-					"height": 14,
-					"dataSource": "vDRefBy",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable16": {
-					"type": "input",
-					"top": 242,
-					"left": 115,
-					"width": 240,
-					"height": 14,
-					"dataSource": "vDMedD_n_T",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable19": {
-					"type": "input",
-					"top": 263,
-					"left": 404,
-					"width": 35,
-					"height": 14,
-					"dataSource": "vDAmtCSR",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable21": {
-					"type": "input",
-					"top": 282,
-					"left": 299,
-					"width": 65,
-					"height": 14,
-					"dataSource": "vDAmtRes",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable24": {
-					"type": "input",
-					"top": 320,
-					"left": 222,
-					"width": 240,
-					"height": 14,
-					"dataSource": "vDContD_n_T",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"gFooter1": {
 					"type": "input",
 					"top": 705,
@@ -964,7 +964,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

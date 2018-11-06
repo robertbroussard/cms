@@ -72,140 +72,6 @@
 					"width": 704,
 					"sizingX": "grow"
 				},
-				"bFirst": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 21,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bFirst",
-					"tooltip": "First Record",
-					"action": "firstRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bPrevious": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 84,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bPrevious",
-					"tooltip": "Previous Record",
-					"action": "previousRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bNext": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 147,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bNext",
-					"tooltip": "Next Record",
-					"action": "nextRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bLast": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 210,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bLast",
-					"tooltip": "Last Record",
-					"action": "lastRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 3,
-					"left": 273,
-					"width": 2,
-					"height": 73,
-					"pictureFormat": "tiled"
-				},
-				"bDelete": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 290,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bDelete",
-					"tooltip": "Delete Record",
-					"action": "deleteRecord",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bCancel": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 353,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bCancel",
-					"tooltip": "Cancel",
-					"action": "cancel",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bValidate": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 416,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bValidate",
-					"tooltip": "OK",
-					"action": "accept",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
 				"Text10": {
 					"type": "text",
 					"top": 126,
@@ -399,6 +265,132 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
+					]
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 17,
+					"width": 48,
+					"height": 48,
+					"tooltip": "First Record",
+					"action": "firstRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 80,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Previous Record",
+					"action": "previousRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 143,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Next Record",
+					"action": "nextRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 206,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Last Record",
+					"action": "lastRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 269,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Delete Record",
+					"action": "deleteRecord",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 332,
+					"width": 48,
+					"height": 48,
+					"tooltip": "Cancel",
+					"action": "cancel",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 395,
+					"width": 48,
+					"height": 48,
+					"tooltip": "OK",
+					"action": "accept",
+					"columnCount": 1,
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
 					]
 				}
 			}

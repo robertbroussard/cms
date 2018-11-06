@@ -172,9 +172,6 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
-					"entryFilter": "|",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -230,8 +227,6 @@
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -377,8 +372,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"0-9;.;-\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -461,8 +454,6 @@
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Real_Entry"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",

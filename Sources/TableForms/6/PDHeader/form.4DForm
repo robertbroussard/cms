@@ -250,34 +250,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable2": {
-					"type": "input",
-					"top": 90,
-					"left": 447,
-					"width": 97,
-					"height": 12,
-					"dataSource": "vDPgNo",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Times New Roman",
-					"fontSize": 10,
-					"fontWeight": "bold",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Variable3": {
 					"type": "input",
 					"top": 92,
@@ -299,6 +271,34 @@
 					"events": [
 						"onLoad",
 						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 90,
+					"left": 447,
+					"width": 97,
+					"height": 12,
+					"dataSource": "vDPgNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -335,7 +335,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

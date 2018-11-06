@@ -35,17 +35,6 @@
 		null,
 		{
 			"objects": {
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 0,
-					"left": 0,
-					"width": 665,
-					"height": 442,
-					"fill": "#FFBE7F",
-					"stroke": "#FFBE7F",
-					"strokeWidth": 0.1,
-					"strokeDashArray": "1 1"
-				},
 				"Rectangle2": {
 					"type": "rectangle",
 					"top": 190,
@@ -53,37 +42,6 @@
 					"width": 126,
 					"height": 143,
 					"strokeWidth": 0.1
-				},
-				"Rectangle3": {
-					"type": "rectangle",
-					"top": 5,
-					"left": 6,
-					"width": 48,
-					"height": 330,
-					"strokeWidth": 0.1
-				},
-				"Text2": {
-					"type": "text",
-					"top": 315,
-					"left": 11,
-					"width": 38,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Delete"
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 287,
-					"left": 17,
-					"width": 25,
-					"height": 24,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -132,144 +90,6 @@
 					"fontSize": 9,
 					"fontWeight": "bold",
 					"text": "Additional Parties"
-				},
-				"Picture2": {
-					"type": "picture",
-					"top": 16,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture2.pict"
-				},
-				"Text4": {
-					"type": "text",
-					"top": 42,
-					"left": 17,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "OK"
-				},
-				"Picture3": {
-					"type": "picture",
-					"top": 60,
-					"left": 15,
-					"width": 28,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.pict"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 87,
-					"left": 11,
-					"width": 37,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Cancel"
-				},
-				"Text6": {
-					"type": "text",
-					"top": 131,
-					"left": 16,
-					"width": 29,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "First"
-				},
-				"Picture4": {
-					"type": "picture",
-					"top": 105,
-					"left": 16,
-					"width": 28,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture4.pict"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 175,
-					"left": 16,
-					"width": 29,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Prev"
-				},
-				"Picture5": {
-					"type": "picture",
-					"top": 149,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture5.pict"
-				},
-				"Text8": {
-					"type": "text",
-					"top": 218,
-					"left": 16,
-					"width": 29,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Next"
-				},
-				"Picture6": {
-					"type": "picture",
-					"top": 192,
-					"left": 16,
-					"width": 27,
-					"height": 26,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.pict"
-				},
-				"Text9": {
-					"type": "text",
-					"top": 266,
-					"left": 18,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Last"
-				},
-				"Picture7": {
-					"type": "picture",
-					"top": 240,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture7.pict"
 				},
 				"Text10": {
 					"type": "text",
@@ -784,28 +604,6 @@
 					"height": 28,
 					"strokeWidth": 0.1
 				},
-				"Text45": {
-					"type": "text",
-					"top": 241,
-					"left": 227,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"text": "Delete"
-				},
-				"Picture8": {
-					"type": "picture",
-					"top": 228,
-					"left": 228,
-					"width": 32,
-					"height": 15,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture8.pict"
-				},
 				"Text46": {
 					"type": "text",
 					"top": 195,
@@ -832,36 +630,6 @@
 					"fontSize": 9,
 					"fontWeight": "bold",
 					"text": "Case Referrals"
-				},
-				"Rectangle8": {
-					"type": "rectangle",
-					"top": 194,
-					"left": 224,
-					"width": 40,
-					"height": 28,
-					"strokeWidth": 0.1
-				},
-				"Text48": {
-					"type": "text",
-					"top": 209,
-					"left": 232,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"text": "Add "
-				},
-				"Picture9": {
-					"type": "picture",
-					"top": 196,
-					"left": 228,
-					"width": 32,
-					"height": 15,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture9.pict"
 				},
 				"Variable12": {
 					"type": "button",
@@ -1071,7 +839,6 @@
 					"focusable": false,
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
-					"entryFilter": "|",
 					"method": "ObjectMethods/Field4.4dm",
 					"events": [
 						"onClick",
@@ -2121,6 +1888,14 @@
 					"fontSize": 10,
 					"fontWeight": "bold",
 					"text": "Notes"
+				},
+				"Text": {
+					"type": "text",
+					"top": 26,
+					"left": 7,
+					"width": 49,
+					"height": 15,
+					"text": "OLD Text:"
 				}
 			}
 		}

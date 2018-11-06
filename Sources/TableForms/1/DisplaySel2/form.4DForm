@@ -231,16 +231,7 @@
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field2": {
 					"type": "input",
@@ -257,16 +248,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field3": {
 					"type": "input",
@@ -283,16 +265,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field4": {
 					"type": "input",
@@ -309,16 +282,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field5": {
 					"type": "input",
@@ -335,16 +299,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"bcancel": {
 					"type": "button",

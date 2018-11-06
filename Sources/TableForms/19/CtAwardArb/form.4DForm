@@ -159,199 +159,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Text4": {
-					"type": "text",
-					"top": 155,
-					"left": 14,
-					"width": 27,
-					"height": 14,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"text": "vs"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 608,
-					"left": 13,
-					"width": 163,
-					"height": 18,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"text": "Signature(s) of Arbitrator(s):"
-				},
-				"Line9": {
-					"type": "line",
-					"top": 626,
-					"left": 186,
-					"width": 346,
-					"strokeWidth": 0.1
-				},
-				"Line10": {
-					"type": "line",
-					"top": 655,
-					"left": 171,
-					"width": 361,
-					"strokeWidth": 0.1
-				},
-				"Line11": {
-					"type": "line",
-					"top": 684,
-					"left": 171,
-					"width": 361,
-					"strokeWidth": 0.1
-				},
-				"Text6": {
-					"type": "text",
-					"top": 647,
-					"left": 13,
-					"width": 116,
-					"height": 46,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"text": "Copy to:\t\tEach Party\r             \t\tDRC"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 478,
-					"left": 11,
-					"width": 452,
-					"height": 16,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"text": "DATED this                                    day of                                                  20   "
-				},
-				"Line12": {
-					"type": "line",
-					"top": 494,
-					"left": 86,
-					"width": 94,
-					"strokeWidth": 0.1
-				},
-				"Line13": {
-					"type": "line",
-					"top": 494,
-					"left": 251,
-					"width": 146,
-					"strokeWidth": 0.1
-				},
-				"Line14": {
-					"type": "line",
-					"top": 494,
-					"left": 413,
-					"width": 65,
-					"strokeWidth": 0.1
-				},
-				"Line15": {
-					"type": "line",
-					"top": 248,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line16": {
-					"type": "line",
-					"top": 269,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line17": {
-					"type": "line",
-					"top": 290,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line18": {
-					"type": "line",
-					"top": 311,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line19": {
-					"type": "line",
-					"top": 332,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line20": {
-					"type": "line",
-					"top": 353,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line21": {
-					"type": "line",
-					"top": 374,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line22": {
-					"type": "line",
-					"top": 395,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line23": {
-					"type": "line",
-					"top": 416,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line24": {
-					"type": "line",
-					"top": 437,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Line25": {
-					"type": "line",
-					"top": 458,
-					"left": 13,
-					"width": 519,
-					"height": 1,
-					"strokeWidth": 0.1
-				},
-				"Text8": {
-					"type": "text",
-					"top": 224,
-					"left": 14,
-					"width": 277,
-					"height": 16,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"text": "The following is the decision of the arbitrator(s):"
-				},
 				"Variable2": {
 					"type": "input",
 					"top": 125,
@@ -594,13 +401,207 @@
 						"onPrintingDetail"
 					]
 				},
+				"Text4": {
+					"type": "text",
+					"top": 155,
+					"left": 14,
+					"width": 27,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "vs"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 608,
+					"left": 13,
+					"width": 163,
+					"height": 18,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Signature(s) of Arbitrator(s):"
+				},
+				"Line9": {
+					"type": "line",
+					"top": 626,
+					"left": 186,
+					"width": 346,
+					"strokeWidth": 0.1
+				},
+				"Line10": {
+					"type": "line",
+					"top": 655,
+					"left": 171,
+					"width": 361,
+					"strokeWidth": 0.1
+				},
+				"Line11": {
+					"type": "line",
+					"top": 684,
+					"left": 171,
+					"width": 361,
+					"strokeWidth": 0.1
+				},
+				"Text6": {
+					"type": "text",
+					"top": 647,
+					"left": 13,
+					"width": 116,
+					"height": 46,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"text": "Copy to:\t\tEach Party\r             \t\tDRC"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 478,
+					"left": 11,
+					"width": 452,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "DATED this                                    day of                                                  20   "
+				},
+				"Line12": {
+					"type": "line",
+					"top": 494,
+					"left": 86,
+					"width": 94,
+					"strokeWidth": 0.1
+				},
+				"Line13": {
+					"type": "line",
+					"top": 494,
+					"left": 251,
+					"width": 146,
+					"strokeWidth": 0.1
+				},
+				"Line14": {
+					"type": "line",
+					"top": 494,
+					"left": 413,
+					"width": 65,
+					"strokeWidth": 0.1
+				},
+				"Line15": {
+					"type": "line",
+					"top": 248,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line16": {
+					"type": "line",
+					"top": 269,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line17": {
+					"type": "line",
+					"top": 290,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line18": {
+					"type": "line",
+					"top": 311,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line19": {
+					"type": "line",
+					"top": 332,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line20": {
+					"type": "line",
+					"top": 353,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line21": {
+					"type": "line",
+					"top": 374,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line22": {
+					"type": "line",
+					"top": 395,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line23": {
+					"type": "line",
+					"top": 416,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line24": {
+					"type": "line",
+					"top": 437,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Line25": {
+					"type": "line",
+					"top": 458,
+					"left": 13,
+					"width": 519,
+					"height": 1,
+					"strokeWidth": 0.1
+				},
+				"Text8": {
+					"type": "text",
+					"top": 224,
+					"left": 14,
+					"width": 277,
+					"height": 16,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "The following is the decision of the arbitrator(s):"
+				},
 				"DRC_Logo_2009": {
 					"type": "picture",
 					"top": 28,
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				},
 				"gFooter1": {
 					"type": "input",

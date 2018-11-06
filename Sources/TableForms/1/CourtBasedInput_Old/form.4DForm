@@ -55,17 +55,6 @@
 					"fontWeight": "bold",
 					"text": "Add"
 				},
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 0,
-					"left": 0,
-					"width": 511,
-					"height": 356,
-					"fill": "#00E9EC",
-					"stroke": "#00E9EC",
-					"strokeWidth": 0.1,
-					"strokeDashArray": "1 1"
-				},
 				"Rectangle2": {
 					"type": "rectangle",
 					"top": 5,
@@ -74,177 +63,6 @@
 					"height": 179,
 					"fill": "#FFFFC0",
 					"strokeWidth": 0.1
-				},
-				"Rectangle3": {
-					"type": "rectangle",
-					"top": 5,
-					"left": 6,
-					"width": 46,
-					"height": 329,
-					"strokeWidth": 0.1
-				},
-				"Text2": {
-					"type": "text",
-					"top": 312,
-					"left": 11,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Delete"
-				},
-				"Picture1": {
-					"type": "picture",
-					"top": 284,
-					"left": 15,
-					"width": 32,
-					"height": 28,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
-				},
-				"Rectangle4": {
-					"type": "rectangle",
-					"top": 284,
-					"left": 12,
-					"width": 29,
-					"height": 29,
-					"fill": "transparent",
-					"strokeWidth": 0.1
-				},
-				"Text3": {
-					"type": "text",
-					"top": 41,
-					"left": 17,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "OK"
-				},
-				"Picture2": {
-					"type": "picture",
-					"top": 14,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture2.pict"
-				},
-				"Text4": {
-					"type": "text",
-					"top": 86,
-					"left": 12,
-					"width": 35,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Cancel"
-				},
-				"Picture3": {
-					"type": "picture",
-					"top": 59,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.pict"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 130,
-					"left": 16,
-					"width": 26,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "First"
-				},
-				"Picture4": {
-					"type": "picture",
-					"top": 104,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture4.pict"
-				},
-				"Text6": {
-					"type": "text",
-					"top": 175,
-					"left": 16,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Prev"
-				},
-				"Picture5": {
-					"type": "picture",
-					"top": 149,
-					"left": 15,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture5.pict"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 219,
-					"left": 17,
-					"width": 25,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Next"
-				},
-				"Picture6": {
-					"type": "picture",
-					"top": 192,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.pict"
-				},
-				"Text8": {
-					"type": "text",
-					"top": 266,
-					"left": 17,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Last"
-				},
-				"Picture7": {
-					"type": "picture",
-					"top": 240,
-					"left": 16,
-					"width": 27,
-					"height": 27,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture7.pict"
 				},
 				"Text9": {
 					"type": "text",
@@ -693,7 +511,6 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
-					"entryFilter": "|",
 					"method": "ObjectMethods/Field1.4dm",
 					"events": [
 						"onClick",
@@ -862,56 +679,6 @@
 					"width": 40,
 					"height": 28,
 					"strokeWidth": 0.1
-				},
-				"Text40": {
-					"type": "text",
-					"top": 318,
-					"left": 226,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"text": "Delete"
-				},
-				"Picture8": {
-					"type": "picture",
-					"top": 305,
-					"left": 227,
-					"width": 32,
-					"height": 15,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture8.pict"
-				},
-				"Rectangle9": {
-					"type": "rectangle",
-					"top": 271,
-					"left": 223,
-					"width": 40,
-					"height": 28,
-					"strokeWidth": 0.1
-				},
-				"Text41": {
-					"type": "text",
-					"top": 286,
-					"left": 231,
-					"width": 24,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 9,
-					"text": "Add "
-				},
-				"Picture9": {
-					"type": "picture",
-					"top": 273,
-					"left": 227,
-					"width": 32,
-					"height": 15,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture9.pict"
 				},
 				"Variable18": {
 					"type": "button",
@@ -1863,6 +1630,14 @@
 						"onDataChange",
 						"onPrintingDetail"
 					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 33,
+					"left": 8,
+					"width": 46,
+					"height": 15,
+					"text": "OLD"
 				}
 			}
 		}

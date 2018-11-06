@@ -33,15 +33,6 @@
 		null,
 		{
 			"objects": {
-				"Picture3": {
-					"type": "picture",
-					"top": -5,
-					"left": 0,
-					"width": 270,
-					"height": 23,
-					"sizingX": "grow",
-					"pictureFormat": "scaled"
-				},
 				"S1_Text": {
 					"type": "text",
 					"top": 0,

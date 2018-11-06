@@ -144,8 +144,6 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -296,8 +294,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "\"~\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -325,8 +321,6 @@
 					"contextMenu": "none",
 					"dateFormat": "short",
 					"entryFilter": "!0&9##/##/####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -354,8 +348,6 @@
 					"contextMenu": "none",
 					"dateFormat": "short",
 					"entryFilter": "!0&9##/##/####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",

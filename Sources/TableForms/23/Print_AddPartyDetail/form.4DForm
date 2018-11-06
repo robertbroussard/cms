@@ -69,8 +69,6 @@
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
 					"entryFilter": "&@",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -126,8 +124,6 @@
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -360,8 +356,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-;/;#;&;@;(;);'\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -388,8 +382,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-;/;#;&;@;(;);'\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -415,9 +407,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"entryFilter": "|",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -444,8 +433,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-;/;#;&;@;(;);'\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -474,8 +461,6 @@
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -505,8 +490,6 @@
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/State_Entry"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -534,8 +517,6 @@
 					"contextMenu": "none",
 					"textFormat": "#####-####",
 					"entryFilter": "&9#####&9-####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -563,8 +544,6 @@
 					"contextMenu": "none",
 					"textFormat": "(###) ###-####",
 					"entryFilter": "!_&9(###) !0###-####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -592,8 +571,6 @@
 					"contextMenu": "none",
 					"textFormat": "(###) ###-####",
 					"entryFilter": "!_&9(###) !0###-####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -661,8 +638,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -703,8 +678,6 @@
 					"contextMenu": "none",
 					"textFormat": "(###)###-####",
 					"entryFilter": "&9(###)###-####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -835,8 +808,6 @@
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Race"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -863,8 +834,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -890,8 +859,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -920,8 +887,6 @@
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Party Type"
 					},
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",

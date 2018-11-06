@@ -143,6 +143,33 @@
 					"fontSize": 10,
 					"text": "MSC Date:"
 				},
+				"Variable4": {
+					"type": "input",
+					"top": 98,
+					"left": 73,
+					"width": 181,
+					"height": 12,
+					"dataSource": "vMFName",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable1": {
 					"type": "input",
 					"top": 95,
@@ -159,6 +186,86 @@
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
 					"textFormat": "Month Date, Year",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 118,
+					"left": 73,
+					"width": 169,
+					"height": 12,
+					"dataSource": "vCtCourtNam",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 120,
+					"left": 351,
+					"width": 167,
+					"height": 12,
+					"dataSource": "vCtTypeCase",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 139,
+					"left": 73,
+					"width": 456,
+					"height": 12,
+					"dataSource": "vCtStyle",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -195,33 +302,6 @@
 					"fontSize": 10,
 					"text": "Type of Case:"
 				},
-				"Variable2": {
-					"type": "input",
-					"top": 120,
-					"left": 351,
-					"width": 167,
-					"height": 12,
-					"dataSource": "vCtTypeCase",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Text6": {
 					"type": "text",
 					"top": 139,
@@ -233,32 +313,6 @@
 					"fontFamily": "Arial",
 					"fontSize": 10,
 					"text": "Style:"
-				},
-				"Variable3": {
-					"type": "input",
-					"top": 139,
-					"left": 73,
-					"width": 456,
-					"height": 12,
-					"dataSource": "vCtStyle",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				},
 				"Text7": {
 					"type": "text",
@@ -423,33 +477,6 @@
 					"left": 300,
 					"width": 37,
 					"strokeWidth": 0.1
-				},
-				"Variable4": {
-					"type": "input",
-					"top": 98,
-					"left": 73,
-					"width": 181,
-					"height": 12,
-					"dataSource": "vMFName",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				},
 				"Text16": {
 					"type": "text",
@@ -693,33 +720,6 @@
 					"fontWeight": "bold",
 					"text": "If you have a complaint about the way your moderated settlement conference was handled, please call the Dispute Resolution Center at (713) 755-8274."
 				},
-				"Variable5": {
-					"type": "input",
-					"top": 118,
-					"left": 73,
-					"width": 169,
-					"height": 12,
-					"dataSource": "vCtCourtNam",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"gFooter1": {
 					"type": "input",
 					"top": 705,
@@ -768,7 +768,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

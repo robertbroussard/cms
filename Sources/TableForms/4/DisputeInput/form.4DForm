@@ -180,7 +180,6 @@
 					"fontSize": 12,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"entryFilter": "|",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [

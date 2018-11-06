@@ -155,8 +155,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "\"~\"",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -183,8 +181,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "!0&9##/##/####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -211,8 +207,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "!0&9##/##/####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onClick",
 						"onHeader",

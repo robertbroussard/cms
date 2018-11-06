@@ -629,7 +629,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"entryFilter": "|",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -669,7 +668,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

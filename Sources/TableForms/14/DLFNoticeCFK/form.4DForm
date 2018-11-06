@@ -120,6 +120,34 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable4": {
+					"type": "input",
+					"top": 164,
+					"left": 34,
+					"width": 95,
+					"height": 15,
+					"dataSource": "vText4",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 11,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Field8": {
 					"type": "input",
 					"top": 164,
@@ -135,61 +163,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable124": {
-					"type": "input",
-					"top": 215,
-					"left": 34,
-					"width": 522,
-					"height": 17,
-					"dataSource": "vDLFText",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Times New Roman",
-					"fontSize": 11,
-					"borderStyle": "none",
-					"printFrame": "variable",
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable4": {
-					"type": "input",
-					"top": 164,
-					"left": 34,
-					"width": 95,
-					"height": 15,
-					"dataSource": "vText4",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Times New Roman",
-					"fontSize": 11,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -224,6 +197,33 @@
 					"events": [
 						"onLoad",
 						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable124": {
+					"type": "input",
+					"top": 215,
+					"left": 34,
+					"width": 522,
+					"height": 17,
+					"dataSource": "vDLFText",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 11,
+					"borderStyle": "none",
+					"printFrame": "variable",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -345,7 +345,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

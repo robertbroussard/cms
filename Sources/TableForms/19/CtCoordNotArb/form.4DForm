@@ -122,18 +122,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Text4": {
-					"type": "text",
-					"top": 184,
-					"left": 31,
-					"width": 27,
-					"height": 14,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"text": "vs"
-				},
 				"Variable2": {
 					"type": "input",
 					"top": 154,
@@ -141,36 +129,6 @@
 					"width": 249,
 					"height": 14,
 					"dataSource": "vCtPlaint",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"textDecoration": "underline",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable3": {
-					"type": "input",
-					"top": 211,
-					"left": 31,
-					"width": 251,
-					"height": 14,
-					"dataSource": "vCtDefend",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"fontFamily": "Arial",
@@ -329,6 +287,36 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable3": {
+					"type": "input",
+					"top": 211,
+					"left": 31,
+					"width": 251,
+					"height": 14,
+					"dataSource": "vCtDefend",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"textDecoration": "underline",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable9": {
 					"type": "input",
 					"top": 219,
@@ -383,6 +371,18 @@
 						"onPrintingDetail"
 					]
 				},
+				"Text4": {
+					"type": "text",
+					"top": 184,
+					"left": 31,
+					"width": 27,
+					"height": 14,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"text": "vs"
+				},
 				"Text5": {
 					"type": "text",
 					"top": 269,
@@ -432,7 +432,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				},
 				"gFooter1": {
 					"type": "input",

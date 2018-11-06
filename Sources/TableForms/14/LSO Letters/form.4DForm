@@ -67,7 +67,7 @@
 					"width": 78,
 					"height": 78,
 					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.pict"
+					"picture": "/RESOURCES/Images/Logos/DRC_CircleFlag.png"
 				},
 				"Text3": {
 					"type": "text",
@@ -312,7 +312,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

@@ -373,6 +373,82 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable4": {
+					"type": "input",
+					"top": 168,
+					"left": 25,
+					"width": 252,
+					"height": 14,
+					"dataSource": "vFullNameC",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable91": {
+					"type": "input",
+					"top": 168,
+					"left": 345,
+					"width": 202,
+					"height": 17,
+					"dataSource": "vCourt",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 192,
+					"left": 344,
+					"width": 204,
+					"height": 14,
+					"dataSource": "vCounty",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable90": {
 					"type": "input",
 					"top": 208,
@@ -397,6 +473,32 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable6": {
+					"type": "input",
+					"top": 218,
+					"left": 25,
+					"width": 253,
+					"height": 14,
+					"dataSource": "vFullNameR",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable89": {
 					"type": "input",
 					"top": 220,
@@ -409,6 +511,31 @@
 					"fontFamily": "Arial",
 					"fontSize": 12,
 					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 219,
+					"left": 344,
+					"width": 198,
+					"height": 16,
+					"dataSource": "vJudDist",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
 					"events": [
@@ -457,6 +584,31 @@
 					"fontFamily": "Arial",
 					"fontSize": 12,
 					"borderStyle": "none",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 320,
+					"left": 23,
+					"width": 482,
+					"height": 14,
+					"dataSource": "vFamHdr2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
 					"events": [
@@ -623,133 +775,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable4": {
-					"type": "input",
-					"top": 168,
-					"left": 25,
-					"width": 252,
-					"height": 14,
-					"dataSource": "vFullNameC",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable5": {
-					"type": "input",
-					"top": 192,
-					"left": 344,
-					"width": 204,
-					"height": 14,
-					"dataSource": "vCounty",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable6": {
-					"type": "input",
-					"top": 218,
-					"left": 25,
-					"width": 253,
-					"height": 14,
-					"dataSource": "vFullNameR",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable7": {
-					"type": "input",
-					"top": 219,
-					"left": 344,
-					"width": 198,
-					"height": 16,
-					"dataSource": "vJudDist",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable10": {
-					"type": "input",
-					"top": 320,
-					"left": 23,
-					"width": 482,
-					"height": 14,
-					"dataSource": "vFamHdr2",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Variable19": {
 					"type": "input",
 					"top": 640,
@@ -851,31 +876,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable91": {
-					"type": "input",
-					"top": 168,
-					"left": 345,
-					"width": 202,
-					"height": 17,
-					"dataSource": "vCourt",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"gFooter1": {
 					"type": "input",
 					"top": 705,
@@ -901,7 +901,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

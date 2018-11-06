@@ -121,18 +121,19 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field8": {
+				"Variable4": {
 					"type": "input",
 					"top": 172,
-					"left": 123,
-					"width": 79,
+					"left": 34,
+					"width": 85,
 					"height": 15,
-					"dataSource": "[DailyLtrFile:14]DLFCaseNo:1",
+					"dataSource": "vText4",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"fontFamily": "Times New Roman",
 					"fontSize": 11,
 					"borderStyle": "none",
+					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
@@ -148,45 +149,18 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable124": {
-					"type": "input",
-					"top": 223,
-					"left": 34,
-					"width": 522,
-					"height": 17,
-					"dataSource": "vDLFText",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Times New Roman",
-					"fontSize": 11,
-					"borderStyle": "none",
-					"printFrame": "variable",
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable4": {
+				"Field8": {
 					"type": "input",
 					"top": 172,
-					"left": 34,
-					"width": 85,
+					"left": 123,
+					"width": 79,
 					"height": 15,
-					"dataSource": "vText4",
+					"dataSource": "[DailyLtrFile:14]DLFCaseNo:1",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"fontFamily": "Times New Roman",
 					"fontSize": 11,
 					"borderStyle": "none",
-					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
@@ -221,6 +195,32 @@
 					"events": [
 						"onLoad",
 						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable124": {
+					"type": "input",
+					"top": 223,
+					"left": 34,
+					"width": 522,
+					"height": 17,
+					"dataSource": "vDLFText",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Times New Roman",
+					"fontSize": 11,
+					"borderStyle": "none",
+					"printFrame": "variable",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -341,7 +341,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

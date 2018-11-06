@@ -262,129 +262,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Text10": {
-					"type": "text",
-					"top": 142,
-					"left": 17,
-					"width": 34,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"text": "vs"
-				},
-				"Text11": {
-					"type": "text",
-					"top": 198,
-					"left": 17,
-					"width": 241,
-					"height": 11,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "As a result of participation in the ADR  Process:"
-				},
-				"Text12": {
-					"type": "text",
-					"top": 615,
-					"left": 17,
-					"width": 125,
-					"height": 11,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Signature of Mediator(s):"
-				},
-				"Line17": {
-					"type": "line",
-					"top": 647,
-					"left": 17,
-					"width": 226,
-					"strokeWidth": 0.1
-				},
-				"Line18": {
-					"type": "line",
-					"top": 669,
-					"left": 17,
-					"width": 226,
-					"strokeWidth": 0.1
-				},
-				"Text13": {
-					"type": "text",
-					"top": 681,
-					"left": 17,
-					"width": 37,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"text": "DATE:"
-				},
-				"Line19": {
-					"type": "line",
-					"top": 693,
-					"left": 66,
-					"width": 174,
-					"strokeWidth": 0.1
-				},
-				"Text14": {
-					"type": "text",
-					"top": 681,
-					"left": 309,
-					"width": 60,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"text": "TIME-Start:"
-				},
-				"Line20": {
-					"type": "line",
-					"top": 693,
-					"left": 375,
-					"width": 60,
-					"strokeWidth": 0.1
-				},
-				"Text15": {
-					"type": "text",
-					"top": 681,
-					"left": 446,
-					"width": 23,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 10,
-					"text": "End:"
-				},
-				"Line21": {
-					"type": "line",
-					"top": 693,
-					"left": 476,
-					"width": 60,
-					"strokeWidth": 0.1
-				},
-				"Line22": {
-					"type": "line",
-					"top": 647,
-					"left": 309,
-					"width": 226,
-					"strokeWidth": 0.1
-				},
-				"Line23": {
-					"type": "line",
-					"top": 669,
-					"left": 309,
-					"width": 226,
-					"strokeWidth": 0.1
-				},
 				"Variable2": {
 					"type": "input",
 					"top": 112,
@@ -634,6 +511,129 @@
 						"onPrintingDetail"
 					]
 				},
+				"Text10": {
+					"type": "text",
+					"top": 142,
+					"left": 17,
+					"width": 34,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "vs"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 198,
+					"left": 17,
+					"width": 241,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "As a result of participation in the ADR  Process:"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 615,
+					"left": 17,
+					"width": 125,
+					"height": 11,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Signature of Mediator(s):"
+				},
+				"Line17": {
+					"type": "line",
+					"top": 647,
+					"left": 17,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line18": {
+					"type": "line",
+					"top": 669,
+					"left": 17,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Text13": {
+					"type": "text",
+					"top": 681,
+					"left": 17,
+					"width": 37,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "DATE:"
+				},
+				"Line19": {
+					"type": "line",
+					"top": 693,
+					"left": 66,
+					"width": 174,
+					"strokeWidth": 0.1
+				},
+				"Text14": {
+					"type": "text",
+					"top": 681,
+					"left": 309,
+					"width": 60,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "TIME-Start:"
+				},
+				"Line20": {
+					"type": "line",
+					"top": 693,
+					"left": 375,
+					"width": 60,
+					"strokeWidth": 0.1
+				},
+				"Text15": {
+					"type": "text",
+					"top": 681,
+					"left": 446,
+					"width": 23,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 10,
+					"text": "End:"
+				},
+				"Line21": {
+					"type": "line",
+					"top": 693,
+					"left": 476,
+					"width": 60,
+					"strokeWidth": 0.1
+				},
+				"Line22": {
+					"type": "line",
+					"top": 647,
+					"left": 309,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
+				"Line23": {
+					"type": "line",
+					"top": 669,
+					"left": 309,
+					"width": 226,
+					"strokeWidth": 0.1
+				},
 				"gFooter1": {
 					"type": "input",
 					"top": 705,
@@ -661,7 +661,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				}
 			}
 		}

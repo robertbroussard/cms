@@ -84,6 +84,54 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable2": {
+					"type": "input",
+					"top": 106,
+					"left": 90,
+					"width": 378,
+					"height": 16,
+					"dataSource": "vDCtPd",
+					"fill": "transparent",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 128,
+					"left": 126,
+					"width": 378,
+					"height": 16,
+					"dataSource": "vStyle",
+					"fill": "transparent",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable1": {
 					"type": "input",
 					"top": 151,
@@ -464,30 +512,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable2": {
-					"type": "input",
-					"top": 106,
-					"left": 90,
-					"width": 378,
-					"height": 16,
-					"dataSource": "vDCtPd",
-					"fill": "transparent",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"gFooter1": {
 					"type": "input",
 					"top": 705,
@@ -513,7 +537,8 @@
 					"left": 161,
 					"width": 271,
 					"height": 32,
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Logos/DRC_LOGO_SM.png"
 				},
 				"Text": {
 					"type": "text",
@@ -538,30 +563,6 @@
 					"fontSize": 12,
 					"fontWeight": "bold",
 					"text": "In the Matter of:"
-				},
-				"Variable8": {
-					"type": "input",
-					"top": 128,
-					"left": 126,
-					"width": 378,
-					"height": 16,
-					"dataSource": "vStyle",
-					"fill": "transparent",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				},
 				"Text2": {
 					"type": "text",

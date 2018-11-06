@@ -217,8 +217,6 @@
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
 					"entryFilter": "####-####-#",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -245,8 +243,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -272,8 +268,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -300,8 +294,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -328,8 +320,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -356,8 +346,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -384,8 +372,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -412,8 +398,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -441,8 +425,6 @@
 					"contextMenu": "none",
 					"textFormat": "#####-####",
 					"entryFilter": "#####-####",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -469,8 +451,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -496,8 +476,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -523,9 +501,6 @@
 					"borderStyle": "none",
 					"spellcheck": true,
 					"contextMenu": "none",
-					"entryFilter": "|",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -552,8 +527,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -580,8 +553,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -607,8 +578,6 @@
 					"borderStyle": "none",
 					"spellcheck": true,
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -634,8 +603,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -661,8 +628,6 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -716,8 +681,6 @@
 					"spellcheck": true,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -742,8 +705,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
 					"events": [
 						"onLoad",
 						"onValidate",

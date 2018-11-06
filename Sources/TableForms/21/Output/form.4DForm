@@ -43,6 +43,7 @@
 					"tooltip": "Add Record",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NewRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -72,6 +73,7 @@
 					"tooltip": "Delete Selectio",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -91,14 +93,6 @@
 					"fontSize": 11,
 					"text": "Delete"
 				},
-				"Picture1": {
-					"type": "picture",
-					"top": 3,
-					"left": 163,
-					"width": 2,
-					"height": 66,
-					"pictureFormat": "tiled"
-				},
 				"bShowAll": {
 					"type": "pictureButton",
 					"top": 8,
@@ -109,6 +103,7 @@
 					"tooltip": "Show All",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowAll.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -138,6 +133,7 @@
 					"tooltip": "Show Subset",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowSubSet.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -167,6 +163,7 @@
 					"tooltip": "Query",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Query.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -196,6 +193,7 @@
 					"tooltip": "Order By",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/OrderBy.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -215,14 +213,6 @@
 					"fontSize": 11,
 					"text": "Order by"
 				},
-				"Picture2": {
-					"type": "picture",
-					"top": 3,
-					"left": 468,
-					"width": 2,
-					"height": 66,
-					"pictureFormat": "tiled"
-				},
 				"bReport": {
 					"type": "pictureButton",
 					"top": 8,
@@ -233,6 +223,7 @@
 					"tooltip": "Report",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -262,6 +253,7 @@
 					"tooltip": "Print Labels",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Label.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -291,6 +283,7 @@
 					"tooltip": "Print Selection",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Print.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -310,43 +303,6 @@
 					"fontSize": 11,
 					"text": "Print"
 				},
-				"bGraph": {
-					"type": "pictureButton",
-					"top": 8,
-					"left": 706,
-					"width": 48,
-					"height": 48,
-					"dataSource": "bGraph",
-					"tooltip": "Graph Table",
-					"columnCount": 1,
-					"rowCount": 4,
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"method": "ObjectMethods/bGraph.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"bGraphlabel": {
-					"type": "text",
-					"top": 56,
-					"left": 694,
-					"width": 72,
-					"height": 13,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 11,
-					"text": "Graph"
-				},
-				"Picture3": {
-					"type": "picture",
-					"top": 3,
-					"left": 773,
-					"width": 2,
-					"height": 66,
-					"pictureFormat": "tiled"
-				},
 				"bDone": {
 					"type": "pictureButton",
 					"top": 8,
@@ -358,6 +314,7 @@
 					"action": "cancel",
 					"columnCount": 1,
 					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -375,15 +332,6 @@
 					"textAlign": "center",
 					"fontSize": 11,
 					"text": "Finish"
-				},
-				"Picture9": {
-					"type": "picture",
-					"top": 74,
-					"left": 0,
-					"width": 1034,
-					"height": 23,
-					"sizingX": "grow",
-					"pictureFormat": "scaled"
 				},
 				"S1_Text": {
 					"type": "text",
