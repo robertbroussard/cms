@@ -214,12 +214,14 @@
 				},
 				{
 					"title": "State Report",
+					"enabled": false,
 					"method": "StateReport",
 					"shortcutAccel": true,
 					"shortcutKey": "2"
 				},
 				{
 					"title": "State Report—2006...",
+					"enabled": false,
 					"method": "SR_StateReport_2006",
 					"shortcutAccel": true,
 					"shortcutKey": "3"
@@ -229,12 +231,14 @@
 				},
 				{
 					"title": "Intake Site Report",
+					"enabled": false,
 					"method": "SiteReport",
 					"shortcutAccel": true,
 					"shortcutKey": "4"
 				},
 				{
 					"title": "Intake Specialist Report",
+					"enabled": false,
 					"method": "ISReport",
 					"shortcutAccel": true,
 					"shortcutKey": "5"
