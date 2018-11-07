@@ -7,30 +7,6 @@
 	"markerBody": 132,
 	"markerBreak": 135,
 	"markerFooter": 229,
-	"events": [
-		"onLoad",
-		"onValidate",
-		"onClick",
-		"onHeader",
-		"onPrintingBreak",
-		"onPrintingFooter",
-		"onDisplayDetail",
-		"onOutsideCall",
-		"onDoubleClick",
-		"onDrop",
-		"onMenuSelect",
-		"onPluginArea",
-		"onDataChange",
-		"onDragOver",
-		"onCloseBox",
-		"onPrintingDetail",
-		"onOpenDetail",
-		"onCloseDetail",
-		"onTimer",
-		"onAfterKeystroke",
-		"onResize",
-		"onSelectionChange"
-	],
 	"pages": [
 		null,
 		{
@@ -190,7 +166,7 @@
 					"width": 202,
 					"height": 12,
 					"dataSource": "vText2",
-					"fill": "#FFFFFF",
+					"fill": "transparent",
 					"stroke": "#000000",
 					"fontFamily": "Arial",
 					"fontSize": 9,
@@ -199,19 +175,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"method": "ObjectMethods/Variable1.4dm",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field1": {
 					"type": "input",
@@ -229,16 +193,7 @@
 					"contextMenu": "none",
 					"textFormat": "####-####-#",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field2": {
 					"type": "input",
@@ -255,16 +210,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field3": {
 					"type": "input",
@@ -281,16 +227,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field4": {
 					"type": "input",
@@ -307,16 +244,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Field5": {
 					"type": "input",
@@ -333,20 +261,11 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"dropping": "none"
 				},
 				"Variable2": {
 					"type": "button",
-					"top": 187,
+					"top": 186,
 					"left": 30,
 					"width": 117,
 					"height": 26,
@@ -358,17 +277,47 @@
 					"stroke": "#000000",
 					"method": "ObjectMethods/Variable2.4dm",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
+						"onClick"
+					]
+				},
+				"Variable5": {
+					"type": "button",
+					"top": 188,
+					"left": 205,
+					"width": 76,
+					"height": 24,
+					"dataSource": "bCancelCode",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "Cancel",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable4": {
+					"type": "button",
+					"top": 188,
+					"left": 293,
+					"width": 76,
+					"height": 24,
+					"dataSource": "bAccept",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "Accept",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
 					]
 				},
 				"Variable3": {
 					"type": "button",
-					"top": 187,
+					"top": 188,
 					"left": 381,
 					"width": 76,
 					"height": 24,
@@ -380,12 +329,7 @@
 					"fontSize": 12,
 					"stroke": "#000000",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
+						"onClick"
 					]
 				}
 			}

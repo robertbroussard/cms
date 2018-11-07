@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="7">
+<preferences stamp="8">
 	<com.4d>
 		<database>
 			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>
@@ -21,7 +21,7 @@
 		<server>
 			<misc order_by_formula_on_server="true" query_by_formula_on_server="false" query_by_formula_uses_joins="false"/>
 			<network>
-				<options publication_name="CMS_2018_TEST" use_legacy_network_layer="true"/>
+				<options publication_name="CMS_2018_TEST" use_legacy_network_layer="false"/>
 			</network>
 			<ip_config>
 				<allow_deny_table>
