@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="8">
+<preferences stamp="9">
 	<com.4d>
 		<database>
 			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>

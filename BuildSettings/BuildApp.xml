@@ -23,7 +23,7 @@
       <BuildServerApplication>True</BuildServerApplication>
       <BuildCSUpgradeable>True</BuildCSUpgradeable>
       <BuildV13ClientUpgrades>True</BuildV13ClientUpgrades>
-      <CurrentVers>1</CurrentVers>
+      <CurrentVers>2</CurrentVers>
       <HardLink></HardLink>
     </CS>
     <BuildApplicationName>CMS</BuildApplicationName>

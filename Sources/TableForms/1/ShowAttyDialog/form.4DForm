@@ -52,8 +52,8 @@
 				},
 				"Rectangle3": {
 					"type": "rectangle",
-					"top": 0,
-					"left": 0,
+					"top": -2,
+					"left": -4,
 					"width": 511,
 					"height": 356,
 					"fill": "#FFBE7F",
@@ -180,251 +180,6 @@
 					"fontWeight": "bold",
 					"text": "Status:"
 				},
-				"Variable1": {
-					"type": "listbox",
-					"top": 65,
-					"left": 33,
-					"width": 128,
-					"height": 223,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"method": "ObjectMethods/Variable1.4dm",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable1_Column1",
-							"dataSource": "aAName",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header1",
-								"text": "Header1",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable2": {
-					"type": "listbox",
-					"top": 65,
-					"left": 164,
-					"width": 71,
-					"height": 223,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"method": "ObjectMethods/Variable2.4dm",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable2_Column1",
-							"dataSource": "aACaseNo",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header2",
-								"text": "Header2",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable3": {
-					"type": "listbox",
-					"top": 65,
-					"left": 238,
-					"width": 84,
-					"height": 223,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"method": "ObjectMethods/Variable3.4dm",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable3_Column1",
-							"dataSource": "aACName",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header3",
-								"text": "Header3",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable4": {
-					"type": "listbox",
-					"top": 65,
-					"left": 325,
-					"width": 84,
-					"height": 223,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"method": "ObjectMethods/Variable4.4dm",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable4_Column1",
-							"dataSource": "aARName",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header4",
-								"text": "Header4",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable5": {
-					"type": "listbox",
-					"top": 65,
-					"left": 412,
-					"width": 63,
-					"height": 223,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"method": "ObjectMethods/Variable5.4dm",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable5_Column1",
-							"dataSource": "aAStatus",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header5",
-								"text": "Header5",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
 				"Variable6": {
 					"type": "button",
 					"top": 295,
@@ -513,6 +268,259 @@
 						"onDisplayDetail",
 						"onPrintingDetail"
 					]
+				},
+				"Variable1": {
+					"type": "listbox",
+					"top": 418,
+					"left": 50,
+					"width": 128,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable1_Column1",
+							"dataSource": "aAName",
+							"width": 111,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable2": {
+					"type": "listbox",
+					"top": 418,
+					"left": 181,
+					"width": 71,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable2.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable2_Column1",
+							"dataSource": "aACaseNo",
+							"width": 54,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable3": {
+					"type": "listbox",
+					"top": 418,
+					"left": 255,
+					"width": 84,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable3.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable3_Column1",
+							"dataSource": "aACName",
+							"width": 67,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable4": {
+					"type": "listbox",
+					"top": 418,
+					"left": 342,
+					"width": 84,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable4.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable4_Column1",
+							"dataSource": "aARName",
+							"width": 67,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header4",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Variable5": {
+					"type": "listbox",
+					"top": 418,
+					"left": 429,
+					"width": 63,
+					"height": 223,
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"method": "ObjectMethods/Variable5.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Variable5_Column1",
+							"dataSource": "aAStatus",
+							"width": 46,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"textFormat": "|",
+							"numberFormat": "|",
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"fontSize": 9,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header5",
+								"stroke": "#000000",
+								"fontSize": 9
+							}
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": -1,
+					"left": 92,
+					"width": 173,
+					"height": 15,
+					"text": "TO Be Deleted!!!!!!!!"
 				}
 			}
 		}

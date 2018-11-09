@@ -101,13 +101,6 @@
 					"shortcutKey": "M"
 				},
 				{
-					"title": "Short Intake",
-					"method": "ShortIntake",
-					"shortcutAccel": true,
-					"shortcutKey": "S",
-					"startNewProcess": true
-				},
-				{
 					"isSeparator": true,
 					"enabled": false
 				},
@@ -129,36 +122,6 @@
 					"shortcutAccel": true,
 					"shortcutKey": "H",
 					"startNewProcess": true
-				},
-				{
-					"title": "Show Fam. Attys",
-					"method": "ShowAtty",
-					"startNewProcess": true
-				},
-				{
-					"isSeparator": true
-				},
-				{
-					"title": "Print Letters",
-					"method": "PrintDailyLtr",
-					"startNewProcess": true
-				},
-				{
-					"isSeparator": true,
-					"enabled": false
-				},
-				{
-					"title": "Court Holds",
-					"method": "CtShowHold",
-					"startNewProcess": true
-				},
-				{
-					"title": "Court Hot Cases",
-					"method": "CtGetHot",
-					"startNewProcess": true
-				},
-				{
-					"enabled": false
 				}
 			]
 		},
