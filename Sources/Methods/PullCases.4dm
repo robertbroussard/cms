@@ -1,18 +1,23 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: PullCases;
 C_LONGINT:C283($i)
+C_DATE:C307(vDate)
+
+Comp_DeclaredVars   //call compiler declarations for new process
+
 vNewIntake:=False:C215
 vNewIntake2:=False:C215
-  //vSite:=""
-  //vDate:=!00-00-00!
+vSite:=""
+vDate:=!00-00-00!
+$win:=Open form window:C675([DocketFile:6];"PullCaseSearch";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
 DIALOG:C40([DocketFile:6];"PullCaseSearch")
 If (OK=1)
 	QUERY:C277([DocketFile:6];[DocketFile:6]DocketSite:1=vSite;*)
 	QUERY:C277([DocketFile:6];[DocketFile:6]DocketDate:2=vDate)
 	If (Records in selection:C76([DocketFile:6])>0)
+		$win:=Open form window:C675([IntakeFile:1];"TestIntake";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
 		RELATE ONE SELECTION:C349([DocketFile:6];[IntakeFile:1])
 		vText2:="Intake File: "+String:C10(Records in selection:C76([IntakeFile:1]))+" of "+String:C10(Records in table:C83([IntakeFile:1]))
-		NEXT RECORD:C51([DocketFile:6])
 		ORDER BY:C49([IntakeFile:1];[IntakeFile:1]CaseNo:1;>)
 		FORM SET OUTPUT:C54([IntakeFile:1];"PCDisplay")
 		FORM SET INPUT:C55([IntakeFile:1];"TestIntake")

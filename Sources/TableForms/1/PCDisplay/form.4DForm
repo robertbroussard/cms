@@ -280,41 +280,6 @@
 						"onClick"
 					]
 				},
-				"Variable5": {
-					"type": "button",
-					"top": 188,
-					"left": 205,
-					"width": 76,
-					"height": 24,
-					"dataSource": "bCancelCode",
-					"action": "accept",
-					"shortcutKey": "[Enter]",
-					"text": "Cancel",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable5.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Variable4": {
-					"type": "button",
-					"top": 188,
-					"left": 293,
-					"width": 76,
-					"height": 24,
-					"dataSource": "bAccept",
-					"action": "accept",
-					"shortcutKey": "[Enter]",
-					"text": "Accept",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
-					"stroke": "#000000",
-					"events": [
-						"onClick"
-					]
-				},
 				"Variable3": {
 					"type": "button",
 					"top": 188,

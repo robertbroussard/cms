@@ -5,6 +5,8 @@ C_LONGINT:C283($Blank;$Cont;$RS;$i)
 C_TEXT:C284($Display1)
 C_TEXT:C284($Display2)
 C_TEXT:C284($1)
+
+
 $RS1:=False:C215
 $RS2:=False:C215
 $Error:=False:C215
@@ -93,4 +95,4 @@ If ($Error=False:C215)
 	End case 
 End if 
 UNLOAD RECORD:C212([DocketFile:6])
-UNLOAD RECORD:C212([IntakeFile:1])
+  //UNLOAD RECORD([IntakeFile])

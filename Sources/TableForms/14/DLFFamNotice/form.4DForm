@@ -36,7 +36,7 @@
 			"objects": {
 				"Variable1": {
 					"type": "input",
-					"top": 85,
+					"top": 84,
 					"left": 275,
 					"width": 255,
 					"height": 14,
@@ -48,7 +48,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -90,7 +89,7 @@
 				},
 				"Variable3": {
 					"type": "input",
-					"top": 101,
+					"top": 100,
 					"left": 275,
 					"width": 255,
 					"height": 14,
@@ -101,7 +100,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -142,7 +140,7 @@
 				},
 				"Field1": {
 					"type": "input",
-					"top": 129,
+					"top": 130,
 					"left": 13,
 					"width": 533,
 					"height": 14,
@@ -192,7 +190,7 @@
 				},
 				"Field2": {
 					"type": "input",
-					"top": 163,
+					"top": 167,
 					"left": 13,
 					"width": 531,
 					"height": 14,
@@ -270,7 +268,7 @@
 				},
 				"Variable8": {
 					"type": "input",
-					"top": 223,
+					"top": 221,
 					"left": 13,
 					"width": 397,
 					"height": 14,
@@ -281,7 +279,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"events": [
 						"onLoad",
 						"onValidate",

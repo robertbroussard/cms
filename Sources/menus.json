@@ -77,6 +77,7 @@
 				},
 				{
 					"title": "Quit",
+					"method": "m_quit_4d",
 					"shortcutAccel": true,
 					"shortcutKey": "Q"
 				}
@@ -90,7 +91,8 @@
 					"title": "New Intake ",
 					"method": "NewIntake",
 					"shortcutAccel": true,
-					"shortcutKey": "I"
+					"shortcutKey": "I",
+					"startNewProcess": true
 				},
 				{
 					"title": "Modify Intake",
@@ -102,7 +104,8 @@
 					"title": "Short Intake",
 					"method": "ShortIntake",
 					"shortcutAccel": true,
-					"shortcutKey": "S"
+					"shortcutKey": "S",
+					"startNewProcess": true
 				},
 				{
 					"isSeparator": true,
@@ -112,28 +115,33 @@
 					"title": "Show All…",
 					"method": "ShowAllInt",
 					"shortcutAccel": true,
-					"shortcutKey": "A"
+					"shortcutKey": "A",
+					"startNewProcess": true
 				},
 				{
 					"title": "Show Holds…",
-					"method": "ShowHolds"
+					"method": "ShowHolds",
+					"startNewProcess": true
 				},
 				{
 					"title": "Show Hot Cases…",
 					"method": "GetHot",
 					"shortcutAccel": true,
-					"shortcutKey": "H"
+					"shortcutKey": "H",
+					"startNewProcess": true
 				},
 				{
 					"title": "Show Fam. Attys",
-					"method": "ShowAtty"
+					"method": "ShowAtty",
+					"startNewProcess": true
 				},
 				{
 					"isSeparator": true
 				},
 				{
 					"title": "Print Letters",
-					"method": "PrintDailyLtr"
+					"method": "PrintDailyLtr",
+					"startNewProcess": true
 				},
 				{
 					"isSeparator": true,
@@ -141,11 +149,13 @@
 				},
 				{
 					"title": "Court Holds",
-					"method": "CtShowHold"
+					"method": "CtShowHold",
+					"startNewProcess": true
 				},
 				{
 					"title": "Court Hot Cases",
-					"method": "CtGetHot"
+					"method": "CtGetHot",
+					"startNewProcess": true
 				},
 				{
 					"enabled": false
@@ -160,19 +170,22 @@
 					"title": "Reschedule Case",
 					"method": "Reschedule",
 					"shortcutAccel": true,
-					"shortcutKey": "R"
+					"shortcutKey": "R",
+					"startNewProcess": true
 				},
 				{
 					"title": "Enter Docket Results",
 					"method": "EnterDocResults",
 					"shortcutAccel": true,
-					"shortcutKey": "E"
+					"shortcutKey": "E",
+					"startNewProcess": true
 				},
 				{
 					"title": "Print Docket",
 					"method": "PrintDocket",
 					"shortcutAccel": true,
-					"shortcutKey": "P"
+					"shortcutKey": "P",
+					"startNewProcess": true
 				},
 				{
 					"isSeparator": true,
@@ -180,7 +193,8 @@
 				},
 				{
 					"title": "Pull Cases…",
-					"method": "PullCases"
+					"method": "PullCases",
+					"startNewProcess": true
 				}
 			]
 		},
@@ -190,15 +204,18 @@
 			"items": [
 				{
 					"title": "Add Mediator",
-					"method": "AddMediator"
+					"method": "AddMediator",
+					"startNewProcess": true
 				},
 				{
 					"title": "Edit Mediator",
-					"method": "EditMediators"
+					"method": "EditMediators",
+					"startNewProcess": true
 				},
 				{
 					"title": "Add Activity",
-					"method": "ActInput"
+					"method": "ActInput",
+					"startNewProcess": true
 				}
 			]
 		},
@@ -210,7 +227,8 @@
 					"title": "HBA Report",
 					"method": "HBA_Rpt",
 					"shortcutAccel": true,
-					"shortcutKey": "1"
+					"shortcutKey": "1",
+					"startNewProcess": true
 				},
 				{
 					"title": "State Report",
@@ -247,13 +265,15 @@
 					"title": "Mediation Site Report",
 					"method": "MedSiteRpt",
 					"shortcutAccel": true,
-					"shortcutKey": "6"
+					"shortcutKey": "6",
+					"startNewProcess": true
 				},
 				{
 					"title": "Program Report",
 					"method": "ProgRpt",
 					"shortcutAccel": true,
-					"shortcutKey": "7"
+					"shortcutKey": "7",
+					"startNewProcess": true
 				},
 				{
 					"isSeparator": true
@@ -262,13 +282,15 @@
 					"title": "Mediator Reports",
 					"method": "MedActRpt",
 					"shortcutAccel": true,
-					"shortcutKey": "8"
+					"shortcutKey": "8",
+					"startNewProcess": true
 				},
 				{
 					"title": "Mediator Envelopes-Labels",
 					"method": "MedMailout",
 					"shortcutAccel": true,
-					"shortcutKey": "9"
+					"shortcutKey": "9",
+					"startNewProcess": true
 				},
 				{
 					"isSeparator": true,
@@ -311,6 +333,7 @@
 			"items": [
 				{
 					"title": "Quit",
+					"method": "m_quit_4d",
 					"shortcutAccel": true,
 					"shortcutKey": "Q"
 				}

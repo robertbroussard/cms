@@ -48,7 +48,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"method": "ObjectMethods/Variable1.4dm",
@@ -78,7 +77,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -105,7 +103,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -132,7 +129,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [

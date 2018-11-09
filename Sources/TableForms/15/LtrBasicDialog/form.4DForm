@@ -34,21 +34,10 @@
 		null,
 		{
 			"objects": {
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 0,
-					"left": 0,
-					"width": 511,
-					"height": 356,
-					"fill": "#FFBE7F",
-					"stroke": "#FFBE7F",
-					"strokeWidth": 0.1,
-					"strokeDashArray": "1 1"
-				},
 				"Rectangle2": {
 					"type": "rectangle",
-					"top": 11,
-					"left": 96,
+					"top": 7,
+					"left": 72,
 					"width": 317,
 					"height": 312
 				},

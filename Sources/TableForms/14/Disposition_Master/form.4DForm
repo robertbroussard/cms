@@ -311,10 +311,10 @@
 				},
 				"Variable5": {
 					"type": "checkbox",
-					"top": 296,
+					"top": 294,
 					"left": 132,
 					"width": 109,
-					"height": 13,
+					"height": 19,
 					"dataSource": "vImpasse",
 					"text": "Impasse",
 					"fontFamily": "Arial",

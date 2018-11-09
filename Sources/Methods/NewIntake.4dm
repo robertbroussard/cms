@@ -4,6 +4,7 @@
   //the proper input screen.  It tests for the Short Intake abbreviated screen and 
   // fills in data and dummy info where needed.
 
+Comp_DeclaredVars 
 C_LONGINT:C283($CurrentYear)
   // 
 SET WINDOW TITLE:C213("DRC Case Management System")
@@ -66,6 +67,7 @@ While ($Loop=1)
 		SetIntDefault (vCaseNo;$Suffix)
 		SAVE RECORD:C53([IntakeFile:1])
 		SetInputLayout 
+		$Ref:=Open form window:C675([IntakeFile:1];"TestIntake";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
 		MODIFY RECORD:C57([IntakeFile:1];*)
 		If (OK#1)
 			DELETE RECORD:C58([IntakeFile:1])

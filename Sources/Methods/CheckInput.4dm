@@ -1,6 +1,7 @@
 //%attributes = {"publishedWeb":true}
   //G-Procedure: CheckInput
   //
+
 Case of 
 	: ([IntakeFile:1]CaseNo:1="")
 		ALERT:C41("You must enter the Case number.")

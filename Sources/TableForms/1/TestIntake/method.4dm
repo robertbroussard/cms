@@ -1,7 +1,8 @@
   //Layout Procedure: TestIntake.  This Method is a Form Method attached to 
   // the IntakeFile for the form TestIntake - used for non-Litigation input
   //
-If (Before:C29)
+If (Form event:C388=On Load:K2:1)
+	
 	SetButtons 
 	SET WINDOW TITLE:C213("CMS: Intake Input")
 	If ([IntakeFile:1]Program:32)="F"

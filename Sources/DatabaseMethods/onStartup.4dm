@@ -1,6 +1,6 @@
   //G-Procedure: StartUp
 
-
+<>TestMode:=True:C214
 
 CompilerTypes   // (P) TO SET TYPES OF VARIABLES IN DATABASE
 C_TEXT:C284(vPrinter360)

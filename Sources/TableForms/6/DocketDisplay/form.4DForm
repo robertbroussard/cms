@@ -3,10 +3,10 @@
 	"windowSizingY": "fixed",
 	"rightMargin": 0,
 	"bottomMargin": 0,
-	"markerHeader": 15,
-	"markerBody": 200,
-	"markerBreak": 220,
-	"markerFooter": 240,
+	"markerHeader": 20,
+	"markerBody": 268,
+	"markerBreak": 294,
+	"markerFooter": 321,
 	"events": [
 		"onLoad",
 		"onValidate",
@@ -35,408 +35,21 @@
 		null,
 		{
 			"objects": {
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 80,
-					"left": 94,
-					"width": 330,
-					"height": 192,
-					"fill": "transparent"
-				},
-				"Rectangle2": {
-					"type": "rectangle",
-					"top": 79,
-					"left": 94,
-					"width": 330,
-					"height": 192,
-					"fill": "transparent"
-				},
-				"Variable1": {
-					"type": "listbox",
-					"top": 80,
-					"left": 95,
-					"width": 41,
-					"height": 190,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable1_Column1",
-							"dataSource": "aTimeSlot",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header1",
-								"text": "Header1",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable2": {
-					"type": "listbox",
-					"top": 80,
-					"left": 135,
-					"width": 94,
-					"height": 190,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable2_Column1",
-							"dataSource": "aCaseNo",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"textFormat": "|",
-							"numberFormat": "|",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header2",
-								"text": "Header2",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable3": {
-					"type": "listbox",
-					"top": 80,
-					"left": 228,
-					"width": 98,
-					"height": 190,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable3_Column1",
-							"dataSource": "aCName",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header3",
-								"text": "Header3",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable4": {
-					"type": "listbox",
-					"top": 80,
-					"left": 325,
-					"width": 99,
-					"height": 190,
-					"focusable": false,
-					"movableRows": false,
-					"showHeaders": false,
-					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"stroke": "#000000",
-					"fill": "#FFFFFF",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"events": [
-						"onClick",
-						"onDisplayDetail",
-						"onDataChange"
-					],
-					"columns": [
-						{
-							"name": "Variable4_Column1",
-							"dataSource": "aRName",
-							"width": 10,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"enterable": false,
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontSize": 9,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header4",
-								"text": "Header4",
-								"stroke": "#000000",
-								"fontSize": 9
-							}
-						}
-					]
-				},
-				"Variable9": {
-					"type": "button",
-					"top": 289,
-					"left": 211,
-					"width": 78,
-					"height": 23,
-					"dataSource": "bDocDisCan",
-					"action": "cancel",
-					"shortcutKey": "[Enter]",
-					"text": "Cancel",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable9.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable10": {
-					"type": "button",
-					"top": 289,
-					"left": 311,
-					"width": 78,
-					"height": 23,
-					"dataSource": "bDocDisDone",
-					"shortcutKey": "[Enter]",
-					"text": "Done",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable10.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Text1": {
-					"type": "text",
-					"top": 66,
-					"left": 137,
-					"width": 42,
-					"height": 13,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 10,
-					"text": "Case No."
-				},
-				"Text2": {
-					"type": "text",
-					"top": 66,
-					"left": 229,
-					"width": 63,
-					"height": 13,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 10,
-					"text": "Complainant"
-				},
-				"Text3": {
-					"type": "text",
-					"top": 66,
-					"left": 326,
-					"width": 63,
-					"height": 13,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 10,
-					"text": "Respondent"
-				},
-				"Line1": {
-					"type": "line",
-					"top": 62,
-					"left": 228,
-					"height": 210
-				},
-				"Line2": {
-					"type": "line",
-					"top": 62,
-					"left": 325,
-					"height": 208
-				},
-				"Line3": {
-					"type": "line",
-					"top": 63,
-					"left": 135,
-					"height": 208
-				},
-				"Text4": {
-					"type": "text",
-					"top": 66,
-					"left": 95,
-					"width": 29,
-					"height": 13,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 10,
-					"text": "Time"
-				},
-				"Rectangle3": {
-					"type": "rectangle",
-					"top": 62,
-					"left": 94,
-					"width": 330,
-					"height": 18,
-					"fill": "transparent"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 20,
-					"left": 145,
-					"width": 207,
-					"height": 16,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"text": "Mediation Docket Display"
-				},
-				"RoundRect1": {
-					"type": "rectangle",
-					"top": 289,
-					"left": 111,
-					"width": 78,
-					"height": 23,
-					"borderRadius": 5
-				},
-				"Text6": {
-					"type": "text",
-					"top": 294,
-					"left": 114,
-					"width": 73,
-					"height": 13,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 10,
-					"fontWeight": "bold",
-					"text": "Choose Time"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 48,
-					"left": 95,
-					"width": 72,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 10,
-					"fontWeight": "bold",
-					"text": "Docket Date:"
-				},
-				"Rectangle4": {
-					"type": "rectangle",
-					"top": 3,
-					"left": 4,
-					"width": 80,
-					"height": 41,
-					"fill": "transparent"
-				},
-				"Text8": {
-					"type": "text",
-					"top": 4,
-					"left": 5,
-					"width": 78,
-					"height": 24,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Scheduling \rCase Number:"
-				},
 				"Variable5": {
 					"type": "input",
-					"top": 3,
-					"left": 135,
-					"width": 226,
-					"height": 16,
+					"top": 6,
+					"left": 175,
+					"width": 326,
+					"height": 22,
 					"dataSource": "vSite",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"textAlign": "center",
-					"fontSize": 12,
+					"fontSize": 16,
 					"fontWeight": "bold",
-					"borderStyle": "none",
+					"borderStyle": "solid",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -453,14 +66,14 @@
 				},
 				"Variable6": {
 					"type": "input",
-					"top": 31,
-					"left": 5,
-					"width": 78,
-					"height": 12,
+					"top": 41,
+					"left": 6,
+					"width": 105,
+					"height": 16,
 					"dataSource": "vCaseNo",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 9,
+					"fontSize": 12,
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
@@ -480,19 +93,18 @@
 				},
 				"Variable7": {
 					"type": "input",
-					"top": 48,
-					"left": 168,
-					"width": 149,
-					"height": 12,
+					"top": 64,
+					"left": 225,
+					"width": 199,
+					"height": 16,
 					"dataSource": "vDate",
 					"dataSourceTypeHint": "date",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 9,
+					"fontSize": 12,
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dateFormat": "systemLong",
 					"dragging": "none",
 					"dropping": "none",
@@ -508,12 +120,203 @@
 						"onPrintingDetail"
 					]
 				},
+				"LB_mediation_docket": {
+					"type": "listbox",
+					"top": 85,
+					"left": 15,
+					"width": 583,
+					"height": 275,
+					"dataSource": "LB_mediation_docket",
+					"scrollbarHorizontal": "automatic",
+					"borderStyle": "solid",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "TimeSlot",
+							"dataSource": "aTimeSlot",
+							"width": 76,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "TimeSlot_Header",
+								"text": "Time"
+							}
+						},
+						{
+							"name": "CaseNo",
+							"dataSource": "aCaseNo",
+							"width": 101,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "CaseNo_Header",
+								"text": "Case No."
+							}
+						},
+						{
+							"name": "CName",
+							"dataSource": "aCName",
+							"width": 201,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "CName_Header",
+								"text": "Complainant"
+							}
+						},
+						{
+							"name": "RName",
+							"dataSource": "aRName",
+							"width": 207,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Respondent_Header",
+								"text": "Respondent"
+							}
+						}
+					]
+				},
+				"Variable9": {
+					"type": "button",
+					"top": 387,
+					"left": 282,
+					"width": 105,
+					"height": 31,
+					"dataSource": "bDocDisCan",
+					"action": "cancel",
+					"shortcutKey": "[Enter]",
+					"text": "Cancel",
+					"fontFamily": "Segoe UI",
+					"fontSize": 16,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable9.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "button",
+					"top": 387,
+					"left": 416,
+					"width": 105,
+					"height": 31,
+					"dataSource": "bDocDisDone",
+					"shortcutKey": "[Enter]",
+					"text": "Done",
+					"fontFamily": "Segoe UI",
+					"fontSize": 16,
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable10.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 33,
+					"left": 194,
+					"width": 277,
+					"height": 21,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"text": "Mediation Docket Display"
+				},
+				"RoundRect1": {
+					"type": "rectangle",
+					"top": 387,
+					"left": 148,
+					"width": 105,
+					"height": 31,
+					"borderRadius": 5
+				},
+				"Text6": {
+					"type": "text",
+					"top": 393,
+					"left": 152,
+					"width": 98,
+					"height": 18,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Choose Time"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 64,
+					"left": 127,
+					"width": 96,
+					"height": 20,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Docket Date:"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 5,
+					"width": 107,
+					"height": 54,
+					"fill": "transparent"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 5,
+					"left": 6,
+					"width": 105,
+					"height": 32,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": "Scheduling \rCase Number:"
+				},
 				"Variable8": {
 					"type": "button",
-					"top": 288,
-					"left": 110,
-					"width": 80,
-					"height": 25,
+					"top": 385,
+					"left": 147,
+					"width": 107,
+					"height": 34,
 					"dataSource": "bChooseTime",
 					"display": false,
 					"method": "ObjectMethods/Variable8.4dm",

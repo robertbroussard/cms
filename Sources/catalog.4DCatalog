@@ -1349,7 +1349,7 @@
 			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path="C:\Users\robert\Desktop\DRC_2018_W\CMS_Data\CMS.4DD" ppc_code_stamp="163" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0">
+	<base_extra data_file_path="C:\Users\robert\Desktop\DRC_2018_W\CMS_Data\CMS.4DD" ppc_code_stamp="163" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0" last_opening_mode="1">
 		<temp_folder folder_selector="data"/>
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>

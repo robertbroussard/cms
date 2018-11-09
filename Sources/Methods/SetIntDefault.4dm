@@ -20,3 +20,22 @@ If (vShortIntak=1)  // DEFAULT VALUES TO GET BY EDITS ON SHORT INTAKE
 	[IntakeFile:1]DateClosed:24:=[IntakeFile:1]IntakeDate:4
 	[IntakeFile:1]CaseStatus:25:="Referred"
 End if 
+
+  //populate test data 11/8/18
+If (<>TestMode) & Is new record:C668([IntakeFile:1])
+	CONFIRM:C162("Populate test data for this new Intake?";"Yes";"No")
+	If (OK=1)
+		[IntakeFile:1]LocCode:2:="01"
+		[IntakeFile:1]IdCode:3:="94"
+		[IntakeFile:1]CLName:6:="CLastName-"+String:C10(Random:C100)
+		[IntakeFile:1]CFName:7:="CFirstName-"+String:C10(Random:C100)
+		[IntakeFile:1]CLang:10:="E"
+		[IntakeFile:1]RLang:15:="E"
+		[IntakeFile:1]RefBy:16:="DRC Web"
+		[IntakeFile:1]RLName:11:="RespLastName-"+String:C10(Random:C100)
+		[IntakeFile:1]ifRelCode:17:="202"
+		[IntakeFile:1]HowLong:18:="01"
+		[IntakeFile:1]TPeriod:19:="Years"
+		[IntakeFile:1]DisputeCode:22:="142"
+	End if 
+End if 

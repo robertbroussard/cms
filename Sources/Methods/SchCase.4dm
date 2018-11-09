@@ -64,6 +64,7 @@ While (vSCLoop2=1)
 	vSCLoop2:=0
 	BuildDocArray 
 	If (vskipMon=False:C215)
+		$WinRef:=Open form window:C675([DocketFile:6];"DocketDisplay";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
 		DIALOG:C40([DocketFile:6];"DocketDisplay")
 	End if 
 End while 
