@@ -1,9 +1,0 @@
-If (Modified:C32([IntakeFile:1]CaseStatus:25))
-	OBJECT SET ENABLED:C1123(vSetRefer;True:C214)
-	OBJECT SET ENABLED:C1123(vSetHold;True:C214)
-	OBJECT SET ENABLED:C1123(vDirAssist;True:C214)
-	OBJECT SET ENABLED:C1123(vSchCase;True:C214)
-	SetButtons 
-	OBJECT SET ENTERABLE:C238([IntakeFile:1]CaseStatus:25;False:C215)
-	OBJECT SET ENABLED:C1123(bStatus;True:C214)
-End if 

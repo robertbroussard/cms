@@ -2244,7 +2244,7 @@
 					"width": 56,
 					"height": 16,
 					"sizingX": "grow",
-					"dataSource": "[IntakeFile:1]Unused:58",
+					"dataSource": "[IntakeFile:1]C_EmailAddr:58",
 					"fill": "transparent",
 					"borderStyle": "none",
 					"contextMenu": "none",

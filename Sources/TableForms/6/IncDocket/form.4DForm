@@ -48,10 +48,9 @@
 					"top": 1,
 					"left": 3,
 					"width": 80,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "Site"
 				},
 				"Line1": {
@@ -66,10 +65,9 @@
 					"top": 1,
 					"left": 141,
 					"width": 46,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "Date"
 				},
 				"Line2": {
@@ -84,10 +82,9 @@
 					"top": 1,
 					"left": 215,
 					"width": 67,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "Time Slot"
 				},
 				"Line3": {
@@ -102,10 +99,9 @@
 					"top": 1,
 					"left": 300,
 					"width": 56,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "Results"
 				},
 				"Line4": {
@@ -114,35 +110,6 @@
 					"left": 3,
 					"width": 483,
 					"strokeWidth": 0.1
-				},
-				"Field12": {
-					"type": "input",
-					"top": 20,
-					"left": 299,
-					"width": 158,
-					"height": 16,
-					"dataSource": "[DocketFile:6]HResults:11",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"choiceList": {
-						"$ref": "/SOURCES/lists.json#/Partial Results"
-					},
-					"requiredList": {
-						"$ref": "/SOURCES/lists.json#/Partial Results"
-					},
-					"method": "ObjectMethods/Field12.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				},
 				"Field9": {
 					"type": "input",
@@ -153,32 +120,6 @@
 					"dataSource": "[DocketFile:6]DocketSite:1",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field11": {
-					"type": "input",
-					"top": 18,
-					"left": 214,
-					"width": 78,
-					"height": 18,
-					"dataSource": "[DocketFile:6]TimeSlot:3",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 12,
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
@@ -203,13 +144,64 @@
 					"dataSource": "[DocketFile:6]DocketDate:2",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
 					"events": [
 						"onLoad",
 						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 18,
+					"left": 214,
+					"width": 78,
+					"height": 16,
+					"dataSource": "[DocketFile:6]TimeSlot:3",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field12": {
+					"type": "input",
+					"top": 20,
+					"left": 299,
+					"width": 158,
+					"height": 16,
+					"dataSource": "[DocketFile:6]HResults:11",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Partial Results"
+					},
+					"requiredList": {
+						"$ref": "/SOURCES/lists.json#/Partial Results"
+					},
+					"method": "ObjectMethods/Field12.4dm",
+					"events": [
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",

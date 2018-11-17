@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="9">
+<preferences stamp="17">
 	<com.4d>
 		<database>
 			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>
 			<misc accept_dot_syntax="false" allow_json_dates="false" allow_nested_transactions="false" period_and_commas_in_numerics="false" reload_form_during_print_selection="false" store_unicode_tokens="false" unicode_mode="true"/>
 			<cpu_priority for_mono="2049" for_remote="2049" for_server="2049"/>
 		</database>
-		<general startup_environnement="1">
+		<general allow_user_settings="false" startup_environnement="1">
 			<mover always_display_dialog="2"/>
 		</general>
 		<interface>
-			<user can_change_password="false" display_list="false" display_toolbar="true" formula_editor_with_full_lists="true" splash_screen="false"/>
+			<user can_change_password="true" display_list="true" display_toolbar="true" formula_editor_with_full_lists="true" sdi_application="false" splash_screen="false"/>
 			<misc fields_enterable_in_dialogs="false" prevent_drop_not_coming_from_4d="false" radio_buttons_grouped_by_name="true"/>
 			<shortcuts>
 				<add_subform key_code="47" shift="false"/>
@@ -22,6 +22,7 @@
 			<misc order_by_formula_on_server="true" query_by_formula_on_server="false" query_by_formula_uses_joins="false"/>
 			<network>
 				<options publication_name="CMS_2018_TEST" use_legacy_network_layer="false"/>
+				<sso authenticate="true"/>
 			</network>
 			<ip_config>
 				<allow_deny_table>

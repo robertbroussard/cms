@@ -1899,6 +1899,7 @@
 					"width": 68,
 					"height": 19,
 					"dataSource": "bFamily",
+					"tooltip": "Previous Page",
 					"text": "Family",
 					"fontFamily": "Arial",
 					"fontSize": 10,

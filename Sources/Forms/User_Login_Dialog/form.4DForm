@@ -1,0 +1,154 @@
+﻿{
+	"formSizeAnchor": "BorderRectangle",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		{
+			"objects": {
+				"Picture3": {
+					"type": "picture",
+					"top": 0,
+					"left": 19,
+					"width": 364,
+					"height": 553,
+					"visibility": "hidden",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"BorderRectangle": {
+					"type": "rectangle",
+					"top": 16,
+					"left": 24,
+					"width": 337,
+					"height": 480,
+					"visibility": "hidden",
+					"fill": "automatic"
+				},
+				"LB_User_Login_List": {
+					"type": "listbox",
+					"top": 133,
+					"left": 32,
+					"width": 322,
+					"height": 247,
+					"listboxType": "currentSelection",
+					"movableRows": false,
+					"highlightSet": "$ListboxSet",
+					"table": 1,
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"width": 305,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1"
+							}
+						}
+					]
+				},
+				"vPassword": {
+					"type": "input",
+					"top": 414,
+					"left": 34,
+					"width": 194,
+					"height": 16,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 463,
+					"left": 174,
+					"width": 80,
+					"height": 27,
+					"text": "Cancel",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"bOpen": {
+					"type": "button",
+					"top": 463,
+					"left": 274,
+					"width": 80,
+					"height": 27,
+					"text": "Open",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 110,
+					"left": 34,
+					"width": 67,
+					"height": 15,
+					"fontWeight": "bold",
+					"text": "User list"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 44,
+					"left": 117,
+					"width": 131,
+					"height": 15,
+					"fontWeight": "bold",
+					"text": "User Authentication"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 390,
+					"left": 34,
+					"width": 98,
+					"height": 15,
+					"fontWeight": "bold",
+					"text": "Password\r"
+				}
+			}
+		}
+	]
+}

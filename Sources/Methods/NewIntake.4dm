@@ -67,7 +67,7 @@ While ($Loop=1)
 		SetIntDefault (vCaseNo;$Suffix)
 		SAVE RECORD:C53([IntakeFile:1])
 		SetInputLayout 
-		$Ref:=Open form window:C675([IntakeFile:1];"TestIntake";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
+		$Ref:=Open form window:C675([IntakeFile:1];"Intake_Input";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
 		MODIFY RECORD:C57([IntakeFile:1];*)
 		If (OK#1)
 			DELETE RECORD:C58([IntakeFile:1])

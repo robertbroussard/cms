@@ -3,10 +3,10 @@
 	"windowSizingY": "fixed",
 	"rightMargin": 0,
 	"bottomMargin": 0,
-	"markerHeader": 15,
-	"markerBody": 200,
-	"markerBreak": 220,
-	"markerFooter": 240,
+	"markerHeader": 737,
+	"markerBody": 737,
+	"markerBreak": 737,
+	"markerFooter": 737,
 	"events": [
 		"onLoad",
 		"onValidate",
@@ -58,9 +58,39 @@
 					"width": 407,
 					"height": 27
 				},
+				"Field1": {
+					"type": "input",
+					"top": 52,
+					"left": 153,
+					"width": 85,
+					"height": 12,
+					"dataSource": "[IntakeFile:1]CaseNo:1",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "####-####-#",
+					"entryFilter": "&@",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Text2": {
 					"type": "text",
-					"top": 51,
+					"top": 52,
 					"left": 97,
 					"width": 48,
 					"height": 12,
@@ -73,8 +103,8 @@
 				},
 				"Text8": {
 					"type": "text",
-					"top": 51,
-					"left": 238,
+					"top": 52,
+					"left": 255,
 					"width": 35,
 					"height": 12,
 					"fill": "#FFFFFF",
@@ -83,6 +113,35 @@
 					"fontSize": 9,
 					"fontWeight": "bold",
 					"text": "Style:"
+				},
+				"Field2": {
+					"type": "input",
+					"top": 52,
+					"left": 295,
+					"width": 198,
+					"height": 12,
+					"dataSource": "[IntakeFile:1]CaseStyle:23",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
 				},
 				"Rectangle7": {
 					"type": "rectangle",
@@ -107,8 +166,8 @@
 				"Text11": {
 					"type": "text",
 					"top": 177,
-					"left": 306,
-					"width": 35,
+					"left": 341,
+					"width": 24,
 					"height": 12,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
@@ -128,7 +187,6 @@
 					"fontFamily": "Arial",
 					"fontSize": 10,
 					"fontWeight": "bold",
-					"textDecoration": "underline",
 					"text": "Additional Party Information:"
 				},
 				"Text13": {
@@ -142,7 +200,7 @@
 					"fontFamily": "Arial",
 					"fontSize": 9,
 					"fontWeight": "bold",
-					"text": "Fax:\u0003\u0003:"
+					"text": "Wk:"
 				},
 				"Text14": {
 					"type": "text",
@@ -155,7 +213,7 @@
 					"fontFamily": "Arial",
 					"fontSize": 9,
 					"fontWeight": "bold",
-					"text": "Wk:"
+					"text": "Hm:"
 				},
 				"Line1": {
 					"type": "line",
@@ -166,7 +224,7 @@
 				"Line2": {
 					"type": "line",
 					"top": 168,
-					"left": 251,
+					"left": 243,
 					"width": 88
 				},
 				"Text15": {
@@ -185,8 +243,8 @@
 				"Text16": {
 					"type": "text",
 					"top": 177,
-					"left": 218,
-					"width": 58,
+					"left": 250,
+					"width": 50,
 					"height": 12,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
@@ -258,7 +316,7 @@
 					"type": "text",
 					"top": 131,
 					"left": 373,
-					"width": 17,
+					"width": 12,
 					"height": 12,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
@@ -309,20 +367,33 @@
 				"Line10": {
 					"type": "line",
 					"top": 189,
-					"left": 344,
-					"width": 28
+					"left": 372,
+					"width": 31
 				},
 				"Line11": {
 					"type": "line",
 					"top": 189,
-					"left": 278,
+					"left": 303,
 					"width": 21
 				},
 				"Text22": {
 					"type": "text",
+					"top": 156,
+					"left": 336,
+					"width": 34,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"text": "Sex:"
+				},
+				"Text23": {
+					"type": "text",
 					"top": 177,
 					"left": 104,
-					"width": 37,
+					"width": 25,
 					"height": 12,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
@@ -331,11 +402,11 @@
 					"fontWeight": "bold",
 					"text": "Race:"
 				},
-				"Text23": {
+				"Text24": {
 					"type": "text",
 					"top": 177,
-					"left": 161,
-					"width": 31,
+					"left": 179,
+					"width": 19,
 					"height": 12,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
@@ -344,145 +415,13 @@
 					"fontWeight": "bold",
 					"text": "Age:"
 				},
-				"Line12": {
-					"type": "line",
-					"top": 189,
-					"left": 138,
-					"width": 13
-				},
 				"Line13": {
 					"type": "line",
 					"top": 189,
-					"left": 189,
-					"width": 20
-				},
-				"Line14": {
-					"type": "line",
-					"top": 100,
-					"left": 355,
-					"width": 133
-				},
-				"Text24": {
-					"type": "text",
-					"top": 89,
-					"left": 288,
-					"width": 55,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Cause No: "
-				},
-				"Text25": {
-					"type": "text",
-					"top": 177,
-					"left": 380,
-					"width": 43,
-					"height": 12,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"fontWeight": "bold",
-					"text": "Pro Se:"
-				},
-				"Line15": {
-					"type": "line",
-					"top": 190,
-					"left": 432,
-					"width": 11,
-					"height": 1
-				},
-				"Field1": {
-					"type": "input",
-					"top": 51,
-					"left": 141,
-					"width": 88,
-					"height": 13,
-					"dataSource": "[IntakeFile:1]CaseNo:1",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"textFormat": "####-####-#",
-					"entryFilter": "&@",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field2": {
-					"type": "input",
-					"top": 51,
-					"left": 275,
-					"width": 213,
-					"height": 13,
-					"dataSource": "[IntakeFile:1]CaseStyle:23",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"entryFilter": {
-						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
-					},
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					"left": 204,
+					"width": 24
 				},
 				"Field3": {
-					"type": "input",
-					"top": 88,
-					"left": 355,
-					"width": 134,
-					"height": 12,
-					"dataSource": "[IntakeFile:1]Ct_PdNo:5",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field4": {
 					"type": "input",
 					"top": 108,
 					"left": 135,
@@ -510,7 +449,7 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field5": {
+				"Field4": {
 					"type": "input",
 					"top": 108,
 					"left": 246,
@@ -538,7 +477,7 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field6": {
+				"Field5": {
 					"type": "input",
 					"top": 108,
 					"left": 355,
@@ -565,7 +504,7 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field7": {
+				"Field6": {
 					"type": "input",
 					"top": 131,
 					"left": 150,
@@ -593,7 +532,7 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field8": {
+				"Field7": {
 					"type": "input",
 					"top": 131,
 					"left": 307,
@@ -623,11 +562,11 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field9": {
+				"Field8": {
 					"type": "input",
 					"top": 131,
-					"left": 391,
-					"width": 15,
+					"left": 387,
+					"width": 21,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]ApState:11",
 					"fill": "#FFFFFF",
@@ -654,7 +593,7 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field10": {
+				"Field9": {
 					"type": "input",
 					"top": 131,
 					"left": 431,
@@ -667,7 +606,37 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
+					"textFormat": "#####-####",
 					"entryFilter": "&9#####&9-####",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field10": {
+					"type": "input",
+					"top": 156,
+					"left": 128,
+					"width": 89,
+					"height": 12,
+					"dataSource": "[IntakeFile_AddPartyFile:23]HPhone:4",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "(###) ###-####",
+					"entryFilter": "!_&9(###) !0###-####",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -685,7 +654,7 @@
 				"Field11": {
 					"type": "input",
 					"top": 156,
-					"left": 128,
+					"left": 243,
 					"width": 89,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]WPhone:5",
@@ -695,8 +664,8 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"textFormat": "(###)###-####",
-					"entryFilter": "&9(###)###-####",
+					"textFormat": "(###) ###-####",
+					"entryFilter": "!_&9(###) !0###-####",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -714,18 +683,17 @@
 				"Field12": {
 					"type": "input",
 					"top": 156,
-					"left": 250,
-					"width": 89,
-					"height": 12,
-					"dataSource": "[IntakeFile_AddPartyFile:23]FaxNumber:16",
+					"left": 364,
+					"width": 119,
+					"height": 13,
+					"dataSource": "[IntakeFile_AddPartyFile:23]APSex:13",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"fontFamily": "Arial",
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"textFormat": "(###)###-####",
-					"entryFilter": "&9(###)###-####",
+					"textFormat": "Female;Male",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -743,8 +711,8 @@
 				"Field13": {
 					"type": "input",
 					"top": 177,
-					"left": 138,
-					"width": 14,
+					"left": 135,
+					"width": 38,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APRace:14",
 					"fill": "#FFFFFF",
@@ -754,6 +722,9 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Race"
+					},
+					"requiredList": {
 						"$ref": "/SOURCES/lists.json#/Race"
 					},
 					"dragging": "none",
@@ -773,9 +744,9 @@
 				"Field14": {
 					"type": "input",
 					"top": 177,
-					"left": 189,
-					"width": 21,
-					"height": 12,
+					"left": 201,
+					"width": 29,
+					"height": 11,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APAge:15",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
@@ -783,7 +754,6 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -801,7 +771,7 @@
 				"Field15": {
 					"type": "input",
 					"top": 177,
-					"left": 278,
+					"left": 302,
 					"width": 21,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]Lang:6",
@@ -811,6 +781,9 @@
 					"fontSize": 9,
 					"borderStyle": "none",
 					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Language Code"
+					},
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -828,8 +801,8 @@
 				"Field16": {
 					"type": "input",
 					"top": 177,
-					"left": 344,
-					"width": 29,
+					"left": 370,
+					"width": 36,
 					"height": 12,
 					"dataSource": "[IntakeFile_AddPartyFile:23]APType:1",
 					"fill": "#FFFFFF",
@@ -855,35 +828,13 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field17": {
-					"type": "input",
-					"top": 178,
-					"left": 427,
-					"width": 21,
-					"height": 12,
-					"dataSource": "[IntakeFile_AddPartyFile:23]APProSe:7",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Arial",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"textFormat": " ",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+				"Line14": {
+					"type": "line",
+					"top": 189,
+					"left": 133,
+					"width": 40
 				},
-				"Line16": {
+				"Line12": {
 					"type": "line",
 					"top": 0,
 					"left": 70,
@@ -904,7 +855,6 @@
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
-					"method": "ObjectMethods/bValidate.4dm",
 					"events": [
 						"onClick"
 					]

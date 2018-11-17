@@ -59,6 +59,31 @@
 						"onPrintingBreak"
 					]
 				},
+				"PK_ID": {
+					"type": "input",
+					"top": 109,
+					"left": 77,
+					"width": 48,
+					"height": 16,
+					"dataSource": "[DBUpdate:21]PK_ID:19",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Line5": {
 					"type": "line",
 					"top": 64,
@@ -199,31 +224,6 @@
 					"width": 45,
 					"height": 15,
 					"text": "PK_ID : "
-				},
-				"PK_ID": {
-					"type": "input",
-					"top": 109,
-					"left": 77,
-					"width": 48,
-					"height": 16,
-					"dataSource": "[DBUpdate:21]PK_ID:19",
-					"fill": "transparent",
-					"borderStyle": "sunken",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				}
 			}
 		}

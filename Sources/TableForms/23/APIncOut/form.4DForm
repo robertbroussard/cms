@@ -47,10 +47,9 @@
 					"top": 1,
 					"left": 129,
 					"width": 83,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "First Name"
 				},
 				"Text2": {
@@ -58,10 +57,9 @@
 					"top": 1,
 					"left": 41,
 					"width": 84,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "Last Name"
 				},
 				"Text3": {
@@ -69,10 +67,9 @@
 					"top": 1,
 					"left": 2,
 					"width": 33,
-					"height": 16,
+					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"text": "Type"
 				},
 				"Line1": {
@@ -105,7 +102,6 @@
 					"dataSource": "[IntakeFile_AddPartyFile:23]APType:1",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"A-Z;0-9;\"",
@@ -130,7 +126,6 @@
 					"dataSource": "[IntakeFile_AddPartyFile:23]LastName:2",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-;/;#;&;@;(;);'\"",
@@ -155,10 +150,8 @@
 					"dataSource": "[IntakeFile_AddPartyFile:23]FirstName:3",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
-					"fontSize": 12,
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"events": [
 						"onLoad",
 						"onValidate",

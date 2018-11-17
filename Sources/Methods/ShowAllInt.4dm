@@ -2,7 +2,7 @@
 If (True:C214)
 	ALL RECORDS:C47([IntakeFile:1])
 	  //$WinRef:=Open form window("Intake_Listing";Plain form window;Horizontally centered;Vertically centered)
-	$WinRef:=Open form window:C675([IntakeFile:1];"TestIntake";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
+	$WinRef:=Open form window:C675([IntakeFile:1];"Intake_Input";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
 	SET WINDOW TITLE:C213("CMS: Intakes (All)")
 	DIALOG:C40("Intake_Listing")
 	CLOSE WINDOW:C154

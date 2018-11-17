@@ -792,6 +792,7 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
+					"tooltip": "Previous Page5",
 					"events": [
 						"onClick",
 						"onHeader",
