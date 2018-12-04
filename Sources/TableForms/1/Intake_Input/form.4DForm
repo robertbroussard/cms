@@ -336,16 +336,16 @@
 				},
 				"Rectangle2": {
 					"type": "rectangle",
-					"top": 349,
-					"left": 531,
+					"top": 344,
+					"left": 445,
 					"width": 129,
-					"height": 197,
+					"height": 151,
 					"strokeWidth": 0.1
 				},
 				"Text3": {
 					"type": "text",
-					"top": 324,
-					"left": 96,
+					"top": 321,
+					"left": 80,
 					"width": 148,
 					"height": 15,
 					"stroke": "#000000",
@@ -483,199 +483,6 @@
 					"fontWeight": "bold",
 					"text": "Zip"
 				},
-				"Field1": {
-					"type": "input",
-					"top": 478,
-					"left": 539,
-					"width": 60,
-					"height": 17,
-					"dataSource": "[IntakeFile:1]Hot:31",
-					"fill": "transparent",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontFamily": "Arial",
-					"fontSize": 12,
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"textFormat": "Hot",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick"
-					]
-				},
-				"Text46": {
-					"type": "text",
-					"top": 356,
-					"left": 535,
-					"width": 121,
-					"height": 15,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontWeight": "bold",
-					"text": "Case Status/Action"
-				},
-				"Variable16": {
-					"type": "checkbox",
-					"top": 388,
-					"left": 539,
-					"width": 117,
-					"height": 24,
-					"dataSource": "vSetHold",
-					"shortcutKey": "h",
-					"shortcutAccel": true,
-					"text": "On Hold",
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable16.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Variable17": {
-					"type": "checkbox",
-					"top": 418,
-					"left": 539,
-					"width": 117,
-					"height": 24,
-					"dataSource": "vSetRefer",
-					"shortcutKey": "r",
-					"shortcutAccel": true,
-					"text": "Referred & Closed",
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable17.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Variable18": {
-					"type": "checkbox",
-					"top": 448,
-					"left": 539,
-					"width": 117,
-					"height": 24,
-					"dataSource": "vSchCase",
-					"shortcutKey": "s",
-					"shortcutAccel": true,
-					"text": "Schedule Hearing",
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable18.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Line1": {
-					"type": "line",
-					"top": 379,
-					"left": 531,
-					"width": 129,
-					"strokeWidth": 0.1
-				},
-				"Field2": {
-					"type": "input",
-					"top": 297,
-					"left": 562,
-					"width": 103,
-					"height": 16,
-					"dataSource": "[RelCodeFile:5]RelName:2",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"placeholder": "Relationship Name",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Text49": {
-					"type": "text",
-					"top": 322,
-					"left": 539,
-					"width": 5,
-					"height": 15,
-					"stroke": "#000000",
-					"textAlign": "center",
-					"text": "–"
-				},
-				"Field3": {
-					"type": "input",
-					"top": 297,
-					"left": 230,
-					"width": 128,
-					"height": 16,
-					"dataSource": "[DisputeFile:4]DisName:2",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"placeholder": "Dispute Name",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field8": {
-					"type": "input",
-					"top": 271,
-					"left": 149,
-					"width": 209,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]Ct_PdNo:5",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Court/Police Department Number",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field9": {
-					"type": "input",
-					"top": 62,
-					"left": 257,
-					"width": 101,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]CLName:6",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Last Name",
-					"entryFilter": {
-						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
-					},
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Field10": {
 					"type": "input",
 					"top": 62,
@@ -701,24 +508,22 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field11": {
+				"Field9": {
 					"type": "input",
-					"top": 241,
-					"left": 149,
-					"width": 143,
+					"top": 62,
+					"left": 257,
+					"width": 101,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]CFirm:33",
+					"dataSource": "[IntakeFile:1]CLName:6",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"placeholder": "Firm Name",
+					"placeholder": "Last Name",
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
 					},
 					"events": [
-						"onLoad",
-						"onValidate",
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -896,20 +701,21 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field18": {
+				"Field23": {
 					"type": "input",
-					"top": 219,
-					"left": 230,
-					"width": 128,
+					"top": 198,
+					"left": 149,
+					"width": 209,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]CSex:43",
-					"fill": "transparent",
+					"dataSource": "[IntakeFile:1]C_EmailAddr:58",
+					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"textFormat": "Female;Male",
-					"dragging": "none",
-					"dropping": "none",
+					"placeholder": "Email Address",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Email_Entry"
+					},
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -945,96 +751,74 @@
 						"onDataChange"
 					]
 				},
-				"Field22": {
+				"Field18": {
+					"type": "input",
+					"top": 219,
+					"left": 230,
+					"width": 128,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]CSex:43",
+					"fill": "transparent",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "Female;Male",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field11": {
+					"type": "input",
+					"top": 241,
+					"left": 149,
+					"width": 143,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]CFirm:33",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"placeholder": "Firm Name",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field8": {
 					"type": "input",
 					"top": 271,
-					"left": 456,
-					"width": 137,
+					"left": 149,
+					"width": 209,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]RefBy:16",
+					"dataSource": "[IntakeFile:1]Ct_PdNo:5",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"placeholder": "Referral Source",
-					"choiceList": {
-						"$ref": "/SOURCES/lists.json#/Referrals"
-					},
+					"placeholder": "Court/Police Department Number",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field36": {
-					"type": "input",
-					"top": 297,
-					"left": 456,
-					"width": 100,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]ifRelCode:17",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Relationship Code",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field37": {
-					"type": "input",
-					"top": 323,
-					"left": 456,
-					"width": 80,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]HowLong:18",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Number",
-					"textFormat": "##",
-					"entryFilter": {
-						"$ref": "/SOURCES/filters.json#/Integer_Only"
-					},
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Field38": {
-					"type": "input",
-					"top": 322,
-					"left": 547,
-					"width": 118,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]TPeriod:19",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Time Period",
-					"entryFilter": "&A",
-					"choiceList": {
-						"$ref": "/SOURCES/lists.json#/Time Periods"
-					},
-					"events": [
+						"onLoad",
+						"onValidate",
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -1068,175 +852,19 @@
 						"onPrintingDetail"
 					]
 				},
-				"Variable21": {
-					"type": "button",
-					"top": 349,
-					"left": 422,
-					"width": 93,
-					"height": 23,
-					"dataSource": "bLetter",
-					"text": "Letters",
-					"fontWeight": "bold",
-					"stroke": "#000000",
-					"method": "ObjectMethods/Variable21.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Variable1": {
-					"type": "button",
-					"top": 382,
-					"left": 421,
-					"width": 93,
-					"height": 24,
-					"dataSource": "bPrint",
-					"text": "Print",
-					"fontWeight": "bold",
-					"method": "ObjectMethods/Variable1.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Text73": {
-					"type": "text",
-					"top": 605,
-					"left": 80,
-					"width": 139,
-					"height": 15,
-					"stroke": "#000000",
-					"fontWeight": "bold",
-					"borderStyle": "solid",
-					"text": "Docket Information"
-				},
-				"Subform5": {
-					"type": "subform",
-					"top": 623,
-					"left": 80,
-					"width": 344,
-					"height": 86,
-					"dataSourceTypeHint": "text",
-					"table": -6,
-					"detailForm": "DFInput",
-					"listForm": "IncDocket",
-					"scrollbarVertical": "visible",
-					"deletableInList": false,
-					"printFrame": "fixed",
-					"borderStyle": "solid"
-				},
-				"bReschedule": {
-					"type": "button",
-					"top": 623,
-					"left": 451,
-					"width": 60,
-					"height": 15,
-					"text": "Reschedule",
-					"style": "custom",
-					"method": "ObjectMethods/bReschedule.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Group Box2": {
-					"type": "groupBox",
-					"top": 39,
-					"left": 387,
-					"width": 289,
-					"height": 225,
-					"fontWeight": "bold",
-					"text": "Respondent"
-				},
-				"Text1": {
-					"type": "text",
-					"top": 177,
-					"left": 407,
-					"width": 45,
-					"height": 15,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "Office"
-				},
-				"Text4": {
-					"type": "text",
-					"top": 219,
-					"left": 387,
-					"width": 65,
-					"height": 16,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "Language"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 154,
-					"left": 408,
-					"width": 44,
-					"height": 15,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "Home"
-				},
-				"Text7": {
-					"type": "text",
-					"top": 241,
-					"left": 417,
-					"width": 35,
-					"height": 16,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "Firm"
-				},
-				"Text8": {
-					"type": "text",
-					"top": 85,
-					"left": 407,
-					"width": 45,
-					"height": 16,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "Address"
-				},
-				"Text9": {
-					"type": "text",
-					"top": 108,
-					"left": 396,
-					"width": 56,
-					"height": 16,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "City/State"
-				},
-				"Text14": {
-					"type": "text",
-					"top": 131,
-					"left": 424,
-					"width": 28,
-					"height": 16,
-					"stroke": "#000000",
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"text": "Zip"
-				},
-				"Field4": {
+				"Field3": {
 					"type": "input",
-					"top": 62,
-					"left": 565,
-					"width": 100,
+					"top": 297,
+					"left": 230,
+					"width": 128,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]RLName:11",
+					"dataSource": "[DisputeFile:4]DisName:2",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
+					"enterable": false,
 					"contextMenu": "none",
-					"placeholder": "Last Name",
-					"entryFilter": {
-						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
-					},
+					"placeholder": "Dispute Name",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -1272,24 +900,22 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field6": {
+				"Field4": {
 					"type": "input",
-					"top": 241,
-					"left": 456,
-					"width": 143,
+					"top": 62,
+					"left": 565,
+					"width": 100,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]RFirm:38",
+					"dataSource": "[IntakeFile:1]RLName:11",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"placeholder": "Firm Name",
+					"placeholder": "Last Name",
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
 					},
 					"events": [
-						"onLoad",
-						"onValidate",
 						"onClick",
 						"onHeader",
 						"onPrintingBreak",
@@ -1467,20 +1093,21 @@
 						"onPrintingDetail"
 					]
 				},
-				"Field42": {
+				"Field24": {
 					"type": "input",
-					"top": 219,
-					"left": 537,
-					"width": 128,
+					"top": 198,
+					"left": 456,
+					"width": 209,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]RSex:46",
-					"fill": "transparent",
+					"dataSource": "[IntakeFile:1]R_EmailAddr:59",
+					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
 					"contextMenu": "none",
-					"textFormat": "Female;Male",
-					"dragging": "none",
-					"dropping": "none",
+					"placeholder": "Email Address",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Email_Entry"
+					},
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -1516,6 +1143,479 @@
 						"onDataChange"
 					]
 				},
+				"Field42": {
+					"type": "input",
+					"top": 219,
+					"left": 537,
+					"width": 128,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]RSex:46",
+					"fill": "transparent",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "Female;Male",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field6": {
+					"type": "input",
+					"top": 241,
+					"left": 456,
+					"width": 143,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]RFirm:38",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"placeholder": "Firm Name",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Alpha_Entry"
+					},
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field22": {
+					"type": "input",
+					"top": 271,
+					"left": 456,
+					"width": 137,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]RefBy:16",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"placeholder": "Referral Source",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Referrals"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field36": {
+					"type": "input",
+					"top": 297,
+					"left": 456,
+					"width": 100,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]ifRelCode:17",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"placeholder": "Relationship Code",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field2": {
+					"type": "input",
+					"top": 297,
+					"left": 562,
+					"width": 103,
+					"height": 16,
+					"dataSource": "[RelCodeFile:5]RelName:2",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"placeholder": "Relationship Name",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field37": {
+					"type": "input",
+					"top": 323,
+					"left": 456,
+					"width": 80,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]HowLong:18",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"placeholder": "Number",
+					"textFormat": "##",
+					"entryFilter": {
+						"$ref": "/SOURCES/filters.json#/Integer_Only"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Field38": {
+					"type": "input",
+					"top": 322,
+					"left": 547,
+					"width": 118,
+					"height": 16,
+					"dataSource": "[IntakeFile:1]TPeriod:19",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"placeholder": "Time Period",
+					"entryFilter": "&A",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Time Periods"
+					},
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Subform_Add_Party": {
+					"type": "subform",
+					"top": 337,
+					"left": 80,
+					"width": 217,
+					"height": 79,
+					"dataSourceTypeHint": "undefined",
+					"table": -23,
+					"detailForm": "APInputLit",
+					"listForm": "APIncOut",
+					"scrollbarVertical": "visible",
+					"enterableInList": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				},
+				"bAdd_Party": {
+					"type": "button",
+					"top": 337,
+					"left": 321,
+					"width": 48,
+					"height": 26,
+					"action": "addSubrecord",
+					"text": "Add",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable21": {
+					"type": "button",
+					"top": 347,
+					"left": 585,
+					"width": 80,
+					"height": 22,
+					"dataSource": "bLetter",
+					"text": "Letters",
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable21.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete_Party": {
+					"type": "button",
+					"top": 365,
+					"left": 321,
+					"width": 48,
+					"height": 26,
+					"action": "deleteSubrecord",
+					"text": "Delete",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 376,
+					"left": 585,
+					"width": 80,
+					"height": 24,
+					"dataSource": "bPrint",
+					"text": "Print",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable16": {
+					"type": "checkbox",
+					"top": 383,
+					"left": 453,
+					"width": 117,
+					"height": 24,
+					"dataSource": "vSetHold",
+					"shortcutKey": "h",
+					"shortcutAccel": true,
+					"text": "On Hold",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable16.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable17": {
+					"type": "checkbox",
+					"top": 412,
+					"left": 453,
+					"width": 117,
+					"height": 24,
+					"dataSource": "vSetRefer",
+					"shortcutKey": "r",
+					"shortcutAccel": true,
+					"text": "Referred & Closed",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable17.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bReschedule": {
+					"type": "button",
+					"top": 408,
+					"left": 585,
+					"width": 80,
+					"height": 24,
+					"text": "Reschedule",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/bReschedule.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Docket_Subform": {
+					"type": "subform",
+					"top": 441,
+					"left": 80,
+					"width": 299,
+					"height": 54,
+					"dataSource": "Docket_Subform",
+					"dataSourceTypeHint": "text",
+					"table": -6,
+					"detailForm": "DFInput",
+					"listForm": "IncDocket",
+					"scrollbarVertical": "visible",
+					"enterableInList": false,
+					"deletableInList": false,
+					"printFrame": "fixed",
+					"borderStyle": "sunken"
+				},
+				"Variable18": {
+					"type": "checkbox",
+					"top": 441,
+					"left": 453,
+					"width": 117,
+					"height": 24,
+					"dataSource": "vSchCase",
+					"shortcutKey": "s",
+					"shortcutAccel": true,
+					"text": "Schedule Hearing",
+					"stroke": "#000000",
+					"method": "ObjectMethods/Variable18.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Field1": {
+					"type": "input",
+					"top": 471,
+					"left": 453,
+					"width": 60,
+					"height": 17,
+					"dataSource": "[IntakeFile:1]Hot:31",
+					"fill": "transparent",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "Hot",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text46": {
+					"type": "text",
+					"top": 351,
+					"left": 449,
+					"width": 121,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Case Status/Action"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 374,
+					"left": 445,
+					"width": 129,
+					"strokeWidth": 0.1
+				},
+				"Text49": {
+					"type": "text",
+					"top": 322,
+					"left": 539,
+					"width": 5,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"text": "–"
+				},
+				"Text73": {
+					"type": "text",
+					"top": 425,
+					"left": 80,
+					"width": 139,
+					"height": 15,
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "Docket Information"
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 39,
+					"left": 387,
+					"width": 289,
+					"height": 225,
+					"fontWeight": "bold",
+					"text": "Respondent"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 177,
+					"left": 407,
+					"width": 45,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Office"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 219,
+					"left": 387,
+					"width": 65,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Language"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 154,
+					"left": 408,
+					"width": 44,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Home"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 241,
+					"left": 417,
+					"width": 35,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Firm"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 85,
+					"left": 407,
+					"width": 45,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Address"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 108,
+					"left": 396,
+					"width": 56,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "City/State"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 131,
+					"left": 424,
+					"width": 28,
+					"height": 16,
+					"stroke": "#000000",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Zip"
+				},
 				"Text15": {
 					"type": "text",
 					"top": 198,
@@ -1527,33 +1627,6 @@
 					"fontWeight": "bold",
 					"text": "Email"
 				},
-				"Field23": {
-					"type": "input",
-					"top": 198,
-					"left": 149,
-					"width": 209,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]C_EmailAddr:58",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Email Address",
-					"entryFilter": {
-						"$ref": "/SOURCES/filters.json#/Email_Entry"
-					},
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Text17": {
 					"type": "text",
 					"top": 198,
@@ -1564,33 +1637,6 @@
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"text": "Email"
-				},
-				"Field24": {
-					"type": "input",
-					"top": 198,
-					"left": 456,
-					"width": 209,
-					"height": 16,
-					"dataSource": "[IntakeFile:1]R_EmailAddr:59",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"placeholder": "Email Address",
-					"entryFilter": {
-						"$ref": "/SOURCES/filters.json#/Email_Entry"
-					},
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				},
 				"Text": {
 					"type": "text",
@@ -1611,113 +1657,6 @@
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"text": "Name"
-				},
-				"List Box": {
-					"type": "listbox",
-					"top": 343,
-					"left": 89,
-					"width": 204,
-					"height": 79,
-					"listboxType": "currentSelection",
-					"movableRows": false,
-					"doubleClickInRowAction": "editSubrecord",
-					"highlightSet": "$ListboxSet",
-					"table": 23,
-					"detailForm": "APInputLit",
-					"selectionMode": "single",
-					"scrollbarHorizontal": "automatic",
-					"events": [
-						"onLoad",
-						"onClick",
-						"onDataChange",
-						"onSelectionChange"
-					],
-					"columns": [
-						{
-							"name": "OB_Type",
-							"dataSource": "[IntakeFile_AddPartyFile:23]APType:1",
-							"width": 36,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header_Type",
-								"text": "Type",
-								"fontWeight": "bold"
-							}
-						},
-						{
-							"name": "OB_Name",
-							"dataSource": "[IntakeFile_AddPartyFile:23]LastName:2+\", \"+[IntakeFile_AddPartyFile:23]FirstName:3",
-							"width": 151,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "Header_Name",
-								"text": "Name",
-								"fontWeight": "bold"
-							}
-						}
-					]
-				},
-				"bAdd_Party": {
-					"type": "button",
-					"top": 346,
-					"left": 310,
-					"width": 68,
-					"height": 26,
-					"action": "addSubrecord",
-					"text": "Add",
-					"focusable": false,
-					"events": [
-						"onClick"
-					]
-				},
-				"Button": {
-					"type": "button",
-					"top": 418,
-					"left": 310,
-					"width": 68,
-					"height": 24,
-					"text": "Rec In Party",
-					"focusable": false,
-					"method": "ObjectMethods/Button.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"bDelete_Party": {
-					"type": "button",
-					"top": 530,
-					"left": 417,
-					"width": 68,
-					"height": 26,
-					"action": "deleteSubrecord",
-					"text": "Delete",
-					"focusable": false,
-					"events": [
-						"onClick"
-					]
-				},
-				"bdel-sr-2": {
-					"type": "button",
-					"top": 380,
-					"left": 313,
-					"width": 65,
-					"height": 26,
-					"action": "deleteSubrecord",
-					"text": "DEL2",
-					"focusable": false,
-					"events": [
-						"onClick"
-					]
 				}
 			}
 		},

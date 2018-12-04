@@ -1,0 +1,115 @@
+﻿{
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"LB_AddParty": {
+					"type": "listbox",
+					"top": 343,
+					"left": 89,
+					"width": 204,
+					"height": 79,
+					"listboxType": "currentSelection",
+					"dataSource": "LB_AddParty",
+					"movableRows": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"highlightSet": "$ListboxSet",
+					"table": 23,
+					"detailForm": "APInputLit",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "OB_Type",
+							"dataSource": "[IntakeFile_AddPartyFile:23]APType:1",
+							"width": 36,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header_Type",
+								"text": "Type",
+								"fontWeight": "bold"
+							}
+						},
+						{
+							"name": "OB_Name",
+							"dataSource": "[IntakeFile_AddPartyFile:23]LastName:2+\", \"+[IntakeFile_AddPartyFile:23]FirstName:3",
+							"width": 151,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header_Name",
+								"text": "Name",
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"bdel-sr-2": {
+					"type": "button",
+					"top": 380,
+					"left": 313,
+					"width": 65,
+					"height": 26,
+					"text": "DEL2",
+					"focusable": false,
+					"method": "ObjectMethods/bdel-sr-2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 426,
+					"left": 355,
+					"width": 68,
+					"height": 24,
+					"text": "Rec In Party",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

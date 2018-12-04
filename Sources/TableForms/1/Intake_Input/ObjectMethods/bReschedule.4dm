@@ -11,3 +11,12 @@
   // ----------------------------------------------------
 
 DoReschedule ([IntakeFile:1]CaseNo:1)
+QUERY:C277([DocketFile:6];[DocketFile:6]DFCaseNo:4=[IntakeFile:1]CaseNo:1)
+
+  //REDRAW([DocketFile])
+  //REDRAW([IntakeFile])
+  //REDRAW WINDOW
+
+  //call process(-1)
+  //
+  //call process

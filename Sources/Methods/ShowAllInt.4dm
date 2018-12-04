@@ -1,4 +1,16 @@
 //%attributes = {"publishedWeb":true}
+
+  // ----------------------------------------------------
+  // User name (OS): robert
+  // Date and time: 11/19/18, 17:04:23
+  // ----------------------------------------------------
+  // Method: ShowAllInt
+  // Description
+  // 
+  //
+  // Parameters
+  // ----------------------------------------------------
+
 If (True:C214)
 	ALL RECORDS:C47([IntakeFile:1])
 	  //$WinRef:=Open form window("Intake_Listing";Plain form window;Horizontally centered;Vertically centered)

@@ -16,7 +16,7 @@ $RS:=0
 vSchOK:=0
 QUERY:C277([DocketFile:6];[DocketFile:6]DFCaseNo:4=$1)
 Case of 
-	: ((Records in selection:C76([DocketFile:6])=1) & ([DocketFile:6]HResults:11=""))
+	: (Records in selection:C76([DocketFile:6])=1) & ([DocketFile:6]HResults:11="")
 		$Blank:=1
 	: (Records in selection:C76([DocketFile:6])>1)
 		For ($i;1;(Records in selection:C76([DocketFile:6])))
@@ -35,7 +35,7 @@ Case of
 			NEXT RECORD:C51([DocketFile:6])
 		End for 
 	Else 
-		ALERT:C41("Error RS2; No case found in docket file.")
+		ALERT:C41("Error RS2; No case found in docket file. Or, Results are present.")
 		$RS2:=True:C214
 		$Error:=True:C214
 End case 

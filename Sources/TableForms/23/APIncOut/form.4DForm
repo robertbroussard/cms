@@ -3,10 +3,10 @@
 	"windowSizingY": "fixed",
 	"rightMargin": 0,
 	"bottomMargin": 0,
-	"markerHeader": 18,
+	"markerHeader": 20,
 	"markerBody": 38,
-	"markerBreak": 41,
-	"markerFooter": 41,
+	"markerBreak": 38,
+	"markerFooter": 38,
 	"events": [
 		"onLoad",
 		"onValidate",
@@ -39,7 +39,6 @@
 					"left": 0,
 					"width": 217,
 					"height": 40,
-					"fill": "transparent",
 					"strokeWidth": 0.1
 				},
 				"Text1": {
@@ -55,8 +54,8 @@
 				"Text2": {
 					"type": "text",
 					"top": 1,
-					"left": 41,
-					"width": 84,
+					"left": 40,
+					"width": 85,
 					"height": 15,
 					"fill": "#FFFFFF",
 					"stroke": "#000000",

@@ -101,7 +101,7 @@
 		<table_extra>
 			<editor_table_info displayable_fields_count="1">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="507" top="4" width="111" height="68"/>
+				<coordinates left="561" top="9" width="111" height="68"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -174,9 +174,9 @@
 		<field name="PK_ID" uuid="A8BD45F9C4EF6B44BD999E4D1CDDB2CF" type="4" unique="true" autosequence="true" id="13"/>
 		<primary_key field_name="PK_ID" field_uuid="A8BD45F9C4EF6B44BD999E4D1CDDB2CF"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="4">
+			<editor_table_info displayable_fields_count="13">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="679" top="0" width="118" height="140"/>
+				<coordinates left="790" top="15" width="118" height="329"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -353,7 +353,7 @@
 		<table_extra>
 			<editor_table_info displayable_fields_count="2">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="857" top="208" width="105" height="86"/>
+				<coordinates left="937" top="236" width="105" height="86"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -421,9 +421,9 @@
 		<field name="PK_ID" uuid="075286516BB3AE4CB94AAB611DF66BD2" type="4" unique="true" autosequence="true" id="6"/>
 		<primary_key field_name="PK_ID" field_uuid="075286516BB3AE4CB94AAB611DF66BD2"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="1">
+			<editor_table_info displayable_fields_count="3">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="23" top="610" width="109" height="68"/>
+				<coordinates left="27" top="582" width="109" height="108"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -702,7 +702,7 @@
 		<table_extra>
 			<editor_table_info displayable_fields_count="20">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="442" top="540" width="191" height="478"/>
+				<coordinates left="626" top="614" width="191" height="478"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -714,9 +714,9 @@
 		<field name="PK_ID" uuid="C58C82980C0F3E45AE5F03C79F7A3D22" type="4" unique="true" autosequence="true" id="3"/>
 		<primary_key field_name="PK_ID" field_uuid="C58C82980C0F3E45AE5F03C79F7A3D22"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="2">
+			<editor_table_info displayable_fields_count="9">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="856" top="1111" width="98" height="98"/>
+				<coordinates left="796" top="1117" width="149" height="243"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -730,7 +730,7 @@
 		<table_extra>
 			<editor_table_info displayable_fields_count="4">
 				<color red="0" green="0" blue="0" alpha="0"/>
-				<coordinates left="688" top="768" width="96" height="142"/>
+				<coordinates left="386" top="708" width="96" height="142"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -1064,6 +1064,11 @@
 			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" uuid="27B68C2B018F5145BD2DA49B14FECB94" type="7">
+		<field_ref uuid="19B29D4D7F474ABBABB552C557EC395E" name="Referrals">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
 	<index kind="regular" unique_keys="true" name="pk_index_17" uuid="28439521268068438E1342588E985D5B" type="7">
 		<field_ref uuid="EBD870B5AB38FE4A8B7F779F0B88BEB9" name="PK_ID">
 			<table_ref uuid="E5D9120F9A494FCBA528A0CFCAC3372A" name="LtrRptFile"/>
@@ -1159,14 +1164,14 @@
 			<table_ref uuid="EB66F981206047F9BBDBCEA83324D84E" name="LocationFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" uuid="83AB973F3A2DEF41B32F56F0E41E155C" type="7">
+		<field_ref uuid="7900AE7698DD42CEB53B0282E0CA4F5A" name="AddPartyFile">
+			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="86E35DB6D1E7401298731C96DF755992" type="7">
 		<field_ref uuid="B2E8B58F2EFD42F498EE987398A386C9" name="LTLocName">
 			<table_ref uuid="EB66F981206047F9BBDBCEA83324D84E" name="LocationFile"/>
-		</field_ref>
-	</index>
-	<index kind="regular" uuid="86E5A6E1FB4149DB85740F83D561D403" type="7">
-		<field_ref uuid="7900AE7698DD42CEB53B0282E0CA4F5A" name="AddPartyFile">
-			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
 		</field_ref>
 	</index>
 	<index kind="regular" unique_keys="true" name="pk_index_19" uuid="897E6CAC3CFFE04B8463D9F0A8083E8B" type="7">
@@ -1279,6 +1284,11 @@
 			<table_ref uuid="487C0BDA0BC046559997623A69D7EF11" name="CrtAddrFile"/>
 		</field_ref>
 	</index>
+	<index kind="regular" uuid="BF402925D5BE684DAECE9479611D5171" type="7">
+		<field_ref uuid="B6EAB4DF3CB74AF18BD1A2D3261081BA" name="Unusedsub">
+			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="C51809B699E34AAF8307F9FB72E6D21D" type="7">
 		<field_ref uuid="EFD37BDA533D4804A3E7DC32DD9134FB" name="RFName">
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
@@ -1334,11 +1344,6 @@
 			<table_ref uuid="57E24D0A501E4F179A2A61E4A0C75105" name="DBUpdate"/>
 		</field_ref>
 	</index>
-	<index kind="regular" uuid="DCB3E2BACA764EA68209A8E43DB820B4" type="7">
-		<field_ref uuid="19B29D4D7F474ABBABB552C557EC395E" name="Referrals">
-			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
-		</field_ref>
-	</index>
 	<index kind="regular" uuid="E3C822334B4A4124BFD35087141916C9" type="7">
 		<field_ref uuid="5CB2F09D430C4072B0E1CDB4B5B4A8A6" name="Program">
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
@@ -1384,17 +1389,12 @@
 			<table_ref uuid="514BBC335470433BBA996EEF464E4606" name="IntakeFile_Referrals"/>
 		</field_ref>
 	</index>
-	<index kind="regular" uuid="F8533E2DFD564D30B1869F99A4A8C651" type="7">
-		<field_ref uuid="B6EAB4DF3CB74AF18BD1A2D3261081BA" name="Unusedsub">
-			<table_ref uuid="DB81ABF504B24D598E6380530F336455" name="DocketFile"/>
-		</field_ref>
-	</index>
 	<index kind="regular" unique_keys="true" uuid="FF099879734BBF48BEF2E17D1BF5C4EE" type="7">
 		<field_ref uuid="00ABA6E9C0B0324CB85300E20B8EC8F0" name="ID">
 			<table_ref uuid="0316213949162D43987EA4463AA231DF" name="DB_User"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path="C:\Users\robert\Desktop\DRC_2018_W\CMS_Data\CMS.4DD" ppc_code_stamp="163" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0">
+	<base_extra data_file_path="C:\Users\robert\Desktop\DRC_2018_W\CMS_Data\CMS_V11.4DD" ppc_code_stamp="163" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0">
 		<temp_folder folder_selector="data"/>
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
