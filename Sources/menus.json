@@ -88,39 +88,10 @@
 			"title": "Intake",
 			"items": [
 				{
-					"title": "New Intake ",
-					"method": "NewIntake",
-					"shortcutAccel": true,
-					"shortcutKey": "I",
-					"startNewProcess": true
-				},
-				{
-					"title": "Modify Intake",
-					"method": "ModIntake",
-					"shortcutAccel": true,
-					"shortcutKey": "M"
-				},
-				{
-					"isSeparator": true,
-					"enabled": false
-				},
-				{
 					"title": "Show All…",
 					"method": "ShowAllInt",
 					"shortcutAccel": true,
 					"shortcutKey": "A",
-					"startNewProcess": true
-				},
-				{
-					"title": "Show Holds…",
-					"method": "ShowHolds",
-					"startNewProcess": true
-				},
-				{
-					"title": "Show Hot Cases…",
-					"method": "GetHot",
-					"shortcutAccel": true,
-					"shortcutKey": "H",
 					"startNewProcess": true
 				}
 			]
@@ -130,21 +101,8 @@
 			"title": "Docket",
 			"items": [
 				{
-					"title": "Reschedule Case",
-					"method": "Reschedule",
-					"shortcutAccel": true,
-					"shortcutKey": "R",
-					"startNewProcess": true
-				},
-				{
-					"title": "Enter Docket Results",
-					"method": "EnterDocResults",
-					"shortcutAccel": true,
-					"shortcutKey": "E",
-					"startNewProcess": true
-				},
-				{
 					"title": "Print Docket",
+					"enabled": false,
 					"method": "PrintDocket",
 					"shortcutAccel": true,
 					"shortcutKey": "P",
@@ -153,11 +111,6 @@
 				{
 					"isSeparator": true,
 					"enabled": false
-				},
-				{
-					"title": "Pull Cases…",
-					"method": "PullCases",
-					"startNewProcess": true
 				}
 			]
 		},
@@ -266,10 +219,6 @@
 				{
 					"title": "Letter Report…",
 					"method": "DoCorrRpt"
-				},
-				{
-					"title": "Search Intakes…",
-					"method": "IntakeSearch"
 				}
 			]
 		},

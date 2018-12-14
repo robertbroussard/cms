@@ -4,7 +4,9 @@
 
 CompilerTypes   // (P) TO SET TYPES OF VARIABLES IN DATABASE
 C_TEXT:C284(vPrinter360)
+
 SET WINDOW TITLE:C213("DRC Case Management System")
+
 READ ONLY:C145([Constants:11])
 READ ONLY:C145([LocationFile:2])
 READ ONLY:C145([ISIDTable:3])

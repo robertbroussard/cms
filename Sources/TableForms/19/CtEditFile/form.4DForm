@@ -492,7 +492,9 @@
 					"width": 61,
 					"height": 12,
 					"dataSource": "bAddCt",
-					"tooltip": "Next Page",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Page"
+					},
 					"text": "Add",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,

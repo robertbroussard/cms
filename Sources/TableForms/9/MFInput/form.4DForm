@@ -36,8 +36,7 @@
 					"left": 1,
 					"width": 554,
 					"height": 460,
-					"fill": "#C5FFC0",
-					"stroke": "#C5FFC0"
+					"fill": "automatic"
 				},
 				"Rectangle2": {
 					"type": "rectangle",
@@ -1174,11 +1173,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "OK",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
 					"action": "accept",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/Validate.png",
+					"picture": "pictlib:68",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -1203,11 +1204,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Cancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
 					"action": "cancel",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/Cancel.png",
+					"picture": "pictlib:45",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -1231,11 +1234,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "First Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
 					"action": "firstRecord",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/FirstRecord.png",
+					"picture": "pictlib:52",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -1259,11 +1264,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Previous Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
 					"action": "previousRecord",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/PreviousRecord.png",
+					"picture": "pictlib:62",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -1287,11 +1294,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Next Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
 					"action": "nextRecord",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/NextRecord.png",
+					"picture": "pictlib:59",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -1315,11 +1324,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Last Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
 					"action": "lastRecord",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/LastRecord.png",
+					"picture": "pictlib:55",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,
@@ -1343,11 +1354,13 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Delete Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
 					"action": "deleteRecord",
 					"columnCount": 1,
 					"rowCount": 4,
-					"picture": "/RESOURCES/Images/Buttons/Glass/DeleteRecord.png",
+					"picture": "pictlib:46",
 					"switchWhenRollover": true,
 					"switchBackWhenReleased": true,
 					"useLastFrameAsDisabled": true,

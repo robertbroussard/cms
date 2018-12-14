@@ -51,7 +51,9 @@
 					"left": 20,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Add Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add Record"
+					},
 					"action": "addSubrecord",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -79,7 +81,9 @@
 					"left": 92,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Delete Selectio",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Selectio"
+					},
 					"action": "deleteSubrecord",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -107,7 +111,9 @@
 					"left": 164,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Show All",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Show All"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowAll.png",
@@ -135,7 +141,9 @@
 					"left": 236,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Show Subset",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Show Subset"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowSubset.png",
@@ -163,7 +171,9 @@
 					"left": 308,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Query",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Query"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Query.png",
@@ -191,7 +201,9 @@
 					"left": 380,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Order By",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Order By"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/OrderBy.png",
@@ -219,7 +231,9 @@
 					"left": 452,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Report",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Report"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
@@ -247,7 +261,9 @@
 					"left": 524,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Print Labels",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Print Labels"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Label.png",
@@ -275,7 +291,9 @@
 					"left": 596,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Print Selection",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Print Selection"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Print.png",
@@ -303,7 +321,9 @@
 					"left": 668,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Done",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Done"
+					},
 					"action": "cancel",
 					"columnCount": 1,
 					"rowCount": 4,

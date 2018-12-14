@@ -40,7 +40,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bAdd",
-					"tooltip": "Add Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add Record"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/NewRecord.png",
@@ -70,7 +72,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bDelete",
-					"tooltip": "Delete Selectio",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Selectio"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
@@ -100,7 +104,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bShowAll",
-					"tooltip": "Show All",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Show All"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowAll.png",
@@ -130,7 +136,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bShowSubset",
-					"tooltip": "Show Subset",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Show Subset"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowSubSet.png",
@@ -160,7 +168,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bQuery",
-					"tooltip": "Query",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Query"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Query.png",
@@ -190,7 +200,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bOrderBy",
-					"tooltip": "Order By",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Order By"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/OrderBy.png",
@@ -220,7 +232,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bReport",
-					"tooltip": "Report",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Report"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
@@ -250,7 +264,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bLabels",
-					"tooltip": "Print Labels",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Print Labels"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Label.png",
@@ -280,7 +296,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bPrint",
-					"tooltip": "Print Selection",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Print Selection"
+					},
 					"columnCount": 1,
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Print.png",
@@ -310,7 +328,9 @@
 					"width": 48,
 					"height": 48,
 					"dataSource": "bDone",
-					"tooltip": "Done",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Done"
+					},
 					"action": "cancel",
 					"columnCount": 1,
 					"rowCount": 4,

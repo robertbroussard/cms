@@ -475,7 +475,9 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
-					"tooltip": "Previous Page5",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Page5"
+					},
 					"dragging": "none",
 					"dropping": "none",
 					"events": [

@@ -13,6 +13,10 @@ vNewIntake:=False:C215
 vNewIntake2:=False:C215
 $Loop:=1
 OBJECT SET ENTERABLE:C238([IntakeFile:1]CaseNo:1;False:C215)
+
+$WinRef:=Open form window:C675([IntakeFile:1];"IntSearchLit";Plain form window:K39:10;Horizontally centered:K39:1;Vertically centered:K39:4)
+  //DIALOG("Intake_Listing")
+
 While ($Loop=1)
 	FORM SET INPUT:C55([IntakeFile:1];"IntSearchLit")
 	QUERY BY EXAMPLE:C292([IntakeFile:1])
@@ -45,6 +49,8 @@ While ($Loop=1)
 			$Loop:=0
 	End case 
 End while 
+CLOSE WINDOW:C154
+
 UNLOAD RECORD:C212([IntakeFile:1])
 UNLOAD RECORD:C212([DocketFile:6])
 UNLOAD RECORD:C212([FamilyFile:20])

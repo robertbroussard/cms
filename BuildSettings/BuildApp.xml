@@ -15,17 +15,17 @@
         <ServerIncludeIt>True</ServerIncludeIt>
         <ClientWinIncludeIt>True</ClientWinIncludeIt>
         <ClientMacIncludeIt>False</ClientMacIncludeIt>
-        <ServerWinFolder>C:\Program Files\4D\4D_17_bR3_229490\4D Server\</ServerWinFolder>
-        <ClientWinFolderToWin>C:\Program Files\4D\4D_17_bR3_229490\4D Volume Desktop\</ClientWinFolderToWin>
+        <ServerWinFolder>C:\Program Files\4D\4D_v17_HF4\4D Server\</ServerWinFolder>
+        <ClientWinFolderToWin>C:\Program Files\4D\4D_v17_HF4\4D Volume Desktop\</ClientWinFolderToWin>
       </CS>
     </SourcesFiles>
     <CS>
       <BuildServerApplication>True</BuildServerApplication>
       <BuildCSUpgradeable>True</BuildCSUpgradeable>
       <BuildV13ClientUpgrades>True</BuildV13ClientUpgrades>
-      <CurrentVers>1</CurrentVers>
+      <CurrentVers>2</CurrentVers>
       <HardLink></HardLink>
-    </CS>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup></CS>
     <BuildApplicationName>CMS</BuildApplicationName>
     <BuildWinDestFolder>..\CMS_Build\</BuildWinDestFolder>
     <ArrayExcludedPluginName>
@@ -47,6 +47,10 @@
       <MacSignature>False</MacSignature>
       <MacCertificate></MacCertificate>
     </SignApplication>
+    <RuntimeVL>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+    </RuntimeVL>
   </BuildApp>
+
 
 </Preferences4D>

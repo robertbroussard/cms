@@ -1141,7 +1141,9 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"textFormat": " ",
-					"tooltip": "Next Page",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Page"
+					},
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -2148,7 +2150,9 @@
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"textFormat": "$###,##0;-$###,##0",
-					"tooltip": "Next Page",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Page"
+					},
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -2356,7 +2360,9 @@
 					"enterable": false,
 					"contextMenu": "none",
 					"textFormat": "$###,##0;-$###,##0",
-					"tooltip": "Next Page",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Page"
+					},
 					"dragging": "none",
 					"dropping": "none",
 					"events": [

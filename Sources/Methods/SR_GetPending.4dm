@@ -2,8 +2,11 @@
   //11/17/06
   //SR_GetPending
 
-C_LONGINT:C283($Days)[LocationFile:2]LTLocName:2
+C_LONGINT:C283($Days)
 C_DATE:C307($BOMDate)
+
+  //deleted 12/8/18
+  //[LocationFile]LTLocName
 
 $YearMonth:=$1
 

@@ -388,7 +388,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "OK",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
 					"action": "accept",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -416,7 +418,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Cancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
 					"action": "cancel",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -444,7 +448,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "First Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
 					"action": "firstRecord",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -472,7 +478,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Previous Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
 					"action": "previousRecord",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -500,7 +508,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Next Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
 					"action": "nextRecord",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -528,7 +538,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Last Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
 					"action": "lastRecord",
 					"columnCount": 1,
 					"rowCount": 4,
@@ -556,7 +568,9 @@
 					"left": 12,
 					"width": 48,
 					"height": 48,
-					"tooltip": "Delete Record",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
 					"action": "deleteRecord",
 					"columnCount": 1,
 					"rowCount": 4,

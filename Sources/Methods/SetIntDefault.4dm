@@ -22,7 +22,7 @@ If (vShortIntak=1)  // DEFAULT VALUES TO GET BY EDITS ON SHORT INTAKE
 End if 
 
   //populate test data 11/8/18
-If (<>TestMode) & Is new record:C668([IntakeFile:1])
+If (Is new record:C668([IntakeFile:1]) & Shift down:C543)
 	CONFIRM:C162("Populate test data for this new Intake?";"Yes";"No")
 	If (OK=1)
 		[IntakeFile:1]LocCode:2:="01"

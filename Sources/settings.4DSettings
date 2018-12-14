@@ -1,77 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="17">
+<preferences stamp="2">
 	<com.4d>
-		<database>
-			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>
-			<misc accept_dot_syntax="false" allow_json_dates="false" allow_nested_transactions="false" period_and_commas_in_numerics="false" reload_form_during_print_selection="false" store_unicode_tokens="false" unicode_mode="true"/>
-			<cpu_priority for_mono="2049" for_remote="2049" for_server="2049"/>
-		</database>
-		<general allow_user_settings="false" startup_environnement="1">
-			<mover always_display_dialog="2"/>
-		</general>
-		<interface>
-			<user can_change_password="true" display_list="true" display_toolbar="true" formula_editor_with_full_lists="true" sdi_application="false" splash_screen="false"/>
-			<misc fields_enterable_in_dialogs="false" prevent_drop_not_coming_from_4d="false" radio_buttons_grouped_by_name="true"/>
-			<shortcuts>
-				<add_subform key_code="47" shift="false"/>
-				<cancel_input_form command="true" key_code="46"/>
-				<accept_input_form key_code="3"/>
-			</shortcuts>
-		</interface>
-		<server>
-			<misc order_by_formula_on_server="true" query_by_formula_on_server="false" query_by_formula_uses_joins="false"/>
-			<network>
-				<options publication_name="CMS_2018_TEST" use_legacy_network_layer="false"/>
-				<sso authenticate="true"/>
-			</network>
-			<ip_config>
-				<allow_deny_table>
-					<allow_deny address="*" allow="true"/>
-				</allow_deny_table>
-			</ip_config>
-		</server>
-		<web>
-			<standalone_server>
-				<configuration allowHttp="false" allow_ssl="true" automatic_session_management="false" listening_address="0.0.0.0" port_number="80" publish_at_startup="false">
-					<hosts>
-						<host home_page="" html_root="./WebFolder/" id="0" name="Default"/>
-					</hosts>
-				</configuration>
-				<misc automatic_variables_management="true" remove_slash="true" use_contextual_mode="true" use_new_context_ref_mode="false"/>
-				<options>
-					<web_processes max_concurrent="32000" timeout_for_inactives="5"/>
-					<text_conversion standard_set="ISO-8859-1"/>
-					<cache cache_max_size="5120" use_4d_web_cache="false"/>
-					<web_passwords kind="1" with_4d_passwords="true"/>
-					<filters allow_4dsync_urls="true"/>
-				</options>
-				<log>
-					<backup daily="" hourly="" monthly="" size="0" weekly=""/>
-				</log>
-				<webservices>
-					<server allow_requests="false"/>
-				</webservices>
-			</standalone_server>
-			<remote>
-				<misc automatic_variables_management="true" remove_slash="true"/>
-				<options>
-					<web_processes timeout_for_inactives="5"/>
-					<cache use_4d_web_cache="false"/>
-					<filters allow_4dsync_urls="true"/>
-				</options>
-				<configuration automatic_session_management="false" listening_address="0.0.0.0"/>
-			</remote>
-		</web>
-		<compiler>
-			<options symbol_file="true"/>
-			<typage default_for_numeric="1"/>
-		</compiler>
-		<deployment>
-			<options generate_applications_for_read_only_deployment="false"/>
-		</deployment>
-		<sql>
-			<publication port_number="19812"/>
-		</sql>
 		<php ip_address="127.0.0.1"/>
+		<server>
+			<network>
+				<options publication_name="CMS_2018"/>
+			</network>
+		</server>
+		<database>
+			<cache flush_buffer_delay="15"/>
+		</database>
 	</com.4d>
 </preferences>

@@ -1899,7 +1899,9 @@
 					"width": 68,
 					"height": 19,
 					"dataSource": "bFamily",
-					"tooltip": "Previous Page",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Page"
+					},
 					"text": "Family",
 					"fontFamily": "Arial",
 					"fontSize": 10,
