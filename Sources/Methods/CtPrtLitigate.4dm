@@ -7,15 +7,16 @@ C_LONGINT:C283($i;$1;$2;$3;$4;$5;$Ctr)
 C_LONGINT:C283(ptrLine)
 C_TEXT:C284(vTemp1;vTemp2)
 C_TEXT:C284(vLine;vCtInfoMsg)
-FORM SET INPUT:C55([CrtAddrFile:19];"CtWorksheetMed")
-MODIFY RECORD:C57([CrtAddrFile:19])  //DISPLAY WORKSHEET FORM
-UNLOAD RECORD:C212([CrtAddrFile:19])
+  //FORM SET INPUT([CrtAddrFile];"CtWorksheetMed")
+  //MODIFY RECORD([CrtAddrFile])  //DISPLAY WORKSHEET FORM
+  //UNLOAD RECORD([CrtAddrFile])
 If (OK=1)
 	[IntakeFile:1]DateMail:51:=vMailWksht  //UPDATE DATE-WORKSHEET-MAILED FROM INPUT
 	[IntakeFile:1]DateTrial:54:=vTrialDate
 	SAVE RECORD:C53([IntakeFile:1])
 End if 
-PAGE SETUP:C299([CrtAddrFile:19];"CtStdReptMed")
+PRINT SETTINGS:C106
+  //PAGE SETUP([CrtAddrFile];"CtStdReptMed")
 CONFIRM:C162("Do you want to print the Worksheet?")
 If (OK=1)
 	$Ctr:=$1+$2+$3+2  //EXTRA 2, 1 FOR FILE & 1 FOR COURT

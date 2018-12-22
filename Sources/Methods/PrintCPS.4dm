@@ -41,7 +41,7 @@ If (_O_Records in subselection:C7([IntakeFile:1]AddPartyFile:21)>0)
 Else 
 	ALERT:C41("There is no Additional Party for the child")
 End if 
-$style1:="Style:  "+[IntakeFile:1]Ct_PdNo:5+";  In the Interest of  "
+$style1:="Style:  "+[IntakeFile:1]CauseNo:5+";  In the Interest of  "
 $Style3:=";  in the 314th Judicial Court of Harris County, Texas "
 vCPSStyle:=$Style1+$Style2+$Style3
   //

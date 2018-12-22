@@ -11,7 +11,7 @@ If ([DailyLtrFile:14]Spanish:24=False:C215)
 	$TempText:=Replace string:C233($TempText;"<TimeSlot>";[DailyLtrFile:14]TimeSlot:19)
 	$TempText:=Replace string:C233($TempText;"<Style>";[DailyLtrFile:14]Style:12)
 	$TempText:=Replace string:C233($TempText;"<Referral Source>";[DailyLtrFile:14]RefSource:27)
-	$TempText:=Replace string:C233($TempText;"<MyDot>";Char:C90(165))
+	$TempText:=Replace string:C233($TempText;"<MyDot>";Char:C90(0x2022))
 	[DailyLtrFile:14]DLFText:18:=$TempText
 Else 
 	$TempText:=[LetterFile:15]Letter Text:2
@@ -24,6 +24,7 @@ Else
 	$TempText:=Replace string:C233($TempText;"<TimeSlot>";[DailyLtrFile:14]TimeSlot:19)
 	$TempText:=Replace string:C233($TempText;"<Style>";[DailyLtrFile:14]Style:12)
 	$TempText:=Replace string:C233($TempText;"<Referral Source>";[DailyLtrFile:14]RefSource:27)
-	$TempText:=Replace string:C233($TempText;"<MyDot>";Char:C90(165))
+	$TempText:=Replace string:C233($TempText;"<MyDot>";Char:C90(0x2022))
 	[DailyLtrFile:14]DLFText:18:=$TempText
 End if 
+

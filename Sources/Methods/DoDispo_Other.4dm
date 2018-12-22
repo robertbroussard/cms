@@ -12,7 +12,7 @@ If (([IntakeFile:1]Program:32#"J") & ([IntakeFile:1]Program:32#"F"))
 	vCaseNo:=[IntakeFile:1]CaseNo:1
 	vPrintDate:=String:C10(Current date:C33;3)
 	vDRefBy:=[IntakeFile:1]RefBy:16
-	vDCtPD:=[IntakeFile:1]Ct_PdNo:5
+	vDCtPD:=[IntakeFile:1]CauseNo:5
 	vDCaseStyle:=[IntakeFile:1]CaseStyle:23
 	vDFullName:=[IntakeFile:1]RFName:12+" "+[IntakeFile:1]RLName:11
 	vDPD_No:=""

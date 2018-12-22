@@ -2,6 +2,6 @@
   //
 
   //[MediatorFile]MedZip:=Replace string([MediatorFile]MedZip;"_";"")
-BEEP:C151
+  //BEEP
 
 Set_ZipCode_Display (Self:C308)

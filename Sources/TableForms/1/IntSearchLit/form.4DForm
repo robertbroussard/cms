@@ -175,7 +175,7 @@
 					"left": 256,
 					"width": 86,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]Ct_PdNo:5",
+					"dataSource": "[IntakeFile:1]CauseNo:5",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
@@ -301,11 +301,13 @@
 					"width": 41,
 					"height": 16,
 					"dataSource": "[IntakeFile:1]Hot:31",
+					"focusable": false,
 					"textFormat": "Hot",
 					"dragging": "none",
-					"dropping": "custom",
+					"dropping": "none",
+					"method": "ObjectMethods/Field.4dm",
 					"events": [
-						"onDataChange"
+						"onLoad"
 					]
 				},
 				"Variable1": {

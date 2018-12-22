@@ -42,7 +42,8 @@ While ($RptLoop1=1)
 		vRptName:="Mediation Program Report For: "+vProgram
 		vTimeFrame:="From "+String:C10(vBegDate;7)+" to "+String:C10(vEndDate;7)
 		vPrintDate:="Date Printed: "+String:C10(Current date:C33;7)+" Time: "+String:C10(Current time:C178;5)
-		PAGE SETUP:C299([IntakeFile:1];"RptHeader")
+		PRINT SETTINGS:C106
+		  //PAGE SETUP([IntakeFile];"RptHeader")
 		Print form:C5([IntakeFile:1];"RptHeader")
 		vSubDetail:="Referral Source for this Report: "+vReferral
 		Print form:C5([IntakeFile:1];"SubHead1")

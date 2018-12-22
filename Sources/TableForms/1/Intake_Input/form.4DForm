@@ -1,10 +1,9 @@
 ﻿{
 	"rightMargin": 20,
 	"bottomMargin": 20,
-	"markerHeader": 15,
-	"markerBody": 200,
-	"markerBreak": 220,
-	"markerFooter": 240,
+	"markerBody": 516,
+	"markerBreak": 516,
+	"markerFooter": 536,
 	"events": [
 		"onLoad",
 		"onValidate",
@@ -274,12 +273,13 @@
 				"Text2": {
 					"type": "text",
 					"top": 8,
-					"left": 327,
-					"width": 64,
+					"left": 326,
+					"width": 54,
 					"height": 15,
 					"stroke": "#000000",
+					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Case No:"
+					"text": "Case No"
 				},
 				"Field50": {
 					"type": "input",
@@ -341,6 +341,15 @@
 		},
 		{
 			"objects": {
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 39,
+					"left": 387,
+					"width": 289,
+					"height": 225,
+					"fontWeight": "bold",
+					"text": "Respondent"
+				},
 				"Group Box1": {
 					"type": "groupBox",
 					"top": 39,
@@ -415,12 +424,12 @@
 				"Text16": {
 					"type": "text",
 					"top": 272,
-					"left": 110,
-					"width": 35,
+					"left": 89,
+					"width": 56,
 					"height": 15,
 					"stroke": "#000000",
 					"fontWeight": "bold",
-					"text": "CT/PD"
+					"text": "Cause No"
 				},
 				"Text18": {
 					"type": "text",
@@ -641,20 +650,14 @@
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
-					"contextMenu": "none",
 					"placeholder": "Zip Code",
-					"textFormat": "#####-####",
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Zip_Entry"
 					},
+					"method": "ObjectMethods/Field15.4dm",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
+						"onLoad",
+						"onDataChange"
 					]
 				},
 				"Field16": {
@@ -826,7 +829,7 @@
 					"left": 149,
 					"width": 209,
 					"height": 16,
-					"dataSource": "[IntakeFile:1]Ct_PdNo:5",
+					"dataSource": "[IntakeFile:1]CauseNo:5",
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
@@ -1033,20 +1036,14 @@
 					"fill": "#FFFFFF",
 					"stroke": "#000000",
 					"borderStyle": "none",
-					"contextMenu": "none",
 					"placeholder": "Zip Code",
-					"textFormat": "#####-####",
 					"entryFilter": {
 						"$ref": "/SOURCES/filters.json#/Zip_Entry"
 					},
+					"method": "ObjectMethods/Field33.4dm",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
+						"onLoad",
+						"onDataChange"
 					]
 				},
 				"Field34": {
@@ -1546,15 +1543,6 @@
 					"stroke": "#000000",
 					"fontWeight": "bold",
 					"text": "Docket Information"
-				},
-				"Group Box2": {
-					"type": "groupBox",
-					"top": 39,
-					"left": 387,
-					"width": 289,
-					"height": 225,
-					"fontWeight": "bold",
-					"text": "Respondent"
 				},
 				"Text1": {
 					"type": "text",

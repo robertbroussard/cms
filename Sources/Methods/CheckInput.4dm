@@ -7,10 +7,10 @@ Case of
 		ALERT:C41("You must enter the Case number.")
 		GOTO OBJECT:C206([IntakeFile:1]CaseNo:1)
 		$0:=False:C215
-	: ([IntakeFile:1]LocCode:2="") | ([IntakeFile:1]IdCode:3="")
-		ALERT:C41("You must enter the Loc/Id Code.")
-		GOTO OBJECT:C206([IntakeFile:1]LocCode:2)
-		$0:=False:C215
+		  //: ([IntakeFile]LocCode="") | ([IntakeFile]IdCode="")
+		  //ALERT("You must enter the Loc/Id Code.")
+		  //GOTO OBJECT([IntakeFile]LocCode)
+		  //$0:=False
 	: ([IntakeFile:1]IntakeDate:4=!00-00-00!)
 		ALERT:C41("You must enter the Intake Date.")
 		GOTO OBJECT:C206([IntakeFile:1]IntakeDate:4)

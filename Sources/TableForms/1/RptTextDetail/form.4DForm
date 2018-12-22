@@ -46,34 +46,6 @@
 					"left": 0,
 					"width": 197
 				},
-				"Variable1": {
-					"type": "input",
-					"top": 64,
-					"left": 39,
-					"width": 496,
-					"height": 14,
-					"dataSource": "vRptName",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"textAlign": "center",
-					"fontSize": 12,
-					"fontWeight": "bold",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Variable2": {
 					"type": "input",
 					"top": 17,
@@ -87,7 +59,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -114,7 +85,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -141,7 +111,33 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 64,
+					"left": 39,
+					"width": 496,
+					"height": 14,
+					"dataSource": "vRptName",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -167,7 +163,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -195,7 +190,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -222,7 +216,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -249,7 +242,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -276,7 +268,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -303,7 +294,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -329,7 +319,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -356,7 +345,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -384,7 +372,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"numberFormat": "###,##0.00",
 					"dragging": "none",
 					"dropping": "none",
@@ -411,7 +398,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -438,7 +424,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -465,7 +450,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [

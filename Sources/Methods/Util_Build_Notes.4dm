@@ -34,6 +34,19 @@ Case of
 		  //Reschedule Reschedule case menu deleted, can edit from intake now.
 		  //[DocketFile]DFInput. Updated buttons to LG.
 		  //EnterDocResults, enter docket results menu deleted, edit via IintakeForm double-click.
+	: (True:C214)  //v17.b12, 12/19/18.
+		  //disabled required Intake Location and ID field values.
+		  //Query by example checkbox fields having 3 states under investigation.
+		  //custom zip code display code added to intake input, formats 5 and 9 digit codes.
+		  //Unicode MyDot Update now uses hex 2022 to get the bullet for letters and footers
+		  //created new custom Intake Print report, two pages carefully merged to one.
+		  //CT/PD field renamed to CauseNum as well as the labels renamed to "Cause No".
+		  //Program Report Fix, was printing all pipe characters (undefined stylesheet).
+		  //Program Report dialog enahncement, optimized the tab order.
+		  //fixed litigation summary worksheets various forms 
+		  //added print dialog call to litigation worksheet reports. CtPrtLitigate, CtPrtArbitrate, CtPrtModerate.
+		  //extensive subrecord code rewrite on method: CourtForms.
+		
 		
 		
 		

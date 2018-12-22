@@ -408,8 +408,8 @@
 				},
 				"Subform2": {
 					"type": "subform",
-					"top": 211,
-					"left": 44,
+					"top": 187,
+					"left": 413,
 					"width": 98,
 					"height": 19,
 					"dataSourceTypeHint": "text",

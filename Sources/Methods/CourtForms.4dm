@@ -8,6 +8,8 @@ C_TEXT:C284(vWSType)
 C_TEXT:C284(vZip)
 C_TEXT:C284(vCtStyle)
 C_DATE:C307(vCtDktDate)
+C_BOOLEAN:C305($continue)
+$continue:=True:C214  //added 12/21/18, if mediators were not found it still tried to print and failed.
   //If (vBlank=1)
 vWSType:=""
 $CtrProSe:=0
@@ -31,7 +33,7 @@ vCtStyle:=[IntakeFile:1]CaseStyle:23
 CtDivideLine (->vCtStyle;->vTemp1;->vTemp2;80)
 vCtStyle1:=vTemp1
 vCtStyle2:=vTemp2
-vCtCauseNo:=[IntakeFile:1]Ct_PdNo:5
+vCtCauseNo:=[IntakeFile:1]CauseNo:5
 vCtPlaint:=[IntakeFile:1]CFName:7+" "+[IntakeFile:1]CLName:6
 vCtDefend:=[IntakeFile:1]RFName:12+" "+[IntakeFile:1]RLName:11
 vCtLocFirm:=[IntakeFile:1]MedLocFrm:49
@@ -74,7 +76,7 @@ Else
 	vCtCCRefBy:=[CrtAddrFile:19]CCRefBy:1
 	vCtCCName:=[CrtAddrFile:19]CCName:2
 	vCtCourtNam:=[CrtAddrFile:19]CCCtName:4
-	vCtCause:=[CrtAddrFile:19]CCCtName:4+" / "+[IntakeFile:1]Ct_PdNo:5
+	vCtCause:=[CrtAddrFile:19]CCCtName:4+" / "+[IntakeFile:1]CauseNo:5
 	vCtCrtName1:=[CrtAddrFile:19]CCCtName:4
 	vCtCCAddr1:=[CrtAddrFile:19]CCAddr1:5
 	vCtCCAddr2:=[CrtAddrFile:19]CCAddr2:6
@@ -91,9 +93,9 @@ Else
 		v3Sec:=""
 	End if 
 End if 
-_O_ALL SUBRECORDS:C109([IntakeFile:1]AddPartyFile:21)
+  //_O_ALL SUBRECORDS([IntakeFile]AddPartyFile)
 If (_O_Records in subselection:C7([IntakeFile:1]AddPartyFile:21)<1)
-	ALERT:C41("There are no subrecords (Attorneys)")
+	ALERT:C41("There are no records (Attorneys)")
 Else 
 	  //  
 	vWSType:="P"  //  INITIALIZE COUNTERS FOR CLEARING WORKSHEET
@@ -125,24 +127,25 @@ Else
 	$pCol:=0
 	vWSLine:=0
 	  //
-	_O_FIRST SUBRECORD:C61([IntakeFile:1]AddPartyFile:21)
+	FIRST RECORD:C50([IntakeFile_AddPartyFile:23])
 	vn2:=0
 	$CtrProSe:=0
 	CLEAR VARIABLE:C89(aEnvelope)
 	ARRAY TEXT:C222(aEnvelope;5;9)  //CREATE ARRAY FOR STORING ENVELOPE DATA
-	For ($i;1;_O_Records in subselection:C7([IntakeFile:1]AddPartyFile:21))
-		If (Length:C16([IntakeFile]AddPartyFile'APType)>2)
-			vWSType:=Substring:C12([IntakeFile]AddPartyFile'APType;3;1)
+	For ($i;1;Records in selection:C76([IntakeFile_AddPartyFile:23]))
+		If (Length:C16([IntakeFile_AddPartyFile:23]APType:1)>2)
+			vWSType:=Substring:C12([IntakeFile_AddPartyFile:23]APType:1;3;1)
+			  //vWSType:=Substring([IntakeFile]AddPartyFile'APType;3;1)
 		Else 
-			vWSType:=Substring:C12([IntakeFile]AddPartyFile'APType;2;1)  //$Type = "P" or "D"
+			vWSType:=Substring:C12([IntakeFile_AddPartyFile:23]APType:1;2;1)  //$Type = "P" or "D"
 		End if 
 		If (vWSType#"P") & (vWSType#"D")
-			ALERT:C41("Additional Party "+[IntakeFile]AddPartyFile'LastName+(Char:C90(13))+" has bad Type: "+[IntakeFile]AddPartyFile'APType)
+			ALERT:C41("Additional Party "+[IntakeFile_AddPartyFile:23]LastName:2+(Char:C90(13))+" has bad Type: "+[IntakeFile_AddPartyFile:23]APType:1)
 		Else 
 			  //      
 			  //MOVE ADD PRTY (ATTY) DATA TO SLOT 1, 2, OR 3 ON MED. WS FOR PL OR DEF
 			  //
-			CtEditZip (->[IntakeFile]AddPartyFile'APZip)  //REMOVE EDITING CHARACTERS & SPACES
+			CtEditZip (->[IntakeFile_AddPartyFile:23]APZip:12)  //REMOVE EDITING CHARACTERS & SPACES
 			vWSLine:=0
 			If (vWSType="P") & ($Pcol<3)  //ONLY ROOM FOR 3
 				$Pcol:=$Pcol+1  //TELLS WHICH COLUMN IS BEING LOADED
@@ -158,29 +161,29 @@ Else
 				vn1:=0  //5 FIELDS OR ARRAYS
 				vn2:=vn2+1  //9 ENVELOPE RECORDS OR # ARRAY OCCURRENCES
 				$Hokay:=0
-				vwork:=[IntakeFile]AddPartyFile'FirstName+" "+[IntakeFile]AddPartyFile'LastName
+				vwork:=[IntakeFile_AddPartyFile:23]FirstName:3+" "+[IntakeFile_AddPartyFile:23]LastName:2
 				CtBuildWS (1)
 				CtEnvelope 
 				vwork:=[IntakeFile]AddPartyFile'APFirm
 				CtBuildWS (1)
 				CtEnvelope 
-				vwork:=[IntakeFile]AddPartyFile'APStAddress
+				vwork:=[IntakeFile_AddPartyFile:23]APStAddress:9
 				CtBuildWS (1)
 				CtEnvelope 
-				vwork:=[IntakeFile]AddPartyFile'APCity+", "+[IntakeFile]AddPartyFile'ApState+" "+vZip
+				vwork:=[IntakeFile_AddPartyFile:23]APCity:10+", "+[IntakeFile_AddPartyFile:23]ApState:11+" "+vZip
 				CtBuildWS (0)
 				CtEnvelope 
-				vwork:=[IntakeFile]AddPartyFile'WPhone+" Fx: "+[IntakeFile]AddPartyFile'FaxNumber
-				If (Length:C16([IntakeFile]AddPartyFile'WPhone)>0) & (Length:C16([IntakeFile]AddPartyFile'WPhone)#10)
-					ALERT:C41("Work phone number is not 10 digits for "+[IntakeFile]AddPartyFile'LastName)
+				vwork:=[IntakeFile_AddPartyFile:23]WPhone:5+" Fx: "+[IntakeFile_AddPartyFile:23]FaxNumber:16
+				If (Length:C16([IntakeFile_AddPartyFile:23]WPhone:5)>0) & (Length:C16([IntakeFile_AddPartyFile:23]WPhone:5)#10)
+					ALERT:C41("Work phone number is not 10 digits for "+[IntakeFile_AddPartyFile:23]LastName:2)
 				Else 
-					If (Length:C16([IntakeFile]AddPartyFile'WPhone)>0)
+					If (Length:C16([IntakeFile_AddPartyFile:23]WPhone:5)>0)
 						vwork:=Insert string:C231(vwork;"/";4)
 						vwork:=Insert string:C231(vwork;"-";8)
 					End if 
 				End if 
-				If (Length:C16([IntakeFile]AddPartyFile'FaxNumber)>0) & (Length:C16([IntakeFile]AddPartyFile'FaxNumber)#10)
-					ALERT:C41("Fax number is not 10 digits for "+[IntakeFile]AddPartyFile'LastName)
+				If (Length:C16([IntakeFile_AddPartyFile:23]FaxNumber:16)>0) & (Length:C16([IntakeFile_AddPartyFile:23]FaxNumber:16)#10)
+					ALERT:C41("Fax number is not 10 digits for "+[IntakeFile_AddPartyFile:23]LastName:2)
 				Else 
 					If (Length:C16([IntakeFile]AddPartyFile'FaxNumber)>0)
 						vwork:=Insert string:C231(vwork;"/";21)
@@ -190,7 +193,7 @@ Else
 					End if 
 				End if 
 				CtBuildWS (0)
-				If ([IntakeFile]AddPartyFile'APProSe=True:C214)
+				If ([IntakeFile_AddPartyFile:23]APProSe:7=True:C214)
 					ptrWS:=Get pointer:C304("vProSe"+vWSType+String:C10(vWSCol))
 					ptrWS->:="Pro Se"
 					$CtrProSe:=$CtrProSe+1
@@ -200,7 +203,7 @@ Else
 				End if 
 			End if 
 		End if 
-		_O_NEXT SUBRECORD:C62([IntakeFile:1]AddPartyFile:21)
+		NEXT RECORD:C51([IntakeFile_AddPartyFile:23])
 	End for 
 End if   //END PLAINTIFF
   //  
@@ -220,6 +223,7 @@ Else
 	End if 
 	If (Records in selection:C76([MediatorFile:9])<1)
 		ALERT:C41("There are no Mediators for this case")
+		  //$continue:=False
 	Else 
 		FIRST RECORD:C50([MedActFile:10])
 		vWSCol:=0
@@ -282,11 +286,11 @@ Else
 End if 
 
 Case of 
-	: ([IntakeFile:1]Program:32="L")
+	: (([IntakeFile:1]Program:32="L") & $continue)  //added $contine condition 12/21/18.
 		CtPrtLitigate ($CtrAtty;$CtrProSe;$CtrMed)
-	: ([IntakeFile:1]Program:32="A")
-		CtPrtArbitrate ($CtrAtty;$CtrProSe;$CtrMed)
-	: ([IntakeFile:1]Program:32="M")
-		CtPrtModerate ($CtrAtty;$CtrProSe;$CtrMed)
+	: (([IntakeFile:1]Program:32="A") & $continue)
+		CtPrtArbitrate ($CtrAtty;$CtrProSe;$CtrMed)  //added $contine condition 12/21/18.
+	: (([IntakeFile:1]Program:32="M") & $continue)
+		CtPrtModerate ($CtrAtty;$CtrProSe;$CtrMed)  //added $contine condition 12/21/18.
 End case 
 UNLOAD RECORD:C212([CrtAddrFile:19])

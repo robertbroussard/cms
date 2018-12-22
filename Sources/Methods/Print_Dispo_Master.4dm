@@ -27,7 +27,7 @@ vAND:=""
 SET WINDOW TITLE:C213("Family Disposition Edit and Print")
 FORM SET OUTPUT:C54([DailyLtrFile:14];"Disposition_Master")
 vCaseNo:=[IntakeFile:1]CaseNo:1
-vDCtPd:=[IntakeFile:1]Ct_PdNo:5  //cause number 
+vDCtPd:=[IntakeFile:1]CauseNo:5  //cause number 
 vFullNameC:=[IntakeFile:1]CFName:7+" "+[IntakeFile:1]CLName:6
 vFullNameR:=[IntakeFile:1]RFName:12+" "+[IntakeFile:1]RLName:11
 vPrintDate:=String:C10(Current date:C33;5)

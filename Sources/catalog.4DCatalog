@@ -11,7 +11,7 @@
 		<field name="IntakeDate" uuid="FC17489C1EE74D68AB878B5857E9C30D" type="8" never_null="true" id="4">
 			<field_extra mandatory="true"/>
 		</field>
-		<field name="Ct_PdNo" uuid="716D1A5514824C8EA360C5F84861E17D" type="10" limiting_length="20" never_null="true" id="5"/>
+		<field name="CauseNo" uuid="716D1A5514824C8EA360C5F84861E17D" type="10" limiting_length="20" never_null="true" id="5"/>
 		<field name="CLName" uuid="6CD8832E1F54469EA7100EC06FD12152" type="10" limiting_length="40" never_null="true" id="6">
 			<field_extra mandatory="true"/>
 		</field>
@@ -1015,7 +1015,7 @@
 		</relation_extra>
 	</relation>
 	<index kind="regular" uuid="0111F26E6A7145F6B907D91BD0F54337" type="7">
-		<field_ref uuid="716D1A5514824C8EA360C5F84861E17D" name="Ct_PdNo">
+		<field_ref uuid="716D1A5514824C8EA360C5F84861E17D" name="CauseNo">
 			<table_ref uuid="4690C182D3AB4464907900140E8D0E5B" name="IntakeFile"/>
 		</field_ref>
 	</index>

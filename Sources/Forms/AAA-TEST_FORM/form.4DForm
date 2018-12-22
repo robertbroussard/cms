@@ -1,0 +1,181 @@
+﻿{
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 57,
+					"left": 50,
+					"width": 339,
+					"height": 26,
+					"dataSource": "Char:C90(0x2022)",
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 81,
+					"left": 50,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(8226))",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 146,
+					"left": 175,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(165))",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 170,
+					"left": 175,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(149))",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 228,
+					"left": 64,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(165))",
+					"fontFamily": "Courier",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 252,
+					"left": 64,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(149))",
+					"fontFamily": "Courier",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 306,
+					"left": 175,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(165))",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 330,
+					"left": 175,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(149))",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 388,
+					"left": 50,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(2022))",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 413,
+					"left": 50,
+					"width": 339,
+					"height": 16,
+					"dataSource": "Char:C90(916))",
+					"fontFamily": "Times New Roman",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

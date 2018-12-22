@@ -51,155 +51,6 @@
 					"width": 349,
 					"height": 216
 				},
-				"Text1": {
-					"type": "text",
-					"top": 63,
-					"left": 104,
-					"width": 119,
-					"height": 15,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontWeight": "bold",
-					"text": "Enter  Report Dates:"
-				},
-				"Text2": {
-					"type": "text",
-					"top": 85,
-					"left": 141,
-					"width": 65,
-					"height": 15,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontWeight": "bold",
-					"text": "Beginning:"
-				},
-				"Text3": {
-					"type": "text",
-					"top": 105,
-					"left": 141,
-					"width": 48,
-					"height": 15,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontWeight": "bold",
-					"text": "Ending:"
-				},
-				"Text4": {
-					"type": "text",
-					"top": 139,
-					"left": 104,
-					"width": 98,
-					"height": 15,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontWeight": "bold",
-					"text": "Select Program:"
-				},
-				"Text5": {
-					"type": "text",
-					"top": 175,
-					"left": 104,
-					"width": 138,
-					"height": 15,
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontWeight": "bold",
-					"text": "Select Referral Source:"
-				},
-				"Line1": {
-					"type": "line",
-					"top": 99,
-					"left": 212,
-					"width": 70,
-					"strokeWidth": 0.1
-				},
-				"Line2": {
-					"type": "line",
-					"top": 120,
-					"left": 212,
-					"width": 70
-				},
-				"Line3": {
-					"type": "line",
-					"top": 152,
-					"left": 205,
-					"width": 172
-				},
-				"Line4": {
-					"type": "line",
-					"top": 188,
-					"left": 247,
-					"width": 172
-				},
-				"Variable1": {
-					"type": "button",
-					"top": 218,
-					"left": 171,
-					"width": 76,
-					"height": 22,
-					"dataSource": "rsdCancel",
-					"action": "cancel",
-					"shortcutKey": "[Esc]",
-					"text": "Cancel",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
-					"stroke": "#000000",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable2": {
-					"type": "button",
-					"top": 218,
-					"left": 281,
-					"width": 76,
-					"height": 22,
-					"dataSource": "rsdOK",
-					"action": "accept",
-					"shortcutKey": "[Enter]",
-					"text": "OK",
-					"fontFamily": "Segoe UI",
-					"fontSize": 12,
-					"stroke": "#000000",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable3": {
-					"type": "input",
-					"top": -11,
-					"left": 92,
-					"width": 5,
-					"height": 12,
-					"dataSource": "vDummy",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"contextMenu": "none",
-					"entryFilter": "\"~\"",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
 				"Variable4": {
 					"type": "input",
 					"top": 86,
@@ -297,6 +148,155 @@
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Referrals"
 					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable1": {
+					"type": "button",
+					"top": 218,
+					"left": 171,
+					"width": 76,
+					"height": 22,
+					"dataSource": "rsdCancel",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 218,
+					"left": 281,
+					"width": 76,
+					"height": 22,
+					"dataSource": "rsdOK",
+					"action": "accept",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 63,
+					"left": 104,
+					"width": 119,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "Enter  Report Dates:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 85,
+					"left": 141,
+					"width": 65,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "Beginning:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 105,
+					"left": 141,
+					"width": 48,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "Ending:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 139,
+					"left": 104,
+					"width": 98,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "Select Program:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 175,
+					"left": 104,
+					"width": 138,
+					"height": 15,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "Select Referral Source:"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 99,
+					"left": 212,
+					"width": 70,
+					"strokeWidth": 0.1
+				},
+				"Line2": {
+					"type": "line",
+					"top": 120,
+					"left": 212,
+					"width": 70
+				},
+				"Line3": {
+					"type": "line",
+					"top": 152,
+					"left": 205,
+					"width": 172
+				},
+				"Line4": {
+					"type": "line",
+					"top": 188,
+					"left": 247,
+					"width": 172
+				},
+				"Variable3": {
+					"type": "input",
+					"top": -11,
+					"left": 92,
+					"width": 5,
+					"height": 12,
+					"dataSource": "vDummy",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"entryFilter": "\"~\"",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [

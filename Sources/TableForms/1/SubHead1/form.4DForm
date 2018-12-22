@@ -47,7 +47,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -75,7 +74,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -101,7 +99,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -142,12 +139,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Line1": {
-					"type": "line",
-					"top": 126,
-					"left": 0,
-					"width": 197
-				},
 				"Variable5": {
 					"type": "input",
 					"top": 130,
@@ -162,7 +153,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -174,12 +164,6 @@
 						"onDataChange",
 						"onPrintingDetail"
 					]
-				},
-				"Line2": {
-					"type": "line",
-					"top": 54,
-					"left": 0,
-					"width": 197
 				},
 				"Variable6": {
 					"type": "input",
@@ -195,7 +179,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -222,7 +205,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -249,7 +231,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -275,7 +256,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -302,7 +282,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -330,7 +309,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"numberFormat": "###,##0.00",
 					"dragging": "none",
 					"dropping": "none",
@@ -357,7 +335,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -384,7 +361,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -411,7 +387,6 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
-					"scrollbarVertical": "visible",
 					"dragging": "none",
 					"dropping": "none",
 					"events": [
@@ -423,6 +398,18 @@
 						"onDataChange",
 						"onPrintingDetail"
 					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 126,
+					"left": 0,
+					"width": 197
+				},
+				"Line2": {
+					"type": "line",
+					"top": 54,
+					"left": 0,
+					"width": 197
 				}
 			}
 		}

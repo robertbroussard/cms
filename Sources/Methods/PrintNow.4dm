@@ -3,7 +3,7 @@
 C_LONGINT:C283($i;$Print;$Temp;$OK1;$OK2;v2ndLtr;vFamFlag)
 C_TEXT:C284($Dis1;$Dis2)
 C_TEXT:C284($CR)
-C_TEXT:C284(vFamStyle)
+C_TEXT:C284(vFamStyle;vPrinter360)
 RELATE MANY:C262([IntakeFile:1]CaseNo:1)
 vPInitials:=$1
 $OK1:=1

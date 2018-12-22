@@ -11,22 +11,22 @@ C_TEXT:C284($2)
 [IntakeFile:1]RState:41:="TX"
   //
 If (vShortIntak=1)  // DEFAULT VALUES TO GET BY EDITS ON SHORT INTAKE
-	[IntakeFile:1]LocCode:2:="01"
-	[IntakeFile:1]IdCode:3:="10"
-	[IntakeFile:1]RLName:11:="N/A"
-	[IntakeFile:1]RLang:15:="E"
-	[IntakeFile:1]HowLong:18:="1"
-	[IntakeFile:1]TPeriod:19:="Day(s)"
-	[IntakeFile:1]DateClosed:24:=[IntakeFile:1]IntakeDate:4
-	[IntakeFile:1]CaseStatus:25:="Referred"
+	  //[IntakeFile]LocCode:="01"
+	  //[IntakeFile]IdCode:="10"
+	  //[IntakeFile]RLName:="N/A"
+	  //[IntakeFile]RLang:="E"
+	  //[IntakeFile]HowLong:="1"
+	  //[IntakeFile]TPeriod:="Day(s)"
+	  //[IntakeFile]DateClosed:=[IntakeFile]IntakeDate
+	  //[IntakeFile]CaseStatus:="Referred"
 End if 
 
   //populate test data 11/8/18
 If (Is new record:C668([IntakeFile:1]) & Shift down:C543)
 	CONFIRM:C162("Populate test data for this new Intake?";"Yes";"No")
 	If (OK=1)
-		[IntakeFile:1]LocCode:2:="01"
-		[IntakeFile:1]IdCode:3:="94"
+		  //[IntakeFile]LocCode:="01"
+		  //[IntakeFile]IdCode:="94"
 		[IntakeFile:1]CLName:6:="CLastName-"+String:C10(Random:C100)
 		[IntakeFile:1]CFName:7:="CFirstName-"+String:C10(Random:C100)
 		[IntakeFile:1]CLang:10:="E"
@@ -37,5 +37,6 @@ If (Is new record:C668([IntakeFile:1]) & Shift down:C543)
 		[IntakeFile:1]HowLong:18:="01"
 		[IntakeFile:1]TPeriod:19:="Years"
 		[IntakeFile:1]DisputeCode:22:="142"
+		  //[IntakeFile]CaseStatus:="Test"
 	End if 
 End if 

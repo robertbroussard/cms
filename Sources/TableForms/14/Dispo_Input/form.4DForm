@@ -184,7 +184,7 @@
 					"fill": "#C5FFC0",
 					"stroke": "#000000",
 					"fontSize": 9,
-					"text": "Ct/PD No:"
+					"text": "Cause No:"
 				},
 				"Text9": {
 					"type": "text",
@@ -234,6 +234,34 @@
 					"height": 26,
 					"fill": "transparent"
 				},
+				"Variable7": {
+					"type": "input",
+					"top": 3,
+					"left": 300,
+					"width": 75,
+					"height": 12,
+					"dataSource": "vCaseNo",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "####-####-#",
+					"entryFilter": "~\"A-Z;0-9\"##-####-#",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable8": {
 					"type": "button",
 					"top": 12,
@@ -256,6 +284,60 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable9": {
+					"type": "input",
+					"top": 19,
+					"left": 139,
+					"width": 170,
+					"height": 12,
+					"dataSource": "vDRefBy",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 20,
+					"left": 365,
+					"width": 120,
+					"height": 12,
+					"dataSource": "vDCtPD",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable11": {
 					"type": "button",
 					"top": 49,
@@ -269,6 +351,25 @@
 					"fontSize": 9,
 					"fontWeight": "bold",
 					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable12": {
+					"type": "dropdown",
+					"top": 56,
+					"left": 126,
+					"width": 232,
+					"height": 16,
+					"dataSource": "aDFullName",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"method": "ObjectMethods/Variable12.4dm",
 					"events": [
 						"onClick",
 						"onHeader",
@@ -405,6 +506,33 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable18": {
+					"type": "input",
+					"top": 110,
+					"left": 155,
+					"width": 240,
+					"height": 12,
+					"dataSource": "vDMedD_n_T",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable19": {
 					"type": "checkbox",
 					"top": 124,
@@ -447,6 +575,33 @@
 						"onPrintingDetail"
 					]
 				},
+				"Variable21": {
+					"type": "input",
+					"top": 126,
+					"left": 393,
+					"width": 35,
+					"height": 12,
+					"dataSource": "vDAmtCSR",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
 				"Variable22": {
 					"type": "checkbox",
 					"top": 138,
@@ -464,6 +619,33 @@
 						"onPrintingBreak",
 						"onPrintingFooter",
 						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 140,
+					"left": 318,
+					"width": 65,
+					"height": 12,
+					"dataSource": "vDAmtRes",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
 						"onPrintingDetail"
 					]
 				},
@@ -506,6 +688,33 @@
 						"onPrintingBreak",
 						"onPrintingFooter",
 						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable26": {
+					"type": "input",
+					"top": 166,
+					"left": 242,
+					"width": 240,
+					"height": 12,
+					"dataSource": "vDContD_n_T",
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Segoe UI",
+					"fontSize": 9,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
 						"onPrintingDetail"
 					]
 				},
@@ -973,215 +1182,6 @@
 					"top": 268,
 					"left": 292,
 					"height": 13
-				},
-				"Variable7": {
-					"type": "input",
-					"top": 3,
-					"left": 300,
-					"width": 75,
-					"height": 12,
-					"dataSource": "vCaseNo",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"textFormat": "####-####-#",
-					"entryFilter": "~\"A-Z;0-9\"##-####-#",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable9": {
-					"type": "input",
-					"top": 19,
-					"left": 139,
-					"width": 170,
-					"height": 12,
-					"dataSource": "vDRefBy",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable10": {
-					"type": "input",
-					"top": 20,
-					"left": 365,
-					"width": 120,
-					"height": 12,
-					"dataSource": "vDCtPD",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable12": {
-					"type": "dropdown",
-					"top": 56,
-					"left": 126,
-					"width": 232,
-					"height": 16,
-					"dataSource": "aDFullName",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"method": "ObjectMethods/Variable12.4dm",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
-				},
-				"Variable18": {
-					"type": "input",
-					"top": 110,
-					"left": 155,
-					"width": 240,
-					"height": 12,
-					"dataSource": "vDMedD_n_T",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable21": {
-					"type": "input",
-					"top": 126,
-					"left": 393,
-					"width": 35,
-					"height": 12,
-					"dataSource": "vDAmtCSR",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable23": {
-					"type": "input",
-					"top": 140,
-					"left": 318,
-					"width": 65,
-					"height": 12,
-					"dataSource": "vDAmtRes",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"scrollbarVertical": "visible",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"Variable26": {
-					"type": "input",
-					"top": 166,
-					"left": 242,
-					"width": 240,
-					"height": 12,
-					"dataSource": "vDContD_n_T",
-					"fill": "#FFFFFF",
-					"stroke": "#000000",
-					"fontFamily": "Segoe UI",
-					"fontSize": 9,
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
 				}
 			}
 		}

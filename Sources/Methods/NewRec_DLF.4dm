@@ -32,7 +32,7 @@ End case
 If ($OK=1)
 	CREATE RECORD:C68([DailyLtrFile:14])
 	[DailyLtrFile:14]DLFCaseNo:1:=[IntakeFile:1]CaseNo:1
-	[DailyLtrFile:14]DLFCt_PdNo:28:=[IntakeFile:1]Ct_PdNo:5
+	[DailyLtrFile:14]DLFCt_PdNo:28:=[IntakeFile:1]CauseNo:5
 	[DailyLtrFile:14]LName:3:=aPLName{$1}
 	[DailyLtrFile:14]FName:4:=aPFName{$1}
 	[DailyLtrFile:14]PartyType:5:=aPartyType{$1}
